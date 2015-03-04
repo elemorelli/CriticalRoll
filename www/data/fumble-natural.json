@@ -1,13 +1,157 @@
 [{
-  "title": "Fumble Natural 1",
-  "text": "Fumble Natural 1 text"
+  "title": "Tripped",
+  "text": "You are knocked prone"
 }, {
-  "title": "Fumble Natural 2",
-  "text": "Fumble Natural 2 text"
+  "title": "Bruised Ego",
+  "text": "You can attack no other target for 1d4 rounds (or until the target is dead)]"
 }, {
-  "title": "Fumble Natural 3",
-  "text": "Fumble Natural 3 text"
+  "title": "Awkward Attack",
+  "text": "You take a -2 penalty to AC for 1d4 rounds"
 }, {
-  "title": "Fumble Natural 4",
-  "text": "Fumble Natural 4 text"
+  "title": "Tiring Attack",
+  "text": "You are fatigued"
+}, {
+  "title": "Upset Tummy",
+  "text": "You are sickened for 1d4 rounds"
+}, {
+  "title": "I Bit My Tug",
+  "text": "You take 1 point of bleed"
+}, {
+  "title": "Muscle Tear",
+  "text": "You take 1d4 points of Str damage"
+}, {
+  "title": "Stinging Failure",
+  "text": "You take 1d6 points of nonlethal damage and a -2 penalty on attack rolls with that attack for 1d4 rounds"
+}, {
+  "title": "Smash the Floor",
+  "text": "You kick up dust that blinds you for 1d4 rounds (Fort negates)"
+}, {
+  "title": "He's Sharp",
+  "text": "You take 1d6 points of damage & your Str modifier"
+}, {
+  "title": "Torn Muscle",
+  "text": "You take 1 point of Str drain (Fort negates)"
+}, {
+  "title": "Got Too Close",
+  "text": "Your attack hits the target but the target may start a grapple against you for free"
+}, {
+  "title": "Off Balance",
+  "text": "You can only take a move action next round"
+}, {
+  "title": "He Bit Your Fist",
+  "text": "The target deals bite damage to you"
+}, {
+  "title": "Fist Meets Face",
+  "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit"
+}, {
+  "title": "Out of Position",
+  "text": "You cannot use this attack for 1 round"
+}, {
+  "title": "Wide Open",
+  "text": "You are flat-footed for 1 round"
+}, {
+  "title": "Bleeding Fist",
+  "text": "You take 1d6 points of bleed"
+}, {
+  "title": "Twisted",
+  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+}, {
+  "title": "Stop Hitting Yourself",
+  "text": "The attack deals damage to you instead of the target"
+}, {
+  "title": "Just a Taste",
+  "text": "Your attack hits an ally adjacent to you or the target"
+}, {
+  "title": "Overextend",
+  "text": "You provoke an attack of opportunity from all adjacent opponents"
+}, {
+  "title": "Frustration",
+  "text": "You take a -4 penalty on all attack rolls for 1 round"
+}, {
+  "title": "Broken Tooth",
+  "text": "You take a -2 penalty on attack rolls for 1d6 minutes"
+}, {
+  "title": "Not the Weak Point",
+  "text": "Your enemy's armor takes 1d6 points of damage. You take 1d6 points of damage and cannot use that attack for 1d3 rounds"
+}, {
+  "title": "That Tastes Awful!",
+  "text": "If this was a bite attack, you are nauseated for 1d6 rounds"
+}, {
+  "title": "Broke a Nail",
+  "text": "You take 1d4 points of damage and you cannot use this attack until healed"
+}, {
+  "title": "Sprain",
+  "text": "You take 1d4 points of Dex damage"
+}, {
+  "title": "Overexertion",
+  "text": "You are exhausted (Fort Negates)"
+}, {
+  "title": "Don't Pick At It",
+  "text": "You take 1 point of Con damage"
+}, {
+  "title": "We have a Wiener",
+  "text": "You fall unconscious for 1d6 round (Will Negates)"
+}, {
+  "title": "Whiff",
+  "text": "The attack deals damage to you instead of the target"
+}, {
+  "title": "Jam a Finger",
+  "text": "Your target takes normal damage, you take double damage"
+}, {
+  "title": "Caught Your Attack",
+  "text": "The target may attempt to trip, bull rush or overrun you (target's choice)"
+}, {
+  "title": "Pins & Needles",
+  "text": "You are sickened for 1d6 rounds"
+}, {
+  "title": "Great Roar",
+  "text": "You are deafened until healed (DC 15 Heal Check)"
+}, {
+  "title": "Head, Meet Wall",
+  "text": "You are dazed for 1d3 rounds"
+}, {
+  "title": "Ferocious Fumble",
+  "text": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit"
+}, {
+  "title": "Sneeze!",
+  "text": "You are dazed for 1 round"
+}, {
+  "title": "Ingrown Nail",
+  "text": "You take a -1 penalty on attack rolls until you score a critical hit"
+}, {
+  "title": "Whirlwind of Shame",
+  "text": "Your attack deals damage to all targets adjacent to you except the original target"
+}, {
+  "title": "Battered",
+  "text": "You take a -2 penalty on skill checks and saves for 1d4 hours"
+}, {
+  "title": "Winds of Change",
+  "text": "You threaten no squares for 1d6 rounds"
+}, {
+  "title": "Unintentional Move",
+  "text": "Move 10 feet in a random direction and provoke attacks of opportunity as normal"
+}, {
+  "title": "Eye Strain",
+  "text": "You are blinded for 1 round"
+}, {
+  "title": "Hangnail",
+  "text": "If this was a claw attack, slam or unarmed strike, you cannot use that attack for 1d6 rounds"
+}, {
+  "title": "Brutal Collision",
+  "text": "Your attack hits, but you are stunned for 2 rounds (For save reduces the stun to 1 round)"
+}, {
+  "title": "Pinched Nerve",
+  "text": "If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds"
+}, {
+  "title": "Overthink It",
+  "text": "Your target's armor and natural armor bonuses are doubled against you for 3 rounds"
+}, {
+  "title": "Punctured Foot",
+  "text": "You take 1d3 points of damage and your speed is halved until healed"
+}, {
+  "title": "Bone Bruise",
+  "text": "You take 1d2 point of Con damage"
+}, {
+  "title": "Bad Headbutt",
+  "text": "You are stunned for 1 round (Fort negates)"
 }]

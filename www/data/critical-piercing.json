@@ -1,13 +1,157 @@
 [{
-  "title": "Critical Piercing 1",
-  "text": "Critical Piercing 1 text"
+  "title": "Leg Wound",
+  "text": "Double damage and target's land speed is halved for 1d4 rounds"
 }, {
-  "title": "Critical Piercing 2",
-  "text": "Critical Piercing 2 text"
+  "title": "Grazing Hit",
+  "text": "Normal damage and target is stunned for 1 round"
 }, {
-  "title": "Critical Piercing 3",
-  "text": "Critical Piercing 3 text"
+  "title": "Knockback",
+  "text": "Double damage and target is pushed 1d6 squares directly away"
 }, {
-  "title": "Critical Piercing 4",
-  "text": "Critical Piercing 4 text"
+  "title": "Vulnerable Spot",
+  "text": "Normal damage and target takes 1d4 ability damage of your choice"
+}, {
+  "title": "Bleeder",
+  "text": "Double damage and 1d6 Bleed"
+}, {
+  "title": "Heart Shot",
+  "text": "Triple damage and 1 Con bleed"
+}, {
+  "title": "Deep Wound",
+  "text": "Double damage and target is nauseated for 1 round (Fort negates)"
+}, {
+  "title": "Ragged Wound",
+  "text": "Normal damage and 1d8 bleed"
+}, {
+  "title": "Sucking Chest Wound",
+  "text": "Double damage and target is exhausted (Fort negates)"
+}, {
+  "title": "Lodged in the Bone",
+  "text": "Double damage and 2 bleed. This bleed requires a DC 20 Heal check to stop"
+}, {
+  "title": "Momentum",
+  "text": "Double damage and +2 on all your attack rolls for 1 round"
+}, {
+  "title": "Pinned Arm",
+  "text": "Double damage and one arm cannot move (DC 20 Str or Heal to be freed)"
+}, {
+  "title": "Punctured Lung",
+  "text": "Double damage and target begins to drown 3 round later. DC 20 Fort save each round to end effect"
+}, {
+  "title": "Ventilated",
+  "text": "Double damage and 2d6 nonlethal damage"
+}, {
+  "title": "Hand Wound",
+  "text": "Normal damage and 1d2 Dex damage. -4 penalty on all rolls using that hand until healed"
+}, {
+  "title": "Pinhole",
+  "text": "Double damage and 1 bleed. Target takes 1 additional bleed each round until healed"
+}, {
+  "title": "Perfect Strike",
+  "text": "Triple Damage"
+}, {
+  "title": "Nerve Cluster",
+  "text": "Normal damage and target is stunned for 1d6 rounds (Fort save each round to act)"
+}, {
+  "title": "Penetrating Wound",
+  "text": "Double damage and ignore DR"
+}, {
+  "title": "Kidney Piercing",
+  "text": "Double damage and target sickened for 2d4 round (Fort negates)"
+}, {
+  "title": "Achilles Heel",
+  "text": "Normal damage and 1d2 Dex damage. Target's speeds are reduced by half until healed"
+}, {
+  "title": "Spinal Tap",
+  "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds"
+}, {
+  "title": "In a Row",
+  "text": "Double damage to target and normal damage to adjacent target"
+}, {
+  "title": "Blown Back",
+  "text": "Double damage and target is knocked prone"
+}, {
+  "title": "Appendicitis",
+  "text": "Double damage and target is poisoned (treat as greenblood oil)"
+}, {
+  "title": "Javelin Catcher",
+  "text": "Double damage and 1d6 bleed if from ranged attack"
+}, {
+  "title": "Cheek Pierced",
+  "text": "Normal damage and 1d4 bleed. Target gains 50% spell failure chance for verbal spells until healed"
+}, {
+  "title": "Calf Hole",
+  "text": "Normal damage and 1d4 Dex damage"
+}, {
+  "title": "Painful Poke",
+  "text": "Double damage and target can take only one move or standard action until next round"
+}, {
+  "title": "Pierced",
+  "text": "Double damage and target is dazed for 1 round"
+}, {
+  "title": "Tenacious Wound",
+  "text": "Normal damage and 1d2 Con damage. Target does not heal this damage naturally"
+}, {
+  "title": "Muscles Severed",
+  "text": "Normal damage and 1d6 Dex and 1d6 Str damage"
+}, {
+  "title": "Infection",
+  "text": "Double damage and target contracts filth fever (Fort negates)"
+}, {
+  "title": "Overreaction",
+  "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents"
+}, {
+  "title": "Spun Around",
+  "text": "Normal damage and target is flat footed for 1 round"
+}, {
+  "title": "Eye Patch for You",
+  "text": "Triple damage and 1d2 Con drain. -4 Spot, Search and ranged attacks until healed"
+}, {
+  "title": "Forearm Piercing",
+  "text": "Double damage and target is disarmed (1 item)"
+}, {
+  "title": "Clean Through",
+  "text": "Normal damage and 1d6 bleed and 1 Con drain"
+}, {
+  "title": "Surprise Opening",
+  "text": "Double damage and one free attack against the target with a -5 penalty"
+}, {
+  "title": "Organ Scramble",
+  "text": "Double damage and 1d6 Con damage"
+}, {
+  "title": "Deep Hurting",
+  "text": "Double damage and target is fatigued"
+}, {
+  "title": "Tongue Piercing",
+  "text": "Normal damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells until healed"
+}, {
+  "title": "Shoulder Wound",
+  "text": "Double damage and 1d2 Str and Dex damage"
+}, {
+  "title": "Left Reeling",
+  "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds"
+}, {
+  "title": "Elbow pierced",
+  "text": "Double damage and target drops whatever is being held (1 item)"
+}, {
+  "title": "Bicep Wound",
+  "text": "Normal damage and 1d4 Str damage"
+}, {
+  "title": "Nailed in Place",
+  "text": "Double damage and target cannot move (DC 20 Str check negates)"
+}, {
+  "title": "Guarded Strike",
+  "text": "Double damage and +4 to your AC for 1 round"
+}, {
+  "title": "Right in the Ear",
+  "text": "Normal damage and 1 Int damage and 1 bleed"
+}, {
+  "title": "Chipped Bone",
+  "text": "Double damage and 1 Dex damage"
+}, {
+  "title": "Stinger",
+  "text": "Normal damage and target is sickened for 1d6 rounds"
+}, {
+  "title": "Nicked an artery",
+  "text": "Normal damage and 2d6 bleed"
 }]

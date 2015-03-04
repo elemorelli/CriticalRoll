@@ -1,13 +1,157 @@
 [{
-  "title": "Fumble Melee 1",
-  "text": "Fumble Melee 1 text"
+  "title": "Butterfingers",
+  "text": "Drop your weapon"
 }, {
-  "title": "Fumble Melee 2",
-  "text": "Fumble Melee 2 text"
+  "title": "Catch your breath",
+  "text": "You can only take a move action next round"
 }, {
-  "title": "Fumble Melee 3",
-  "text": "Fumble Melee 3 text"
+  "title": "Stuck",
+  "text": "Your weapon is stuck in a nearby surface. DC 20 Str check to free it"
 }, {
-  "title": "Fumble Melee 4",
-  "text": "Fumble Melee 4 text"
+  "title": "Backswing",
+  "text": "The attack deals damage to you instead of the target"
+}, {
+  "title": "Slipped",
+  "text": "You are knocked prone"
+}, {
+  "title": "This sword is too heavy",
+  "text": "You are fatigued"
+}, {
+  "title": "Awkward Attack",
+  "text": "You take -2 penalty to AC for 1d4 rounds"
+}, {
+  "title": "Overextend",
+  "text": "You provoke an attack of opportunity from all adjacent opponents"
+}, {
+  "title": "Pulled Muscle",
+  "text": "You take 1d4 points of Str damage"
+}, {
+  "title": "Fling",
+  "text": "You drop your weapon and it lands 1d6 squares away in a random direction"
+}, {
+  "title": "Broken Blade",
+  "text": "Your weapon is destroyed (Ref Negates) Magic weapons use their own save bonus (DMG 214)"
+}, {
+  "title": "Notched",
+  "text": "Your weapon takes 1d6 points of damage, ignoring hardness"
+}, {
+  "title": "Parry! Dodge! Spin! Thrust!",
+  "text": "You are dazed for 1 round"
+}, {
+  "title": "Hand it over",
+  "text": "Your target gains possession of your weapon (Ref Negates)"
+}, {
+  "title": "Shield Crash",
+  "text": "Your attack deals damage to your shield"
+}, {
+  "title": "Winded",
+  "text": "You are exhausted (Fort negates)"
+}, {
+  "title": "Wide Open",
+  "text": "You are flat-footed for 1 round"
+}, {
+  "title": "Critical Mistake",
+  "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit"
+}, {
+  "title": "Strain",
+  "text": "You take 1d4 points of Dex damage"
+}, {
+  "title": "Too Much Stuff",
+  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+}, {
+  "title": "Spinning Swing",
+  "text": "You are sickened for 1d4 rounds"
+}, {
+  "title": "I told you it was sharp",
+  "text": "You take 1d6 points of bleed"
+}, {
+  "title": "Pin Prick",
+  "text": "You take 1 point of bleed"
+}, {
+  "title": "Off Balance",
+  "text": "You take a -4 penalty on all attack rolls for 1 round"
+}, {
+  "title": "Sorry",
+  "text": "Your attack hits an ally adjacent to you or the target"
+}, {
+  "title": "Bonk",
+  "text": "You are stunned for 1 round (Fort Negates)"
+}, {
+  "title": "Catastrophic Failure",
+  "text": "You fall unconscious for 1d6 rounds (Will negates)"
+}, {
+  "title": "Pointy End Goes There",
+  "text": "You take 1 point of Con damage"
+}, {
+  "title": "Broken Haft",
+  "text": "Your weapon loses reach. You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check)"
+}, {
+  "title": "Fog of War",
+  "text": "You threaten no square for 1d6 rounds"
+}, {
+  "title": "Go For The Eyes",
+  "text": "You are blinded for 1 round"
+}, {
+  "title": "Punt",
+  "text": "Your weapon flies 2d6 squares in a random direction"
+}, {
+  "title": "Bad Grip",
+  "text": "Your weapon deals nonlethal damage for the next 3 rounds"
+}, {
+  "title": "Who Was That",
+  "text": "You are dazed for 1d3 rounds"
+}, {
+  "title": "You Meant to do That",
+  "text": "Move 10 feet in a random direction and provoke attacks of opportunity as normal"
+}, {
+  "title": "Eat Dirt",
+  "text": "You fall prone and are blinded for 1d3 rounds (Fort Negates)"
+}, {
+  "title": "Second Thoughts",
+  "text": "You are sickened for 1d6 rounds"
+}, {
+  "title": "Attack the Darkness",
+  "text": "All your enemies have concealment from you for 1d4 rounds"
+}, {
+  "title": "Wait! What?",
+  "text": "You are confused for 1 round"
+}, {
+  "title": "Wrong End",
+  "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of bleed"
+}, {
+  "title": "Vibration",
+  "text": "If you're using a bludgeoning weapon, you take 1d3 of Str damage and drop your weapon"
+}, {
+  "title": "No Way",
+  "text": "Your attack hits the target, but deals minimum damage"
+}, {
+  "title": "Funny Bone",
+  "text": "You drop whatever is in your off hand"
+}, {
+  "title": "Bent",
+  "text": "You take -4 penalty on all attacks with this weapon until it is repaired (DC 20 Craft Check)"
+}, {
+  "title": "All or Nothing",
+  "text": "You take a -1 penalty on attack rolls until you score a critical hit"
+}, {
+  "title": "Surrounded by Foes",
+  "text": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit"
+}, {
+  "title": "On the Receiving End",
+  "text": "The attack deals damage to you instead of the target"
+}, {
+  "title": "Bohemian Earspoon",
+  "text": "You are deafened until healed (DC 15 Heal Check)"
+}, {
+  "title": "Better to Give",
+  "text": "You attack damages you instead. Use your target's Str modifier"
+}, {
+  "title": "Cutter",
+  "text": "You take 1 point of Str bleed"
+}, {
+  "title": "This is Bad",
+  "text": "You take an amount of bleed equal to your Str bonus (minimum 1)"
+}, {
+  "title": "Armor Smash",
+  "text": "Your attack deals damage to your armor"
 }]

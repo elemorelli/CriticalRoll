@@ -1,13 +1,157 @@
 [{
-  "title": "Critical Slashing 1",
-  "text": "Critical Slashing 1 text"
+  "title": "Carve your Initials",
+  "text": "Normal damage and target suffers from humiliation and may only attack you (Will negates)"
 }, {
-  "title": "Critical Slashing 2",
-  "text": "Critical Slashing 2 text"
+  "title": "Missing Digits",
+  "text": "Normal damage and target loses 1d3 fingers and takes 1 Con and Str drain (Fort negates)"
 }, {
-  "title": "Critical Slashing 3",
-  "text": "Critical Slashing 3 text"
+  "title": "Hack and Slash",
+  "text": "Double damage and all critical threats against target automatically confirm for the next 3 rounds"
 }, {
-  "title": "Critical Slashing 4",
-  "text": "Critical Slashing 4 text"
+  "title": "Stand Aside",
+  "text": "Double damage and push target 1 square in any direction"
+}, {
+  "title": "Severed Tendon",
+  "text": "Normal damage and 1d6 Dex damage"
+}, {
+  "title": "Decapitation",
+  "text": "Double damage and death (Fort negates)"
+}, {
+  "title": "Bewildering Display",
+  "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds"
+}, {
+  "title": "Long Gash",
+  "text": "Normal damage and 8 bleed. A successful Heal check cuts the bleeding in half, rather than ending it"
+}, {
+  "title": "Shattered Jaw",
+  "text": "Normal damage and 1 Con damage. Target cannot speak or bite until healed"
+}, {
+  "title": "Hamstring",
+  "text": "Normal damage and 1d2 Dex damage and target is knocked prone"
+}, {
+  "title": "Brow to Chin",
+  "text": "Normal damage and 1 Con and Cha damage. -2 penalty on Spot, 1 Search and ranged attacks until healed"
+}, {
+  "title": "Gut Slash",
+  "text": "Double damage and 1d4 bleed. Target cannot swallow whole"
+}, {
+  "title": "Wing Tear",
+  "text": "Double damage and target loses flight if it uses wings"
+}, {
+  "title": "Missing Ear",
+  "text": "Normal damage and 1 Cha drain. -4 penalty on Listen check until healed"
+}, {
+  "title": "Wide Open",
+  "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents"
+}, {
+  "title": "We've Got a Bleeder",
+  "text": "Normal damage and 2d6 bleed"
+}, {
+  "title": "Throat Slash",
+  "text": "Normal damage and 2d6 bleed. Target cannot talk or breathe while bleeding"
+}, {
+  "title": "Parrying Strike",
+  "text": "Double damage and +4 to your AC for 1 round"
+}, {
+  "title": "Lean into the Blow",
+  "text": "Triple damage, but you drop your weapon"
+}, {
+  "title": "Flay",
+  "text": "Normal damage plus 1d6 Str damage"
+}, {
+  "title": "Paper Cut",
+  "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds"
+}, {
+  "title": "Severed Hand",
+  "text": "Normal damage and target loses hand and takes 1d3 Con and Str drain (Fort negates)"
+}, {
+  "title": "Flat Blade Thwack",
+  "text": "Triple damage but all damage is nonlethal"
+}, {
+  "title": "Surprise Opening",
+  "text": "Double damage and one free attack against the target with a -5 penalty"
+}, {
+  "title": "Broad Swipe",
+  "text": "Normal damage and 1d8 bleed"
+}, {
+  "title": "Disembowel",
+  "text": "Double damage and 1d4 Con damage and 1d6 bleed"
+}, {
+  "title": "Sapping Slash",
+  "text": "Double damage and target is fatigued"
+}, {
+  "title": "Rupture Abdominal Cavity",
+  "text": "Double damage and 1 Con bleed"
+}, {
+  "title": "Muscle Wound",
+  "text": "Double damage and 1d2 Str damage"
+}, {
+  "title": "Fingertipped",
+  "text": "Normal damage and 1 Dex damage. Target cannot use one hand until healed"
+}, {
+  "title": "Bad Parry",
+  "text": "Double damage and target is disarmed (1 item)"
+}, {
+  "title": "Nerve Slice",
+  "text": "Double damage and target can take only one move or standard action next round"
+}, {
+  "title": "Weapon Strike",
+  "text": "Double damage and normal damage to target's weapon"
+}, {
+  "title": "Tangled",
+  "text": "Double damage and you may automatically grapple the target"
+}, {
+  "title": "Momentum",
+  "text": "Double damage and +2 on all your attack rolls for 1 round"
+}, {
+  "title": "Lip Cut",
+  "text": "Double damage and 1 bleed. Target gains 20% spell failure chance for verbal spells until healed"
+}, {
+  "title": "Gory",
+  "text": "Normal damage and target is sickened for 1d6 rounds"
+}, {
+  "title": "Across the Eyes",
+  "text": "Normal damage and target permanently blinded (Ref negates)"
+}, {
+  "title": "Ugly Wound",
+  "text": "Normal damage and 1d3 Cha damage and 1 Cha drain (Fort negates drain)"
+}, {
+  "title": "Knockback",
+  "text": "Double damage and target is pushed 1d6 squares directly away"
+}, {
+  "title": "Pain and Simple",
+  "text": "Double damage and 2d6 nonlethal damage"
+}, {
+  "title": "Cut Straps",
+  "text": "Double damage and double armor check penalty until fixed (DC 15 Craft)"
+}, {
+  "title": "Severed Spine",
+  "text": "Double damage and 3d6 Dex damage (Fort halves)"
+}, {
+  "title": "Overhand Chop",
+  "text": "Double damage and 1d4 bleed"
+}, {
+  "title": "Delayed Wound",
+  "text": "Normal damage and target takes bleed damage equal to your normal damage"
+}, {
+  "title": "Brow Cut",
+  "text": "Normal damage and 1d4 bleed. Target blinded while bleeding"
+}, {
+  "title": "Leg Swipe",
+  "text": "Double damage and target is knocked prone"
+}, {
+  "title": "Terrible Gash",
+  "text": "Double damage and 1 Cha drain"
+}, {
+  "title": "Shield Cleave",
+  "text": "Double damage and normal damage to target's shield"
+}, {
+  "title": "Armor Damage",
+  "text": "Double damage and normal damage to target's armor"
+}, {
+  "title": "Swing Through",
+  "text": "Double damage and one free attack against an adjacent foe at the same bonus"
+}, {
+  "title": "Spun Around",
+  "text": "Normal damage and target is flat-footed for 1 round"
 }]
