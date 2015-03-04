@@ -30,6 +30,7 @@
     </ion-header-bar>
     <ion-content ng-controller="CardsController">
 
+      <!--
       <div>
         {{criticalSlashing}}
       </div>
@@ -54,7 +55,22 @@
       <div>
         {{fumbleMagic}}
       </div>
+    -->
 
+      <ion-list>
+        <ion-item ng-repeat="card in drawnCards">
+          <div class="card">
+            <div class="item item-divider">
+              {{card.title}} {{card.name}}
+            </div>
+            <div class="item item-text-wrap">
+              {{card.text}}
+            </div>
+          </div>
+        </ion-item>
+      </ion-list>
+
+      <!--
       <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager=false>
         <ion-slide ng-repeat="card in cards">
           <div class="card">
@@ -67,6 +83,7 @@
           </div>
         </ion-slide>
       </ion-slide-box>
+      -->
 
     </ion-content>
 
@@ -74,19 +91,19 @@
     <div ng-controller="ButtonsController">
       <ion-footer-bar class="bar-subfooter bar-balanced">
         <div class="button-bar">
-          <a class="button" ng-click="drawCriticalSlashing()">Slashing Weapon</a>
-          <a class="button" ng-click="drawCriticalPiercing()">Piercing Weapon</a>
-          <a class="button" ng-click="drawCriticalBludgeoning()">Bludgeoning Weapon</a>
-          <a class="button" ng-click="drawCriticalMagic()">Magic Attack</a>
+          <a class="button" ng-click="draw('critical', 'slashing')">Slashing Weapon</a>
+          <a class="button" ng-click="draw('critical', 'piercing')">Piercing Weapon</a>
+          <a class="button" ng-click="draw('critical', 'bludgeoning')">Bludgeoning Weapon</a>
+          <a class="button" ng-click="draw('critical', 'magic')">Magic Attack</a>
         </div>
       </ion-footer-bar>
 
       <ion-footer-bar class="bar-assertive">
         <div class="button-bar">
-          <a class="button" ng-click="drawFumbleMelee()">Melee Attack</a>
-          <a class="button" ng-click="drawFumbleRanged()">Ranged Attack</a>
-          <a class="button" ng-click="drawFumbleNatural()">Natural Attack</a>
-          <a class="button" ng-click="drawFumbleMagic()">Magic Attack</a>
+          <a class="button" ng-click="draw('fumble', 'melee')">Melee Attack</a>
+          <a class="button" ng-click="draw('fumble', 'ranged')">Ranged Attack</a>
+          <a class="button" ng-click="draw('fumble', 'natural')">Natural Attack</a>
+          <a class="button" ng-click="draw('fumble', 'magic')">Magic Attack</a>
         </div>
       </ion-footer-bar>
     </div>
