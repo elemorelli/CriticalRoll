@@ -25,44 +25,20 @@
 <body ng-app="criticalRoller">
 
   <ion-pane ng-controller="CardsController">
-    <ion-header-bar class="bar-positive">
-      <h1 class="title">Critical Roll</h1>
-    </ion-header-bar>
-    <ion-content>
 
+    <header></header>
+
+    <ion-content class="has-subfooter" has-bouncing="true">
       <ion-list can-swipe=true>
-        <ion-item ng-repeat="card in drawnCards track by $index" on-swipe="remove($index)">
-          <div class="card">
-            <div class="item item-divider item-{{card.rollType}} {{card.attackType}} ">
-              {{card.title}} {{card.name}}
-            </div>
-            <div class="item item-text-wrap ">
-              {{card.text}}
-            </div>
-          </div>
+        <ion-item ng-repeat="card in drawnCards track by $index">
+          <card></card>
         </ion-item>
       </ion-list>
     </ion-content>
 
-    <div>
-      <ion-footer-bar class="bar-subfooter bar-balanced ">
-        <div class="button-bar ">
-          <a class="button slashing" ng-click="draw( 'critical', 'slashing') "></a>
-          <a class="button piercing" ng-click="draw( 'critical', 'piercing') "></a>
-          <a class="button bludgeoning" ng-click="draw( 'critical', 'bludgeoning') "></a>
-          <a class="button magic" ng-click="draw( 'critical', 'magic') "></a>
-        </div>
-      </ion-footer-bar>
+    <footer></footer>
 
-      <ion-footer-bar class="bar-assertive ">
-        <div class="button-bar ">
-          <a class="button melee" ng-click="draw( 'fumble', 'melee') "></a>
-          <a class="button ranged" ng-click="draw( 'fumble', 'ranged') "></a>
-          <a class="button natural" ng-click="draw( 'fumble', 'natural') "></a>
-          <a class="button magic" ng-click="draw( 'fumble', 'magic') "></a>
-        </div>
-      </ion-footer-bar>
-    </div>
+
   </ion-pane>
 </body>
 

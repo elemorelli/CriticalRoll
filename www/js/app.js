@@ -3,9 +3,9 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var criticalRoller = angular.module('criticalRoller', ['ionic'])
+var criticalRoller = angular.module('criticalRoller', ['ionic']);
 
-.run(function($ionicPlatform) {
+criticalRoller.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -16,4 +16,16 @@ var criticalRoller = angular.module('criticalRoller', ['ionic'])
       StatusBar.styleDefault();
     }
   });
-})
+});
+
+criticalRoller.directive("header", function(){
+  return {restrict:'E',templateUrl: "header.html"}
+});
+
+criticalRoller.directive("card", function(){
+  return {restrict:'E',templateUrl: "card.html"}
+});
+
+criticalRoller.directive("footer", function(){
+  return {restrict:'E',templateUrl: "footer.html"}
+});
