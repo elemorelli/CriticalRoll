@@ -4,3 +4,6 @@
 node_modules/
 platforms/
 plugins/
+
+my-release-key.keystore
+*.apk
