@@ -1,19 +1,21 @@
 <div>
+
   <ion-footer-bar class="bar-subfooter bar-balanced ">
     <div class="button-bar ">
-      <a class="button slashing" ng-click="drawCard('critical','slashing')"></a>
-      <a class="button piercing" ng-click="drawCard('critical','piercing')"></a>
-      <a class="button bludgeoning" ng-click="drawCard('critical','bludgeoning')"></a>
-      <a class="button magic" ng-click="drawCard('critical','magic')"></a>
+      <a class="button slashing" ng-click="draw( 'critical', 'slashing') "></a>
+      <a class="button piercing" ng-click="draw( 'critical', 'piercing') "></a>
+      <a class="button bludgeoning" ng-click="draw( 'critical', 'bludgeoning') "></a>
+      <a class="button magic" ng-click="draw( 'critical', 'magic') "></a>
     </div>
   </ion-footer-bar>
 
+
   <ion-footer-bar class="bar-assertive ">
     <div class="button-bar ">
-      <a class="button melee" ng-click="drawCard('fumble','melee')"></a>
-      <a class="button ranged" ng-click="drawCard('fumble','ranged')"></a>
-      <a class="button natural" ng-click="drawCard('fumble','natural')"></a>
-      <a class="button magic" ng-click="drawCard('fumble','magic')"></a>
+      <a class="button melee" ng-click="draw( 'fumble', 'melee') "></a>
+      <a class="button ranged" ng-click="draw( 'fumble', 'ranged') "></a>
+      <a class="button natural" ng-click="draw( 'fumble', 'natural') "></a>
+      <a class="button magic" ng-click="draw( 'fumble', 'magic') "></a>
     </div>
   </ion-footer-bar>
 </div>

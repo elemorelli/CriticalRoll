@@ -1,48 +1,66 @@
 criticalRoller.controller('CardsController', function($scope, $http, $ionicScrollDelegate) {
 
-  $scope.fillCardData = function(primaryType, secondaryType) {
-    var url = "data/" + primaryType + "-" + secondaryType + ".json";
-    $scope.cardsData[primaryType] = {};
+  $scope.getData = function(rollType, attackType) {
+    var url = "data/" + rollType + "-" + attackType + ".json";
     $http.get(url).success(function(data) {
-      $scope.cardsData[primaryType][secondaryType] = data;
+      $scope.cardsData[rollType][attackType] = data;
     });
   };
 
-  $scope.cardsData = {};
-  $scope.fillCardData("about", "CriticalRoll");
-  $scope.fillCardData("about", "opensource");
-  $scope.fillCardData("about", "license");
-  $scope.fillCardData("critical", "slashing");
-  $scope.fillCardData("critical", "piercing");
-  $scope.fillCardData("critical", "bludgeoning");
-  $scope.fillCardData("critical", "magic");
-  $scope.fillCardData("fumble", "melee");
-  $scope.fillCardData("fumble", "ranged");
-  $scope.fillCardData("fumble", "natural");
-  $scope.fillCardData("fumble", "magic");
+  $scope.transformClass = function(classToTransform) {
+    switch (classToTransform) {
+      case "critical":
+        return "balanced";
+      case "fumble":
+        return "assertive";
+    }
+  };
+
+  $scope.cardsData = {
+    "critical": {
+      "slashing": [],
+      "piercing": [],
+      "bludgeoning": [],
+      "magic": []
+    },
+    "fumble": {
+      "melee": [],
+      "ranged": [],
+      "natural": [],
+      "magic": [],
+    }
+  };
+
+  $scope.getData("critical", "slashing");
+  $scope.getData("critical", "piercing");
+  $scope.getData("critical", "bludgeoning");
+  $scope.getData("critical", "magic");
+  $scope.getData("fumble", "melee");
+  $scope.getData("fumble", "ranged");
+  $scope.getData("fumble", "natural");
+  $scope.getData("fumble", "magic");
 
   $scope.drawnCards = [];
 
-  $scope.removeAll = function() {
-    $scope.drawnCards = [];
-    $ionicScrollDelegate.scrollTop(true);
-  };
+  $scope.draw = function(rollType, attackType) {
 
-  $scope.drawCard = function(primaryType, secondaryType) {
-    var cardQuantity = $scope.cardsData[primaryType][secondaryType].length;
-    var randomIndex = Math.floor(Math.random() * cardQuantity);
-    $scope.placeCard(primaryType, secondaryType, randomIndex);
-  };
+    var cardArray = $scope.cardsData[rollType][attackType];
 
-  $scope.placeCard = function(primaryType, secondaryType, index) {
-    index = index || 0;
-    var cardDrawn = $scope.cardsData[primaryType][secondaryType][index];
+    var randomIndex = Math.floor(Math.random() * cardArray.length);
 
-    cardDrawn["primaryType"] = primaryType;
-    cardDrawn["secondaryType"] = secondaryType;
+    cardDrawn = cardArray[randomIndex];
+    cardDrawn["rollType"] = $scope.transformClass(rollType);
+    cardDrawn["attackType"] = attackType;
 
     $scope.drawnCards.push(cardDrawn);
+
     $ionicScrollDelegate.scrollBottom(true);
   };
+
+  $scope.remove = function(index) {
+    $scope.drawnCards.splice(index, 1);
+  }
+
+
 
 });
