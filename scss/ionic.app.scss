@@ -46,26 +46,49 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .card .item:before,
 .button:before {
   font-family: 'icomoon';
-  font-size: large;
+  font-size: x-large;
+  line-height: inherit !important;
 }
 .slashing:before {
-  content: "\e907";
+  content: "\e621";
 }
 .piercing:before {
-  content: "\e908";
+  content: "\e620";
 }
 .bludgeoning:before {
-  content: "\e9a8";
+  content: "\e600";
 }
-.magic:before {
-  content: "\e9b5";
+.critical .magic:before {
+  content: "\e61b";
 }
 .melee:before {
-  content: "\e972";
+  content: "\e61c";
 }
 .ranged:before {
   content: "\e9b3";
 }
 .natural:before {
-  content: "\e9a4";
+  content: "\e61e";
+}
+.fumble .magic:before {
+  content: "\e619";
+}
+.logo-bw:before,
+.CriticalRoll:before {
+  content: "\e601";
+}
+.trash:before {
+  content: "\e622";
+}
+.license:before {
+  content: "\e61a";
+}
+.opensource:before {
+  content: "\e61f";
+}
+.github:before {
+  content: "\eab1";
+}
+.mustache:before {
+  content: "\e61e";
 }

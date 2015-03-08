@@ -1,6 +1,6 @@
 [{
   "title": "About CriticalRoll",
-  "text": "Just a tool for handling critical and fumble effects in Tabletop RGPs like Pathfinder and D&D",
+  "text": "This is just a tool for handling critical and fumble effects in Tabletop RPGs like Pathfinder and D&D. Also, if there is need for instructions, the present text in this card should be enough evidence that it may be necessary to apply a way to format the text in the JSONs, because this may be the first card drawn after installation and it must be the only thing needed to understand the App.",
   "buttons": [{
     "title": "License",
     "show": "license"
