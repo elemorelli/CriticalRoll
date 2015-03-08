@@ -11,9 +11,9 @@
    id="Your_Icon"
    x="0px"
    y="0px"
-   width="40.721172"
-   height="88.661232"
-   viewBox="0 0 40.721172 88.661231"
+   width="100"
+   height="100"
+   viewBox="0 0 99.999999 99.999999"
    enable-background="new 0 0 100 100"
    xml:space="preserve"
    inkscape:version="0.48.2 r9819"
@@ -30,7 +30,7 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1070"
+   inkscape:window-width="1240"
    inkscape:window-height="627"
    id="namedview13"
    showgrid="false"
@@ -39,15 +39,15 @@
    fit-margin-right="0"
    fit-margin-bottom="0"
    inkscape:zoom="3.337544"
-   inkscape:cx="18.462152"
-   inkscape:cy="41.184946"
-   inkscape:window-x="682"
-   inkscape:window-y="212"
+   inkscape:cx="54.39376"
+   inkscape:cy="37.818546"
+   inkscape:window-x="395"
+   inkscape:window-y="190"
    inkscape:window-maximized="0"
    inkscape:current-layer="Your_Icon" />
 <g
    id="g2994"
-   transform="matrix(0.67503627,-0.31664941,0.43902842,0.94569749,-36.763109,9.9034225)"><g
+   transform="matrix(0.74206671,-0.44207003,0.61403687,1.0401274,-24.797736,18.095172)"><g
      id="g3">
 	<path
    id="path5"
@@ -70,7 +70,7 @@
    points="56,21.073 50,6.859 44,21.055 47.75,27 52.25,27 " />
 </g></g>
 <g
-   transform="matrix(0.70228723,0.70153337,-0.70153337,0.70228723,32.656691,-13.480599)"
+   transform="matrix(0.62635167,1.0186,-1.0186,0.62635167,82.290059,-14.539835)"
    id="Layer_3"><g
      id="g2993"
      transform="matrix(0.9035837,-0.4284116,0.4284116,0.9035837,-18.277407,18.78467)"><path

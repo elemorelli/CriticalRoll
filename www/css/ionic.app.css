@@ -7065,8 +7065,11 @@ a.button {
 .fumble .magic:before {
   content: "\e619"; }
 
-.logo-bw:before, .CriticalRoll:before {
+.logo-bw:before {
   content: "\e601"; }
+
+.CriticalRoll:before {
+  content: "\e602"; }
 
 .trash:before {
   content: "\e622"; }
