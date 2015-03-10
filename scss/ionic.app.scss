@@ -17,6 +17,7 @@ $dark:                            #444 !default;
 $balanced: #27ae60 !default;
 $assertive: #e74c3c !default;
 $energized: #f1c40f !default;
+$bar-height: 56px !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
@@ -40,14 +41,16 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1.title {
+  font-size: xx-large !important;
+}
 .card {
   margin: 0;
 }
 .card .item:before,
 .button:before {
   font-family: 'icomoon';
-  font-size: x-large;
-  line-height: inherit !important;
+  font-size: 36px;
 }
 .slashing:before {
   content: "\e621";

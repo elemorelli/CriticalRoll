@@ -2447,31 +2447,31 @@ ion-infinite-scroll {
 
 /* If you change these, change platform.scss as well */
 .has-header {
-  top: 44px; }
+  top: 56px; }
 
 .no-header {
   top: 0; }
 
 .has-subheader {
-  top: 88px; }
+  top: 112px; }
 
 .has-tabs-top {
-  top: 93px; }
+  top: 105px; }
 
 .has-header.has-subheader.has-tabs-top {
-  top: 137px; }
+  top: 161px; }
 
 .has-footer {
-  bottom: 44px; }
+  bottom: 56px; }
 
 .has-subfooter {
-  bottom: 88px; }
+  bottom: 112px; }
 
 .has-tabs, .bar-footer.has-tabs {
   bottom: 49px; }
 
 .has-footer.has-tabs {
-  bottom: 93px; }
+  bottom: 105px; }
 
 .pane {
   -webkit-transform: translate3d(0, 0, 0);
@@ -2727,7 +2727,7 @@ a.subdued {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 44px;
+  height: 56px;
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
@@ -2848,13 +2848,13 @@ a.subdued {
     overflow: hidden;
     margin: 0 10px;
     min-width: 30px;
-    height: 43px;
+    height: 55px;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 17px;
     font-weight: 500;
-    line-height: 44px; }
+    line-height: 56px; }
     .bar .title.title-left {
       text-align: left; }
     .bar .title.title-right {
@@ -3117,7 +3117,7 @@ a.subdued {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 44px; }
+  height: 56px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -3125,14 +3125,14 @@ a.subdued {
   padding: 0; }
 
 .bar-subheader {
-  top: 44px;
+  top: 56px;
   display: block;
-  height: 44px; }
+  height: 56px; }
 
 .bar-subfooter {
-  bottom: 44px;
+  bottom: 56px;
   display: block;
-  height: 44px; }
+  height: 56px; }
 
 .nav-bar-block {
   position: absolute;
@@ -3775,7 +3775,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
 /* Allow parent element to have tabs-top */
 /* If you change this, change platform.scss as well */
 .tabs-top > .tabs, .tabs.tabs-top {
-  top: 44px;
+  top: 56px;
   padding-top: 0;
   background-position: bottom;
   border-top-width: 0;
@@ -3986,19 +3986,19 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .modal.ng-leave-active {
     bottom: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) {
-    height: 44px; }
+    height: 56px; }
     .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) > * {
       margin-top: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .tabs-top > .tabs, .platform-ios.platform-cordova .modal-wrapper .modal .tabs.tabs-top {
-    top: 44px; }
+    top: 56px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header, .platform-ios.platform-cordova .modal-wrapper .modal .bar-subheader {
-    top: 44px; }
+    top: 56px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-subheader {
-    top: 88px; }
+    top: 112px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-tabs-top {
-    top: 93px; }
+    top: 105px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header.has-subheader.has-tabs-top {
-    top: 137px; } }
+    top: 161px; } }
 
 .modal-open {
   pointer-events: none; }
@@ -6865,21 +6865,21 @@ a.button {
  * Platform specific tweaks
  */
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
-  height: 64px; }
+  height: 76px; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
     margin-top: 19px !important; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
     margin-top: 20px; }
 .platform-ios.platform-cordova:not(.fullscreen) .tabs-top > .tabs, .platform-ios.platform-cordova:not(.fullscreen) .tabs.tabs-top {
-  top: 64px; }
+  top: 76px; }
 .platform-ios.platform-cordova:not(.fullscreen) .has-header, .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
-  top: 64px; }
+  top: 76px; }
 .platform-ios.platform-cordova:not(.fullscreen) .has-subheader {
-  top: 108px; }
+  top: 132px; }
 .platform-ios.platform-cordova:not(.fullscreen) .has-tabs-top {
-  top: 113px; }
+  top: 125px; }
 .platform-ios.platform-cordova:not(.fullscreen) .has-header.has-subheader.has-tabs-top {
-  top: 157px; }
+  top: 181px; }
 .platform-ios.platform-cordova.status-bar-hide {
   margin-bottom: 20px; }
 
@@ -7033,13 +7033,15 @@ a.button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+h1.title {
+  font-size: xx-large !important; }
+
 .card {
   margin: 0; }
 
 .card .item:before, .button:before {
   font-family: 'icomoon';
-  font-size: x-large;
-  line-height: inherit !important; }
+  font-size: 36px; }
 
 .slashing:before {
   content: "\e621"; }
