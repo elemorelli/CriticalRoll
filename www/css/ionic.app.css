@@ -7015,6 +7015,29 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.card {
+  margin: 0; }
+
+.card .item:before, .button:before {
+  font-family: 'icomoon';
+  font-size: x-large;
+  line-height: inherit !important; }
+
+ion-popover-view.fit {
+  height: auto !important; }
+
+ion-popover-view.fit ion-content {
+  position: relative !important; }
+
+ion-popover-view .small {
+  font-size: small !important; }
+
+.platform-android ion-popover-view.fit {
+  margin-top: 10px !important; }
+
+.popover {
+  max-width: 520px !important; }
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?#iefix-m87d5c") format('embedded-opentype'), url("../fonts/icomoon.woff?-m87d5c") format('woff'), url("../fonts/icomoon.ttf?-m87d5c") format('truetype'), url("../fonts/icomoon.svg?-m87d5c#icomoon") format('svg');
@@ -7032,14 +7055,6 @@ a.button {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
-.card {
-  margin: 0; }
-
-.card .item:before, .button:before {
-  font-family: 'icomoon';
-  font-size: x-large;
-  line-height: inherit !important; }
 
 .slashing:before {
   content: "\e621"; }

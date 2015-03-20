@@ -18,14 +18,65 @@ criticalRoller.run(function($ionicPlatform) {
   });
 });
 
-criticalRoller.directive("header", function(){
-  return {restrict:'E',templateUrl: "header.html"}
+criticalRoller.directive("header", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "header.html"
+  }
 });
 
-criticalRoller.directive("card", function(){
-  return {restrict:'E',templateUrl: "card.html"}
+criticalRoller.directive("content", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "content.html"
+  }
 });
 
-criticalRoller.directive("footer", function(){
-  return {restrict:'E',templateUrl: "footer.html"}
+criticalRoller.directive("footer", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "footer.html"
+  }
+});
+
+criticalRoller.directive("critical", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/critical.html"
+  }
+});
+
+criticalRoller.directive("fumble", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/fumble.html"
+  }
+});
+
+criticalRoller.directive("help", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/help.html"
+  }
+});
+
+criticalRoller.directive("about", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/about.html"
+  }
+});
+
+criticalRoller.directive("license", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/license.html"
+  }
+});
+
+criticalRoller.directive("opensource", function() {
+  return {
+    restrict: 'E',
+    templateUrl: "templates/opensource.html"
+  }
 });

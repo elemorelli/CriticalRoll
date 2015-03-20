@@ -1,4 +1,4 @@
-criticalRoller.controller('CardsController', function($scope, $http, $ionicScrollDelegate) {
+criticalRoller.controller('CardsController', function($rootScope, $scope, $http, $ionicScrollDelegate) {
 
   $scope.fillCardData = function(primaryType, secondaryType) {
     var url = "data/" + primaryType + "-" + secondaryType + ".json";
@@ -9,9 +9,6 @@ criticalRoller.controller('CardsController', function($scope, $http, $ionicScrol
   };
 
   $scope.cardsData = {};
-  $scope.fillCardData("about", "CriticalRoll");
-  $scope.fillCardData("about", "opensource");
-  $scope.fillCardData("about", "license");
   $scope.fillCardData("critical", "slashing");
   $scope.fillCardData("critical", "piercing");
   $scope.fillCardData("critical", "bludgeoning");
@@ -23,26 +20,36 @@ criticalRoller.controller('CardsController', function($scope, $http, $ionicScrol
 
   $scope.drawnCards = [];
 
-  $scope.removeAll = function() {
-    $scope.drawnCards = [];
-    $ionicScrollDelegate.scrollTop(true);
-  };
-
   $scope.drawCard = function(primaryType, secondaryType) {
     var cardQuantity = $scope.cardsData[primaryType][secondaryType].length;
     var randomIndex = Math.floor(Math.random() * cardQuantity);
-    $scope.placeCard(primaryType, secondaryType, randomIndex);
-  };
 
-  $scope.placeCard = function(primaryType, secondaryType, index) {
-    index = index || 0;
-    var cardDrawn = $scope.cardsData[primaryType][secondaryType][index];
-
+    var cardDrawn = $scope.cardsData[primaryType][secondaryType][randomIndex];
     cardDrawn["primaryType"] = primaryType;
     cardDrawn["secondaryType"] = secondaryType;
 
+    $scope.placeCard(cardDrawn);
+  };
+
+  $scope.placeCard = function(cardDrawn) {
     $scope.drawnCards.push(cardDrawn);
     $ionicScrollDelegate.scrollBottom(true);
   };
+
+  $rootScope.$on("showOption", function(event, option) {
+    var cardDrawn = {
+      "primaryType": option
+    };
+    $scope.placeCard(cardDrawn);
+  });
+
+  $rootScope.$on("drawCard", function(event, primaryType, secondaryType) {
+    $scope.drawCard(primaryType, secondaryType);
+  });
+
+  $rootScope.$on("removeAll", function(event) {
+    $scope.drawnCards = [];
+    $ionicScrollDelegate.scrollTop(true);
+  });
 
 });

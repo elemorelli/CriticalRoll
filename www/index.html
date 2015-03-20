@@ -17,25 +17,20 @@
 
   <!-- your app's js -->
   <script src="js/app.js"></script>
+  <script src="js/menu-controller.js"></script>
+  <script src="js/buttons-controller.js"></script>
   <script src="js/cards-controller.js"></script>
 </head>
 
-<body ng-app="criticalRoller">
+<body ng-app="criticalRoller" class="platform-ios">
 
-  <ion-pane ng-controller="CardsController">
+  <ion-pane>
 
     <header></header>
 
-    <ion-content class="has-subfooter" has-bouncing="true">
-      <ion-list can-swipe=true>
-        <ion-item ng-repeat="card in drawnCards track by $index">
-          <card></card>
-        </ion-item>
-      </ion-list>
-    </ion-content>
+    <content></content>
 
     <footer></footer>
-
 
   </ion-pane>
 </body>

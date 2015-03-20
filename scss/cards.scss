@@ -1,0 +1,9 @@
+.card {
+  margin: 0;
+}
+.card .item:before,
+.button:before {
+  font-family: 'icomoon';
+  font-size: x-large;
+  line-height: inherit !important;
+}
