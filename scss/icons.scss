@@ -18,47 +18,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .slashing:before {
-  content: "\e621";
+  content: "\e603";
 }
 .piercing:before {
-  content: "\e620";
+  content: "\e602";
 }
 .bludgeoning:before {
   content: "\e600";
 }
 .critical .magic:before {
-  content: "\e61b";
-}
-.melee:before {
-  content: "\e61c";
-}
-.ranged:before {
-  content: "\e9b3";
-}
-.natural:before {
-  content: "\e61e";
-}
-.fumble .magic:before {
-  content: "\e619";
-}
-.logo-bw:before {
   content: "\e601";
 }
-.CriticalRoll:before {
-  content: "\e602";
+.melee:before {
+  content: "\e605";
+}
+.ranged:before {
+  content: "\e607";
+}
+.natural:before {
+  content: "\e606";
+}
+.fumble .magic:before {
+  content: "\e604";
+}
+.logo:before {
+  content: "\e608";
 }
 .trash:before {
-  content: "\e622";
+  content: "\e626";
+}
+.help:before {
+  content: "\e621";
+}
+.about:before {
+  content: "\e609";
 }
 .license:before {
-  content: "\e61a";
+  content: "\e623";
 }
 .opensource:before {
-  content: "\e61f";
+  content: "\e625";
 }
 .github:before {
-  content: "\eab1";
+  content: "\e620";
 }
 .mustache:before {
-  content: "\e61e";
+  content: "\e624";
 }
