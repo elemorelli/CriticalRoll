@@ -18,65 +18,65 @@ criticalRoller.run(function($ionicPlatform) {
   });
 });
 
-criticalRoller.directive("header", function() {
+criticalRoller.directive('header', function() {
   return {
     restrict: 'E',
-    templateUrl: "header.html"
+    templateUrl: 'header.html'
   }
 });
 
-criticalRoller.directive("content", function() {
+criticalRoller.directive('content', function() {
   return {
     restrict: 'E',
-    templateUrl: "content.html"
+    templateUrl: 'content.html'
   }
 });
 
-criticalRoller.directive("footer", function() {
+criticalRoller.directive('footer', function() {
   return {
     restrict: 'E',
-    templateUrl: "footer.html"
+    templateUrl: 'footer.html'
   }
 });
 
-criticalRoller.directive("critical", function() {
+criticalRoller.directive('critical', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/critical.html"
+    templateUrl: 'templates/critical.html'
   }
 });
 
-criticalRoller.directive("fumble", function() {
+criticalRoller.directive('fumble', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/fumble.html"
+    templateUrl: 'templates/fumble.html'
   }
 });
 
-criticalRoller.directive("help", function() {
+criticalRoller.directive('help', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/help.html"
+    templateUrl: 'templates/help.html'
   }
 });
 
-criticalRoller.directive("about", function() {
+criticalRoller.directive('about', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/about.html"
+    templateUrl: 'templates/about.html'
   }
 });
 
-criticalRoller.directive("license", function() {
+criticalRoller.directive('license', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/license.html"
+    templateUrl: 'templates/license.html'
   }
 });
 
-criticalRoller.directive("opensource", function() {
+criticalRoller.directive('opensource', function() {
   return {
     restrict: 'E',
-    templateUrl: "templates/opensource.html"
+    templateUrl: 'templates/opensource.html'
   }
 });

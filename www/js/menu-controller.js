@@ -2,11 +2,12 @@ criticalRoller.controller('MenuController', function($rootScope, $scope, $ionicP
 
   $scope.openPopover = function($event, templateName) {
     $ionicPopover.fromTemplateUrl('templates/popover/popover-' + templateName + '.html', {
-      scope: $scope,
-    }).then(function(popover) {
-      $scope.popover = popover;
-      $scope.popover.show($event);
-    });
+        scope: $scope
+      })
+      .then(function(popover) {
+        $scope.popover = popover;
+        $scope.popover.show($event);
+      });
   };
 
   $scope.closePopover = function() {

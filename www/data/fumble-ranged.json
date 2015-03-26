@@ -93,7 +93,7 @@
   "text": "Your weapon (not ammunition) takes 1d6 points of damage, ignoring hardness"
 }, {
   "title": "Whoops!",
-  "title": "You are knocked prone"
+  "text": "You are knocked prone"
 }, {
   "title": "Tied Up",
   "text": "You become entangled in your gear until you spend a standard action to free yourself"
