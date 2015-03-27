@@ -15,7 +15,7 @@
   "text": "You move backward 1 square and fall prone"
 }, {
   "title": "Amazing Miss",
-  "text": "You are stunned for 1 round (Fort negates)"
+  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)"
 }, {
   "title": "Not My Pony",
   "text": "Your attack hits the nearest allied animal or mount"
@@ -24,7 +24,7 @@
   "text": "You use twice as much ammunition on this attack"
 }, {
   "title": "Close to the Ear",
-  "text": "You are deafened until healed (DC 15 Heal Check)"
+  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Insecure",
   "text": "You take a -1 penalty on attack rolls for 1d4 rounds or until you score a critical hit"
@@ -72,7 +72,7 @@
   "text": "You take a -4 penalty on all attack rolls for 1 round"
 }, {
   "title": "Shot Your Foot",
-  "text": "You take 1d2 points of Dex damage and your speed is reduced by half until healed"
+  "text": "You take 1d2 points of Dex damage and your speed is reduced by half %until-healed=until healed%"
 }, {
   "title": "Overthrow",
   "text": "If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction"
@@ -102,7 +102,7 @@
   "text": "You take 1d4 points of Dex damage"
 }, {
   "title": "Nicked",
-  "text": "You take 1 point of bleed"
+  "text": "You take %bleed=1 point of bleed%"
 }, {
   "title": "Klutz",
   "text": "You drop your weapon"
@@ -117,16 +117,16 @@
   "text": "You take 1 point of Con damage"
 }, {
   "title": "Notched Fingers",
-  "text": "You take 1d6 points of bleed"
+  "text": "You take %bleed=1d6 points of bleed%"
 }, {
   "title": "Torn Tendon",
-  "text": "You take 1 point of Dex bleed"
+  "text": "You take %bleed=1 point of Dex bleed%"
 }, {
   "title": "Broken",
-  "text": "Your weapon is destroyed (Ref negates). Magic weapons use their own save bonus (DMG 214)"
+  "text": "Your weapon is destroyed (%save-fumble=Ref negates%). Magic weapons use their own save bonus (DMG 214)"
 }, {
   "title": "Everything you Got",
-  "text": "You are exhausted (Fort negates)"
+  "text": "You are exhausted (%save-fumble=Fort negates%)"
 }, {
   "title": "Snapped String",
   "text": "If attack was made with a bow or crossbow, the string breaks and requires 1d3 round to fix"

@@ -12,22 +12,22 @@
   "text": "Normal damage and target takes 1d4 ability damage of your choice"
 }, {
   "title": "Bleeder",
-  "text": "Double damage and 1d6 Bleed"
+  "text": "Double damage and %bleed=1d6 bleed%"
 }, {
   "title": "Heart Shot",
-  "text": "Triple damage and 1 Con bleed"
+  "text": "Triple damage and %bleed=1 Con bleed%"
 }, {
   "title": "Deep Wound",
-  "text": "Double damage and target is nauseated for 1 round (Fort negates)"
+  "text": "Double damage and target is nauseated for 1 round (%save-critical=Fort negates%)"
 }, {
   "title": "Ragged Wound",
-  "text": "Normal damage and 1d8 bleed"
+  "text": "Normal damage and %bleed=1d8 bleed%"
 }, {
   "title": "Sucking Chest Wound",
-  "text": "Double damage and target is exhausted (Fort negates)"
+  "text": "Double damage and target is exhausted (%save-critical=Fort negates%)"
 }, {
   "title": "Lodged in the Bone",
-  "text": "Double damage and 2 bleed. This bleed requires a DC 20 Heal check to stop"
+  "text": "Double damage and %bleed=2 bleed%. This bleed requires a DC 20 Heal check to stop"
 }, {
   "title": "Momentum",
   "text": "Double damage and +2 on all your attack rolls for 1 round"
@@ -42,25 +42,25 @@
   "text": "Double damage and 2d6 nonlethal damage"
 }, {
   "title": "Hand Wound",
-  "text": "Normal damage and 1d2 Dex damage. -4 penalty on all rolls using that hand until healed"
+  "text": "Normal damage and 1d2 Dex damage. -4 penalty on all rolls using that hand %until-healed=until healed%"
 }, {
   "title": "Pinhole",
-  "text": "Double damage and 1 bleed. Target takes 1 additional bleed each round until healed"
+  "text": "Double damage and %bleed=1 bleed%. Target takes 1 additional bleed each round %until-healed=until healed%"
 }, {
   "title": "Perfect Strike",
   "text": "Triple Damage"
 }, {
   "title": "Nerve Cluster",
-  "text": "Normal damage and target is stunned for 1d6 rounds (Fort save each round to act)"
+  "text": "Normal damage and target is stunned for 1d6 rounds (%save-critical=Fort save each round to act%)"
 }, {
   "title": "Penetrating Wound",
   "text": "Double damage and ignore DR"
 }, {
   "title": "Kidney Piercing",
-  "text": "Double damage and target sickened for 2d4 round (Fort negates)"
+  "text": "Double damage and target sickened for 2d4 round (%save-critical=Fort negates%)"
 }, {
   "title": "Achilles Heel",
-  "text": "Normal damage and 1d2 Dex damage. Target's speeds are reduced by half until healed"
+  "text": "Normal damage and 1d2 Dex damage. Target's speeds are reduced by half %until-healed=until healed%"
 }, {
   "title": "Spinal Tap",
   "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds"
@@ -75,10 +75,10 @@
   "text": "Double damage and target is poisoned (treat as greenblood oil)"
 }, {
   "title": "Javelin Catcher",
-  "text": "Double damage and 1d6 bleed if from ranged attack"
+  "text": "Double damage and %bleed=1d6 bleed% if from ranged attack"
 }, {
   "title": "Cheek Pierced",
-  "text": "Normal damage and 1d4 bleed. Target gains 50% spell failure chance for verbal spells until healed"
+  "text": "Normal damage and %bleed=1d4 bleed%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
 }, {
   "title": "Calf Hole",
   "text": "Normal damage and 1d4 Dex damage"
@@ -96,7 +96,7 @@
   "text": "Normal damage and 1d6 Dex and 1d6 Str damage"
 }, {
   "title": "Infection",
-  "text": "Double damage and target contracts filth fever (Fort negates)"
+  "text": "Double damage and target contracts filth fever (%save-critical=Fort negates%)"
 }, {
   "title": "Overreaction",
   "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents"
@@ -105,13 +105,13 @@
   "text": "Normal damage and target is flat footed for 1 round"
 }, {
   "title": "Eye Patch for You",
-  "text": "Triple damage and 1d2 Con drain. -4 Spot, Search and ranged attacks until healed"
+  "text": "Triple damage and 1d2 Con drain. -4 Spot, Search and ranged attacks %until-healed=until healed%"
 }, {
   "title": "Forearm Piercing",
   "text": "Double damage and target is disarmed (1 item)"
 }, {
   "title": "Clean Through",
-  "text": "Normal damage and 1d6 bleed and 1 Con drain"
+  "text": "Normal damage and %bleed=1d6 bleed% and 1 Con drain"
 }, {
   "title": "Surprise Opening",
   "text": "Double damage and one free attack against the target with a -5 penalty"
@@ -123,7 +123,7 @@
   "text": "Double damage and target is fatigued"
 }, {
   "title": "Tongue Piercing",
-  "text": "Normal damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells until healed"
+  "text": "Normal damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
 }, {
   "title": "Shoulder Wound",
   "text": "Double damage and 1d2 Str and Dex damage"
@@ -144,7 +144,7 @@
   "text": "Double damage and +4 to your AC for 1 round"
 }, {
   "title": "Right in the Ear",
-  "text": "Normal damage and 1 Int damage and 1 bleed"
+  "text": "Normal damage and 1 Int damage and %bleed=1 bleed%"
 }, {
   "title": "Chipped Bone",
   "text": "Double damage and 1 Dex damage"
@@ -153,5 +153,5 @@
   "text": "Normal damage and target is sickened for 1d6 rounds"
 }, {
   "title": "Nicked an artery",
-  "text": "Normal damage and 2d6 bleed"
+  "text": "Normal damage and %bleed=2d6 bleed%"
 }]

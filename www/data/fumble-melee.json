@@ -30,7 +30,7 @@
   "text": "You drop your weapon and it lands 1d6 squares away in a random direction"
 }, {
   "title": "Broken Blade",
-  "text": "Your weapon is destroyed (Ref Negates) Magic weapons use their own save bonus (DMG 214)"
+  "text": "Your weapon is destroyed (%save-fumble=Ref Negates%) Magic weapons use their own save bonus (DMG 214)"
 }, {
   "title": "Notched",
   "text": "Your weapon takes 1d6 points of damage, ignoring hardness"
@@ -39,13 +39,13 @@
   "text": "You are dazed for 1 round"
 }, {
   "title": "Hand it over",
-  "text": "Your target gains possession of your weapon (Ref Negates)"
+  "text": "Your target gains possession of your weapon (%save-fumble=Ref Negates%)"
 }, {
   "title": "Shield Crash",
   "text": "Your attack deals damage to your shield"
 }, {
   "title": "Winded",
-  "text": "You are exhausted (Fort negates)"
+  "text": "You are exhausted (%save-fumble=Fort negates%)"
 }, {
   "title": "Wide Open",
   "text": "You are flat-footed for 1 round"
@@ -63,10 +63,10 @@
   "text": "You are sickened for 1d4 rounds"
 }, {
   "title": "I told you it was sharp",
-  "text": "You take 1d6 points of bleed"
+  "text": "You take %bleed=1d6 points of bleed%"
 }, {
   "title": "Pin Prick",
-  "text": "You take 1 point of bleed"
+  "text": "You take %bleed=1 point of bleed%"
 }, {
   "title": "Off Balance",
   "text": "You take a -4 penalty on all attack rolls for 1 round"
@@ -75,10 +75,10 @@
   "text": "Your attack hits an ally adjacent to you or the target"
 }, {
   "title": "Bonk",
-  "text": "You are stunned for 1 round (Fort Negates)"
+  "text": "You are stunned for 1 round (%save-fumble=Fort Negates%)"
 }, {
   "title": "Catastrophic Failure",
-  "text": "You fall unconscious for 1d6 rounds (Will negates)"
+  "text": "You fall unconscious for 1d6 rounds (%save-fumble=Will negates%)"
 }, {
   "title": "Pointy End Goes There",
   "text": "You take 1 point of Con damage"
@@ -105,7 +105,7 @@
   "text": "Move 10 feet in a random direction and provoke attacks of opportunity as normal"
 }, {
   "title": "Eat Dirt",
-  "text": "You fall prone and are blinded for 1d3 rounds (Fort Negates)"
+  "text": "You fall prone and are blinded for 1d3 rounds (%save-fumble=Fort Negates%)"
 }, {
   "title": "Second Thoughts",
   "text": "You are sickened for 1d6 rounds"
@@ -117,7 +117,7 @@
   "text": "You are confused for 1 round"
 }, {
   "title": "Wrong End",
-  "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of bleed"
+  "text": "If you're using a slashing weapon, you take 1d6 points of damage and %bleed=1 point of bleed%"
 }, {
   "title": "Vibration",
   "text": "If you're using a bludgeoning weapon, you take 1d3 of Str damage and drop your weapon"
@@ -141,16 +141,16 @@
   "text": "The attack deals damage to you instead of the target"
 }, {
   "title": "Bohemian Earspoon",
-  "text": "You are deafened until healed (DC 15 Heal Check)"
+  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Better to Give",
   "text": "You attack damages you instead. Use your target's Str modifier"
 }, {
   "title": "Cutter",
-  "text": "You take 1 point of Str bleed"
+  "text": "You take %bleed=1 point of Str bleed%"
 }, {
   "title": "This is Bad",
-  "text": "You take an amount of bleed equal to your Str bonus (minimum 1)"
+  "text": "You take an amount of %bleed=bleed% equal to your Str bonus (minimum 1)"
 }, {
   "title": "Armor Smash",
   "text": "Your attack deals damage to your armor"

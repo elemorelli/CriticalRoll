@@ -1,9 +1,9 @@
 [{
   "title": "Shattered Hand",
-  "text": "Normal damage and 1d2 Con and Str damage. Hand useless until healed"
+  "text": "Normal damage and 1d2 Con and Str damage. Hand useless %until-healed=until healed%"
 }, {
   "title": "Rattled",
-  "text": "Normal damage and target is confused for 1d3 rounds (Fort negates)"
+  "text": "Normal damage and target is confused for 1d3 rounds (%save-critical=Fort negates%)"
 }, {
   "title": "Thunder Strike",
   "text": "Double damage and target is deafened for 1d4 rounds"
@@ -15,7 +15,7 @@
   "text": "Normal damage and target cannot breathe or speak DC 20 Heal check ends condition"
 }, {
   "title": "Split Open",
-  "text": "Double damage and 1d4 bleed"
+  "text": "Double damage and %bleed=1d4 bleed%"
 }, {
   "title": "Feeble Parry",
   "text": "Double damage and target is disarmed (1 item)"
@@ -30,7 +30,7 @@
   "text": "Double damage and 2d6 nonlethal damage"
 }, {
   "title": "Broken Leg",
-  "text": "Normal damage and 1d4 Con and Dex damage. Target's speeds are reduced by half until healed"
+  "text": "Normal damage and 1d4 Con and Dex damage. Target's speeds are reduced by half %until-healed=until healed%"
 }, {
   "title": "Spun Around",
   "text": "Normal damage and target is flat-footed for 1 round"
@@ -39,10 +39,10 @@
   "text": "Normal damage and target is stunned for 1 round"
 }, {
   "title": "To Your Thinky Bits",
-  "text": "Double damage and 1 Int bleed (Fort negates save each round)"
+  "text": "Double damage and %bleed=1 Int bleed% (%save-critical=Fort negates save each round%)"
 }, {
   "title": "Crunch",
-  "text": "Double damage and target is nauseated for 1 round (Fort negates)"
+  "text": "Double damage and target is nauseated for 1 round (%save-critical=Fort negates%)"
 }, {
   "title": "Armor Dent",
   "text": "Double damage and 2d6 damage to metal armor (ignore hardness)"
@@ -60,7 +60,7 @@
   "text": "Normal damage and 1d2 Int and Wis damage"
 }, {
   "title": "Ruptured Spleen",
-  "text": "Normal damage and 1d6 bleed. This bleed can only be cured with magic"
+  "text": "Normal damage and %bleed=1d6 bleed%. This bleed can only be cured with magic"
 }, {
   "title": "Solid Blow",
   "text": "Triple damage"
@@ -72,25 +72,25 @@
   "text": "Normal damage and target is staggered for 1d6 rounds"
 }, {
   "title": "Flat Foot",
-  "text": "Double damage and 1 Dex damage and target's speeds are reduced by 5 feet until healed"
+  "text": "Double damage and 1 Dex damage and target's speeds are reduced by 5 feet %until-healed=until healed%"
 }, {
   "title": "Skull Crush",
-  "text": "Double damage and 2d6 Int drain (Fort half)"
+  "text": "Double damage and 2d6 Int drain (%save-critical=Fort half%)"
 }, {
   "title": "And Stay Down!",
-  "text": "Normal damage and target is knocked prone and stunned for 1 round (Fort negates stun)"
+  "text": "Normal damage and target is knocked prone and stunned for 1 round (%save-critical=Fort negates% stun)"
 }, {
   "title": "Bone Masher",
-  "text": "Normal damage and either 1d3 Dex damage and halve speed (leg) or 1d3 Str damage (arm). Limb useless until healed"
+  "text": "Normal damage and either 1d3 Dex damage and halve speed (leg) or 1d3 Str damage (arm). Limb useless %until-healed=until healed%"
 }, {
   "title": "2 for 1",
   "text": "Double damage to target and normal damage to adjacent target"
 }, {
   "title": "Crushed Intestines",
-  "text": "Normal damage and 1d4 Con bleed (DC 15 Fort negates, save each round)"
+  "text": "Normal damage and %bleed=1d4 Con bleed% (DC 15 Fort negates, save each round)"
 }, {
   "title": "Numbing Blow",
-  "text": "Normal damage and 1d4 Dex damage and target is disarmed (1 item, Ref negates drop)"
+  "text": "Normal damage and 1d4 Dex damage and target is disarmed (1 item, %save-critical=Reflex negates% drop)"
 }, {
   "title": "Roundhouse",
   "text": "Normal damage and a free attack against adjacent foes at the same bonus"
@@ -120,7 +120,7 @@
   "text": "Double damage and +2 on all your attack rolls for 1 round"
 }, {
   "title": "Broken nose",
-  "text": "Normal damage and 1 Cha damage and 1 bleed"
+  "text": "Normal damage and 1 Cha damage and %bleed=1 bleed%"
 }, {
   "title": "Broken Ribs",
   "text": "Double damage and target cannot heal naturally for 1d4 days"
@@ -141,16 +141,16 @@
   "text": "Normal damage and target takes a 20% miss chance for 1d4 rounds"
 }, {
   "title": "Nighty Night",
-  "text": "Normal damage and target is unconscious for 1d4 rounds (Fort negates)"
+  "text": "Normal damage and target is unconscious for 1d4 rounds (%save-critical=Fort negates%)"
 }, {
   "title": "Cracked Knee",
-  "text": "Normal damage and 1d2 Dex damage. Target's base land speed reduced to 10 feet until healed"
+  "text": "Normal damage and 1d2 Dex damage. Target's base land speed reduced to 10 feet %until-healed=until healed%"
 }, {
   "title": "What's Going On?",
   "text": "Double damage and 1d4 hours of target's memory erased"
 }, {
   "title": "Crushed Toe",
-  "text": "Normal damage and 1d4 Dex damage. Target's land speed is halved until healed"
+  "text": "Normal damage and 1d4 Dex damage. Target's land speed is halved %until-healed=until healed%"
 }, {
   "title": "Off Balance",
   "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents"

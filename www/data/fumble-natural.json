@@ -15,7 +15,7 @@
   "text": "You are sickened for 1d4 rounds"
 }, {
   "title": "I Bit My Tug",
-  "text": "You take 1 point of bleed"
+  "text": "You take %bleed=1 point of bleed%"
 }, {
   "title": "Muscle Tear",
   "text": "You take 1d4 points of Str damage"
@@ -24,13 +24,13 @@
   "text": "You take 1d6 points of nonlethal damage and a -2 penalty on attack rolls with that attack for 1d4 rounds"
 }, {
   "title": "Smash the Floor",
-  "text": "You kick up dust that blinds you for 1d4 rounds (Fort negates)"
+  "text": "You kick up dust that blinds you for 1d4 rounds (%save-fumble=Fort negates%)"
 }, {
   "title": "He's Sharp",
   "text": "You take 1d6 points of damage & your Str modifier"
 }, {
   "title": "Torn Muscle",
-  "text": "You take 1 point of Str drain (Fort negates)"
+  "text": "You take 1 point of Str drain (%save-fumble=Fort negates%)"
 }, {
   "title": "Got Too Close",
   "text": "Your attack hits the target but the target may start a grapple against you for free"
@@ -51,7 +51,7 @@
   "text": "You are flat-footed for 1 round"
 }, {
   "title": "Bleeding Fist",
-  "text": "You take 1d6 points of bleed"
+  "text": "You take %bleed=1d6 points of bleed%"
 }, {
   "title": "Twisted",
   "text": "You become entangled in your gear until you spend a standard action to free yourself"
@@ -78,19 +78,19 @@
   "text": "If this was a bite attack, you are nauseated for 1d6 rounds"
 }, {
   "title": "Broke a Nail",
-  "text": "You take 1d4 points of damage and you cannot use this attack until healed"
+  "text": "You take 1d4 points of damage and you cannot use this attack %until-healed=until healed%"
 }, {
   "title": "Sprain",
   "text": "You take 1d4 points of Dex damage"
 }, {
   "title": "Overexertion",
-  "text": "You are exhausted (Fort Negates)"
+  "text": "You are exhausted (%save-fumble=Fort Negates%)"
 }, {
   "title": "Don't Pick At It",
   "text": "You take 1 point of Con damage"
 }, {
   "title": "We have a Wiener",
-  "text": "You fall unconscious for 1d6 round (Will Negates)"
+  "text": "You fall unconscious for 1d6 round (%save-fumble=Will Negates%)"
 }, {
   "title": "Whiff",
   "text": "The attack deals damage to you instead of the target"
@@ -105,7 +105,7 @@
   "text": "You are sickened for 1d6 rounds"
 }, {
   "title": "Great Roar",
-  "text": "You are deafened until healed (DC 15 Heal Check)"
+  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Head, Meet Wall",
   "text": "You are dazed for 1d3 rounds"
@@ -147,11 +147,11 @@
   "text": "Your target's armor and natural armor bonuses are doubled against you for 3 rounds"
 }, {
   "title": "Punctured Foot",
-  "text": "You take 1d3 points of damage and your speed is halved until healed"
+  "text": "You take 1d3 points of damage and your speed is halved %until-healed=until healed%"
 }, {
   "title": "Bone Bruise",
   "text": "You take 1d2 point of Con damage"
 }, {
   "title": "Bad Headbutt",
-  "text": "You are stunned for 1 round (Fort negates)"
+  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)"
 }]

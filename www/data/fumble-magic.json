@@ -12,13 +12,13 @@
   "text": "Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit"
 }, {
   "title": "Hit by the Ugly Forest",
-  "text": "You take 1 point of Cha bleed"
+  "text": "You take %bleed=1 point of Cha bleed%"
 }, {
   "title": "The Magic is Gone",
   "text": "You take a -4 penalty to attack rolls until you scare a critical hit"
 }, {
   "title": "Can you hear me now?",
-  "text": "You are deafened until healed (DC 15 Heal check)"
+  "text": "You are deafened %until-healed=until healed% (DC 15 Heal check)"
 }, {
   "title": "Error!",
   "text": "The attack deals damage to you instead of the target"
@@ -27,13 +27,13 @@
   "text": "You provoke an attack of opportunity from all threatening foes"
 }, {
   "title": "Left Reeling",
-  "text": "You are stunned for 1 round (Fort negates)]"
+  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)]"
 }, {
   "title": "Nothing to Fear",
   "text": "You are shaken for 2d4 rounds"
 }, {
   "title": "Bleeding Eyes",
-  "text": "You take 1d6 points of bleed"
+  "text": "You take %bleed=1d6 points of bleed%"
 }, {
   "title": "Acidic Backlash",
   "text": "You take 2d6 points of acid damage"
@@ -72,7 +72,7 @@
   "text": "You become entangled in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Nose Bleed",
-  "text": "You take 1 point of bleed"
+  "text": "You take %bleed=1 point of bleed%"
 }, {
   "title": "Weakened",
   "text": "You take a -2 penalty to all your Spell DCs for 1d4 minutes"
@@ -96,10 +96,10 @@
   "text": "Target increases one size category for 1d4 rounds"
 }, {
   "title": "Weak-Minded Fool",
-  "text": "You take 1 point of Wis bleed"
+  "text": "You take %bleed=1 point of Wis bleed%"
 }, {
   "title": "Power Down",
-  "text": "You take 1 point of Int bleed"
+  "text": "You take %bleed=1 point of Int bleed%"
 }, {
   "title": "Mental Slip",
   "text": "On his next turn, your target may give you one suggestion"
@@ -111,7 +111,7 @@
   "text": "1d3 spell effects active on you are dispelled (determined randomly)"
 }, {
   "title": "Blastoff",
-  "text": "You are thrown 1d6x10 feet into the air (or in a random direction if flying) (Will negates)"
+  "text": "You are thrown 1d6x10 feet into the air (or in a random direction if flying) (%save-fumble=Will negates%)"
 }, {
   "title": "It's Sparkly",
   "text": "You are blinded for 1 round"
