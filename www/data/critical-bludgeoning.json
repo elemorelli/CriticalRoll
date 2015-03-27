@@ -3,13 +3,13 @@
   "text": "Normal damage and 1d2 %penalty-con=Con% and %penalty-str=Str% %ability-damage=damage%. Hand useless %until-healed=until healed%"
 }, {
   "title": "Rattled",
-  "text": "Normal damage and target is confused for 1d3 rounds (%save-critical=Fort negates%)"
+  "text": "Normal damage and target is %status-confused=confused% for 1d3 rounds (%save-critical=Fort negates%)"
 }, {
   "title": "Thunder Strike",
-  "text": "Double damage and target is deafened for 1d4 rounds"
+  "text": "Double damage and target is %status-deafened=deafened% for 1d4 rounds"
 }, {
   "title": "Lights Out",
-  "text": "Normal damage and target is blinded for 1d3 rounds"
+  "text": "Normal damage and target is %status-blinded=blinded% for 1d3 rounds"
 }, {
   "title": "Crushed Trachea",
   "text": "Normal damage and target cannot breathe or speak DC 20 Heal check ends condition"
@@ -33,28 +33,28 @@
   "text": "Normal damage and 1d4 %penalty-con=Con% and %penalty-dex=Dex% %ability-damage=damage%. Target's speeds are reduced by half %until-healed=until healed%"
 }, {
   "title": "Spun Around",
-  "text": "Normal damage and target is flat-footed for 1 round"
+  "text": "Normal damage and target is %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Where Am I?",
-  "text": "Normal damage and target is stunned for 1 round"
+  "text": "Normal damage and target is %status-stunned=stunned% for 1 round"
 }, {
   "title": "To Your Thinky Bits",
   "text": "Double damage and 1 %penalty-int=Int% %bleed=bleed% (%save-critical=Fort negates save each round%)"
 }, {
   "title": "Crunch",
-  "text": "Double damage and target is nauseated for 1 round (%save-critical=Fort negates%)"
+  "text": "Double damage and target is %status-nauseated=nauseated% for 1 round (%save-critical=Fort negates%)"
 }, {
   "title": "Armor Dent",
   "text": "Double damage and 2d6 damage to metal armor (ignore hardness)"
 }, {
   "title": "Breathless",
-  "text": "Normal damage and target is exhausted for 1d4 rounds"
+  "text": "Normal damage and target is %status-exhausted=exhausted% for 1d4 rounds"
 }, {
   "title": "Mace to da Face",
-  "text": "Normal damage and target dazed and blinded for 1 round"
+  "text": "Normal damage and target %status-dazed=dazed% and %status-blinded=blinded% for 1 round"
 }, {
   "title": "Tiring Blow",
-  "text": "Double damage plus target is fatigued"
+  "text": "Double damage plus target is %status-fatigued=fatigued%"
 }, {
   "title": "Concussion",
   "text": "Normal damage and 1d2 %penalty-int=Int% and %penalty-wis=Wis% %ability-damage=damage%"
@@ -66,10 +66,10 @@
   "text": "Triple damage"
 }, {
   "title": "Crumpling Blow",
-  "text": "Double damage and target is knocked prone"
+  "text": "Double damage and target is knocked %status-prone=prone%"
 }, {
   "title": "Collapsed Lung",
-  "text": "Normal damage and target is staggered for 1d6 rounds"
+  "text": "Normal damage and target is %status-staggered=staggered% for 1d6 rounds"
 }, {
   "title": "Flat Foot",
   "text": "Double damage and 1 %penalty-dex=Dex% %ability-damage=damage% and target's speeds are reduced by 5 feet %until-healed=until healed%"
@@ -78,7 +78,7 @@
   "text": "Double damage and 2d6 %penalty-int=Int% %ability-drain=drain% (%save-critical=Fort half%)"
 }, {
   "title": "And Stay Down!",
-  "text": "Normal damage and target is knocked prone and stunned for 1 round (%save-critical=Fort negates% stun)"
+  "text": "Normal damage and target is knocked %status-prone=prone% and %status-stunned=stunned% for 1 round (%save-critical=Fort negates% stun)"
 }, {
   "title": "Bone Masher",
   "text": "Normal damage and either 1d3 %penalty-dex=Dex% %ability-damage=damage% and halve speed (leg) or 1d3 %penalty-str=Str% %ability-damage=damage% (arm). Limb useless %until-healed=until healed%"
@@ -105,16 +105,16 @@
   "text": "Normal damage and a free trip attempt versus target and all adjacent enemies"
 }, {
   "title": "Pimp Slap",
-  "text": "Normal damage and target dazed for 1d4 rounds"
+  "text": "Normal damage and target %status-dazed=dazed% for 1d4 rounds"
 }, {
   "title": "Cracked Rib",
-  "text": "Normal damage and 1d3 %penalty-con=Con% %ability-damage=damage% and target is fatigued"
+  "text": "Normal damage and 1d3 %penalty-con=Con% %ability-damage=damage% and target is %status-fatigued=fatigued%"
 }, {
   "title": "Box the Ears",
-  "text": "Normal damage and target deafened for 1d4 hours"
+  "text": "Normal damage and target %status-deafened=deafened% for 1d4 hours"
 }, {
   "title": "Bell Ringer",
-  "text": "Normal damage and 1d2 %penalty-int=Int% %ability-damage=damage% and sickened for 1d4 rounds"
+  "text": "Normal damage and 1d2 %penalty-int=Int% %ability-damage=damage% and %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "Momentum",
   "text": "Double damage and +2 on all your attack rolls for 1 round"
@@ -129,7 +129,7 @@
   "text": "Double damage and target is pushed 1d6 squares directly away"
 }, {
   "title": "Low Blow",
-  "text": "Normal damage and target is sickened for 1d6 rounds"
+  "text": "Normal damage and target is %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Brained",
   "text": "Double damage and target can take only one move or standard action next round"
@@ -141,7 +141,7 @@
   "text": "Normal damage and target takes a 20% miss chance for 1d4 rounds"
 }, {
   "title": "Nighty Night",
-  "text": "Normal damage and target is unconscious for 1d4 rounds (%save-critical=Fort negates%)"
+  "text": "Normal damage and target is %status-unconscious=unconscious% for 1d4 rounds (%save-critical=Fort negates%)"
 }, {
   "title": "Cracked Knee",
   "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage%. Target's base land speed reduced to 10 feet %until-healed=until healed%"

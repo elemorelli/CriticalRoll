@@ -12,10 +12,10 @@
   "text": "The attack deals damage to you instead of the target"
 }, {
   "title": "Slipped",
-  "text": "You are knocked prone"
+  "text": "You are knocked %status-prone=prone%"
 }, {
   "title": "This sword is too heavy",
-  "text": "You are fatigued"
+  "text": "You are %status-fatigued=fatigued%"
 }, {
   "title": "Awkward Attack",
   "text": "You take -2 penalty to AC for 1d4 rounds"
@@ -36,7 +36,7 @@
   "text": "Your weapon takes 1d6 points of damage, ignoring hardness"
 }, {
   "title": "Parry! Dodge! Spin! Thrust!",
-  "text": "You are dazed for 1 round"
+  "text": "You are %status-dazed=dazed% for 1 round"
 }, {
   "title": "Hand it over",
   "text": "Your target gains possession of your weapon (%save-fumble=Ref Negates%)"
@@ -45,10 +45,10 @@
   "text": "Your attack deals damage to your shield"
 }, {
   "title": "Winded",
-  "text": "You are exhausted (%save-fumble=Fort negates%)"
+  "text": "You are %status-exhausted=exhausted% (%save-fumble=Fort negates%)"
 }, {
   "title": "Wide Open",
-  "text": "You are flat-footed for 1 round"
+  "text": "You are %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Critical Mistake",
   "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit"
@@ -57,10 +57,10 @@
   "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Too Much Stuff",
-  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+  "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Spinning Swing",
-  "text": "You are sickened for 1d4 rounds"
+  "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "I told you it was sharp",
   "text": "You take 1d6 points of %bleed=bleed%"
@@ -75,10 +75,10 @@
   "text": "Your attack hits an ally adjacent to you or the target"
 }, {
   "title": "Bonk",
-  "text": "You are stunned for 1 round (%save-fumble=Fort Negates%)"
+  "text": "You are %status-stunned=stunned% for 1 round (%save-fumble=Fort Negates%)"
 }, {
   "title": "Catastrophic Failure",
-  "text": "You fall unconscious for 1d6 rounds (%save-fumble=Will negates%)"
+  "text": "You fall %status-unconscious=unconscious% for 1d6 rounds (%save-fumble=Will negates%)"
 }, {
   "title": "Pointy End Goes There",
   "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
@@ -90,7 +90,7 @@
   "text": "You threaten no square for 1d6 rounds"
 }, {
   "title": "Go For The Eyes",
-  "text": "You are blinded for 1 round"
+  "text": "You are %status-blinded=blinded% for 1 round"
 }, {
   "title": "Punt",
   "text": "Your weapon flies 2d6 squares in a random direction"
@@ -99,22 +99,22 @@
   "text": "Your weapon deals nonlethal damage for the next 3 rounds"
 }, {
   "title": "Who Was That",
-  "text": "You are dazed for 1d3 rounds"
+  "text": "You are %status-dazed=dazed% for 1d3 rounds"
 }, {
   "title": "You Meant to do That",
   "text": "Move 10 feet in a random direction and provoke attacks of opportunity as normal"
 }, {
   "title": "Eat Dirt",
-  "text": "You fall prone and are blinded for 1d3 rounds (%save-fumble=Fort Negates%)"
+  "text": "You fall %status-prone=prone% and are %status-blinded=blinded% for 1d3 rounds (%save-fumble=Fort Negates%)"
 }, {
   "title": "Second Thoughts",
-  "text": "You are sickened for 1d6 rounds"
+  "text": "You are %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Attack the Darkness",
   "text": "All your enemies have concealment from you for 1d4 rounds"
 }, {
   "title": "Wait! What?",
-  "text": "You are confused for 1 round"
+  "text": "You are %status-confused=confused% for 1 round"
 }, {
   "title": "Wrong End",
   "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of %bleed=bleed%"
@@ -141,7 +141,7 @@
   "text": "The attack deals damage to you instead of the target"
 }, {
   "title": "Bohemian Earspoon",
-  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
+  "text": "You are %status-deafened=deafened% %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Better to Give",
   "text": "You attack damages you instead. Use your target's Str modifier"

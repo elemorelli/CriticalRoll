@@ -27,7 +27,7 @@
   "text": "Normal damage and 1 %penalty-con=Con% %ability-damage=damage%. Target cannot speak or bite %until-healed=until healed%"
 }, {
   "title": "Hamstring",
-  "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage% and target is knocked prone"
+  "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage% and target is knocked %status-prone=prone%"
 }, {
   "title": "Brow to Chin",
   "text": "Normal damage and 1 %penalty-con=Con% and %penalty-cha=Cha% %ability-damage=damage%. -2 penalty on Spot, 1 Search and ranged attacks %until-healed=until healed%"
@@ -78,7 +78,7 @@
   "text": "Double damage and 1d4 %penalty-con=Con% %ability-damage=damage% and 1d6 %bleed=bleed%"
 }, {
   "title": "Sapping Slash",
-  "text": "Double damage and target is fatigued"
+  "text": "Double damage and target is %status-fatigued=fatigued%"
 }, {
   "title": "Rupture Abdominal Cavity",
   "text": "Double damage and 1 %penalty-con=Con% %bleed=bleed%"
@@ -108,10 +108,10 @@
   "text": "Double damage and 1 %bleed=bleed%. Target gains 20% spell failure chance for verbal spells %until-healed=until healed%"
 }, {
   "title": "Gory",
-  "text": "Normal damage and target is sickened for 1d6 rounds"
+  "text": "Normal damage and target is %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Across the Eyes",
-  "text": "Normal damage and target permanently blinded (%save-critical=Ref negates%)"
+  "text": "Normal damage and target permanently %status-blinded=blinded% (%save-critical=Ref negates%)"
 }, {
   "title": "Ugly Wound",
   "text": "Normal damage and 1d3 %penalty-cha=Cha% %ability-damage=damage% and 1 %penalty-cha=Cha% %ability-drain=drain% (%save-critical=Fort negates% drain)"
@@ -135,10 +135,10 @@
   "text": "Normal damage and target takes %bleed=bleed% damage equal to your normal damage"
 }, {
   "title": "Brow Cut",
-  "text": "Normal damage and 1d4 %bleed=bleed%. Target blinded while bleeding"
+  "text": "Normal damage and 1d4 %bleed=bleed%. Target %status-blinded=blinded% while bleeding"
 }, {
   "title": "Leg Swipe",
-  "text": "Double damage and target is knocked prone"
+  "text": "Double damage and target is knocked %status-prone=prone%"
 }, {
   "title": "Terrible Gash",
   "text": "Double damage and 1 %penalty-cha=Cha% %ability-drain=drain%"
@@ -153,5 +153,5 @@
   "text": "Double damage and one free attack against an adjacent foe at the same bonus"
 }, {
   "title": "Spun Around",
-  "text": "Normal damage and target is flat-footed for 1 round"
+  "text": "Normal damage and target is %status-flat-footed=flat-footed% for 1 round"
 }]

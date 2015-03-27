@@ -18,7 +18,7 @@
   "text": "You take a -4 penalty to attack rolls until you scare a critical hit"
 }, {
   "title": "Can you hear me now?",
-  "text": "You are deafened %until-healed=until healed% (DC 15 Heal check)"
+  "text": "You are %status-deafened=deafened% %until-healed=until healed% (DC 15 Heal check)"
 }, {
   "title": "Error!",
   "text": "The attack deals damage to you instead of the target"
@@ -27,10 +27,10 @@
   "text": "You provoke an attack of opportunity from all threatening foes"
 }, {
   "title": "Left Reeling",
-  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)]"
+  "text": "You are %status-stunned=stunned% for 1 round (%save-fumble=Fort negates%)]"
 }, {
   "title": "Nothing to Fear",
-  "text": "You are shaken for 2d4 rounds"
+  "text": "You are %status-shaken=shaken% for 2d4 rounds"
 }, {
   "title": "Bleeding Eyes",
   "text": "You take 1d6 points of %bleed=bleed%"
@@ -57,7 +57,7 @@
   "text": "The target gains DR 5/-for 1d4 rounds"
 }, {
   "title": "Vertigo",
-  "text": "You are sickened for 1d4 rounds"
+  "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "Apprentice Move",
   "text": "Reroll attack against creature nearest the target (yourself excluded)"
@@ -66,10 +66,10 @@
   "text": "Your attack hits your ally closest to the target"
 }, {
   "title": "Tiring Spell",
-  "text": "You are fatigued"
+  "text": "You are %status-fatigued=fatigued%"
 }, {
   "title": "Tangled",
-  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+  "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Nose Bleed",
   "text": "You take 1 point of %bleed=bleed%"
@@ -114,10 +114,10 @@
   "text": "You are thrown 1d6x10 feet into the air (or in a random direction if flying) (%save-fumble=Will negates%)"
 }, {
   "title": "It's Sparkly",
-  "text": "You are blinded for 1 round"
+  "text": "You are %status-blinded=blinded% for 1 round"
 }, {
   "title": "Now I see you!",
-  "text": "Your target becomes invisible for 1d4 rounds"
+  "text": "Your target becomes %status-invisible=invisible% for 1d4 rounds"
 }, {
   "title": "Unexpected Blast",
   "text": "The spell affects all targets within 30 feet of you. You are immune to this effect"

@@ -1,6 +1,6 @@
 [{
   "title": "Tripped",
-  "text": "You are knocked prone"
+  "text": "You are knocked %status-prone=prone%"
 }, {
   "title": "Bruised Ego",
   "text": "You can attack no other target for 1d4 rounds (or until the target is dead)]"
@@ -9,10 +9,10 @@
   "text": "You take a -2 penalty to AC for 1d4 rounds"
 }, {
   "title": "Tiring Attack",
-  "text": "You are fatigued"
+  "text": "You are %status-fatigued=fatigued%"
 }, {
   "title": "Upset Tummy",
-  "text": "You are sickened for 1d4 rounds"
+  "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "I Bit My Tug",
   "text": "You take 1 point of %bleed=bleed%"
@@ -48,13 +48,13 @@
   "text": "You cannot use this attack for 1 round"
 }, {
   "title": "Wide Open",
-  "text": "You are flat-footed for 1 round"
+  "text": "You are %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Bleeding Fist",
   "text": "You take 1d6 points of %bleed=bleed%"
 }, {
   "title": "Twisted",
-  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+  "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Stop Hitting Yourself",
   "text": "The attack deals damage to you instead of the target"
@@ -75,7 +75,7 @@
   "text": "Your enemy's armor takes 1d6 points of damage. You take 1d6 points of damage and cannot use that attack for 1d3 rounds"
 }, {
   "title": "That Tastes Awful!",
-  "text": "If this was a bite attack, you are nauseated for 1d6 rounds"
+  "text": "If this was a bite attack, you are %status-nauseated=nauseated% for 1d6 rounds"
 }, {
   "title": "Broke a Nail",
   "text": "You take 1d4 points of damage and you cannot use this attack %until-healed=until healed%"
@@ -84,13 +84,13 @@
   "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Overexertion",
-  "text": "You are exhausted (%save-fumble=Fort Negates%)"
+  "text": "You are %status-exhausted=exhausted% (%save-fumble=Fort Negates%)"
 }, {
   "title": "Don't Pick At It",
   "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
 }, {
   "title": "We have a Wiener",
-  "text": "You fall unconscious for 1d6 round (%save-fumble=Will Negates%)"
+  "text": "You fall %status-unconscious=unconscious% for 1d6 round (%save-fumble=Will Negates%)"
 }, {
   "title": "Whiff",
   "text": "The attack deals damage to you instead of the target"
@@ -102,19 +102,19 @@
   "text": "The target may attempt to trip, bull rush or overrun you (target's choice)"
 }, {
   "title": "Pins & Needles",
-  "text": "You are sickened for 1d6 rounds"
+  "text": "You are %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Great Roar",
-  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
+  "text": "You are %status-deafened=deafened% %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Head, Meet Wall",
-  "text": "You are dazed for 1d3 rounds"
+  "text": "You are %status-dazed=dazed% for 1d3 rounds"
 }, {
   "title": "Ferocious Fumble",
   "text": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit"
 }, {
   "title": "Sneeze!",
-  "text": "You are dazed for 1 round"
+  "text": "You are %status-dazed=dazed% for 1 round"
 }, {
   "title": "Ingrown Nail",
   "text": "You take a -1 penalty on attack rolls until you score a critical hit"
@@ -132,13 +132,13 @@
   "text": "Move 10 feet in a random direction and provoke attacks of opportunity as normal"
 }, {
   "title": "Eye Strain",
-  "text": "You are blinded for 1 round"
+  "text": "You are %status-blinded=blinded% for 1 round"
 }, {
   "title": "Hangnail",
   "text": "If this was a claw attack, slam or unarmed strike, you cannot use that attack for 1d6 rounds"
 }, {
   "title": "Brutal Collision",
-  "text": "Your attack hits, but you are stunned for 2 rounds (For save reduces the stun to 1 round)"
+  "text": "Your attack hits, but you are %status-stunned=stunned% for 2 rounds (For save reduces the stun to 1 round)"
 }, {
   "title": "Pinched Nerve",
   "text": "If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds"
@@ -153,5 +153,5 @@
   "text": "You take 1d2 point of %penalty-con=Con% %ability-damage=damage%"
 }, {
   "title": "Bad Headbutt",
-  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)"
+  "text": "You are %status-stunned=stunned% for 1 round (%save-fumble=Fort negates%)"
 }]

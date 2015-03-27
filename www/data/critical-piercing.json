@@ -3,7 +3,7 @@
   "text": "Double damage and target's land speed is halved for 1d4 rounds"
 }, {
   "title": "Grazing Hit",
-  "text": "Normal damage and target is stunned for 1 round"
+  "text": "Normal damage and target is %status-stunned=stunned% for 1 round"
 }, {
   "title": "Knockback",
   "text": "Double damage and target is pushed 1d6 squares directly away"
@@ -18,13 +18,13 @@
   "text": "Triple damage and 1 %penalty-con=Con% %bleed=bleed%"
 }, {
   "title": "Deep Wound",
-  "text": "Double damage and target is nauseated for 1 round (%save-critical=Fort negates%)"
+  "text": "Double damage and target is %status-nauseated=nauseated% for 1 round (%save-critical=Fort negates%)"
 }, {
   "title": "Ragged Wound",
   "text": "Normal damage and 1d8 %bleed=bleed%"
 }, {
   "title": "Sucking Chest Wound",
-  "text": "Double damage and target is exhausted (%save-critical=Fort negates%)"
+  "text": "Double damage and target is %status-exhausted=exhausted% (%save-critical=Fort negates%)"
 }, {
   "title": "Lodged in the Bone",
   "text": "Double damage and 2 %bleed=bleed%. This bleed requires a DC 20 Heal check to stop"
@@ -51,13 +51,13 @@
   "text": "Triple Damage"
 }, {
   "title": "Nerve Cluster",
-  "text": "Normal damage and target is stunned for 1d6 rounds (%save-critical=Fort save each round to act%)"
+  "text": "Normal damage and target is %status-stunned=stunned% for 1d6 rounds (%save-critical=Fort save each round to act%)"
 }, {
   "title": "Penetrating Wound",
   "text": "Double damage and ignore DR"
 }, {
   "title": "Kidney Piercing",
-  "text": "Double damage and target sickened for 2d4 round (%save-critical=Fort negates%)"
+  "text": "Double damage and target %status-sickened=sickened% for 2d4 round (%save-critical=Fort negates%)"
 }, {
   "title": "Achilles Heel",
   "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage%. Target's speeds are reduced by half %until-healed=until healed%"
@@ -69,7 +69,7 @@
   "text": "Double damage to target and normal damage to adjacent target"
 }, {
   "title": "Blown Back",
-  "text": "Double damage and target is knocked prone"
+  "text": "Double damage and target is knocked %status-prone=prone%"
 }, {
   "title": "Appendicitis",
   "text": "Double damage and target is poisoned (treat as greenblood oil)"
@@ -87,7 +87,7 @@
   "text": "Double damage and target can take only one move or standard action until next round"
 }, {
   "title": "Pierced",
-  "text": "Double damage and target is dazed for 1 round"
+  "text": "Double damage and target is %status-dazed=dazed% for 1 round"
 }, {
   "title": "Tenacious Wound",
   "text": "Normal damage and 1d2 %penalty-con=Con% %ability-damage=damage%. Target does not heal this damage naturally"
@@ -102,7 +102,7 @@
   "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents"
 }, {
   "title": "Spun Around",
-  "text": "Normal damage and target is flat footed for 1 round"
+  "text": "Normal damage and target is %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Eye Patch for You",
   "text": "Triple damage and 1d2 %penalty-con=Con% %ability-drain=drain%. -4 Spot, Search and ranged attacks %until-healed=until healed%"
@@ -120,7 +120,7 @@
   "text": "Double damage and 1d6 %penalty-con=Con% %ability-damage=damage%"
 }, {
   "title": "Deep Hurting",
-  "text": "Double damage and target is fatigued"
+  "text": "Double damage and target is %status-fatigued=fatigued%"
 }, {
   "title": "Tongue Piercing",
   "text": "Normal damage and 1 %penalty-con=Con% %ability-damage=damage%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
@@ -150,7 +150,7 @@
   "text": "Double damage and 1 %penalty-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Stinger",
-  "text": "Normal damage and target is sickened for 1d6 rounds"
+  "text": "Normal damage and target is %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Nicked an artery",
   "text": "Normal damage and 2d6 %bleed=bleed%"

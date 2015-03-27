@@ -12,10 +12,10 @@
   "text": "Normal damage and normal damage of a random energy type"
 }, {
   "title": "Excruciating",
-  "text": "Normal damage and target is sickened for 1d6 rounds"
+  "text": "Normal damage and target is %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Terrifying Display",
-  "text": "Normal damage and target frightened for 1d4 rounds (%save-critical=Will negates%)"
+  "text": "Normal damage and target %status-frightened=frightened% for 1d4 rounds (%save-critical=Will negates%)"
 }, {
   "title": "Dispelling Aura",
   "text": "Normal damage and dispel magic on the target"
@@ -30,7 +30,7 @@
   "text": "Normal damage and target is charmed for 3 rounds (%save-critical=Will negates%)"
 }, {
   "title": "Electrocuted",
-  "text": "Double damage. If electricity spell, target stunned for 1d4 rounds"
+  "text": "Double damage. If electricity spell, target %status-stunned=stunned% for 1d4 rounds"
 }, {
   "title": "Hypnotic Link",
   "text": "Double damage and you may give the target 1 suggestion (as the spell. %save-critical=Will negates%)"
@@ -39,13 +39,13 @@
   "text": "Double damage. If cold spell, target takes 1d4 %penalty-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Side Effect",
-  "text": "Double damage and you become invisible for 1d4 rounds"
+  "text": "Double damage and you become %status-invisible=invisible% for 1d4 rounds"
 }, {
   "title": "Turned Around",
   "text": "Double damage and target can take only one move or standard action next round"
 }, {
   "title": "Stunned",
-  "text": "Normal damage and target is stunned for 1 round"
+  "text": "Normal damage and target is %status-stunned=stunned% for 1 round"
 }, {
   "title": "Call of the Wind",
   "text": "Double damage or triple damage to animals, fey, magical beasts, and vermin"
@@ -54,7 +54,7 @@
   "text": "Normal damage and target is petrified for 1d4 hours (%save-critical=Fort negates%)"
 }, {
   "title": "Pretty Colors",
-  "text": "Double damage and target is dazzled for 1d4 rounds"
+  "text": "Double damage and target is %status-dazzled=dazzled% for 1d4 rounds"
 }, {
   "title": "Nerve Damage",
   "text": "Normal damage and target is slow for 1d6 rounds"
@@ -66,7 +66,7 @@
   "text": "Normal damage and target sent to a random plane (%save-critical=Will negates%)"
 }, {
   "title": "Eyeburn",
-  "text": "Normal damage and target blinded for 1d4 rounds (%save-critical=Fort negates%)"
+  "text": "Normal damage and target %status-blinded=blinded% for 1d4 rounds (%save-critical=Fort negates%)"
 }, {
   "title": "Intense Strike",
   "text": "Double damage and ignore energy resistance (but not immunity)"
@@ -75,7 +75,7 @@
   "text": "Double damage and you and target switch places"
 }, {
   "title": "Light Blast",
-  "text": "Double damage and target is blinded for 1 round"
+  "text": "Double damage and target is %status-blinded=blinded% for 1 round"
 }, {
   "title": "Conduit",
   "text": "Double damage and target takes a -4 penalty on saves vs. your spells for 1d6 rounds"
@@ -102,7 +102,7 @@
   "text": "Double damage and target spends 1 round laughing (as hideous laughter spell, %save-critical=Will negates%)"
 }, {
   "title": "Phased",
-  "text": "Double damage and target is incorporeal for 1d3 rounds (%save-critical=Will negates%)"
+  "text": "Double damage and target is %status-incorporeal=incorporeal% for 1d3 rounds (%save-critical=Will negates%)"
 }, {
   "title": "Life Leech",
   "text": "Normal damage and 1 negative level (%save-critical=Fort negates after 1 day%)"
@@ -114,13 +114,13 @@
   "text": "Double damage and an illusion appears to attack foe, flanking him for you for 1d6 rounds"
 }, {
   "title": "Arcane Goo",
-  "text": "Normal damage and target is entangled (DC 20 Str or Escape Artist to be freed)"
+  "text": "Normal damage and target is %status-entangled=entangled% (DC 20 Str or Escape Artist to be freed)"
 }, {
   "title": "Hoarder's Wrath",
   "text": "Double damage or triple damage to dragons"
 }, {
   "title": "Mind Cloud",
-  "text": "Double damage and target is dazed for 1 round"
+  "text": "Double damage and target is %status-dazed=dazed% for 1 round"
 }, {
   "title": "Elemental Call",
   "text": "Normal damage. If elemental spell, Medium elemental appears to serve for 1d4 rounds"
@@ -141,7 +141,7 @@
   "text": "Double damage and if the spell did elemental damage the target is now vulnerable to that element for 3 rounds"
 }, {
   "title": "Roaring Spell",
-  "text": "Double damage and target is deafened for 1d4 rounds"
+  "text": "Double damage and target is %status-deafened=deafened% for 1d4 rounds"
 }, {
   "title": "Returning Spell",
   "text": "Double damage and spell is not lost"

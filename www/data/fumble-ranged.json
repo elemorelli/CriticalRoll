@@ -12,10 +12,10 @@
   "text": "You compensate for a breeze which isn't there. You take -2 penalty on ranged attack rolls for 3 rounds"
 }, {
   "title": "Recoil",
-  "text": "You move backward 1 square and fall prone"
+  "text": "You move backward 1 square and fall %status-prone=prone%"
 }, {
   "title": "Amazing Miss",
-  "text": "You are stunned for 1 round (%save-fumble=Fort negates%)"
+  "text": "You are %status-stunned=stunned% for 1 round (%save-fumble=Fort negates%)"
 }, {
   "title": "Not My Pony",
   "text": "Your attack hits the nearest allied animal or mount"
@@ -24,7 +24,7 @@
   "text": "You use twice as much ammunition on this attack"
 }, {
   "title": "Close to the Ear",
-  "text": "You are deafened %until-healed=until healed% (DC 15 Heal Check)"
+  "text": "You are %status-deafened=deafened% %until-healed=until healed% (DC 15 Heal Check)"
 }, {
   "title": "Insecure",
   "text": "You take a -1 penalty on attack rolls for 1d4 rounds or until you score a critical hit"
@@ -51,10 +51,10 @@
   "text": "You take 1d6 points of damage"
 }, {
   "title": "So much Blood",
-  "text": "You are sickened for 1d6 rounds"
+  "text": "You are %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Huh?",
-  "text": "You are confused for 1 round"
+  "text": "You are %status-confused=confused% for 1 round"
 }, {
   "title": "Seeing Double",
   "text": "All your attacks have a 50% miss chance for 1 round"
@@ -78,13 +78,13 @@
   "text": "If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction"
 }, {
   "title": "Tunnel Vision",
-  "text": "For the next 3 rounds, you have a +1 bonus on attack rolls, but you flat-footed"
+  "text": "For the next 3 rounds, you have a +1 bonus on attack rolls, but you %status-flat-footed=flat-footed%"
 }, {
   "title": "All Thumbs",
   "text": "You lose your %penalty-dex=Dex% bonus on attack rolls for 3 rounds"
 }, {
   "title": "Bull's Eye",
-  "text": "Your shot ricochets and hits you near the eye. You are blinded for 1 round"
+  "text": "Your shot ricochets and hits you near the eye. You are %status-blinded=blinded% for 1 round"
 }, {
   "title": "Bad Alignment",
   "text": "You take -4 penalty on all attacks with this weapon until repaired (DC 20 Craft check)"
@@ -93,10 +93,10 @@
   "text": "Your weapon (not ammunition) takes 1d6 points of damage, ignoring hardness"
 }, {
   "title": "Whoops!",
-  "text": "You are knocked prone"
+  "text": "You are knocked %status-prone=prone%"
 }, {
   "title": "Tied Up",
-  "text": "You become entangled in your gear until you spend a standard action to free yourself"
+  "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Sprain",
   "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
@@ -111,7 +111,7 @@
   "text": "Your ammunition falls from its container and takes 1d6 rounds to gather up"
 }, {
   "title": "Head Rush",
-  "text": "You are sickened for 1d4 rounds"
+  "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "My Spleeny Bits!",
   "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
@@ -126,7 +126,7 @@
   "text": "Your weapon is destroyed (%save-fumble=Ref negates%). Magic weapons use their own save bonus (DMG 214)"
 }, {
   "title": "Everything you Got",
-  "text": "You are exhausted (%save-fumble=Fort negates%)"
+  "text": "You are %status-exhausted=exhausted% (%save-fumble=Fort negates%)"
 }, {
   "title": "Snapped String",
   "text": "If attack was made with a bow or crossbow, the string breaks and requires 1d3 round to fix"
@@ -138,7 +138,7 @@
   "text": "You take a -2 penalty on all ranged attack rolls for 1d4 minutes"
 }, {
   "title": "Wide Open",
-  "text": "You are flat-footed for 1 round"
+  "text": "You are %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Backfire",
   "text": "The attack deals damage to you instead of the target"
@@ -150,7 +150,7 @@
   "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit"
 }, {
   "title": "Arching Back",
-  "text": "You are fatigued"
+  "text": "You are %status-fatigued=fatigued%"
 }, {
   "title": "Awkward Attack",
   "text": "You take -2 penalty to AC for 1d4 rounds"
