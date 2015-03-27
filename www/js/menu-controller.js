@@ -1,6 +1,6 @@
 criticalRoller.controller('MenuController', function($rootScope, $scope, $ionicPopover) {
 
-  $scope.openPopover = function($event, templateName) {
+  $rootScope.openPopover = function($event, templateName) {
     $ionicPopover.fromTemplateUrl('templates/popover/popover-' + templateName + '.html', {
         scope: $scope
       })

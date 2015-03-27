@@ -26,15 +26,28 @@ criticalRoller.controller('CardsController', function($rootScope, $scope, $http,
     var randomIndex = Math.floor(Math.random() * cardQuantity);
 
     var cardDrawn = $scope.cardsData[primaryType][secondaryType][randomIndex];
-    cardDrawn.primaryType = primaryType;
-    cardDrawn.secondaryType = secondaryType;
+
+    if (!cardDrawn.primaryType) {
+      cardDrawn.primaryType = primaryType;
+      cardDrawn.secondaryType = secondaryType;
+      cardDrawn.text = cardDrawn.text.replace(/%([\w\s]+)=([\w\s]+)%/gi,
+        '<a class="popover-link" ng-click="openPopover($event, &apos;$1&apos;)">$2</a>');
+    }
 
     $scope.placeCard(cardDrawn);
+  };
+
+  $scope.renderHtml = function(htmlCode) {
+    return $sce.trustAsHtml(htmlCode);
   };
 
   $scope.placeCard = function(cardDrawn) {
     $scope.drawnCards.push(cardDrawn);
     $ionicScrollDelegate.scrollBottom(true);
+  };
+
+  $scope.emitPopover = function($event, template) {
+    $rootScope.$emit('openPopover', template);
   };
 
   $rootScope.$on('showOption', function(event, option) {
@@ -51,4 +64,5 @@ criticalRoller.controller('CardsController', function($rootScope, $scope, $http,
     $scope.drawnCards = [];
     $ionicScrollDelegate.scrollTop(true);
   });
+
 });
