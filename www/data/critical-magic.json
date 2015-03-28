@@ -21,7 +21,7 @@
   "text": "Normal damage and dispel magic on the target"
 }, {
   "title": "Concussive Spell",
-  "text": "Double damage and 1d4 %bleed=bleed%"
+  "text": "Double damage and 1d4 %status-bleed=bleed%"
 }, {
   "title": "Knockback",
   "text": "Double damage and target is pushed 1d6 squares directly away"
@@ -36,7 +36,7 @@
   "text": "Double damage and you may give the target 1 suggestion (as the spell. %save-critical=Will negates%)"
 }, {
   "title": "Frozen",
-  "text": "Double damage. If cold spell, target takes 1d4 %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "Double damage. If cold spell, target takes 1d4 %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Side Effect",
   "text": "Double damage and you become %status-invisible=invisible% for 1d4 rounds"

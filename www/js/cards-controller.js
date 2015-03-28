@@ -31,7 +31,7 @@ criticalRoller.controller('CardsController', function($rootScope, $scope, $http,
       cardDrawn.primaryType = primaryType;
       cardDrawn.secondaryType = secondaryType;
       cardDrawn.text = cardDrawn.text.replace(/%([\w\s-]+)=([\w\s-]+)%/gi,
-        '<a class="popover-link" ng-click="openPopover($event, &apos;$1&apos;)">$2</a>');
+        '<a class="popover-link" ng-click="openPopover($event, &apos;card-help&apos;, &apos;$1&apos;)">$2</a>');
     }
 
     $scope.placeCard(cardDrawn);

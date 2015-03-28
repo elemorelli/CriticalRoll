@@ -24,7 +24,7 @@
   "text": "You provoke an attack of opportunity from all adjacent opponents"
 }, {
   "title": "Pulled Muscle",
-  "text": "You take 1d4 points of %penalty-str=Str% %ability-damage=damage%"
+  "text": "You take 1d4 points of %ability-str=Str% %ability-damage=damage%"
 }, {
   "title": "Fling",
   "text": "You drop your weapon and it lands 1d6 squares away in a random direction"
@@ -54,7 +54,7 @@
   "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit"
 }, {
   "title": "Strain",
-  "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "You take 1d4 points of %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Too Much Stuff",
   "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
@@ -63,10 +63,10 @@
   "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "I told you it was sharp",
-  "text": "You take 1d6 points of %bleed=bleed%"
+  "text": "You take 1d6 points of %status-bleed=bleed%"
 }, {
   "title": "Pin Prick",
-  "text": "You take 1 point of %bleed=bleed%"
+  "text": "You take 1 point of %status-bleed=bleed%"
 }, {
   "title": "Off Balance",
   "text": "You take a -4 penalty on all attack rolls for 1 round"
@@ -81,7 +81,7 @@
   "text": "You fall %status-unconscious=unconscious% for 1d6 rounds (%save-fumble=Will negates%)"
 }, {
   "title": "Pointy End Goes There",
-  "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
+  "text": "You take 1 point of %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "Broken Haft",
   "text": "Your weapon loses reach. You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check)"
@@ -117,10 +117,10 @@
   "text": "You are %status-confused=confused% for 1 round"
 }, {
   "title": "Wrong End",
-  "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of %bleed=bleed%"
+  "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of %status-bleed=bleed%"
 }, {
   "title": "Vibration",
-  "text": "If you're using a bludgeoning weapon, you take 1d3 of %penalty-str=Str% %ability-damage=damage% and drop your weapon"
+  "text": "If you're using a bludgeoning weapon, you take 1d3 of %ability-str=Str% %ability-damage=damage% and drop your weapon"
 }, {
   "title": "No Way",
   "text": "Your attack hits the target, but deals minimum damage"
@@ -147,10 +147,10 @@
   "text": "You attack damages you instead. Use your target's Str modifier"
 }, {
   "title": "Cutter",
-  "text": "You take 1 point of %penalty-str=Str% %bleed=bleed%"
+  "text": "You take 1 point of %ability-str=Str% %status-bleed=bleed%"
 }, {
   "title": "This is Bad",
-  "text": "You take an amount of %bleed=bleed% equal to your Str bonus (minimum 1)"
+  "text": "You take an amount of %status-bleed=bleed% equal to your Str bonus (minimum 1)"
 }, {
   "title": "Armor Smash",
   "text": "Your attack deals damage to your armor"

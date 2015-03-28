@@ -72,7 +72,7 @@
   "text": "You take a -4 penalty on all attack rolls for 1 round"
 }, {
   "title": "Shot Your Foot",
-  "text": "You take 1d2 points of %penalty-dex=Dex% %ability-damage=damage% and your speed is reduced by half %until-healed=until healed%"
+  "text": "You take 1d2 points of %ability-dex=Dex% %ability-damage=damage% and your speed is reduced by half %until-healed=until healed%"
 }, {
   "title": "Overthrow",
   "text": "If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction"
@@ -81,7 +81,7 @@
   "text": "For the next 3 rounds, you have a +1 bonus on attack rolls, but you %status-flat-footed=flat-footed%"
 }, {
   "title": "All Thumbs",
-  "text": "You lose your %penalty-dex=Dex% bonus on attack rolls for 3 rounds"
+  "text": "You lose your %ability-dex=Dex% bonus on attack rolls for 3 rounds"
 }, {
   "title": "Bull's Eye",
   "text": "Your shot ricochets and hits you near the eye. You are %status-blinded=blinded% for 1 round"
@@ -99,10 +99,10 @@
   "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Sprain",
-  "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "You take 1d4 points of %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Nicked",
-  "text": "You take 1 point of %bleed=bleed%"
+  "text": "You take 1 point of %status-bleed=bleed%"
 }, {
   "title": "Klutz",
   "text": "You drop your weapon"
@@ -114,13 +114,13 @@
   "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "My Spleeny Bits!",
-  "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
+  "text": "You take 1 point of %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "Notched Fingers",
-  "text": "You take 1d6 points of %bleed=bleed%"
+  "text": "You take 1d6 points of %status-bleed=bleed%"
 }, {
   "title": "Torn Tendon",
-  "text": "You take 1 point of %penalty-dex=Dex% %bleed=bleed%"
+  "text": "You take 1 point of %ability-dex=Dex% %status-bleed=bleed%"
 }, {
   "title": "Broken",
   "text": "Your weapon is destroyed (%save-fumble=Ref negates%). Magic weapons use their own save bonus (DMG 214)"

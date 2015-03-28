@@ -15,10 +15,10 @@
   "text": "You are %status-sickened=sickened% for 1d4 rounds"
 }, {
   "title": "I Bit My Tug",
-  "text": "You take 1 point of %bleed=bleed%"
+  "text": "You take 1 point of %status-bleed=bleed%"
 }, {
   "title": "Muscle Tear",
-  "text": "You take 1d4 points of %penalty-str=Str% %ability-damage=damage%"
+  "text": "You take 1d4 points of %ability-str=Str% %ability-damage=damage%"
 }, {
   "title": "Stinging Failure",
   "text": "You take 1d6 points of nonlethal damage and a -2 penalty on attack rolls with that attack for 1d4 rounds"
@@ -30,7 +30,7 @@
   "text": "You take 1d6 points of damage & your Str modifier"
 }, {
   "title": "Torn Muscle",
-  "text": "You take 1 point of %penalty-str=Str% %ability-drain=drain% (%save-fumble=Fort negates%)"
+  "text": "You take 1 point of %ability-str=Str% %ability-drain=drain% (%save-fumble=Fort negates%)"
 }, {
   "title": "Got Too Close",
   "text": "Your attack hits the target but the target may start a grapple against you for free"
@@ -51,7 +51,7 @@
   "text": "You are %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Bleeding Fist",
-  "text": "You take 1d6 points of %bleed=bleed%"
+  "text": "You take 1d6 points of %status-bleed=bleed%"
 }, {
   "title": "Twisted",
   "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
@@ -81,13 +81,13 @@
   "text": "You take 1d4 points of damage and you cannot use this attack %until-healed=until healed%"
 }, {
   "title": "Sprain",
-  "text": "You take 1d4 points of %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "You take 1d4 points of %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Overexertion",
   "text": "You are %status-exhausted=exhausted% (%save-fumble=Fort Negates%)"
 }, {
   "title": "Don't Pick At It",
-  "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
+  "text": "You take 1 point of %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "We have a Wiener",
   "text": "You fall %status-unconscious=unconscious% for 1d6 round (%save-fumble=Will Negates%)"
@@ -150,7 +150,7 @@
   "text": "You take 1d3 points of damage and your speed is halved %until-healed=until healed%"
 }, {
   "title": "Bone Bruise",
-  "text": "You take 1d2 point of %penalty-con=Con% %ability-damage=damage%"
+  "text": "You take 1d2 point of %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "Bad Headbutt",
   "text": "You are %status-stunned=stunned% for 1 round (%save-fumble=Fort negates%)"

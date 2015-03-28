@@ -6,13 +6,13 @@
   "text": "You cannot cast any spells for 1 round"
 }, {
   "title": "You made Him Stronger",
-  "text": "The target gains a +8 enhancement bonus to %penalty-str=Str% for 1d4 rounds"
+  "text": "The target gains a +8 enhancement bonus to %ability-str=Str% for 1d4 rounds"
 }, {
   "title": "Clatto Verata Necktie",
   "text": "Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit"
 }, {
   "title": "Hit by the Ugly Forest",
-  "text": "You take 1 point of %penalty-cha=Cha% %bleed=bleed%"
+  "text": "You take 1 point of %ability-cha=Cha% %status-bleed=bleed%"
 }, {
   "title": "The Magic is Gone",
   "text": "You take a -4 penalty to attack rolls until you scare a critical hit"
@@ -33,7 +33,7 @@
   "text": "You are %status-shaken=shaken% for 2d4 rounds"
 }, {
   "title": "Bleeding Eyes",
-  "text": "You take 1d6 points of %bleed=bleed%"
+  "text": "You take 1d6 points of %status-bleed=bleed%"
 }, {
   "title": "Acidic Backlash",
   "text": "You take 2d6 points of acid damage"
@@ -72,7 +72,7 @@
   "text": "You become %status-entangled=entangled% in your gear until you spend a standard action to free yourself"
 }, {
   "title": "Nose Bleed",
-  "text": "You take 1 point of %bleed=bleed%"
+  "text": "You take 1 point of %status-bleed=bleed%"
 }, {
   "title": "Weakened",
   "text": "You take a -2 penalty to all your Spell DCs for 1d4 minutes"
@@ -84,7 +84,7 @@
   "text": "You are teleported the nearest square adjacent to the target"
 }, {
   "title": "Mind Drain",
-  "text": "You take 1d4 points of damage to %penalty-int=Int%, %penalty-wis=Wis%, or %penalty-cha=Cha% (determined randomly)"
+  "text": "You take 1d4 points of damage to %ability-int=Int%, %ability-wis=Wis%, or %ability-cha=Cha% (determined randomly)"
 }, {
   "title": "Cold Snap",
   "text": "You take 2d6 points of cold damage"
@@ -96,10 +96,10 @@
   "text": "Target increases one size category for 1d4 rounds"
 }, {
   "title": "Weak-Minded Fool",
-  "text": "You take 1 point of %penalty-wis=Wis% %bleed=bleed%"
+  "text": "You take 1 point of %ability-wis=Wis% %status-bleed=bleed%"
 }, {
   "title": "Power Down",
-  "text": "You take 1 point of %penalty-int=Int% %bleed=bleed%"
+  "text": "You take 1 point of %ability-int=Int% %status-bleed=bleed%"
 }, {
   "title": "Mental Slip",
   "text": "On his next turn, your target may give you one suggestion"
@@ -132,7 +132,7 @@
   "text": "One of your magic items permanently gains a random drawback (DMG 273)"
 }, {
   "title": "This is Hard",
-  "text": "You take 1 point of %penalty-con=Con% %ability-damage=damage%"
+  "text": "You take 1 point of %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "Magical Smackdown",
   "text": "You automatically fail your next saving throw"

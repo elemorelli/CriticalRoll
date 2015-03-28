@@ -12,22 +12,22 @@
   "text": "Normal damage and target takes 1d4 ability damage of your choice"
 }, {
   "title": "Bleeder",
-  "text": "Double damage and 1d6 %bleed=bleed%"
+  "text": "Double damage and 1d6 %status-bleed=bleed%"
 }, {
   "title": "Heart Shot",
-  "text": "Triple damage and 1 %penalty-con=Con% %bleed=bleed%"
+  "text": "Triple damage and 1 %ability-con=Con% %status-bleed=bleed%"
 }, {
   "title": "Deep Wound",
   "text": "Double damage and target is %status-nauseated=nauseated% for 1 round (%save-critical=Fort negates%)"
 }, {
   "title": "Ragged Wound",
-  "text": "Normal damage and 1d8 %bleed=bleed%"
+  "text": "Normal damage and 1d8 %status-bleed=bleed%"
 }, {
   "title": "Sucking Chest Wound",
   "text": "Double damage and target is %status-exhausted=exhausted% (%save-critical=Fort negates%)"
 }, {
   "title": "Lodged in the Bone",
-  "text": "Double damage and 2 %bleed=bleed%. This bleed requires a DC 20 Heal check to stop"
+  "text": "Double damage and 2 %status-bleed=bleed%. This bleed requires a DC 20 Heal check to stop"
 }, {
   "title": "Momentum",
   "text": "Double damage and +2 on all your attack rolls for 1 round"
@@ -42,10 +42,10 @@
   "text": "Double damage and 2d6 nonlethal damage"
 }, {
   "title": "Hand Wound",
-  "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage%. -4 penalty on all rolls using that hand %until-healed=until healed%"
+  "text": "Normal damage and 1d2 %ability-dex=Dex% %ability-damage=damage%. -4 penalty on all rolls using that hand %until-healed=until healed%"
 }, {
   "title": "Pinhole",
-  "text": "Double damage and 1 %bleed=bleed%. Target takes 1 additional bleed each round %until-healed=until healed%"
+  "text": "Double damage and 1 %status-bleed=bleed%. Target takes 1 additional bleed each round %until-healed=until healed%"
 }, {
   "title": "Perfect Strike",
   "text": "Triple Damage"
@@ -60,7 +60,7 @@
   "text": "Double damage and target %status-sickened=sickened% for 2d4 round (%save-critical=Fort negates%)"
 }, {
   "title": "Achilles Heel",
-  "text": "Normal damage and 1d2 %penalty-dex=Dex% %ability-damage=damage%. Target's speeds are reduced by half %until-healed=until healed%"
+  "text": "Normal damage and 1d2 %ability-dex=Dex% %ability-damage=damage%. Target's speeds are reduced by half %until-healed=until healed%"
 }, {
   "title": "Spinal Tap",
   "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds"
@@ -75,13 +75,13 @@
   "text": "Double damage and target is poisoned (treat as greenblood oil)"
 }, {
   "title": "Javelin Catcher",
-  "text": "Double damage and 1d6 %bleed=bleed% if from ranged attack"
+  "text": "Double damage and 1d6 %status-bleed=bleed% if from ranged attack"
 }, {
   "title": "Cheek Pierced",
-  "text": "Normal damage and 1d4 %bleed=bleed%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
+  "text": "Normal damage and 1d4 %status-bleed=bleed%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
 }, {
   "title": "Calf Hole",
-  "text": "Normal damage and 1d4 %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "Normal damage and 1d4 %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Painful Poke",
   "text": "Double damage and target can take only one move or standard action until next round"
@@ -90,10 +90,10 @@
   "text": "Double damage and target is %status-dazed=dazed% for 1 round"
 }, {
   "title": "Tenacious Wound",
-  "text": "Normal damage and 1d2 %penalty-con=Con% %ability-damage=damage%. Target does not heal this damage naturally"
+  "text": "Normal damage and 1d2 %ability-con=Con% %ability-damage=damage%. Target does not heal this damage naturally"
 }, {
   "title": "Muscles Severed",
-  "text": "Normal damage and 1d6 %penalty-dex=Dex% and 1d6 %penalty-str=Str% %ability-damage=damage%"
+  "text": "Normal damage and 1d6 %ability-dex=Dex% and 1d6 %ability-str=Str% %ability-damage=damage%"
 }, {
   "title": "Infection",
   "text": "Double damage and target contracts filth fever (%save-critical=Fort negates%)"
@@ -105,28 +105,28 @@
   "text": "Normal damage and target is %status-flat-footed=flat-footed% for 1 round"
 }, {
   "title": "Eye Patch for You",
-  "text": "Triple damage and 1d2 %penalty-con=Con% %ability-drain=drain%. -4 Spot, Search and ranged attacks %until-healed=until healed%"
+  "text": "Triple damage and 1d2 %ability-con=Con% %ability-drain=drain%. -4 Spot, Search and ranged attacks %until-healed=until healed%"
 }, {
   "title": "Forearm Piercing",
   "text": "Double damage and target is disarmed (1 item)"
 }, {
   "title": "Clean Through",
-  "text": "Normal damage and 1d6 %bleed=bleed% and 1 %penalty-con=Con% %ability-drain=drain% "
+  "text": "Normal damage and 1d6 %status-bleed=bleed% and 1 %ability-con=Con% %ability-drain=drain% "
 }, {
   "title": "Surprise Opening",
   "text": "Double damage and one free attack against the target with a -5 penalty"
 }, {
   "title": "Organ Scramble",
-  "text": "Double damage and 1d6 %penalty-con=Con% %ability-damage=damage%"
+  "text": "Double damage and 1d6 %ability-con=Con% %ability-damage=damage%"
 }, {
   "title": "Deep Hurting",
   "text": "Double damage and target is %status-fatigued=fatigued%"
 }, {
   "title": "Tongue Piercing",
-  "text": "Normal damage and 1 %penalty-con=Con% %ability-damage=damage%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
+  "text": "Normal damage and 1 %ability-con=Con% %ability-damage=damage%. Target gains 50% spell failure chance for verbal spells %until-healed=until healed%"
 }, {
   "title": "Shoulder Wound",
-  "text": "Double damage and 1d2 %penalty-str=Str% and %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "Double damage and 1d2 %ability-str=Str% and %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Left Reeling",
   "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds"
@@ -135,7 +135,7 @@
   "text": "Double damage and target drops whatever is being held (1 item)"
 }, {
   "title": "Bicep Wound",
-  "text": "Normal damage and 1d4 %penalty-str=Str% %ability-damage=damage%"
+  "text": "Normal damage and 1d4 %ability-str=Str% %ability-damage=damage%"
 }, {
   "title": "Nailed in Place",
   "text": "Double damage and target cannot move (DC 20 Str check negates)"
@@ -144,14 +144,14 @@
   "text": "Double damage and +4 to your AC for 1 round"
 }, {
   "title": "Right in the Ear",
-  "text": "Normal damage and 1 %penalty-int=Int% %ability-damage=damage% and 1 %bleed=bleed%"
+  "text": "Normal damage and 1 %ability-int=Int% %ability-damage=damage% and 1 %status-bleed=bleed%"
 }, {
   "title": "Chipped Bone",
-  "text": "Double damage and 1 %penalty-dex=Dex% %ability-damage=damage%"
+  "text": "Double damage and 1 %ability-dex=Dex% %ability-damage=damage%"
 }, {
   "title": "Stinger",
   "text": "Normal damage and target is %status-sickened=sickened% for 1d6 rounds"
 }, {
   "title": "Nicked an artery",
-  "text": "Normal damage and 2d6 %bleed=bleed%"
+  "text": "Normal damage and 2d6 %status-bleed=bleed%"
 }]
