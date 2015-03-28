@@ -1,4 +1,4 @@
-criticalRoller.controller('CardsController', function($rootScope, $scope, $http, $ionicScrollDelegate) {
+CriticalRoll.controller('CardsController', function($rootScope, $scope, $http, $ionicScrollDelegate) {
 
   $scope.fillCardData = function(primaryType, secondaryType) {
     var url = 'data/' + primaryType + '-' + secondaryType + '.json';

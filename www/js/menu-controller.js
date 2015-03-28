@@ -1,9 +1,9 @@
-criticalRoller.controller('MenuController', function($rootScope, $scope, $ionicPopover) {
+CriticalRoll.controller('MenuController', function($rootScope, $scope, $ionicPopover) {
 
   $rootScope.openPopover = function($event, templateName, text) {
 
     $scope.popoverText = popoverTexts[text];
-    $ionicPopover.fromTemplateUrl('templates/popover/popover-' + templateName + '.html', {
+    $ionicPopover.fromTemplateUrl('templates/popover-' + templateName + '.html', {
         scope: $scope
       })
       .then(function(popover) {
