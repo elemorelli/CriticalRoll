@@ -7040,7 +7040,7 @@ ion-popover-view .small {
   margin-top: 10px !important; }
 
 .popover {
-  max-width: 520px !important; }
+  width: 500px !important; }
 
 .popover-link {
   border-bottom: 1px dotted; }
