@@ -18,3 +18,8 @@ CriticalRoll.run(function($ionicPlatform) {
     }
   });
 });
+
+var openLink = function(href) {
+  window.open(href, "_system");
+  return false;
+}

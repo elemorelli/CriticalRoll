@@ -7027,6 +7027,14 @@ a.button {
   padding-left: 8px;
   padding-bottom: 4px; }
 
+.card ul li {
+  text-indent: 10px;
+  font-size: small; }
+
+.card .license-text p {
+  margin-top: 10px;
+  font-size: small; }
+
 ion-popover-view.fit {
   height: auto !important; }
 
