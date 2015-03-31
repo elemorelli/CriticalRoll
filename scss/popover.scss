@@ -11,7 +11,8 @@ ion-popover-view .small {
   margin-top: 10px !important;
 }
 .popover {
-  width: 500px!important;
+  width: auto !important;
+  max-width: 95% !important;
 }
 .popover-link {
   border-bottom: 1px dotted;
