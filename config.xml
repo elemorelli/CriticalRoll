@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<widget id="com.vanillaicecreamstudio.criticalroll" version="0.9.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>CriticalRoll</name>
+<widget id="com.vanillaicecreamstudio.criticalroll" version="0.9.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Critical Roll</name>
   <description>
-    A tool for Tabletop RPGs as Pathfinder or D&amp;D
+    A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D
   </description>
   <author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">
     Vanilla Icecream Studio
@@ -18,12 +18,12 @@
     <param name="ios-package" value="CDVStatusBar" onload="true" />
   </feature>
   <platform name="android">
-    <icon src="resources/android/logo-icon-ldpi.png" density="ldpi" />
-    <icon src="resources/android/logo-icon-mdpi.png" density="mdpi" />
-    <icon src="resources/android/logo-icon-hdpi.png" density="hdpi" />
-    <icon src="resources/android/logo-icon-xhdpi.png" density="xhdpi" />
-    <icon src="resources/android/logo-icon-xxhdpi.png" density="xxhdpi" />
-    <icon src="resources/android/logo-icon-xxxhdpi.png" density="xxxhdpi" />
+    <icon src="resources/android/logo-rounded_36x36.png" density="ldpi" />
+    <icon src="resources/android/logo-rounded_48x48.png" density="mdpi" />
+    <icon src="resources/android/logo-rounded_72x72.png" density="hdpi" />
+    <icon src="resources/android/logo-rounded_96x96.png" density="xhdpi" />
+    <icon src="resources/android/logo-rounded_144x144.png" density="xxhdpi" />
+    <icon src="resources/android/logo-rounded_192x192.png" density="xxxhdpi" />
 
     <splash src="resources/android/logo-splash_android_ldpi.png" density="port-ldpi" />
     <splash src="resources/android/logo-splash_android_mdpi.png" density="port-mdpi" />
@@ -31,7 +31,7 @@
     <splash src="resources/android/logo-splash_android_xhdpi.png" density="port-xhdpi" />
   </platform>
   <platform name="wp8">
-    <splash src="resources/wp8/logo-splash_wp8.png" width="768" height="1280" />
+    <splash src="resources/wp8/logo-splash_768x1280" width="768" height="1280" />
   </platform>
   <icon src="resources/icon.png" />
 </widget>
