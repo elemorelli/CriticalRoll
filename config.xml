@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<widget id="com.vanillaicecreamstudio.criticalroll" version="0.9.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Critical Roll</name>
+<widget id="com.vanillaicecreamstudio.criticalroll" version="0.9.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>CriticalRoll</name>
   <description>
     A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D
   </description>
