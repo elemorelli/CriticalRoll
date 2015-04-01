@@ -7,3 +7,4 @@ plugins/
 
 my-release-key.keystore
 *.apk
+*.xap
