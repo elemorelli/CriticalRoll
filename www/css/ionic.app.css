@@ -7027,29 +7027,21 @@ a.button {
   padding-left: 8px;
   padding-bottom: 4px; }
 
-.card ul li {
-  text-indent: 10px;
-  font-size: small; }
-
 .card .license-text p {
   margin-top: 10px;
   font-size: small; }
 
 ion-popover-view.fit {
-  height: auto !important; }
+  height: auto !important;
+  width: auto !important;
+  max-width: 95% !important; }
 
 ion-popover-view.fit ion-content {
   position: relative !important; }
 
 ion-popover-view .small {
-  font-size: small !important; }
-
-.platform-android ion-popover-view.fit {
-  margin-top: 10px !important; }
-
-.popover {
-  width: auto !important;
-  max-width: 95% !important; }
+  font-size: small !important;
+  padding: 5px; }
 
 .popover-link {
   border-bottom: 1px dotted; }
