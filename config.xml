@@ -31,7 +31,7 @@
     <splash src="resources/android/logo-splash_android_xhdpi.png" density="port-xhdpi" />
   </platform>
   <platform name="wp8">
-    <splash src="resources/wp8/logo-splash_768x1280" width="768" height="1280" />
+    <splash src="resources/wp8/logo-splash_768x1280.png" width="768" height="1280" />
   </platform>
   <icon src="resources/icon.png" />
 </widget>
