@@ -7032,9 +7032,7 @@ a.button {
   font-size: small; }
 
 ion-popover-view.fit {
-  height: auto !important;
-  width: auto !important;
-  max-width: 95% !important; }
+  height: auto !important; }
 
 ion-popover-view.fit ion-content {
   position: relative !important; }
