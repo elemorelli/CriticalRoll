@@ -1,6 +1,7 @@
 CriticalRoll.controller('LanguageController', function($scope, $translate) {
   $scope.changeLanguage = function() {
     $translate.use($scope.selected.id);
+    window.localStorage['language'] = $scope.selected.id;
   };
 
   $scope.getLanguage = function(id) {
@@ -36,9 +37,10 @@ CriticalRoll.config(['$translateProvider', function($translateProvider) {
     'HELP': 'Ayuda!',
     'ABOUT': 'Acerca',
     'LICENSE': 'Licencia',
-    'CONTRIBUTE': 'Como ayudar',
+    'CONTRIBUTE': 'Cómo ayudar',
     'LANGUAGE': 'Idioma'
   });
 
-  $translateProvider.preferredLanguage('es');
+  $translateProvider.preferredLanguage(window.localStorage['language'] || 'en');
+  $translateProvider.fallbackLanguage('en');
 }]);
