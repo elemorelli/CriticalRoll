@@ -2,16 +2,16 @@
   <ion-content scroll="false">
     <ion-list>
       <ion-item ng-click="showOption('help')">
-        <span>Help!</span>
+        <span>{{'HELP' | translate}}</span>
       </ion-item>
       <ion-item ng-click="showOption('about')">
-        <span>About</span>
+        <span>{{'ABOUT' | translate}}</span>
       </ion-item>
       <ion-item ng-click="showOption('license')">
-        <span>License</span>
+        <span>{{'LICENSE' | translate}}</span>
       </ion-item>
       <ion-item ng-click="showOption('opensource')">
-        <span>How to contribute</span>
+        <span>{{'CONTRIBUTE' | translate}}</span>
       </ion-item>
       <!--
       <ion-item class="item-select">
@@ -23,14 +23,13 @@
           <option>D&amp;D 5</option>
         </select>
       </ion-item>
-      <ion-item class="item-select">
-        <span>Language</span>
-        <select>
-          <option>English</option>
-          <option>Spanish</option>
-        </select>
-      </ion-item>
     -->
+      <ion-item class="item-select">
+
+        <span>{{'LANGUAGE' | translate}}</span>
+        <span>selected: {{selected}}</span>
+        <select ng-controller="LanguageController" ng-model="selected" ng-options="language as language.label for language in languages" ng-change="changeLanguage()"></select>
+      </ion-item>
     </ion-list>
   </ion-content>
 </ion-popover-view>
