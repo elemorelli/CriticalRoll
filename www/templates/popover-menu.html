@@ -27,7 +27,6 @@
       <ion-item class="item-select">
 
         <span>{{'LANGUAGE' | translate}}</span>
-        <span>selected: {{selected}}</span>
         <select ng-controller="LanguageController" ng-model="selected" ng-options="language as language.label for language in languages" ng-change="changeLanguage()"></select>
       </ion-item>
     </ion-list>
