@@ -4,6 +4,8 @@
 node_modules/
 platforms/
 plugins/
+.idea/*
+npm-debug.log
 
 my-release-key.keystore
 *.apk
