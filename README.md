@@ -1,13 +1,14 @@
 # CriticalRoll
 An app that generates Critical and Fumble effects for tabletop RPGs
 
-#Requirements
-* Node.js
-* Cordova
-* Angular.js
-* Ionic
-* Gulp (for ionic serve)
-* Python (for Sass)
+# Setup
+1. Install node.js
+2. Install Python 2.7+ (For Sass)
+3. npm install -g cordova ionic
+4. npm install -g gulp sass
+5. npm update
+6. npm install
+7. ionic setup sass
 
 # Cordova plugins
 * org.apache.cordova.inappbrowser
