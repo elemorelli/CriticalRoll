@@ -1,34 +1,23 @@
 <ion-popover-view class="fit platform-ios">
-  <ion-content scroll="false">
-    <ion-list>
-      <ion-item ng-click="showOption('help')">
-        <span>{{'HELP' | translate}}</span>
-      </ion-item>
-      <ion-item ng-click="showOption('about')">
-        <span>{{'ABOUT' | translate}}</span>
-      </ion-item>
-      <ion-item ng-click="showOption('license')">
-        <span>{{'LICENSE' | translate}}</span>
-      </ion-item>
-      <ion-item ng-click="showOption('opensource')">
-        <span>{{'CONTRIBUTE' | translate}}</span>
-      </ion-item>
-      <!--
-      <ion-item class="item-select">
-        <span>System</span>
-        <select>
-          <option>Pathfinder</option>
-          <option>D&amp;D 3.5</option>
-          <option>D&amp;D 4</option>
-          <option>D&amp;D 5</option>
-        </select>
-      </ion-item>
-    -->
-      <ion-item class="item-select">
-
-        <span>{{'LANGUAGE' | translate}}</span>
-        <select ng-controller="LanguageController" ng-model="selected" ng-options="language as language.label for language in languages" ng-change="changeLanguage()"></select>
-      </ion-item>
-    </ion-list>
-  </ion-content>
+	<ion-content scroll="false">
+		<ion-list>
+			<ion-item ng-click="showOption('help')">
+				<span>{{'HELP' | translate}}</span>
+			</ion-item>
+			<ion-item ng-click="showOption('about')">
+				<span>{{'ABOUT' | translate}}</span>
+			</ion-item>
+			<ion-item ng-click="showOption('opensource')">
+				<span>{{'CONTRIBUTE' | translate}}</span>
+			</ion-item>
+			<ion-item ng-click="showOption('license')">
+				<span>{{'LICENSE' | translate}}</span>
+			</ion-item>
+			<ion-item class="item-select">
+				<span>{{'LANGUAGE' | translate}}</span>
+				<select ng-controller="LanguageController" ng-model="selected"
+								ng-options="language as language.label for language in languages" ng-change="changeLanguage()"></select>
+			</ion-item>
+		</ion-list>
+	</ion-content>
 </ion-popover-view>
