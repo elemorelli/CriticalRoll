@@ -1,11 +1,11 @@
 CriticalRoll.controller('LanguageController', function ($scope, $translate) {
 	$scope.changeLanguage = function () {
-		$translate.use($scope.selected.id);
-		window.localStorage['language'] = $scope.selected.id;
+		$translate.use($rootScope.languageSelected.id);
+		window.localStorage['language'] = $scope.languageSelected.id;
 	};
 
 	$scope.getLanguage = function (id) {
-		for (language in $scope.languages) {
+		for (var language in $scope.languages) {
 			var lang = $scope.languages[language];
 			if (lang.id == id)
 				return lang;
@@ -20,15 +20,15 @@ CriticalRoll.controller('LanguageController', function ($scope, $translate) {
 		"label": "Español"
 	}]
 
-	$scope.selected = $scope.getLanguage($translate.use());
+	$scope.languageSelected = $scope.getLanguage($translate.use());
 
 });
 
 CriticalRoll.config(['$translateProvider', function ($translateProvider) {
 
 	$translateProvider.useStaticFilesLoader({
-		prefix: 'i18n/',
-		suffix: '.json'
+		prefix: '/i18n/',
+		suffix: '/app.json'
 	});
 	$translateProvider.preferredLanguage(window.localStorage['language'] || 'en');
 	$translateProvider.fallbackLanguage('en');
