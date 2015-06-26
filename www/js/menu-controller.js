@@ -1,4 +1,4 @@
-CriticalRoll.controller('MenuController', function($rootScope, $scope, $ionicPopover) {
+CriticalRoll.controller('MenuController', function($rootScope, $scope, $ionicPopover, LanguageService) {
 
   $rootScope.openPopover = function($event, templateName, text) {
 
