@@ -27,17 +27,9 @@ CriticalRoll.controller('LanguageController', function ($scope, $translate) {
 CriticalRoll.config(['$translateProvider', function ($translateProvider) {
 
 	$translateProvider.useStaticFilesLoader({
-		files: [{
-			prefix: 'i18n/',
-			suffix: '.json'
-		}]
+		prefix: 'i18n/',
+		suffix: '.json'
 	});
-	/*
-	$translateProvider.useStaticFilesLoader('en', );
-
-	$translateProvider.translations('es', );
-*/
-
 	$translateProvider.preferredLanguage(window.localStorage['language'] || 'en');
 	$translateProvider.fallbackLanguage('en');
 }]);
