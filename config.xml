@@ -1,39 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.vanillaicecreamstudio.criticalroll" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>CriticalRoll</name>
-  <description>
-    A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D
+  <description>&#xD;
+    A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D&#xD;
   </description>
-  <author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">
-    Vanilla Icecream Studio
+  <author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">&#xD;
+    Vanilla Icecream Studio&#xD;
   </author>
-  <content src="index.html" />
-  <access origin="*" />
-  <preference name="webviewbounce" value="false" />
-  <preference name="UIWebViewBounce" value="false" />
-  <preference name="DisallowOverscroll" value="true" />
-  <preference name="BackupWebStorage" value="none" />
-  <preference name='windows-target-version' value='8.1' />
-  <preference name="windows-publisher-id" value="<PUBID>" />
-  <preference name="windows-publisher-display-name" value="<DISPLAYNAME>" />
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="windows-target-version" value="8.1"/>
+  <preference name="windows-publisher-id" value="&lt;PUBID>"/>
+  <preference name="windows-publisher-display-name" value="&lt;DISPLAYNAME>"/>
   <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true" />
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <platform name="android">
-    <icon src="resources/android/logo-rounded_36x36.png" density="ldpi" />
-    <icon src="resources/android/logo-rounded_48x48.png" density="mdpi" />
-    <icon src="resources/android/logo-rounded_72x72.png" density="hdpi" />
-    <icon src="resources/android/logo-rounded_96x96.png" density="xhdpi" />
-    <icon src="resources/android/logo-rounded_144x144.png" density="xxhdpi" />
-    <icon src="resources/android/logo-rounded_192x192.png" density="xxxhdpi" />
-
-    <splash src="resources/android/logo-splash_android_ldpi.png" density="port-ldpi" />
-    <splash src="resources/android/logo-splash_android_mdpi.png" density="port-mdpi" />
-    <splash src="resources/android/logo-splash_android_hdpi.png" density="port-hdpi" />
-    <splash src="resources/android/logo-splash_android_xhdpi.png" density="port-xhdpi" />
+    <icon src="resources/android/logo-rounded_36x36.png" density="ldpi"/>
+    <icon src="resources/android/logo-rounded_48x48.png" density="mdpi"/>
+    <icon src="resources/android/logo-rounded_72x72.png" density="hdpi"/>
+    <icon src="resources/android/logo-rounded_96x96.png" density="xhdpi"/>
+    <icon src="resources/android/logo-rounded_144x144.png" density="xxhdpi"/>
+    <icon src="resources/android/logo-rounded_192x192.png" density="xxxhdpi"/>
+    <splash src="resources/android/logo-splash_android_ldpi.png" density="port-ldpi"/>
+    <splash src="resources/android/logo-splash_android_mdpi.png" density="port-mdpi"/>
+    <splash src="resources/android/logo-splash_android_hdpi.png" density="port-hdpi"/>
+    <splash src="resources/android/logo-splash_android_xhdpi.png" density="port-xhdpi"/>
   </platform>
   <platform name="wp8">
-    <splash src="resources/wp8/logo-splash_768x1280.png" width="768" height="1280" />
+    <splash src="resources/wp8/logo-splash_768x1280.png" width="768" height="1280"/>
   </platform>
-  <icon src="resources/icon.png" />
+  <icon src="resources/icon.png"/>
 </widget>

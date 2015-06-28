@@ -1,4 +1,4 @@
-CriticalRoll.controller('MenuController', function ($scope, CardService, PopoverService) {
+CriticalRoll.controller('MenuController', function ($scope, CardService, PopoverService, $cordovaSocialSharing, $translate) {
 
 	$scope.openPopover = function ($event, templateName, text) {
 		PopoverService.openPopover($event, templateName, text, $scope);
@@ -12,4 +12,15 @@ CriticalRoll.controller('MenuController', function ($scope, CardService, Popover
 	};
 
 	$scope.removeAll = CardService.removeAll;
+
+	$scope.socialSharing = function () {
+
+		PopoverService.closePopover();
+		$cordovaSocialSharing.share(
+				$translate.instant('SOCIAL-SHARING-MESSAGE'),
+				$translate.instant('SOCIAL-SHARING-SUBJECT'),
+				null,
+				"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll");
+	}
+
 });
