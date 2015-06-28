@@ -18,7 +18,7 @@
 	"CARD-FUMBLE-NATURAL-9-TITLE": "Smash the Floor",
 	"CARD-FUMBLE-NATURAL-9-TEXT": "You kick up dust that blinds you for 1d4 rounds (%save-fumble=Fort negates%)",
 	"CARD-FUMBLE-NATURAL-10-TITLE": "He's Sharp",
-	"CARD-FUMBLE-NATURAL-10-TEXT": "You take 1d6 points of damage & your Str modifier",
+	"CARD-FUMBLE-NATURAL-10-TEXT": "You take 1d6 points of damage + your Str modifier",
 	"CARD-FUMBLE-NATURAL-11-TITLE": "Torn Muscle",
 	"CARD-FUMBLE-NATURAL-11-TEXT": "You take 1 point of %ability-str=Str% %ability-drain=drain% (%save-fumble=Fort negates%)",
 	"CARD-FUMBLE-NATURAL-12-TITLE": "Got Too Close",
