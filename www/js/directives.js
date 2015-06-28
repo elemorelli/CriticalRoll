@@ -47,10 +47,10 @@ CriticalRoll.directive('license', function () {
 	}
 });
 
-CriticalRoll.directive('opensource', function () {
+CriticalRoll.directive('contribute', function () {
 	return {
 		restrict: 'E',
-		templateUrl: 'templates/opensource.html'
+		templateUrl: 'templates/contribute.html'
 	}
 });
 
