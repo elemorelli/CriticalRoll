@@ -1,25 +1,14 @@
-CriticalRoll.controller('MenuController', function ($rootScope, $scope, $ionicPopover, CardService) {
+CriticalRoll.controller('MenuController', function ($scope, CardService, PopoverService) {
 
-	$rootScope.openPopover = function ($event, templateName, text) {
-
-		$scope.popoverText = text;
-		$ionicPopover.fromTemplateUrl('templates/popover-' + templateName + '.html', {
-			scope: $scope
-		}).then(function (popover) {
-			$scope.popover = popover;
-			$scope.popover.show($event);
-		});
-	};
-
-	$scope.closePopover = function () {
-		$scope.popover.hide();
+	$scope.openPopover = function ($event, templateName, text) {
+		PopoverService.openPopover($event, templateName, text, $scope);
 	};
 
 	$scope.showOption = function (option) {
 		var cardDrawn = {};
 		cardDrawn.primaryType = option;
 		CardService.placeCard(cardDrawn);
-		$scope.closePopover();
+		PopoverService.closePopover();
 	};
 
 	$scope.removeAll = CardService.removeAll;
