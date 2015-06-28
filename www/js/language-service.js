@@ -24,11 +24,6 @@ CriticalRoll.service('LanguageService', function ($translate) {
 
 CriticalRoll.config(['$translateProvider', function ($translateProvider) {
 
-
-	/*
-	 TODO: VER DE CAMBIAR EL STATIC FILES LAODER POR EL PARTIAL LOADER PARA LEVANTAR LOS DIFERNETES ARCHIVOS DE CARTAS
-	 TODO: bower remove loader?
-	 */
 	$translateProvider.useStaticFilesLoader(
 			{
 				files: [{

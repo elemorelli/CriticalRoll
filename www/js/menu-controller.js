@@ -1,27 +1,26 @@
-CriticalRoll.controller('MenuController', function($rootScope, $scope, $ionicPopover, LanguageService) {
+CriticalRoll.controller('MenuController', function ($rootScope, $scope, $ionicPopover, CardService) {
 
-  $rootScope.openPopover = function($event, templateName, text) {
+	$rootScope.openPopover = function ($event, templateName, text) {
 
-    $scope.popoverText = text;
-    $ionicPopover.fromTemplateUrl('templates/popover-' + templateName + '.html', {
-        scope: $scope
-      })
-      .then(function(popover) {
-        $scope.popover = popover;
-        $scope.popover.show($event);
-      });
-  };
+		$scope.popoverText = text;
+		$ionicPopover.fromTemplateUrl('templates/popover-' + templateName + '.html', {
+			scope: $scope
+		}).then(function (popover) {
+			$scope.popover = popover;
+			$scope.popover.show($event);
+		});
+	};
 
-  $scope.closePopover = function() {
-    $scope.popover.hide();
-  };
+	$scope.closePopover = function () {
+		$scope.popover.hide();
+	};
 
-  $scope.showOption = function(option) {
-    $rootScope.$emit('showOption', option);
-    $scope.popover.hide();
-  };
+	$scope.showOption = function (option) {
+		var cardDrawn = {};
+		cardDrawn.primaryType = option;
+		CardService.placeCard(cardDrawn);
+		$scope.closePopover();
+	};
 
-  $scope.removeAll = function() {
-    $rootScope.$emit('removeAll');
-  }
+	$scope.removeAll = CardService.removeAll;
 });

@@ -1,7 +1,5 @@
-CriticalRoll.controller('ButtonsController', function($rootScope, $scope) {
+CriticalRoll.controller('ButtonsController', function($scope, CardService) {
 
-  $scope.drawCard = function(primaryType, secondaryType) {
-    $rootScope.$emit('drawCard', primaryType, secondaryType);
-  };
+  $scope.drawCard = CardService.drawCard;
 
 });
