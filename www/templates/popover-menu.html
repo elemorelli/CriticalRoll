@@ -10,7 +10,7 @@
 			<ion-item ng-click="showOption('contribute')">
 				<span>{{'CONTRIBUTE' | translate}}</span>
 			</ion-item>
-			<ion-item ng-click="socialSharing()">
+			<ion-item ng-controller="ShareController" ng-click="share()">
 				<span>{{'SOCIAL-SHARING' | translate}}</span>
 			</ion-item>
 			<ion-item ng-click="showOption('license')">
