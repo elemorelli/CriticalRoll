@@ -58,6 +58,9 @@ CriticalRoll.config(['$translateProvider', function ($translateProvider) {
 				}, {
 					prefix: 'i18n/',
 					suffix: '/fumble-ranged.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/popover.json'
 				}]
 			}
 	);
