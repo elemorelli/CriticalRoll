@@ -24,10 +24,45 @@ CriticalRoll.service('LanguageService', function ($translate) {
 
 CriticalRoll.config(['$translateProvider', function ($translateProvider) {
 
-	$translateProvider.useStaticFilesLoader({
-		prefix: '/i18n/',
-		suffix: '/app.json'
-	});
+
+	/*
+	 TODO: VER DE CAMBIAR EL STATIC FILES LAODER POR EL PARTIAL LOADER PARA LEVANTAR LOS DIFERNETES ARCHIVOS DE CARTAS
+	 TODO: bower remove loader?
+	 */
+	$translateProvider.useStaticFilesLoader(
+			{
+				files: [{
+					prefix: 'i18n/',
+					suffix: '/app.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/critical-bludgeoning.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/critical-magic.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/critical-piercing.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/critical-slashing.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/fumble-magic.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/fumble-melee.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/fumble-natural.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/fumble-ranged.json'
+				}]
+			}
+	);
+
 	$translateProvider.preferredLanguage(window.localStorage['language'] || 'en');
 	$translateProvider.fallbackLanguage('en');
-}]);
+}])
+;

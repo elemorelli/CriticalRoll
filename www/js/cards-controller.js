@@ -1,46 +1,17 @@
 CriticalRoll.controller('CardsController', function ($rootScope, $scope, $http, $ionicScrollDelegate) {
 
-	$scope.fillCardData = function (primaryType, secondaryType) {
-		//console.log($rootScope.languageSelected.id);
-		var url = '/i18n/' + 'en' + '/data/' + primaryType + '-' + secondaryType + '.json';
-		$scope.cardsData[primaryType] = {};
-		$http.get(url)
-				.success(function (data) {
-					$scope.cardsData[primaryType][secondaryType] = data;
-				});
-	};
-
-	$scope.loadCardData = function () {
-		$scope.cardsData = {};
-		$scope.fillCardData('critical', 'slashing');
-		$scope.fillCardData('critical', 'piercing');
-		$scope.fillCardData('critical', 'bludgeoning');
-		$scope.fillCardData('critical', 'magic');
-		$scope.fillCardData('fumble', 'melee');
-		$scope.fillCardData('fumble', 'ranged');
-		$scope.fillCardData('fumble', 'natural');
-		$scope.fillCardData('fumble', 'magic');
-	};
-
-
 	$scope.drawCard = function (primaryType, secondaryType) {
-		var cardQuantity = $scope.cardsData[primaryType][secondaryType].length;
-		var randomIndex = Math.floor(Math.random() * cardQuantity);
+		var cardQuantity = 52;
+		var randomIndex = Math.floor(Math.random() * cardQuantity) + 1;
+		var cardNameTemplate = 'CARD-' + primaryType.toUpperCase() + '-' + secondaryType.toUpperCase() + '-' + randomIndex;
 
-		var cardDrawn = $scope.cardsData[primaryType][secondaryType][randomIndex];
-
-		if (!cardDrawn.primaryType) {
-			cardDrawn.primaryType = primaryType;
-			cardDrawn.secondaryType = secondaryType;
-			cardDrawn.text = cardDrawn.text.replace(/%([\w\s-]+)=([\w\s-]+)%/gi,
-					'<a class="popover-link" ng-click="openPopover($event, &apos;card-help&apos;, &apos;$1&apos;)">$2</a>');
-		}
-
+		var cardDrawn = {
+			primaryType: primaryType,
+			secondaryType: secondaryType,
+			title: cardNameTemplate + '-TITLE',
+			text: cardNameTemplate + '-TEXT'
+		};
 		$scope.placeCard(cardDrawn);
-	};
-
-	$scope.renderHtml = function (htmlCode) {
-		return $sce.trustAsHtml(htmlCode);
 	};
 
 	$scope.placeCard = function (cardDrawn) {
@@ -67,7 +38,6 @@ CriticalRoll.controller('CardsController', function ($rootScope, $scope, $http, 
 		$ionicScrollDelegate.scrollTop(true);
 	});
 
-	$scope.loadCardData();
 	$scope.drawnCards = [];
 
 });

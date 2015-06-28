@@ -1,19 +1,17 @@
 <ion-content class="has-subfooter has-header" has-bouncing="true" ng-controller="CardsController">
-  <ion-list can-swipe=true>
-    <ion-item ng-repeat="card in drawnCards track by $index">
+	<ion-list can-swipe=true>
+		<ion-item ng-repeat="card in drawnCards track by $index">
 
-      <critical ng-if="card.primaryType == 'critical'"></critical>
+			<card ng-if="card.primaryType == 'critical' || card.primaryType == 'fumble'"></card>
 
-      <fumble ng-if="card.primaryType == 'fumble'"></fumble>
+			<help ng-if="card.primaryType == 'help'"></help>
 
-      <help ng-if="card.primaryType == 'help'"></help>
+			<about ng-if="card.primaryType == 'about'"></about>
 
-      <about ng-if="card.primaryType == 'about'"></about>
+			<license ng-if="card.primaryType == 'license'"></license>
 
-      <license ng-if="card.primaryType == 'license'"></license>
+			<opensource ng-if="card.primaryType == 'opensource'"></opensource>
 
-      <opensource ng-if="card.primaryType == 'opensource'"></opensource>
-
-    </ion-item>
-  </ion-list>
+		</ion-item>
+	</ion-list>
 </ion-content>
