@@ -18,7 +18,7 @@
 	"CARD-FUMBLE-MAGIC-9-TITLE": "Why Me?",
 	"CARD-FUMBLE-MAGIC-9-TEXT": "You provoke an attack of opportunity from all threatening foes",
 	"CARD-FUMBLE-MAGIC-10-TITLE": "Left Reeling",
-	"CARD-FUMBLE-MAGIC-10-TEXT": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Fort negates%)]",
+	"CARD-FUMBLE-MAGIC-10-TEXT": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Fort negates%)",
 	"CARD-FUMBLE-MAGIC-11-TITLE": "Nothing to Fear",
 	"CARD-FUMBLE-MAGIC-11-TEXT": "You are %STATUS-SHAKEN=shaken% for 2d4 rounds",
 	"CARD-FUMBLE-MAGIC-12-TITLE": "Bleeding Eyes",

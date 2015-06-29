@@ -20,7 +20,7 @@
 	"CARD-FUMBLE-NATURAL-10-TITLE": "He's Sharp",
 	"CARD-FUMBLE-NATURAL-10-TEXT": "You take 1d6 points of damage + your Str modifier",
 	"CARD-FUMBLE-NATURAL-11-TITLE": "Torn Muscle",
-	"CARD-FUMBLE-NATURAL-11-TEXT": "You take 1 point of %ABILITY-STR=Str% %ability-drain=drain% (%SAVE-FUMBLE=Fort negates%)",
+	"CARD-FUMBLE-NATURAL-11-TEXT": "You take 1 point of %ABILITY-STR=Str% %ABILITY-DRAIN=drain% (%SAVE-FUMBLE=Fort negates%)",
 	"CARD-FUMBLE-NATURAL-12-TITLE": "Got Too Close",
 	"CARD-FUMBLE-NATURAL-12-TEXT": "Your attack hits the target but the target may start a grapple against you for free",
 	"CARD-FUMBLE-NATURAL-13-TITLE": "Off Balance",

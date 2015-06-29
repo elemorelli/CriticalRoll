@@ -50,7 +50,7 @@
 	"CARD-CRITICAL-BLUDGEONING-25-TITLE": "Flat Foot",
 	"CARD-CRITICAL-BLUDGEONING-25-TEXT": "Double damage and 1 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage% and target's speeds are reduced by 5 feet %UNTIL-HEALED=until healed%",
 	"CARD-CRITICAL-BLUDGEONING-26-TITLE": "Skull Crush",
-	"CARD-CRITICAL-BLUDGEONING-26-TEXT": "Double damage and 2d6 %ABILITY-INT=Int% %ability-drain=drain% (%SAVE-CRITICAL=Fort half%)",
+	"CARD-CRITICAL-BLUDGEONING-26-TEXT": "Double damage and 2d6 %ABILITY-INT=Int% %ABILITY-DRAIN=drain% (%SAVE-CRITICAL=Fort half%)",
 	"CARD-CRITICAL-BLUDGEONING-27-TITLE": "And Stay Down!",
 	"CARD-CRITICAL-BLUDGEONING-27-TEXT": "Normal damage and target is knocked %STATUS-PRONE=prone% and %STATUS-STUNNED=stunned% for 1 round (%SAVE-CRITICAL=Fort negates% stun)",
 	"CARD-CRITICAL-BLUDGEONING-28-TITLE": "Bone Masher",
