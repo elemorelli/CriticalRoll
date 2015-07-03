@@ -6,7 +6,7 @@
 	"CARD-CRITICAL-PIERCING-3-TITLE": "Knockback",
 	"CARD-CRITICAL-PIERCING-3-TEXT": "Double damage and target is pushed 1d6 squares directly away",
 	"CARD-CRITICAL-PIERCING-4-TITLE": "Vulnerable Spot",
-	"CARD-CRITICAL-PIERCING-4-TEXT": "Normal damage and target takes 1d4 ability damage of your choice",
+	"CARD-CRITICAL-PIERCING-4-TEXT": "Normal damage and target takes 1d4 %ABILITY-DAMAGE=ability damage% of your choice",
 	"CARD-CRITICAL-PIERCING-5-TITLE": "Bleeder",
 	"CARD-CRITICAL-PIERCING-5-TEXT": "Double damage and 1d6 %STATUS-BLEED=bleed%",
 	"CARD-CRITICAL-PIERCING-6-TITLE": "Heart Shot",

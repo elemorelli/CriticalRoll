@@ -56,7 +56,7 @@
 	"CARD-CRITICAL-MAGIC-28-TITLE": "Lingering Magic",
 	"CARD-CRITICAL-MAGIC-28-TEXT": "Normal damage this round and half damage each round for 1d4 rounds",
 	"CARD-CRITICAL-MAGIC-29-TITLE": "Allergic Reaction",
-	"CARD-CRITICAL-MAGIC-29-TEXT": "Double damage and 1d4 damage to a random ability score",
+	"CARD-CRITICAL-MAGIC-29-TEXT": "Double damage and 1d4 %ABILITY-DAMAGE=damage% to a random ability score",
 	"CARD-CRITICAL-MAGIC-30-TITLE": "Arcane Glow",
 	"CARD-CRITICAL-MAGIC-30-TEXT": "Double damage and target glows like faerie fire for 1d6 rounds",
 	"CARD-CRITICAL-MAGIC-31-TITLE": "Combustion",
