@@ -3,7 +3,10 @@
 	"private": "true",
 	"dependencies": {
 		"angular-sanitize": "~1.4.1",
-		"ionic": "~1.0.1"
+		"ionic": "~1.0.1",
+		"angular-translate": "~2.7.2",
+		"angular-translate-loader-static-files": "~2.7.2",
+		"ngCordova": "~0.1.17-alpha"
 	},
 	"resolutions": {
 		"angular-sanitize": "~1.4.1",

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <widget id="com.vanillaicecreamstudio.criticalroll" version="1.0.3" xmlns="http://www.w3.org/ns/widgets"
 				xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>CriticalRoll</name>
@@ -12,25 +12,25 @@
 	<preference name="DisallowOverscroll" value="true"/>
 	<preference name="BackupWebStorage" value="none"/>
 	<preference name="windows-target-version" value="8.1"/>
-	<preference name="windows-publisher-id" value="&lt;PUBID>"/>
-	<preference name="windows-publisher-display-name" value="&lt;DISPLAYNAME>"/>
+	<preference name="windows-publisher-id" value="&lt;PUBID&gt;"/>
+	<preference name="windows-publisher-display-name" value="&lt;DISPLAYNAME&gt;"/>
 	<feature name="StatusBar">
-		<param name="ios-package" value="CDVStatusBar" onload="true"/>
+		<param name="ios-package" onload="true" value="CDVStatusBar"/>
 	</feature>
 	<platform name="android">
-		<icon src="resources/android/logo-rounded_36x36.png" density="ldpi"/>
-		<icon src="resources/android/logo-rounded_48x48.png" density="mdpi"/>
-		<icon src="resources/android/logo-rounded_72x72.png" density="hdpi"/>
-		<icon src="resources/android/logo-rounded_96x96.png" density="xhdpi"/>
-		<icon src="resources/android/logo-rounded_144x144.png" density="xxhdpi"/>
-		<icon src="resources/android/logo-rounded_192x192.png" density="xxxhdpi"/>
-		<splash src="resources/android/logo-splash_android_ldpi.png" density="port-ldpi"/>
-		<splash src="resources/android/logo-splash_android_mdpi.png" density="port-mdpi"/>
-		<splash src="resources/android/logo-splash_android_hdpi.png" density="port-hdpi"/>
-		<splash src="resources/android/logo-splash_android_xhdpi.png" density="port-xhdpi"/>
+		<icon density="ldpi" src="resources/android/logo-rounded_36x36.png"/>
+		<icon density="mdpi" src="resources/android/logo-rounded_48x48.png"/>
+		<icon density="hdpi" src="resources/android/logo-rounded_72x72.png"/>
+		<icon density="xhdpi" src="resources/android/logo-rounded_96x96.png"/>
+		<icon density="xxhdpi" src="resources/android/logo-rounded_144x144.png"/>
+		<icon density="xxxhdpi" src="resources/android/logo-rounded_192x192.png"/>
+		<splash density="port-ldpi" src="resources/android/logo-splash_android_ldpi.png"/>
+		<splash density="port-mdpi" src="resources/android/logo-splash_android_mdpi.png"/>
+		<splash density="port-hdpi" src="resources/android/logo-splash_android_hdpi.png"/>
+		<splash density="port-xhdpi" src="resources/android/logo-splash_android_xhdpi.png"/>
 	</platform>
 	<platform name="wp8">
-		<splash src="resources/wp8/logo-splash_768x1280.png" width="768" height="1280"/>
+		<splash height="1280" src="resources/wp8/logo-splash_768x1280.png" width="768"/>
 	</platform>
 	<icon src="resources/icon.png"/>
 </widget>

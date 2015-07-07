@@ -9,6 +9,7 @@ An app that generates Critical and Fumble effects for tabletop RPGs
 5. npm update
 6. bower install
 7. ionic setup sass
+8. ionic state restore
 
 # Cordova plugins
 * org.apache.cordova.inappbrowser

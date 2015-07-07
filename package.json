@@ -14,7 +14,12 @@
 		"gulp-util": "^3.0.6",
 		"shelljs": "^0.5.1"
 	},
+	"platforms": [
+		"wp8",
+		"android"
+	],
 	"cordovaPlugins": [
-		"org.apache.cordova.inappbrowser"
+		"org.apache.cordova.inappbrowser",
+		"https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
 	]
 }
