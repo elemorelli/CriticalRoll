@@ -2,7 +2,10 @@ CriticalRoll.service('PopoverService', function ($ionicPopover) {
 
 	var self = this;
 
-	this.openPopover = function ($event, templateName, text, $scope) {
+	self.openPopover = function ($event, templateName, text, $scope) {
+
+		if (self.popover)
+			self.popover.remove();
 
 		$scope.popoverText = text;
 		$ionicPopover.fromTemplateUrl('templates/popover-' + templateName + '.html', {
@@ -12,8 +15,4 @@ CriticalRoll.service('PopoverService', function ($ionicPopover) {
 			self.popover.show($event);
 		});
 	};
-
-	this.closePopover = function () {
-		self.popover.hide();
-	}
 });

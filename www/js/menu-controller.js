@@ -8,7 +8,6 @@ CriticalRoll.controller('MenuController', function ($scope, CardService, Popover
 		var cardDrawn = {};
 		cardDrawn.primaryType = option;
 		CardService.placeCard(cardDrawn);
-		PopoverService.closePopover();
 	};
 
 	$scope.removeAll = CardService.removeAll;
