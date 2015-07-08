@@ -1,6 +1,7 @@
-CriticalRoll.controller('ShareController', function ($scope, $cordovaSocialSharing, $translate) {
+CriticalRoll.controller('ShareController', function ($scope, $cordovaSocialSharing, $translate, PopoverService) {
 
 	$scope.share = function () {
+		PopoverService.close();
 		$cordovaSocialSharing.share(
 				$translate.instant('SOCIAL-SHARING-MESSAGE'),
 				$translate.instant('SOCIAL-SHARING-SUBJECT'),
