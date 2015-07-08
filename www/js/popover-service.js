@@ -15,4 +15,10 @@ CriticalRoll.service('PopoverService', function ($ionicPopover) {
 			self.popover.show($event);
 		});
 	};
+
+	self.close = function () {
+		self.popover.hide();
+		self.popover.remove();
+	};
+
 });

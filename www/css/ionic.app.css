@@ -5538,31 +5538,31 @@ ion-tabs.tabs-color-active-dark .tab-item {
 .popover-arrow {
   display: none; }
 
-.platform-ios .popover, .platform-android .popover {
+.platform-ios .popover, .platform-androids .popover {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
   border-radius: 10px; }
 
-.platform-ios .popover .bar-header, .platform-android .popover .bar-header {
+.platform-ios .popover .bar-header, .platform-androids .popover .bar-header {
   -webkit-border-top-right-radius: 10px;
   border-top-right-radius: 10px;
   -webkit-border-top-left-radius: 10px;
   border-top-left-radius: 10px; }
 
-.platform-ios .popover .scroll-content, .platform-android .popover .scroll-content {
+.platform-ios .popover .scroll-content, .platform-androids .popover .scroll-content {
   margin: 8px 0;
   border-radius: 10px; }
 
-.platform-ios .popover .scroll-content.has-header, .platform-android .popover .scroll-content.has-header {
+.platform-ios .popover .scroll-content.has-header, .platform-androids .popover .scroll-content.has-header {
   margin-top: 0; }
 
-.platform-ios .popover-arrow, .platform-android .popover-arrow {
+.platform-ios .popover-arrow, .platform-androids .popover-arrow {
   position: absolute;
   display: block;
   top: -17px;
   width: 30px;
   height: 19px;
   overflow: hidden; }
-  .platform-ios .popover-arrow:after, .platform-android .popover-arrow:after {
+  .platform-ios .popover-arrow:after, .platform-androids .popover-arrow:after {
     position: absolute;
     top: 12px;
     left: 5px;
@@ -5574,10 +5574,10 @@ ion-tabs.tabs-color-active-dark .tab-item {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
 
-.platform-ios .popover-bottom .popover-arrow, .platform-android .popover-bottom .popover-arrow {
+.platform-ios .popover-bottom .popover-arrow, .platform-androids .popover-bottom .popover-arrow {
   top: auto;
   bottom: -10px; }
-  .platform-ios .popover-bottom .popover-arrow:after, .platform-android .popover-bottom .popover-arrow:after {
+  .platform-ios .popover-bottom .popover-arrow:after, .platform-androids .popover-bottom .popover-arrow:after {
     top: -6px; }
 
 .popover-open {
