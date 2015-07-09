@@ -12,11 +12,11 @@ angular
 			$stateProvider
 					.state('main', {
 						url: '/',
-						templateUrl: 'layout/main.html',
+						templateUrl: 'main/main.html',
 						controller: 'CardsController'
 					}).state('intro', {
 						url: '/intro',
-						templateUrl: 'layout/intro.html',
+						templateUrl: 'intro/intro.html',
 						controller: 'IntroController'
 					});
 		})

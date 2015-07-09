@@ -1,6 +1,6 @@
 angular
 		.module('CriticalRoll')
-		.controller('IntroController', function ($scope, $state, $ionicSlideBoxDelegate, $timeout) {
+		.controller('IntroController', function ($scope, $state, $ionicSlideBoxDelegate, $ionicHistory, $timeout) {
 
 			$scope.slideIndex = 0;
 
@@ -9,6 +9,7 @@ angular
 					$ionicSlideBoxDelegate.next();
 				} else {
 					window.localStorage['didTutorial'] = true;
+					$ionicHistory.clearHistory();
 					$state.go('main');
 					$timeout(function () {
 						$scope.slideIndex = 0;
