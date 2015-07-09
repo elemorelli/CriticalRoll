@@ -9,4 +9,6 @@ angular
 			$scope.openPopover = function ($event, templateName, text) {
 				PopoverService.openPopover($event, templateName, text, $scope);
 			};
+
+			$scope.removeAll = CardService.removeAll;
 		});

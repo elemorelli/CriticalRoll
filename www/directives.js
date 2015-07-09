@@ -1,23 +1,5 @@
 angular
 		.module('CriticalRoll')
-		.directive('header', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'layout/main/header.html'
-			}
-		})
-		.directive('content', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'layout/main/content.html'
-			}
-		})
-		.directive('footer', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'layout/main/footer.html'
-			}
-		})
 		.directive('card', function () {
 			return {
 				restrict: 'E',

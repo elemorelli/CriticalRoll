@@ -7,7 +7,7 @@ angular
 			$stateProvider
 					.state('main', {
 						url: '/',
-						templateUrl: 'layout/main/content.html'
-						//controller: 'MainCtrl'
+						templateUrl: 'layout/main.html',
+						controller: 'CardsController'
 					});
 		})
