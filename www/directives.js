@@ -3,19 +3,19 @@ angular
 		.directive('header', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'layout/main/main-header.html'
+				templateUrl: 'layout/main/header.html'
 			}
 		})
 		.directive('content', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'layout/main/main-content.html'
+				templateUrl: 'layout/main/content.html'
 			}
 		})
 		.directive('footer', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'layout/main/main-footer.html'
+				templateUrl: 'layout/main/footer.html'
 			}
 		})
 		.directive('card', function () {
