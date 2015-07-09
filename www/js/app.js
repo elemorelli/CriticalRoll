@@ -1,13 +1,14 @@
-var CriticalRoll = angular.module('CriticalRoll', ['ionic', 'ngCordova', 'pascalprecht.translate', 'ngSanitize']);
-
-CriticalRoll.run(function ($ionicPlatform) {
-	$ionicPlatform.ready(function () {
-
-		if (window.StatusBar) {
-			StatusBar.styleDefault();
-		}
-	});
-});
+angular
+		.module('CriticalRoll', ['ionic', 'ngCordova', 'pascalprecht.translate', 'ngSanitize'])
+		.run(function ($ionicPlatform) {
+			$ionicPlatform.ready(function () {
+				if (window.StatusBar) {
+					StatusBar.styleDefault();
+				}
+			});
+			$ionicPlatform.onHardwareBackButton(function () {
+			});
+		});
 
 var openLink = function (href) {
 	window.open(href, '_system');

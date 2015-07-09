@@ -1,5 +1,7 @@
-CriticalRoll.controller('ButtonsController', function($scope, CardService) {
+angular
+		.module('CriticalRoll')
+		.controller('ButtonsController', function ($scope, CardService) {
 
-  $scope.drawCard = CardService.drawCard;
+			$scope.drawCard = CardService.drawCard;
 
-});
+		});
