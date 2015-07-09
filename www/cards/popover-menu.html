@@ -1,4 +1,4 @@
-<ion-popover-view class="fit platform-ios">
+<ion-popover-view class="fit platform-ios" ng-controller="MenuController">
 	<ion-content scroll="false">
 		<ion-list>
 			<ion-item ng-click="showOption('help')">
@@ -10,7 +10,7 @@
 			<ion-item ng-click="showOption('contribute')">
 				<span>{{'CONTRIBUTE' | translate}}</span>
 			</ion-item>
-			<ion-item ng-controller="ShareController" ng-click="share()">
+			<ion-item ng-click="share()">
 				<span>{{'SOCIAL-SHARING' | translate}}</span>
 			</ion-item>
 			<ion-item ng-click="showOption('license')">
