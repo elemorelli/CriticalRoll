@@ -1,6 +1,6 @@
 angular
 		.module('CriticalRoll')
-		.controller('MenuController', function ($scope, $cordovaSocialSharing, CardService, PopoverService) {
+		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService) {
 
 			$scope.showOption = function (option) {
 				var cardDrawn = {};
@@ -17,6 +17,11 @@ angular
 						null,
 						"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll"
 				);
-			}
+			};
+
+			$scope.intro = function () {
+				PopoverService.close();
+				$state.go('intro');
+			};
 
 		});

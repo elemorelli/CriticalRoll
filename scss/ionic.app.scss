@@ -18,12 +18,13 @@ $balanced: #90c695 !default;
 $assertive: #e74c3c !default;
 $energized: #f9bf3b !default;
 $positive: #52b3d9 !default;
+$calm: #5c97bf !default;
 $royal: #be90d4 !default;
 $dark: #95a5a6 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
-$ionicons-font-path: "../lib/ionic/fonts" !default;
+$ionicons-font-path: "../lib/ionic/release/fonts" !default;
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss";
+@import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss", "intro.scss";
 
 .center {
 	text-align: center;
