@@ -3,48 +3,48 @@ angular
 		.directive('header', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'header.html'
+				templateUrl: 'layout/main/main-header.html'
 			}
 		})
 		.directive('content', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'content.html'
+				templateUrl: 'layout/main/main-content.html'
 			}
 		})
 		.directive('footer', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'footer.html'
+				templateUrl: 'layout/main/main-footer.html'
 			}
 		})
 		.directive('card', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'templates/card.html'
+				templateUrl: 'cards/card.html'
 			}
 		})
 		.directive('help', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'templates/help.html'
+				templateUrl: 'menu/help.html'
 			}
 		}).directive('about', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'templates/about.html'
+				templateUrl: 'menu/about.html'
 			}
 		})
 		.directive('license', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'templates/license.html'
+				templateUrl: 'menu/license.html'
 			}
 		})
 		.directive('contribute', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'templates/contribute.html'
+				templateUrl: 'menu/contribute.html'
 			}
 		})
 		.directive('cardTitle', function ($compile, $translate, $sce) {
