@@ -9,10 +9,10 @@ angular
 					$ionicSlideBoxDelegate.next();
 				} else {
 					window.localStorage['didTutorial'] = true;
-					$ionicHistory.clearHistory();
 					$state.go('main');
 					$timeout(function () {
 						$scope.slideIndex = 0;
+						$ionicHistory.clearHistory();
 					}, 1000);
 				}
 			};
