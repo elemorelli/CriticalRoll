@@ -1,6 +1,6 @@
 angular
 		.module('CriticalRoll')
-		.controller('ButtonsController', function ($scope, CardService) {
+		.controller('FooterController', function ($scope, CardService) {
 
 			$scope.drawCard = CardService.drawCard;
 
