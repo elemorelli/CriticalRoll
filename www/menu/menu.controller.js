@@ -1,6 +1,6 @@
 angular
 		.module('CriticalRoll')
-		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService) {
+		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService, $translate) {
 
 			$scope.showOption = function (option) {
 				var cardDrawn = {};

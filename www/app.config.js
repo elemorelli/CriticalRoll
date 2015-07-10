@@ -18,5 +18,9 @@ angular
 						url: '/intro',
 						templateUrl: 'intro/intro.html',
 						controller: 'IntroController'
+					}).state('license', {
+						url: '/license',
+						templateUrl: 'main/license.html',
+						controller: 'LicenseController'
 					});
 		})

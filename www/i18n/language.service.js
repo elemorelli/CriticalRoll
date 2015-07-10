@@ -57,6 +57,9 @@ angular
 						}, {
 							prefix: 'i18n/',
 							suffix: '/popover.json'
+						}, {
+							prefix: 'i18n/',
+							suffix: '/intro.json'
 						}]
 					}
 			);

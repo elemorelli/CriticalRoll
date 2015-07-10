@@ -9348,7 +9348,7 @@ ion-popover-view .small {
 .help:before {
   content: "\e600"; }
 
-.about:before {
+.dice:before {
   content: "\e612"; }
 
 .license:before {
@@ -9358,7 +9358,7 @@ ion-popover-view .small {
   content: "\e614"; }
 
 .mustache:before {
-  content: "\e624"; }
+  content: "\e613"; }
 
 .icon-share-ios:before {
   content: "\e607"; }
@@ -9378,12 +9378,38 @@ ion-popover-view .small {
 .slider {
   height: 100%; }
 
-.slider-slide {
-  padding-top: 80px;
-  text-align: center; }
+.slider-pager {
+  top: 0;
+  bottom: initial; }
 
-.slider-slide .card {
-  margin: 20px; }
+.slider-slide {
+  padding-top: 30px; }
+
+.slider-slide .row {
+  font-size: larger !important;
+  line-height: 200% !important;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.slider-slide p {
+  font-size: medium !important;
+  line-height: 150% !important;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.slider-slide#slide1 .row {
+  height: 33vh; }
+
+.slider-slide#slide2 .row {
+  height: 70vh;
+  text-align: center;
+  font-size: medium !important; }
+
+.slider-slide .row [class^="icon-"] {
+  font-size: 32px; }
+
+.slider-slide .row [class^="icon-"].big {
+  font-size: 64px; }
 
 .center {
   text-align: center; }

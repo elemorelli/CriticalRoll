@@ -6,23 +6,6 @@ angular
 				templateUrl: 'cards/card.html'
 			}
 		})
-		.directive('help', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'menu/help.html'
-			}
-		}).directive('about', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'menu/about.html'
-			}
-		})
-		.directive('license', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'menu/license.html'
-			}
-		})
 		.directive('contribute', function () {
 			return {
 				restrict: 'E',
