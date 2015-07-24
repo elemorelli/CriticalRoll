@@ -6,8 +6,8 @@ angular
 
 			$scope.drawCard = CardService.drawCard;
 
-			$scope.openPopover = function ($event, templateName, text) {
-				PopoverService.openPopover($event, templateName, text, $scope);
+			$scope.openPopover = function ($event, text) {
+				PopoverService.openPopover($event, text, $scope);
 			};
 
 			$scope.removeAll = CardService.removeAll;

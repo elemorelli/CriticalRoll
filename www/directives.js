@@ -32,7 +32,7 @@ angular
 					scope.$watch(attr.content, function (translateKey) {
 						$translate(translateKey).then(function (translatedText) {
 							var replacedText = translatedText.replace(/%([\w\s-]+)=([\w\s-]+)%/gi,
-									'<a class="popover-link" ng-click="openPopover($event, &apos;card-help&apos;, &apos;$1&apos;)">$2</a>');
+									'<a class="popover-link" ng-click="openPopover($event, &apos;$1&apos;)">$2</a>');
 							var parsedText = $sce.trustAsHtml(replacedText);
 							element.html(parsedText);
 							$compile(element.contents())(scope);
