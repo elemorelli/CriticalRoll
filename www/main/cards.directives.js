@@ -1,15 +1,8 @@
-angular
-		.module('CriticalRoll')
+angular.module('CriticalRoll')
 		.directive('card', function () {
 			return {
 				restrict: 'E',
 				templateUrl: 'main/card.html'
-			}
-		})
-		.directive('contribute', function () {
-			return {
-				restrict: 'E',
-				templateUrl: 'menu/contribute.html'
 			}
 		})
 		.directive('cardTitle', function ($compile, $translate, $sce) {

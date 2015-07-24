@@ -7,17 +7,7 @@
 	<ion-content class="has-subfooter has-header" has-bouncing="true">
 		<ion-list can-swipe=true>
 			<ion-item ng-repeat="card in drawnCards track by $index">
-
-				<card ng-if="card.primaryType == 'critical' || card.primaryType == 'fumble'"></card>
-
-				<help ng-if="card.primaryType == 'help'"></help>
-
-				<about ng-if="card.primaryType == 'about'"></about>
-
-				<license ng-if="card.primaryType == 'license'"></license>
-
-				<contribute ng-if="card.primaryType == 'contribute'"></contribute>
-
+				<card></card>
 			</ion-item>
 		</ion-list>
 	</ion-content>
