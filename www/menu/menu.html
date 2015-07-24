@@ -17,16 +17,16 @@
 		<ion-content>
 			<ul class="list">
 				<ion-item ng-click="showTutorial()" menu-close>
-					Help
+					{{'HELP' | translate}}
 				</ion-item>
 				<ion-item href="#/app/contribute" menu-close>
-					Contribute
+					{{'CONTRIBUTE' | translate}}
 				</ion-item>
 				<ion-item href="#/app/license" menu-close>
-					License
+					{{'LICENSE' | translate}}
 				</ion-item>
 				<ion-item class="item-button-right">
-					Share
+					{{'SHARE' | translate}}
 					<div class="buttons">
 						<button class="button button-stable" ng-click="shareAndroid()">
 							<i class="icon icon-char melee"></i>
@@ -36,14 +36,13 @@
 						</button>
 					</div>
 				</ion-item>
-				<ion-item class="item-button-right">
-					Language
-					<ion-radio ng-model="choice" ng-value="'EN'">English</ion-radio>
-					<ion-radio ng-model="choice" ng-value="'ES'">Spanish</ion-radio>
+				<ion-item class="item-button-right" ng-controller="LanguageController">
+					{{'LANGUAGE' | translate}}
+					<ion-radio ng-model="selected" ng-value="'EN'" ng-change="setLanguage('EN')">{{'ENGLISH' | translate}}
+					</ion-radio>
+					<ion-radio ng-model="selected" ng-value="'ES'" ng-change="setLanguage('ES')">{{'SPANISH' | translate}}
+					</ion-radio>
 				</ion-item>
-				<!--<select ng-controller="LanguageController" ng-model="selected"-->
-				<!--ng-options="language as language.label for language in languages"-->
-				<!--ng-change="changeLanguage()"></select>-->
 			</ul>
 		</ion-content>
 	</ion-side-menu>
