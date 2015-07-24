@@ -1,51 +1,65 @@
-<div class="card">
-	<div class="item item-divider item-dark opensource">
-		{{'CONTRIBUTE-TITLE' | translate}}
-	</div>
-	<div class="item item-text-wrap ">
-		<p>{{'CONTRIBUTE-1' | translate}}</p>
-		<br/>
+<ion-view view-title="Contribute">
 
-		<h3>{{'CONTRIBUTE-2' | translate}}</h3>
 
-		<p>{{'CONTRIBUTE-3' | translate}}</p>
-		<br/>
+	<ion-nav-buttons side="right">
+		<a href="#/app/home" class="button button-clear icon-checkmark"></a>
+	</ion-nav-buttons>
 
-		<h3>{{'CONTRIBUTE-4' | translate}}</h3>
+	<ion-content>
 
-		<p>{{'CONTRIBUTE-5' | translate}}</p>
 
-		<ul>
-			<li><b>{{'CONTRIBUTE-6' | translate}}</b>
-				<a class="link" onclick="openLink('https://github.com/gemorelli/CriticalRoll')">
-					{{'CONTRIBUTE-7' | translate}}
-				</a>
-				{{'CONTRIBUTE-8' | translate}}
-			</li>
-			<li><b>{{'CONTRIBUTE-9' | translate}}</b>
-				<a class="link" onclick="openLink('https://github.com/gemorelli/CriticalRoll/issues')">
-					{{'CONTRIBUTE-10' | translate}}
-				</a>
-				{{'CONTRIBUTE-11' | translate}}
-			</li>
-			<li><b>{{'CONTRIBUTE-12' | translate}}</b>
-				{{'CONTRIBUTE-13' | translate}}
-			</li>
-			<li><b>{{'CONTRIBUTE-14' | translate}}</b>
-				{{'CONTRIBUTE-15' | translate}}
-				<a class="link" ng-controller="ShareController" ng-click="share()">{{'CONTRIBUTE-16' | translate}}</a>
-				{{'CONTRIBUTE-17' | translate}}
-			</li>
-		</ul>
-		<br/>
+		<div class="card">
+			<div class="item item-divider item-dark opensource">
+				{{'CONTRIBUTE-TITLE' | translate}}
+			</div>
+			<div class="item item-text-wrap ">
+				<p>{{'CONTRIBUTE-1' | translate}}</p>
+				<br/>
 
-		<h3>{{'CONTRIBUTE-18' | translate}}</h3>
+				<h3>{{'CONTRIBUTE-2' | translate}}</h3>
 
-		<p>{{'CONTRIBUTE-19' | translate}}</p>
+				<p>{{'CONTRIBUTE-3' | translate}}</p>
+				<br/>
 
-		<p>{{'CONTRIBUTE-20' | translate}}</p>
-		<br/>
+				<h3>{{'CONTRIBUTE-4' | translate}}</h3>
 
-		<p class="center"><span class="icon-character mustache"></span></p>
-	</div>
-</div>
+				<p>{{'CONTRIBUTE-5' | translate}}</p>
+
+				<ul>
+					<li><b>{{'CONTRIBUTE-6' | translate}}</b>
+						<a class="link" onclick="openLink('https://github.com/gemorelli/CriticalRoll')">
+							{{'CONTRIBUTE-7' | translate}}
+						</a>
+						{{'CONTRIBUTE-8' | translate}}
+					</li>
+					<li><b>{{'CONTRIBUTE-9' | translate}}</b>
+						<a class="link" onclick="openLink('https://github.com/gemorelli/CriticalRoll/issues')">
+							{{'CONTRIBUTE-10' | translate}}
+						</a>
+						{{'CONTRIBUTE-11' | translate}}
+					</li>
+					<li><b>{{'CONTRIBUTE-12' | translate}}</b>
+						{{'CONTRIBUTE-13' | translate}}
+					</li>
+					<li><b>{{'CONTRIBUTE-14' | translate}}</b>
+						{{'CONTRIBUTE-15' | translate}}
+						<a class="link">{{'CONTRIBUTE-16' | translate}}</a>
+						{{'CONTRIBUTE-17' | translate}}
+					</li>
+				</ul>
+				<br/>
+
+				<h3>{{'CONTRIBUTE-18' | translate}}</h3>
+
+				<p>{{'CONTRIBUTE-19' | translate}}</p>
+
+				<p>{{'CONTRIBUTE-20' | translate}}</p>
+				<br/>
+
+				<p class="center"><span class="icon-character mustache"></span></p>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>
+

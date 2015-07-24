@@ -16,10 +16,31 @@
 	<ion-side-menu side="left">
 		<ion-content>
 			<ul class="list">
-				<a href="#/app/license" class="item" menu-close>License</a>
-				<a href="#/app/contribute" class="item" menu-close>Contribute</a>
-				<a href="#/app/share" class="item" menu-close>Share</a>
-				<a href="#/app/language" class="item" menu-close>Language</a>
+				<ion-item ng-click="showTutorial()" menu-close>
+					Help
+				</ion-item>
+				<ion-item href="#/app/contribute" menu-close>
+					Contribute
+				</ion-item>
+				<ion-item href="#/app/license" menu-close>
+					License
+				</ion-item>
+				<ion-item class="item-button-right">
+					Share
+					<div class="buttons">
+						<button class="button button-stable" ng-click="shareAndroid()">
+							<i class="icon icon-char melee"></i>
+						</button>
+						<button class="button button-stable" ng-click="shareWindowsPhone()">
+							<i class="icon icon-char ranged"></i>
+						</button>
+					</div>
+				</ion-item>
+				<ion-item class="item-button-right">
+					Language
+					<ion-radio ng-model="choice" ng-value="'EN'">English</ion-radio>
+					<ion-radio ng-model="choice" ng-value="'ES'">Spanish</ion-radio>
+				</ion-item>
 				<!--<select ng-controller="LanguageController" ng-model="selected"-->
 				<!--ng-options="language as language.label for language in languages"-->
 				<!--ng-change="changeLanguage()"></select>-->

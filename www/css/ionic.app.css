@@ -9380,3 +9380,6 @@ ion-popover-view .small {
 
 .link, .popover-link {
   border-bottom: 1px dotted; }
+
+.item-radio {
+  border: 0 !important; }

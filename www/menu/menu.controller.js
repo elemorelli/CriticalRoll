@@ -2,26 +2,26 @@ angular
 		.module('CriticalRoll')
 		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService, $translate, $ionicSideMenuDelegate) {
 
-			$scope.showOption = function (option) {
-				var cardDrawn = {};
-				cardDrawn.primaryType = option;
-				CardService.placeCard(cardDrawn);
-				PopoverService.close();
-			};
-
-			$scope.share = function () {
-				PopoverService.close();
+			$scope.shareAndroid = function () {
 				$cordovaSocialSharing.share(
-						$translate.instant('SOCIAL-SHARING-MESSAGE'),
-						$translate.instant('SOCIAL-SHARING-SUBJECT'),
+						$translate.instant('SHARE-MESSAGE'),
+						$translate.instant('SHARE-SUBJECT'),
 						null,
 						"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll"
 				);
 			};
 
-			$scope.closeMenu = function () {
-				$state.go('app.license');
-				$ionicSideMenuDelegate.toggleLeft(false);
+			$scope.shareWindowsPhone = function () {
+				$cordovaSocialSharing.share(
+						$translate.instant('SHARE-MESSAGE'),
+						$translate.instant('SHARE-SUBJECT'),
+						null,
+						"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll"
+				);
+			};
+
+			$scope.showTutorial = function () {
+				console.log("ShowTutorial");
 			};
 
 		});

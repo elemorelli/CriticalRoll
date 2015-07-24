@@ -26,7 +26,14 @@ angular.module('CriticalRoll')
 								templateUrl: 'main/license.html',
 							}
 						}
+					}).state('app.contribute', {
+						url: '/contribute',
+						views: {
+							'menuContent': {
+								templateUrl: 'menu/contribute.html',
+							}
+						}
 					});
 
 			$urlRouterProvider.otherwise('/app/home');
-		})
+		});
