@@ -50,6 +50,6 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 			}
 	);
 
-	$translateProvider.preferredLanguage(window.localStorage['language'] || 'EN');
-	$translateProvider.fallbackLanguage('EN');
+	$translateProvider.preferredLanguage(window.localStorage['language'] || 'en');
+	$translateProvider.fallbackLanguage('en');
 }]);
