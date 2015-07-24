@@ -3,7 +3,7 @@ angular
 		.directive('card', function () {
 			return {
 				restrict: 'E',
-				templateUrl: 'cards/card.html'
+				templateUrl: 'main/card.html'
 			}
 		})
 		.directive('contribute', function () {

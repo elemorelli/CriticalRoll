@@ -9,7 +9,7 @@ angular.module('CriticalRoll')
 					.state('app', {
 						url: '/app',
 						abstract: true,
-						templateUrl: 'main/menu.html',
+						templateUrl: 'menu/menu.html',
 						controller: 'MenuController'
 					}).state('app.home', {
 						url: '/home',
@@ -23,7 +23,7 @@ angular.module('CriticalRoll')
 						url: '/license',
 						views: {
 							'menuContent': {
-								templateUrl: 'main/license.html',
+								templateUrl: 'menu/license.html',
 							}
 						}
 					}).state('app.contribute', {

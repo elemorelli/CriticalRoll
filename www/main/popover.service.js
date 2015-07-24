@@ -10,7 +10,7 @@ angular
 					self.popover.remove();
 
 				$scope.popoverText = text;
-				$ionicPopover.fromTemplateUrl('cards/popover-' + templateName + '.html', {
+				$ionicPopover.fromTemplateUrl('main/popover-' + templateName + '.html', {
 					scope: $scope
 				}).then(function (popover) {
 					self.popover = popover;
