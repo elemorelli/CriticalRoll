@@ -2,9 +2,11 @@ angular.module('CriticalRoll').controller('CardsController', function ($scope, C
 
 	$scope.drawnCards = CardService.drawnCards;
 
+	$scope.drawCard = CardService.drawCard;
+
+	$scope.removeAll = CardService.removeAll;
+
 	$scope.openPopover = function ($event, text) {
 		PopoverService.openPopover($event, text, $scope);
 	};
-
-	$scope.removeAll = CardService.removeAll;
 });
