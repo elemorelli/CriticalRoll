@@ -1,26 +1,32 @@
-angular
-		.module('CriticalRoll')
+angular.module('CriticalRoll')
 		.config(function ($stateProvider, $urlRouterProvider) {
 
-
-			if (window.localStorage['didTutorial'] === "true") {
-				$urlRouterProvider.otherwise('/');
-			} else {
-				$urlRouterProvider.otherwise('/intro');
-			}
+			//if (window.localStorage['didTutorial'] === "true") {
+			// 	Run first time intro
+			//}
 
 			$stateProvider
-					.state('main', {
-						url: '/',
-						templateUrl: 'main/main.html',
-						controller: 'CardsController'
-					}).state('intro', {
-						url: '/intro',
-						templateUrl: 'intro/intro.html',
-						controller: 'IntroController'
-					}).state('license', {
+					.state('app', {
+						url: '/app',
+						abstract: true,
+						templateUrl: 'main/menu.html',
+						controller: 'MenuController'
+					}).state('app.home', {
+						url: '/home',
+						views: {
+							'menuContent': {
+								templateUrl: 'main/main.html',
+								controller: 'CardsController'
+							}
+						}
+					}).state('app.license', {
 						url: '/license',
-						templateUrl: 'main/license.html',
-						controller: 'LicenseController'
+						views: {
+							'menuContent': {
+								templateUrl: 'main/license.html',
+							}
+						}
 					});
+
+			$urlRouterProvider.otherwise('/app/home');
 		})

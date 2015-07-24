@@ -1,6 +1,6 @@
 angular
 		.module('CriticalRoll')
-		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService, $translate) {
+		.controller('MenuController', function ($scope, $state, $cordovaSocialSharing, CardService, PopoverService, $translate, $ionicSideMenuDelegate) {
 
 			$scope.showOption = function (option) {
 				var cardDrawn = {};
@@ -19,9 +19,9 @@ angular
 				);
 			};
 
-			$scope.intro = function () {
-				PopoverService.close();
-				$state.go('intro');
+			$scope.closeMenu = function () {
+				$state.go('app.license');
+				$ionicSideMenuDelegate.toggleLeft(false);
 			};
 
 		});

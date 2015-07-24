@@ -1,0 +1,30 @@
+<ion-side-menus enable-menu-with-back-views="true">
+
+	<ion-side-menu-content>
+		<ion-nav-bar class="bar-stable">
+
+			<ion-nav-buttons side="left">
+				<button class="button button-icon button-clear logo" menu-toggle="left">
+				</button>
+			</ion-nav-buttons>
+
+		</ion-nav-bar>
+
+		<ion-nav-view name="menuContent"></ion-nav-view>
+	</ion-side-menu-content>
+
+	<ion-side-menu side="left">
+		<ion-content>
+			<ul class="list">
+				<a href="#/app/license" class="item" menu-close>License</a>
+				<a href="#/app/contribute" class="item" menu-close>Contribute</a>
+				<a href="#/app/share" class="item" menu-close>Share</a>
+				<a href="#/app/language" class="item" menu-close>Language</a>
+				<!--<select ng-controller="LanguageController" ng-model="selected"-->
+				<!--ng-options="language as language.label for language in languages"-->
+				<!--ng-change="changeLanguage()"></select>-->
+			</ul>
+		</ion-content>
+	</ion-side-menu>
+
+</ion-side-menus>
