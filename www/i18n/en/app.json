@@ -19,9 +19,9 @@
 	"ABOUT-7": "This was made as an open alternative just to have room to make some custom improvements. It's not endorsed by  Paizo Publishing, LLC or Wizards of the Coast, Inc. Please, refer to the \"License\" option on the menu for more information.",
 	"ABOUT-8": "Do you wish to contribute to this project? Awesome! Just check the \"How to contribute\" option.",
 	"LICENSE": "License",
-	"LICENSE-TITLE": "License: Boring legal stuff",
+	"LICENSE-TITLE": "License: Legal chatter",
 	"CONTRIBUTE": "How to contribute",
-	"CONTRIBUTE-TITLE": "How to contribute to this awesome project",
+	"CONTRIBUTE-TITLE": "How can I help?",
 	"CONTRIBUTE-1": "This an open source App",
 	"CONTRIBUTE-2": "And what does it mean?",
 	"CONTRIBUTE-3": "It means that anybody can download, use, modify or redistribute the source code of this app in order to improve it or do a derivate work. The only concern is that the content data is protected under the Open Game License and if you want to include it, you should check the License option for more details.",
@@ -48,11 +48,7 @@
 	"LANGUAGE": "Language",
 	"ENGLISH": "English",
 	"SPANISH": "Spanish",
-	"SLASHING-WEAPON": "Slashing weapon",
-	"PIERCING-WEAPON": "Piercing weapon",
-	"BLUDGEONING-WEAPON": "Bludgeoning weapon",
-	"MAGIC-ATTACK": "Magic attack",
-	"MELEE-ATTACK": "Melee attack",
-	"RANGED-ATTACK": "Ranged attack",
-	"NATURAL-ATTACK": "Natural attack"
+	"SYSTEM": "System",
+	"SYSTEM-PFRPG": "Pathfinder RPG",
+	"SYSTEM-DnD35": "D&D 3.5"
 }

@@ -1,5 +1,14 @@
 angular.module('CriticalRoll').controller('MenuController', function ($scope, $cordovaSocialSharing, $translate) {
 
+	//$scope.shareIOS = function () {
+	//	$cordovaSocialSharing.share(
+	//			$translate.instant('SHARE-MESSAGE'),
+	//			$translate.instant('SHARE-SUBJECT'),
+	//			null,
+	//			"URL"
+	//	);
+	//};
+
 	$scope.shareAndroid = function () {
 		$cordovaSocialSharing.share(
 				$translate.instant('SHARE-MESSAGE'),

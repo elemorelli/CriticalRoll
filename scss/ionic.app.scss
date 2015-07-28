@@ -23,8 +23,12 @@ $royal: #be90d4 !default;
 $dark: #95a5a6 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/release/fonts" !default;
+
+// Footer size
+$bar-height: 52px;
+
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss";
+@import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss", "menu.scss";
 
 .center {
 	text-align: center;
@@ -32,8 +36,4 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 
 .link, .popover-link {
 	border-bottom: 1px dotted;
-}
-
-.item-radio {
-	border: 0 !important;
 }

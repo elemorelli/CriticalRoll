@@ -4,7 +4,7 @@
 		<ion-nav-bar class="bar-stable">
 
 			<ion-nav-buttons side="left">
-				<button class="button button-icon button-clear logo" menu-toggle="left">
+				<button class="button button-icon button-clear options" menu-toggle="left">
 				</button>
 			</ion-nav-buttons>
 
@@ -13,9 +13,12 @@
 		<ion-nav-view name="menuContent"></ion-nav-view>
 	</ion-side-menu-content>
 
-	<ion-side-menu side="left">
+	<ion-side-menu width="210" side="left">
 		<ion-content>
 			<ul class="list">
+				<ion-item class="center main-logo" href="#/app/main" menu-close>
+					<i class="icon icon-dice"></i>
+				</ion-item>
 				<ion-item ng-click="showTutorial()" menu-close>
 					{{'HELP' | translate}}
 				</ion-item>
@@ -25,24 +28,32 @@
 				<ion-item href="#/app/license" menu-close>
 					{{'LICENSE' | translate}}
 				</ion-item>
-				<ion-item class="item-button-right">
+				<ion-item class="item-icon-right">
 					{{'SHARE' | translate}}
-					<div class="buttons">
-						<button class="button button-stable" ng-click="shareAndroid()">
-							<i class="icon icon-char melee"></i>
-						</button>
-						<button class="button button-stable" ng-click="shareWindowsPhone()">
-							<i class="icon icon-char ranged"></i>
-						</button>
+					<div class="icon">
+						<!--<i class="icon-share-ios" ng-click="shareIOS()"></i>-->
+						<i class="icon-share-android" ng-click="shareAndroid()"></i>
+						<i class="icon-share-windows" ng-click="shareWindowsPhone()"></i>
 					</div>
 				</ion-item>
-				<ion-item class="item-button-right" ng-controller="LanguageController">
+				<ion-item ng-controller="LanguageController">
 					{{'LANGUAGE' | translate}}
-					<ion-radio ng-model="selected" ng-value="'EN'" ng-change="setLanguage('en')">{{'ENGLISH' | translate}}
+					<ion-radio ng-model="languageSelected" ng-value="'en'" ng-change="setLanguage('en')">{{'ENGLISH' |
+						translate}}
 					</ion-radio>
-					<ion-radio ng-model="selected" ng-value="'ES'" ng-change="setLanguage('es')">{{'SPANISH' | translate}}
+					<ion-radio ng-model="languageSelected" ng-value="'es'" ng-change="setLanguage('es')">{{'SPANISH' |
+						translate}}
 					</ion-radio>
 				</ion-item>
+				<!--<ion-item ng-controller="SystemController">-->
+				<!--{{'SYSTEM' | translate}}-->
+				<!--<ion-radio ng-model="system-selected" ng-value="'PFRPG'" ng-change="setSystem('PFRPG')">{{'SYSTEM-PFRPG' |-->
+				<!--translate}}-->
+				<!--</ion-radio>-->
+				<!--<ion-radio ng-model="system-selected" ng-value="'DnD35'" ng-change="setSystem('DnD35')">{{'SYSTEM-DnD35' |-->
+				<!--translate}}-->
+				<!--</ion-radio>-->
+				<!--</ion-item>-->
 			</ul>
 		</ion-content>
 	</ion-side-menu>
