@@ -18,6 +18,12 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 					suffix: '/app.json'
 				}, {
 					prefix: 'i18n/',
+					suffix: '/contribute.json'
+				}, {
+					prefix: 'i18n/',
+					suffix: '/popover.json'
+				}, {
+					prefix: 'i18n/',
 					suffix: '/critical-bludgeoning.json'
 				}, {
 					prefix: 'i18n/',
@@ -40,12 +46,6 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 				}, {
 					prefix: 'i18n/',
 					suffix: '/fumble-ranged.json'
-				}, {
-					prefix: 'i18n/',
-					suffix: '/popover.json'
-				}, {
-					prefix: 'i18n/',
-					suffix: '/intro.json'
 				}]
 			}
 	);
