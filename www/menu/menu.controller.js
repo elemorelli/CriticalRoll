@@ -1,34 +1,29 @@
 angular.module('CriticalRoll').controller('MenuController', function ($scope, $cordovaSocialSharing, $translate) {
 
-	//$scope.shareIOS = function () {
-	//	$cordovaSocialSharing.share(
-	//			$translate.instant('SHARE-MESSAGE'),
-	//			$translate.instant('SHARE-SUBJECT'),
-	//			null,
-	//			"URL"
-	//	);
-	//};
+			$scope.share = function () {
+				var linkURL = "https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll";
+				if (ionic.Platform.isWindowsPhone()) {
+					linkURL = "WP URL";
+				} //else if (ionic.Platform.isIOS()) {
+				// var url = "IOS URL";
+				//}
 
-	$scope.shareAndroid = function () {
-		$cordovaSocialSharing.share(
-				$translate.instant('SHARE-MESSAGE'),
-				$translate.instant('SHARE-SUBJECT'),
-				null,
-				"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll"
-		);
-	};
+				$cordovaSocialSharing.share(
+						$translate.instant('SHARE-MESSAGE'),
+						$translate.instant('SHARE-SUBJECT'),
+						null,
+						linkURL
+				);
+			};
 
-	$scope.shareWindowsPhone = function () {
-		$cordovaSocialSharing.share(
-				$translate.instant('SHARE-MESSAGE'),
-				$translate.instant('SHARE-SUBJECT'),
-				null,
-				"https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll"
-		);
-	};
+			$scope.isMobile = function () {
+				return ionic.Platform.isAndroid() || ionic.Platform.isIOS() || ionic.Platform.isWindowsPhone();
+			};
 
-	$scope.showTutorial = function () {
-		console.log("ShowTutorial");
-	};
+			$scope.showTutorial = function () {
+				console.log("ShowTutorial");
+			};
 
-});
+		}
+)
+;

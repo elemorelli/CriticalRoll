@@ -4,7 +4,7 @@
 		<ion-nav-bar class="bar-stable">
 
 			<ion-nav-buttons side="left">
-				<button class="button button-icon button-clear options" menu-toggle="left">
+				<button class="button button-icon button-clear icon-options" menu-toggle="left">
 				</button>
 			</ion-nav-buttons>
 
@@ -28,13 +28,8 @@
 				<ion-item href="#/app/license" menu-close>
 					{{'LICENSE' | translate}}
 				</ion-item>
-				<ion-item class="item-icon-right">
+				<ion-item class="item-icon-right" ng-show="isMobile()" ng-click="share()">
 					{{'SHARE' | translate}}
-					<div class="icon">
-						<!--<i class="icon-share-ios" ng-click="shareIOS()"></i>-->
-						<i class="icon-share-android" ng-click="shareAndroid()"></i>
-						<i class="icon-share-windows" ng-click="shareWindowsPhone()"></i>
-					</div>
 				</ion-item>
 				<ion-item ng-controller="LanguageController">
 					{{'LANGUAGE' | translate}}
