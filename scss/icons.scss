@@ -61,33 +61,28 @@
 	content: "\e609";
 }
 
-.mustache:before {
+.icon-mustache:before {
 	content: "\e60a";
 }
 
-.opensource:before {
+.icon-opensource:before {
 	content: "\e60b";
 }
 
-.trash:before {
+.icon-trash:before {
 	content: "\e60c";
 }
 
-.options:before {
+.icon-options:before {
 	content: "\e60d";
 }
 
-.help:before {
+.icon-help:before {
 	content: "\e60r";
 }
 
-.license:before {
+.icon-license:before {
 	content: "\e60f";
-}
-
-[class^="icon-share-"] {
-	padding: 0 5px;
-	font-size: x-large;
 }
 
 .icon-share-android:before {
@@ -117,4 +112,24 @@
 
 .icon-arrow-left:before {
 	content: "\e617";
+}
+
+.icon-github:before {
+	content: "\e618";
+}
+
+.icon-lab:before {
+	content: "\e619";
+}
+
+.icon-bug:before {
+	content: "\e61a";
+}
+
+.icon-bubbles:before {
+	content: "\e61b";
+}
+
+.icon-heart:before {
+	content: "\e61c";
 }
