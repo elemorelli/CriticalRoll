@@ -2,14 +2,12 @@
 An app that generates Critical and Fumble effects for tabletop RPGs
 
 # Setup
-1. Install node.js
-2. Install Python 2.7+ (For Sass)
-3. npm install -g cordova ionic
-4. npm install -g gulp sass
-5. npm update
-6. bower install
-7. ionic setup sass
-8. ionic state restore
+1. Install node.js 0.12
+2. npm install -g cordova ionic gulp
+3. npm install
+5. bower install
+5. ionic setup sass
+6. ionic state restore
 
 # Cordova plugins
 * org.apache.cordova.inappbrowser
