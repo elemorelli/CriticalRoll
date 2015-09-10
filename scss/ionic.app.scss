@@ -21,19 +21,52 @@ $positive: #52b3d9 !default;
 $calm: #5c97bf !default;
 $royal: #be90d4 !default;
 $dark: #95a5a6 !default;
+
+$RobotoDraftFontPath: "../lib/robotodraft/fonts";
+$RobotoDraftFontName: "RobotoDraft";
+$RobotoDraftFontVersion: "1.0.0";
+
+@import "www/lib/robotodraft/sass/robotodraft.scss";
+
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 
 // Footer size
-$bar-height: 52px;
+//$bar-height: 52px;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss", "menu.scss";
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .link, .popover-link {
-	border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
+}
+
+.bar .button-bar .button {
+  height: inherit !important;
+  max-width: inherit !important;
+  min-height: 44px !important;
+}
+
+.bar .button-bar .button:before{
+// TODO: Centrar verticalmente
+}
+
+.item-avatar {
+  min-height: inherit !important;
+}
+
+.list:last-child.card {
+  margin-bottom: inherit !important;
+}
+
+i.button-fab {
+  min-height: 44px !important;
+  min-height: 44px !important;
+  min-width: 44px !important;
+  min-width: 44px !important;
+  top: 6px !important;
 }

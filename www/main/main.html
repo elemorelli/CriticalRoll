@@ -1,7 +1,7 @@
 <ion-view view-title="CriticalRoll">
 
 	<ion-nav-buttons side="right">
-		<button class="button button-clear trash" ng-click="removeAll()"></button>
+		<button class="button button-fab icon button-calm icon-trash" ng-click="removeAll()"></button>
 	</ion-nav-buttons>
 
 	<ion-content class="has-subfooter has-header" has-bouncing="true">
@@ -12,23 +12,23 @@
 		</ion-list>
 	</ion-content>
 
-	<ion-footer-bar class="bar-subfooter bar-balanced">
+	<div class="bar bar-subfooter bar-balanced">
 		<div class="button-bar critical">
-			<a class="button button-clear slashing" ng-click="drawCard('critical','slashing')"></a>
-			<a class="button button-clear piercing" ng-click="drawCard('critical','piercing')"></a>
-			<a class="button button-clear bludgeoning" ng-click="drawCard('critical','bludgeoning')"></a>
-			<a class="button button-clear magic" ng-click="drawCard('critical','magic')"></a>
+			<a class="button button-raised ink-dark slashing" ng-click="drawCard('critical','slashing')"></a>
+			<a class="button button-raised ink-dark piercing" ng-click="drawCard('critical','piercing')"></a>
+			<a class="button button-raised ink-dark bludgeoning" ng-click="drawCard('critical','bludgeoning')"></a>
+			<a class="button button-raised ink-dark magic" ng-click="drawCard('critical','magic')"></a>
 		</div>
-	</ion-footer-bar>
+	</div>
 
-	<ion-footer-bar class="bar-assertive">
+	<div class="bar bar-footer bar-assertive">
 		<div class="button-bar fumble">
-			<a class="button button-clear melee" ng-click="drawCard('fumble','melee')"></a>
-			<a class="button button-clear ranged" ng-click="drawCard('fumble','ranged')"></a>
-			<a class="button button-clear natural" ng-click="drawCard('fumble','natural')"></a>
-			<a class="button button-clear magic" ng-click="drawCard('fumble','magic')"></a>
+			<a class="button button-raised ink-dark melee" ng-click="drawCard('fumble','melee')"></a>
+			<a class="button button-raised ink-dark ranged" ng-click="drawCard('fumble','ranged')"></a>
+			<a class="button button-raised ink-dark natural" ng-click="drawCard('fumble','natural')"></a>
+			<a class="button button-raised ink-dark magic" ng-click="drawCard('fumble','magic')"></a>
 		</div>
-	</ion-footer-bar>
+	</div>
 
 
 </ion-view>

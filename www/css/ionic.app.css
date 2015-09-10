@@ -15,6 +15,94 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+/* BEGIN Thin */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Thin/RobotoDraft-Thin.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Thin/RobotoDraft-Thin.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Thin/RobotoDraft-Thin.ttf?v=1.0.0") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+/* END Thin */
+/* BEGIN Light */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Light/RobotoDraft-Light.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Light/RobotoDraft-Light.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Light/RobotoDraft-Light.ttf?v=1.0.0") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+/* END Light */
+/* BEGIN Regular */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Regular/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* END Regular */
+/* BEGIN Italic */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Italic/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+/* END Italic */
+/* BEGIN Medium */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Medium/RobotoDraft-Medium.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Medium/RobotoDraft-Medium.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Medium/RobotoDraft-Medium.ttf?v=1.0.0") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+/* END Medium */
+/* BEGIN Bold */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+/* END Bold */
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+/* END Bold Italic */
+/* BEGIN Black */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../lib/robotodraft/fonts/Black/RobotoDraft-Black.woff2?v=1.0.0") format("woff2"), url("../lib/robotodraft/fonts/Black/RobotoDraft-Black.woff?v=1.0.0") format("woff"), url("../lib/robotodraft/fonts/Black/RobotoDraft-Black.ttf?v=1.0.0") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+/* END Black */
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -3490,25 +3578,25 @@ ion-infinite-scroll {
 
 /* If you change these, change platform.scss as well */
 .has-header {
-  top: 52px; }
+  top: 44px; }
 
 .no-header {
   top: 0; }
 
 .has-subheader {
-  top: 104px; }
+  top: 88px; }
 
 .has-tabs-top {
-  top: 101px; }
+  top: 93px; }
 
 .has-header.has-subheader.has-tabs-top {
-  top: 153px; }
+  top: 137px; }
 
 .has-footer {
-  bottom: 52px; }
+  bottom: 44px; }
 
 .has-subfooter {
-  bottom: 104px; }
+  bottom: 88px; }
 
 .has-tabs,
 .bar-footer.has-tabs {
@@ -3519,7 +3607,7 @@ ion-infinite-scroll {
     height: auto; }
 
 .has-footer.has-tabs {
-  bottom: 101px; }
+  bottom: 93px; }
 
 .pane {
   -webkit-transform: translate3d(0, 0, 0);
@@ -3862,7 +3950,7 @@ a.subdued {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 52px;
+  height: 44px;
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
@@ -3983,13 +4071,13 @@ a.subdued {
     overflow: hidden;
     margin: 0 10px;
     min-width: 30px;
-    height: 51px;
+    height: 43px;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 17px;
     font-weight: 500;
-    line-height: 52px; }
+    line-height: 44px; }
     .bar .title.title-left {
       text-align: left; }
     .bar .title.title-right {
@@ -4079,7 +4167,7 @@ a.subdued {
 
 .platform-android .bar .title {
   font-size: 19px;
-  line-height: 52px; }
+  line-height: 44px; }
 
 .bar-light .button {
   border-color: #ddd;
@@ -4296,7 +4384,7 @@ a.subdued {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 52px; }
+  height: 44px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -4304,14 +4392,14 @@ a.subdued {
   padding: 0; }
 
 .bar-subheader {
-  top: 52px;
+  top: 44px;
   display: block;
-  height: 52px; }
+  height: 44px; }
 
 .bar-subfooter {
-  bottom: 52px;
+  bottom: 44px;
   display: block;
-  height: 52px; }
+  height: 44px; }
 
 .nav-bar-block {
   position: absolute;
@@ -5192,7 +5280,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
 /* If you change this, change platform.scss as well */
 .tabs-top > .tabs,
 .tabs.tabs-top {
-  top: 52px;
+  top: 44px;
   padding-top: 0;
   background-position: bottom;
   border-top-width: 0;
@@ -5458,21 +5546,21 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .modal.ng-leave-active {
     bottom: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) {
-    height: 52px; }
+    height: 44px; }
     .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) > * {
       margin-top: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .tabs-top > .tabs,
   .platform-ios.platform-cordova .modal-wrapper .modal .tabs.tabs-top {
-    top: 52px; }
+    top: 44px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header,
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-subheader {
-    top: 52px; }
+    top: 44px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-subheader {
-    top: 104px; }
+    top: 88px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header.has-tabs-top {
-    top: 101px; }
+    top: 93px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header.has-subheader.has-tabs-top {
-    top: 153px; }
+    top: 137px; }
   .modal-backdrop-bg {
     -webkit-transition: opacity 300ms ease-in-out;
     transition: opacity 300ms ease-in-out;
@@ -9070,7 +9158,7 @@ a.button {
  * Platform specific tweaks
  */
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
-  height: 72px; }
+  height: 64px; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
     margin-top: 19px !important; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
@@ -9078,23 +9166,23 @@ a.button {
 
 .platform-ios.platform-cordova:not(.fullscreen) .tabs-top > .tabs,
 .platform-ios.platform-cordova:not(.fullscreen) .tabs.tabs-top {
-  top: 72px; }
+  top: 64px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header,
 .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
-  top: 72px; }
+  top: 64px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-subheader {
-  top: 124px; }
+  top: 108px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header.has-tabs-top {
-  top: 121px; }
+  top: 113px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header.has-subheader.has-tabs-top {
-  top: 173px; }
+  top: 157px; }
 
 .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader) {
-  height: 52px; }
+  height: 44px; }
   .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
     margin-top: -1px; }
   .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader) > * {
@@ -9102,10 +9190,10 @@ a.button {
 
 .platform-ios.platform-cordova .popover .has-header,
 .platform-ios.platform-cordova .popover .bar-subheader {
-  top: 52px; }
+  top: 44px; }
 
 .platform-ios.platform-cordova .popover .has-subheader {
-  top: 104px; }
+  top: 88px; }
 
 .platform-ios.platform-cordova.status-bar-hide {
   margin-bottom: 20px; }
@@ -9293,7 +9381,7 @@ a.button {
 .card .item:before,
 .button:before {
   font-family: 'criticalroll';
-  font-size: xx-large;
+  font-size: x-large;
   line-height: inherit !important; }
 
 .card .item {
@@ -9442,3 +9530,21 @@ ion-popover-view .small {
 
 .link, .popover-link {
   border-bottom: 1px dotted; }
+
+.bar .button-bar .button {
+  height: inherit !important;
+  max-width: inherit !important;
+  min-height: 44px !important; }
+
+.item-avatar {
+  min-height: inherit !important; }
+
+.list:last-child.card {
+  margin-bottom: inherit !important; }
+
+i.button-fab {
+  min-height: 44px !important;
+  min-height: 44px !important;
+  min-width: 44px !important;
+  min-width: 44px !important;
+  top: 6px !important; }

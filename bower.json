@@ -1,17 +1,19 @@
 {
-  "name": "CriticalRoll",
-  "private": "true",
-  "dependencies": {
-    "angular-sanitize": "~1.4.1",
-    "ionic": "~1.1.0",
-    "angular-translate": "~2.7.2",
-    "angular-translate-loader-static-files": "~2.7.2",
-    "ngCordova": "~0.1.17-alpha"
-  },
-  "resolutions": {
-    "angular-sanitize": "~1.4.1",
-    "angular": ">= 1.2.23",
-    "ionic": "~1.1.0",
-    "angular-animate": "1.4.3"
-  }
+	"name": "CriticalRoll",
+	"private": "true",
+	"dependencies": {
+		"angular-sanitize": "~1.4.1",
+		"ionic": "~1.1.0",
+		"angular-translate": "~2.7.2",
+		"angular-translate-loader-static-files": "~2.7.2",
+		"ngCordova": "~0.1.17-alpha",
+		"ionic-material":"~0.4.2",
+		"robotodraft":"~1.1.0"
+	},
+	"resolutions": {
+		"angular-sanitize": "~1.4.1",
+		"angular": ">= 1.2.23",
+		"ionic": "~1.1.0",
+		"angular-animate": "1.4.3"
+	}
 }
