@@ -1,20 +1,24 @@
 
 .main-logo {
-	height: 96px;
-	font-size: 64px;
-	vertical-align: text-top;
+  height: 96px;
+  font-size: 64px;
+  vertical-align: text-top;
+}
+
+.icon-options {
+  min-height: 52px !important;
 }
 
 .item-radio {
-	border: 0 !important;
+  border: 0 !important;
 }
 
 .item-radio div {
-	padding-top: 7px !important;
-	padding-bottom: 7px !important;
-	padding-right: 40px !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-right: 40px !important;
 }
 
 .item-radio i {
-	padding: 0px !important;
+  padding: 0px !important;
 }

@@ -9468,6 +9468,7 @@ ion-popover-view .small {
   content: "\e60c"; }
 
 .icon-options:before {
+  color: #444;
   content: "\e60d"; }
 
 .icon-help:before {
@@ -9516,6 +9517,9 @@ ion-popover-view .small {
   height: 96px;
   font-size: 64px;
   vertical-align: text-top; }
+
+.icon-options {
+  min-height: 52px !important; }
 
 .item-radio {
   border: 0 !important; }
