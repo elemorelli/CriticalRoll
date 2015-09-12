@@ -9376,7 +9376,10 @@ a.button {
   transition-duration: 0s; }
 
 .card {
-  margin: 10px; }
+  margin: 15px;
+  background-color: #E0E0E0 !important;
+  margin-left: 16px !important;
+  width: 96% !important; }
 
 .card-title {
   margin-left: 40px !important;
@@ -9530,7 +9533,7 @@ ion-popover-view .small {
   padding-right: 40px !important; }
 
 .item-radio i {
-  padding: 0px !important; }
+  padding: 0 !important; }
 
 .center {
   text-align: center; }
