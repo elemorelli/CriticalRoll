@@ -16,9 +16,14 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.card .item:before, .button:before {
+  font-family: 'criticalroll';
+  font-size: x-large;
+  vertical-align: -50%;
 }
 
 .icon-die:before {
@@ -29,35 +34,35 @@
   content: "\e601";
 }
 
-.slashing:before {
+.icon-slashing:before {
   content: "\e602";
 }
 
-.piercing:before {
+.icon-piercing:before {
   content: "\e603";
 }
 
-.bludgeoning:before {
+.icon-bludgeoning:before {
   content: "\e604";
 }
 
-.critical .magic:before {
+.critical .icon-magic:before {
   content: "\e605";
 }
 
-.melee:before {
+.icon-melee:before {
   content: "\e606";
 }
 
-.ranged:before {
+.icon-ranged:before {
   content: "\e607";
 }
 
-.natural:before {
+.icon-natural:before {
   content: "\e608";
 }
 
-.fumble .magic:before {
+.fumble .icon-magic:before {
   content: "\e609";
 }
 

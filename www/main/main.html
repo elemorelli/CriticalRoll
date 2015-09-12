@@ -6,27 +6,26 @@
 
 	<ion-content class="has-subfooter has-header" has-bouncing="true">
 		<ion-list can-swipe=true>
-			<ion-item ng-repeat="card in drawnCards track by $index">
-				<card></card>
-			</ion-item>
+			<card ng-repeat="card in drawnCards track by $index">
+			</card>
 		</ion-list>
 	</ion-content>
 
 	<div class="bar bar-subfooter bar-balanced">
 		<div class="button-bar critical">
-			<a class="button button-raised ink-dark slashing" ng-click="drawCard('critical','slashing')"></a>
-			<a class="button button-raised ink-dark piercing" ng-click="drawCard('critical','piercing')"></a>
-			<a class="button button-raised ink-dark bludgeoning" ng-click="drawCard('critical','bludgeoning')"></a>
-			<a class="button button-raised ink-dark magic" ng-click="drawCard('critical','magic')"></a>
+			<a class="button button-raised ink-dark icon-slashing" ng-click="drawCard('critical','slashing')"></a>
+			<a class="button button-raised ink-dark icon-piercing" ng-click="drawCard('critical','piercing')"></a>
+			<a class="button button-raised ink-dark icon-bludgeoning" ng-click="drawCard('critical','bludgeoning')"></a>
+			<a class="button button-raised ink-dark icon-magic" ng-click="drawCard('critical','magic')"></a>
 		</div>
 	</div>
 
 	<div class="bar bar-footer bar-assertive">
 		<div class="button-bar fumble">
-			<a class="button button-raised ink-dark melee" ng-click="drawCard('fumble','melee')"></a>
-			<a class="button button-raised ink-dark ranged" ng-click="drawCard('fumble','ranged')"></a>
-			<a class="button button-raised ink-dark natural" ng-click="drawCard('fumble','natural')"></a>
-			<a class="button button-raised ink-dark magic" ng-click="drawCard('fumble','magic')"></a>
+			<a class="button button-raised ink-dark icon-melee" ng-click="drawCard('fumble','melee')"></a>
+			<a class="button button-raised ink-dark icon-ranged" ng-click="drawCard('fumble','ranged')"></a>
+			<a class="button button-raised ink-dark icon-natural" ng-click="drawCard('fumble','natural')"></a>
+			<a class="button button-raised ink-dark icon-magic" ng-click="drawCard('fumble','magic')"></a>
 		</div>
 	</div>
 

@@ -1,46 +1,8 @@
-<!--<div class="card {{card.primaryType}}">-->
-<!--<card-title class="item item-divider {{card.secondaryType}}"-->
-<!--ng-class="{'item-balanced':card.primaryType=='critical','item-assertive':card.primaryType=='fumble'}"-->
-<!--content="{{card.title}}">-->
-<!--</card-title>-->
-<!--<card-text class="item item-text-wrap" content="card.text">-->
-<!--</card-text>-->
-<!--</div>-->
+<div class="item list card stable-bg {{card.primaryType}}">
+	<span class="icon icon-{{card.secondaryType}} item-image button card-badge"
+				ng-class="{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}">
+	</span>
 
-
-<div class="list card stable-bg">
-
-	<div class="item item-avatar item-text-wrap {{card.primaryType}}">
-		<i class="icon {{card.secondaryType}} item-image button button-fab"
-			 ng-class="{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}">
-		</i>
-
-		<h2>
-			<card-title content="{{card.title}}"></card-title>
-		</h2>
-	</div>
-	<div class="item item-body">
-		<card-text content="card.text"></card-text>
-	</div>
+	<card-title class="card-title item item-text-wrap" content="{{card.title}}"></card-title>
+	<card-text class="card-text item item-body" content="card.text"></card-text>
 </div>
-
-<!--<div class="list card stable-bg">-->
-<!--<div class="item item-avatar">-->
-
-<!--<h2>Arya Stark</h2>-->
-
-<!--<p>"Joffrey. Cersei. Ilyn Payne. Hound. Polliver. The Mountain."</p>-->
-<!--</div>-->
-<!--<div class="item item-body"> The quickest way to a man's heart is through Arya's needle. She has two speeds: Walk and-->
-<!--Kill, and is the reason why Waldo is still hiding.-->
-<!--<p>-->
-<!--<a class="subdued">1 Like</a> <a class="subdued">5-->
-<!--Comments-->
-<!--</a>-->
-<!--</p></div>-->
-<!--<div class="item tabs tabs-secondary tabs-icon-left"><a class="tab-item" data-ink-color="#336699"-->
-<!--data-ink-opacity="0.5"> <i class="icon ion-thumbsup"></i> Like-->
-<!--</a> <a class="tab-item" data-ink-color="#336699" data-ink-opacity="0.5"> <i class="icon ion-chatbox"></i> Comment-->
-<!--</a> <a class="tab-item" data-ink-color="#336699" data-ink-opacity="0.5"> <i class="icon ion-share"></i> Share </a>-->
-<!--</div>-->
-<!--</div>-->

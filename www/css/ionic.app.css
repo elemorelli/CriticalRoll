@@ -3578,25 +3578,25 @@ ion-infinite-scroll {
 
 /* If you change these, change platform.scss as well */
 .has-header {
-  top: 44px; }
+  top: 52px; }
 
 .no-header {
   top: 0; }
 
 .has-subheader {
-  top: 88px; }
+  top: 104px; }
 
 .has-tabs-top {
-  top: 93px; }
+  top: 101px; }
 
 .has-header.has-subheader.has-tabs-top {
-  top: 137px; }
+  top: 153px; }
 
 .has-footer {
-  bottom: 44px; }
+  bottom: 52px; }
 
 .has-subfooter {
-  bottom: 88px; }
+  bottom: 104px; }
 
 .has-tabs,
 .bar-footer.has-tabs {
@@ -3607,7 +3607,7 @@ ion-infinite-scroll {
     height: auto; }
 
 .has-footer.has-tabs {
-  bottom: 93px; }
+  bottom: 101px; }
 
 .pane {
   -webkit-transform: translate3d(0, 0, 0);
@@ -3950,7 +3950,7 @@ a.subdued {
   box-sizing: border-box;
   padding: 5px;
   width: 100%;
-  height: 44px;
+  height: 52px;
   border-width: 0;
   border-style: solid;
   border-top: 1px solid transparent;
@@ -4071,13 +4071,13 @@ a.subdued {
     overflow: hidden;
     margin: 0 10px;
     min-width: 30px;
-    height: 43px;
+    height: 51px;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 17px;
     font-weight: 500;
-    line-height: 44px; }
+    line-height: 52px; }
     .bar .title.title-left {
       text-align: left; }
     .bar .title.title-right {
@@ -4167,7 +4167,7 @@ a.subdued {
 
 .platform-android .bar .title {
   font-size: 19px;
-  line-height: 44px; }
+  line-height: 52px; }
 
 .bar-light .button {
   border-color: #ddd;
@@ -4384,7 +4384,7 @@ a.subdued {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 44px; }
+  height: 52px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -4392,14 +4392,14 @@ a.subdued {
   padding: 0; }
 
 .bar-subheader {
-  top: 44px;
+  top: 52px;
   display: block;
-  height: 44px; }
+  height: 52px; }
 
 .bar-subfooter {
-  bottom: 44px;
+  bottom: 52px;
   display: block;
-  height: 44px; }
+  height: 52px; }
 
 .nav-bar-block {
   position: absolute;
@@ -5280,7 +5280,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
 /* If you change this, change platform.scss as well */
 .tabs-top > .tabs,
 .tabs.tabs-top {
-  top: 44px;
+  top: 52px;
   padding-top: 0;
   background-position: bottom;
   border-top-width: 0;
@@ -5546,21 +5546,21 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .modal.ng-leave-active {
     bottom: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) {
-    height: 44px; }
+    height: 52px; }
     .platform-ios.platform-cordova .modal-wrapper .modal .bar-header:not(.bar-subheader) > * {
       margin-top: 0; }
   .platform-ios.platform-cordova .modal-wrapper .modal .tabs-top > .tabs,
   .platform-ios.platform-cordova .modal-wrapper .modal .tabs.tabs-top {
-    top: 44px; }
+    top: 52px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header,
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-subheader {
-    top: 44px; }
+    top: 52px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-subheader {
-    top: 88px; }
+    top: 104px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header.has-tabs-top {
-    top: 93px; }
+    top: 101px; }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header.has-subheader.has-tabs-top {
-    top: 137px; }
+    top: 153px; }
   .modal-backdrop-bg {
     -webkit-transition: opacity 300ms ease-in-out;
     transition: opacity 300ms ease-in-out;
@@ -9158,7 +9158,7 @@ a.button {
  * Platform specific tweaks
  */
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
-  height: 64px; }
+  height: 72px; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
     margin-top: 19px !important; }
   .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
@@ -9166,23 +9166,23 @@ a.button {
 
 .platform-ios.platform-cordova:not(.fullscreen) .tabs-top > .tabs,
 .platform-ios.platform-cordova:not(.fullscreen) .tabs.tabs-top {
-  top: 64px; }
+  top: 72px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header,
 .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
-  top: 64px; }
+  top: 72px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-subheader {
-  top: 108px; }
+  top: 124px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header.has-tabs-top {
-  top: 113px; }
+  top: 121px; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .has-header.has-subheader.has-tabs-top {
-  top: 157px; }
+  top: 173px; }
 
 .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader) {
-  height: 44px; }
+  height: 52px; }
   .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader).item-input-inset .item-input-wrapper {
     margin-top: -1px; }
   .platform-ios.platform-cordova .popover .bar-header:not(.bar-subheader) > * {
@@ -9190,10 +9190,10 @@ a.button {
 
 .platform-ios.platform-cordova .popover .has-header,
 .platform-ios.platform-cordova .popover .bar-subheader {
-  top: 44px; }
+  top: 52px; }
 
 .platform-ios.platform-cordova .popover .has-subheader {
-  top: 88px; }
+  top: 104px; }
 
 .platform-ios.platform-cordova.status-bar-hide {
   margin-bottom: 20px; }
@@ -9376,26 +9376,25 @@ a.button {
   transition-duration: 0s; }
 
 .card {
-  margin: 0; }
+  margin: 10px; }
 
-.card .item:before,
-.button:before {
-  font-family: 'criticalroll';
-  font-size: x-large;
-  line-height: inherit !important; }
+.card-title {
+  margin-left: 40px !important;
+  font-size: large !important; }
 
-.card .item {
-  padding-left: 8px;
-  padding-bottom: 4px; }
+.card-text {
+  line-height: 1.5;
+  font-size: medium !important; }
 
-.card ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  font-size: small; }
-
-.card .license-text p {
-  margin-top: 10px;
-  font-size: small; }
+span.card-badge {
+  min-height: 44px !important;
+  max-height: 44px !important;
+  min-width: 44px !important;
+  max-width: 44px !important;
+  position: absolute;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin: 5px; }
 
 ion-popover-view.fit {
   height: auto !important; }
@@ -9421,9 +9420,13 @@ ion-popover-view .small {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.card .item:before, .button:before {
+  font-family: 'criticalroll';
+  font-size: x-large;
+  vertical-align: -50%; }
 
 .icon-die:before {
   content: "\e600"; }
@@ -9431,28 +9434,28 @@ ion-popover-view .small {
 .icon-dice:before {
   content: "\e601"; }
 
-.slashing:before {
+.icon-slashing:before {
   content: "\e602"; }
 
-.piercing:before {
+.icon-piercing:before {
   content: "\e603"; }
 
-.bludgeoning:before {
+.icon-bludgeoning:before {
   content: "\e604"; }
 
-.critical .magic:before {
+.critical .icon-magic:before {
   content: "\e605"; }
 
-.melee:before {
+.icon-melee:before {
   content: "\e606"; }
 
-.ranged:before {
+.icon-ranged:before {
   content: "\e607"; }
 
-.natural:before {
+.icon-natural:before {
   content: "\e608"; }
 
-.fumble .magic:before {
+.fumble .icon-magic:before {
   content: "\e609"; }
 
 .icon-mustache:before {
@@ -9534,17 +9537,7 @@ ion-popover-view .small {
 .bar .button-bar .button {
   height: inherit !important;
   max-width: inherit !important;
-  min-height: 44px !important; }
+  min-height: 52px !important; }
 
-.item-avatar {
-  min-height: inherit !important; }
-
-.list:last-child.card {
-  margin-bottom: inherit !important; }
-
-i.button-fab {
-  min-height: 44px !important;
-  min-height: 44px !important;
-  min-width: 44px !important;
-  min-width: 44px !important;
-  top: 6px !important; }
+.bar .button.button-clear {
+  color: inherit !important; }

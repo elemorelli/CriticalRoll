@@ -31,8 +31,8 @@ $RobotoDraftFontVersion: "1.0.0";
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 
-// Footer size
-//$bar-height: 52px;
+ //Footer size
+$bar-height: 52px;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss", "menu.scss";
@@ -48,25 +48,9 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 .bar .button-bar .button {
   height: inherit !important;
   max-width: inherit !important;
-  min-height: 44px !important;
+  min-height: $bar-height !important;
 }
 
-.bar .button-bar .button:before{
-// TODO: Centrar verticalmente
-}
-
-.item-avatar {
-  min-height: inherit !important;
-}
-
-.list:last-child.card {
-  margin-bottom: inherit !important;
-}
-
-i.button-fab {
-  min-height: 44px !important;
-  min-height: 44px !important;
-  min-width: 44px !important;
-  min-width: 44px !important;
-  top: 6px !important;
+.bar .button.button-clear {
+  color: inherit !important;
 }
