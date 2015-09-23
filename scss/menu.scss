@@ -1,8 +1,15 @@
+.item-complex {
+  height: 48px !important;
+  margin-top: 16px !important;
+  margin-bottom: 4px !important;
+}
 
-.main-logo {
-  height: 96px;
-  font-size: 64px;
-  vertical-align: text-top;
+.item-complex a {
+  height: 48px !important;
+}
+
+.item-content span {
+  font-size: 48px !important;
 }
 
 .icon-options {
@@ -13,13 +20,26 @@
   border: 0 !important;
 }
 
-
 .item-radio div {
   padding-top: 7px !important;
   padding-bottom: 7px !important;
   padding-right: 40px !important;
 }
 
-.item-radio i {
+.list {
+  margin-top: 25px;
+}
+
+.button-toggle {
   padding: 0 !important;
 }
+
+.item-button {
+  padding-bottom: 4px;
+}
+
+//.list .item span.icon {
+//  text-align: center;
+//  position: initial;
+//  font-size: 42px;
+//}

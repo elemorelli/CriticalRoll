@@ -1,7 +1,12 @@
 angular.module('CriticalRoll').controller('LanguageController', function ($scope, LanguageService) {
 
-	$scope.languageSelected = LanguageService.getLanguage();
+	$scope.language = {};
 
-	$scope.setLanguage = LanguageService.setLanguage;
+	$scope.language.selected = LanguageService.getLanguage();
+
+	$scope.language.set = function(lang) {
+		$scope.language.selected = lang;
+		LanguageService.setLanguage(lang);
+	}
 
 });

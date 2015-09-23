@@ -9475,7 +9475,7 @@ ion-popover-view .small {
   content: "\e60d"; }
 
 .icon-help:before {
-  content: "\e60r"; }
+  content: "\e60e"; }
 
 .icon-license:before {
   content: "\e60f"; }
@@ -9516,10 +9516,16 @@ ion-popover-view .small {
 .icon-heart:before {
   content: "\e61c"; }
 
-.main-logo {
-  height: 96px;
-  font-size: 64px;
-  vertical-align: text-top; }
+.item-complex {
+  height: 48px !important;
+  margin-top: 16px !important;
+  margin-bottom: 4px !important; }
+
+.item-complex a {
+  height: 48px !important; }
+
+.item-content span {
+  font-size: 48px !important; }
 
 .icon-options {
   min-height: 52px !important; }
@@ -9532,11 +9538,17 @@ ion-popover-view .small {
   padding-bottom: 7px !important;
   padding-right: 40px !important; }
 
-.item-radio i {
+.list {
+  margin-top: 25px; }
+
+.button-toggle {
   padding: 0 !important; }
 
+.item-button {
+  padding-bottom: 4px; }
+
 .center {
-  text-align: center; }
+  text-align: center !important; }
 
 .link, .popover-link {
   border-bottom: 1px dotted; }
@@ -9548,3 +9560,7 @@ ion-popover-view .small {
 
 .bar .button.button-clear {
   color: inherit !important; }
+
+.license-text p {
+  margin: 10px;
+  line-height: 200%; }

@@ -31,14 +31,14 @@ $RobotoDraftFontVersion: "1.0.0";
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 
- //Footer size
+//Footer size
 $bar-height: 52px;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic", "cards.scss", "popover.scss", "icons.scss", "menu.scss";
 
 .center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .link, .popover-link {
@@ -53,4 +53,9 @@ $bar-height: 52px;
 
 .bar .button.button-clear {
   color: inherit !important;
+}
+
+.license-text p {
+  margin: 10px;
+  line-height: 200%;
 }
