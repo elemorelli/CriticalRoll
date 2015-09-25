@@ -9376,10 +9376,11 @@ a.button {
   transition-duration: 0s; }
 
 .card {
-  margin: 15px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 20px !important;
   background-color: #E0E0E0 !important;
-  margin-left: 16px !important;
-  width: 96% !important; }
+  width: 90% !important; }
 
 .card-title {
   margin-left: 40px !important;
@@ -9390,10 +9391,10 @@ a.button {
   font-size: medium !important; }
 
 span.card-badge {
+  height: 44px !important;
+  width: 44px !important;
   min-height: 44px !important;
-  max-height: 44px !important;
   min-width: 44px !important;
-  max-width: 44px !important;
   position: absolute;
   border-radius: 50%;
   padding: 0 !important;
@@ -9537,9 +9538,6 @@ ion-popover-view .small {
   padding-top: 7px !important;
   padding-bottom: 7px !important;
   padding-right: 40px !important; }
-
-.list {
-  margin-top: 25px; }
 
 .button-toggle {
   padding: 0 !important; }
