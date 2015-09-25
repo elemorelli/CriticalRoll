@@ -3,7 +3,7 @@ angular.module('CriticalRoll').directive('card', function () {
 		restrict: 'E',
 		templateUrl: 'main/card.html'
 	}
-}).filter('hhh', function ($sce) {
+}).filter('parseHTML', function ($sce) {
 	return function (input) {
 		var replacedText = input.replace(/%([\w\s-]+)=([\w\s-]+)%/gi,
 			'<a class="popover-link" ng-click="openPopover($event, &apos;$1&apos;)">$2</a>');

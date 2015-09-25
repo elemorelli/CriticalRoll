@@ -7,6 +7,6 @@
 		{{card.title | translate}}
 	</div>
 	<div class="card-text item item-body" content="card.text">
-		<span ng-bind-html="card.text | translate | hhh" compile-template></span>
+		<span ng-bind-html="card.text | translate | parseHTML" compile-template></span>
 	</div>
 </div>
