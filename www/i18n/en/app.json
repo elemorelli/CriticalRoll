@@ -1,15 +1,10 @@
 {
-	"HELP": "Help",
-	"CONTRIBUTE": "How to help",
-	"LICENSE": "License",
+	"HELP-TITLE": "Help",
 	"LICENSE-TITLE": "License: Legal chatter",
-	"SHARE": "Share it!",
 	"SHARE-MESSAGE": "CriticalRoll: An App for Critical and Fumbles in RPGs",
 	"SHARE-SUBJECT": "CriticalRoll",
-	"LANGUAGE": "Language",
-	"ENGLISH": "English",
-	"SPANISH": "Spanish",
-	"SYSTEM": "System",
-	"SYSTEM-PFRPG": "Pathfinder RPG",
+	"ENGLISH": "Eng",
+	"SPANISH": "Spa",
+	"SYSTEM-PFRPG": "PF RPG",
 	"SYSTEM-DnD35": "D&D 3.5"
 }

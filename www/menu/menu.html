@@ -31,12 +31,14 @@
 				<div ng-controller="LanguageController">
 					<ion-item class="item-button">
 						<button class="button button-toggle" ng-click="language.set('en')"
-										ng-class="{active: language.selected=='en'}">Eng
+										ng-class="{active: language.selected=='en'}">
+							{{'ENGLISH' | translate}}
 						</button>
 					</ion-item>
 					<ion-item class="item-button">
 						<button class="button button-toggle" ng-click="language.set('es')"
-										ng-class="{active: language.selected=='es'}">Spa
+										ng-class="{active: language.selected=='es'}">
+							{{'SPANISH' | translate}}
 						</button>
 					</ion-item>
 				</div>
