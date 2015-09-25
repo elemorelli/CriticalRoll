@@ -3,6 +3,10 @@
 				ng-class="{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}">
 	</span>
 
-	<card-title class="card-title item item-text-wrap" content="{{card.title}}"></card-title>
-	<card-text class="card-text item item-body" content="card.text"></card-text>
+	<div class="card-title item item-text-wrap">
+		{{card.title | translate}}
+	</div>
+	<div class="card-text item item-body" content="card.text">
+		<span ng-bind-html="card.text | translate | hhh" compile-template></span>
+	</div>
 </div>
