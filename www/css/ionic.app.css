@@ -9419,110 +9419,83 @@ span.card-badge {
 
 @font-face {
   font-family: 'criticalroll';
-  src: url("fonts/criticalroll.eot?ggcg8g");
-  src: url("fonts/criticalroll.eot?#iefixggcg8g") format("embedded-opentype"), url("fonts/criticalroll.ttf?ggcg8g") format("truetype"), url("fonts/criticalroll.woff?ggcg8g") format("woff"), url("fonts/criticalroll.svg?ggcg8g#criticalroll") format("svg");
+  src: url("fonts/criticalroll.eot?n9ofgj");
+  src: url("fonts/criticalroll.eot?n9ofgj#iefix") format("embedded-opentype"), url("fonts/criticalroll.ttf?n9ofgj") format("truetype"), url("fonts/criticalroll.woff?n9ofgj") format("woff"), url("fonts/criticalroll.svg?n9ofgj#criticalroll") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="criticalroll-"], [class*=" criticalroll-"] {
   font-family: 'criticalroll';
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.card .item:before, .button:before {
+.button:before {
   font-family: 'criticalroll';
-  font-size: x-large;
   vertical-align: -50%; }
 
-.icon-die:before {
+@media screen and (max-width: 390px) {
+  .button:before {
+    font-size: x-large; } }
+
+@media screen and (min-width: 391px) {
+  .card .item:before, .button:before {
+    font-size: xx-large; } }
+
+.criticalroll-icon-d20s:before {
   content: "\e600"; }
 
-.icon-dice:before {
+.criticalroll-icon-d20:before {
   content: "\e601"; }
 
-.icon-slashing:before {
+.criticalroll-icon-critical-slashing:before {
   content: "\e602"; }
 
-.icon-piercing:before {
+.criticalroll-icon-critical-piercing:before {
   content: "\e603"; }
 
-.icon-bludgeoning:before {
+.criticalroll-icon-critical-bludgeoning:before {
   content: "\e604"; }
 
-.critical .icon-magic:before {
+.criticalroll-icon-critical-magic:before {
   content: "\e605"; }
 
-.icon-melee:before {
+.criticalroll-icon-fumble-melee:before {
   content: "\e606"; }
 
-.icon-ranged:before {
+.criticalroll-icon-fumble-ranged:before {
   content: "\e607"; }
 
-.icon-natural:before {
+.criticalroll-icon-fumble-natural:before {
   content: "\e608"; }
 
-.fumble .icon-magic:before {
+.criticalroll-icon-fumble-magic:before {
   content: "\e609"; }
 
-.icon-mustache:before {
+.criticalroll-icon-navicon:before {
+  color: #444;
   content: "\e60a"; }
 
-.icon-opensource:before {
+.criticalroll-icon-trash:before {
   content: "\e60b"; }
 
-.icon-trash:before {
+.criticalroll-icon-help:before {
   content: "\e60c"; }
 
-.icon-options:before {
-  color: #444;
+.criticalroll-icon-license:before {
   content: "\e60d"; }
 
-.icon-help:before {
+.criticalroll-icon-share:before {
   content: "\e60e"; }
 
-.icon-license:before {
+.criticalroll-icon-bug:before {
   content: "\e60f"; }
-
-.icon-share-android:before {
-  content: "\e610"; }
-
-.icon-share-ios:before {
-  content: "\e611"; }
-
-.icon-share-windows:before {
-  content: "\e612"; }
-
-.icon-share:before {
-  content: "\e613"; }
-
-.icon-checkmark:before {
-  content: "\e615"; }
-
-.icon-arrow-right:before {
-  content: "\e616"; }
-
-.icon-arrow-left:before {
-  content: "\e617"; }
-
-.icon-github:before {
-  content: "\e618"; }
-
-.icon-lab:before {
-  content: "\e619"; }
-
-.icon-bug:before {
-  content: "\e61a"; }
-
-.icon-bubbles:before {
-  content: "\e61b"; }
-
-.icon-heart:before {
-  content: "\e61c"; }
 
 .item-complex {
   height: 48px !important;
@@ -9535,7 +9508,7 @@ span.card-badge {
 .item-content span {
   font-size: 48px !important; }
 
-.icon-options {
+.criticalroll-icon-navicon {
   min-height: 52px !important; }
 
 .item-radio {
@@ -9551,6 +9524,9 @@ span.card-badge {
 
 .item-button {
   padding-bottom: 4px; }
+
+.item-complex {
+  margin-top: 24px !important; }
 
 .center {
   text-align: center !important; }
