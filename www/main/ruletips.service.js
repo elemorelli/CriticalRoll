@@ -4,7 +4,7 @@ angular.module('CriticalRoll').service('RuletipsService', function ($ionicPopup,
 
 		$ionicPopup.alert({
 			title: $filter('translate')(ruletipType + "-TITLE"),
-			template: $filter('translate')(ruletipType)
+			template: $filter('translate')(ruletipType + "-TEXT")
 		});
 	};
 
