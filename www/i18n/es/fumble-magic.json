@@ -5,7 +5,7 @@
     "CARD-FUMBLE-MAGIC-2-TEXT": "No puedes lanzar hechizos por 1 ronda",
     "CARD-FUMBLE-MAGIC-3-TITLE": "\u00a1Lo hiciste m\u00e1s fuerte!",
     "CARD-FUMBLE-MAGIC-3-TEXT": "El objetivo gana un bonus de +8 de mejora a %ABILITY-STR=Fue% por 1d4 rondas",
-    "CARD-FUMBLE-MAGIC-4-TITLE": "Klaatu Barada Nikto",
+    "CARD-FUMBLE-MAGIC-4-TITLE": "Klaatu barada nikto",
     "CARD-FUMBLE-MAGIC-4-TEXT": "Tu ataque acierta contra el aliado m\u00e1s cercano y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica.",
     "CARD-FUMBLE-MAGIC-5-TITLE": "Repulsivo como una mona marrana",
     "CARD-FUMBLE-MAGIC-5-TEXT": "Sufres 1 de %STATUS-BLEED=sangrado% de %ABILITY-CHA=Car%",
