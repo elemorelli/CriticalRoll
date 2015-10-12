@@ -8,7 +8,7 @@
 	"CARD-CRITICAL-BLUDGEONING-4-TITLE": "Lights out",
 	"CARD-CRITICAL-BLUDGEONING-4-TEXT": "Normal damage and target is %STATUS-BLINDED=blinded% for 1d3 rounds",
 	"CARD-CRITICAL-BLUDGEONING-5-TITLE": "Crushed trachea",
-	"CARD-CRITICAL-BLUDGEONING-5-TEXT": "Normal damage and target cannot breathe or speak DC 20 Heal check ends condition",
+	"CARD-CRITICAL-BLUDGEONING-5-TEXT": "Normal damage and target cannot breathe or speak. DC 20 Heal check ends the condition",
 	"CARD-CRITICAL-BLUDGEONING-6-TITLE": "Split open",
 	"CARD-CRITICAL-BLUDGEONING-6-TEXT": "Double damage and 1d4 %STATUS-BLEED=bleed%",
 	"CARD-CRITICAL-BLUDGEONING-7-TITLE": "Feeble parry",
