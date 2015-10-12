@@ -4,6 +4,4 @@ angular.module('CriticalRoll', ['ionic', 'ngCordova', 'ionic-material', 'pascalp
 			StatusBar.styleDefault();
 		}
 	});
-	$ionicPlatform.onHardwareBackButton(function () {
-	});
 });
