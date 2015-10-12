@@ -70,7 +70,7 @@
 	"CARD-CRITICAL-MAGIC-35-TITLE": "Phased",
 	"CARD-CRITICAL-MAGIC-35-TEXT": "Double damage and target is %STATUS-INCORPOREAL=incorporeal% for 1d3 rounds (%SAVE-CRITICAL=Will negates%)",
 	"CARD-CRITICAL-MAGIC-36-TITLE": "Life leech",
-	"CARD-CRITICAL-MAGIC-36-TEXT": "Normal damage and 1 negative level (%SAVE-CRITICAL=Fort negates after 1 day%)",
+	"CARD-CRITICAL-MAGIC-36-TEXT": "Normal damage and 1 negative level (%SAVE-CRITICAL=Fort negates% after 1 day)",
 	"CARD-CRITICAL-MAGIC-37-TITLE": "Siren song",
 	"CARD-CRITICAL-MAGIC-37-TEXT": "Double damage or triple damage to giants, humanoids and monstrous humanoids",
 	"CARD-CRITICAL-MAGIC-38-TITLE": "Distraction",
