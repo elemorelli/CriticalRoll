@@ -9400,15 +9400,22 @@ span.card-badge {
   padding: 0 !important;
   margin: 5px; }
 
-ion-popover-view.fit {
-  height: auto !important; }
+.card-animation.ng-enter,
+.card-animation.ng-leave {
+  -webkit-transition: 100ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -moz-transition: 100ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -ms-transition: 100ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -o-transition: 100ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  transition: 100ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  opacity: 0; }
 
-ion-popover-view.fit ion-content {
-  position: relative !important; }
+.card-animation.ng-enter.ng-enter-active,
+.card-animation.ng-leave {
+  opacity: 1; }
 
-ion-popover-view .small {
-  font-size: small !important;
-  padding: 5px; }
+.card-animation.ng-enter,
+.card-animation.ng-leave-active {
+  opacity: 0; }
 
 @font-face {
   font-family: 'criticalroll';

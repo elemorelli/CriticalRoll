@@ -26,3 +26,23 @@ span.card-badge {
   padding: 0 !important;
   margin: 5px;
 }
+
+.card-animation.ng-enter,
+.card-animation.ng-leave {
+  -webkit-transition: 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -moz-transition: 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -ms-transition: 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -o-transition: 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  transition: 100ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  opacity: 0;
+}
+
+.card-animation.ng-enter.ng-enter-active,
+.card-animation.ng-leave {
+  opacity: 1;
+}
+
+.card-animation.ng-enter,
+.card-animation.ng-leave-active {
+  opacity: 0;
+}
