@@ -18,7 +18,7 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 				suffix: '/app.json'
 			}, {
 				prefix: 'i18n/',
-				suffix: '/popover.json'
+				suffix: '/ruletips.json'
 			}, {
 				prefix: 'i18n/',
 				suffix: '/critical-bludgeoning.json'

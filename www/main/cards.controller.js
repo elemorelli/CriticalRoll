@@ -1,4 +1,4 @@
-angular.module('CriticalRoll').controller('CardsController', function ($scope, CardService, PopoverService, ionicMaterialInk) {
+angular.module('CriticalRoll').controller('CardsController', function ($scope, CardService, RuletipsService, ionicMaterialInk) {
 
 	$scope.drawnCards = CardService.drawnCards;
 
@@ -10,9 +10,9 @@ angular.module('CriticalRoll').controller('CardsController', function ($scope, C
 	$scope.removeAll = function() {
 		ionicMaterialInk.displayEffect();
 		CardService.removeAll();
-	}
+	};
 
-	$scope.openPopover = function ($event, text) {
-		PopoverService.openPopover($event, text, $scope);
+	$scope.openRuletip = function ($event, text) {
+		RuletipsService.openRuletip($event, text, $scope);
 	};
 });
