@@ -20,7 +20,7 @@
     "CARD-FUMBLE-NATURAL-10-TITLE": "Est\u00e1 afilado",
     "CARD-FUMBLE-NATURAL-10-TEXT": "Sufres 1d6 puntos de da\u00f1o + tu modificador de Fue",
     "CARD-FUMBLE-NATURAL-11-TITLE": "M\u00fasculo desgarrado",
-    "CARD-FUMBLE-NATURAL-11-TEXT": "Sufres 1 punto de %ABILITY-STR=Fue% %ability-drain=consumido% (%SAVE-FUMBLE=Fortaleza niega%)",
+    "CARD-FUMBLE-NATURAL-11-TEXT": "Sufres 1 punto de %ABILITY-STR=Fue% %ABILITY-DRAIN=consumido% (%SAVE-FUMBLE=Fortaleza niega%)",
     "CARD-FUMBLE-NATURAL-12-TITLE": "Demasiado cerca",
     "CARD-FUMBLE-NATURAL-12-TEXT": "Tu ataque acierta al objetivo, pero el objetivo puede empezar una presa contra ti",
     "CARD-FUMBLE-NATURAL-13-TITLE": "Fuera de balance",

@@ -50,7 +50,7 @@
     "CARD-CRITICAL-BLUDGEONING-25-TITLE": "Desprevenido",
     "CARD-CRITICAL-BLUDGEONING-25-TEXT": "Doble da\u00f1o y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y la velocidad del objetivo es reducida por 5 pies %UNTIL-HEALED=hasta ser sanado%",
     "CARD-CRITICAL-BLUDGEONING-26-TITLE": "Cr\u00e1neo roto",
-    "CARD-CRITICAL-BLUDGEONING-26-TEXT": "Doble da\u00f1o y 2d6 de %ABILITY-INT=Int% %ability-drain=consumidos% (%SAVE-CRITICAL=Fortaleza salva la mitad%)",
+    "CARD-CRITICAL-BLUDGEONING-26-TEXT": "Doble da\u00f1o y 2d6 de %ABILITY-INT=Int% %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortaleza salva la mitad%)",
     "CARD-CRITICAL-BLUDGEONING-27-TITLE": "\u00a1Y qu\u00e9date abajo!",
     "CARD-CRITICAL-BLUDGEONING-27-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-PRONE=tirado en el suelo% y %STATUS-STUNNED=aturdido% por 1 ronda (%SAVE-CRITICAL=Fortaleza niega% estar aturdido)",
     "CARD-CRITICAL-BLUDGEONING-28-TITLE": "Trituradora de huesos",
