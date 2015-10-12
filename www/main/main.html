@@ -6,8 +6,22 @@
 
 	<ion-content class="has-subfooter has-header" has-bouncing="true">
 		<ion-list can-swipe=true>
-			<card ng-repeat="card in drawnCards track by $index">
-			</card>
+
+			<div class="card-animation" ng-repeat="card in drawnCards track by $index">
+				<div class="item list card stable-bg {{card.primaryType}}">
+					<span class="icon icon-{{card.secondaryType}} item-image button card-badge"
+								ng-class="{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}">
+					</span>
+
+					<div class="card-title item item-text-wrap">
+						{{card.title | translate}}
+					</div>
+					<div class="card-text item item-body" content="card.text">
+						<span ng-bind-html="card.text | translate | parseHTML" compile-template></span>
+					</div>
+				</div>
+
+			</div>
 		</ion-list>
 	</ion-content>
 
