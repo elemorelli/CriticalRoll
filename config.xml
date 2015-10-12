@@ -2,7 +2,8 @@
 <widget id="com.vanillaicecreamstudio.criticalroll" version="1.0.3" xmlns="http://www.w3.org/ns/widgets"
 				xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>CriticalRoll</name>
-	<description>A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D
+	<description>
+		A tool to generate Critical Hit and Fumble effects for Tabletop RPGs as Pathfinder or D&amp;D
 	</description>
 	<author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">Vanilla Icecream Studio</author>
 	<content src="index.html"/>

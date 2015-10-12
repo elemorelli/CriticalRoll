@@ -2,6 +2,13 @@
 	"name": "criticalroll",
 	"version": "1.0.0",
 	"description": "CriticalRoll",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gemorelli/CriticalRoll"
+	},
+	"url": "https://github.com/gemorelli/CriticalRoll/issues",
+	"email": "vanillaicecreamstudio@gmail.com",
+	"license": "Apache-2.0",
 	"dependencies": {
 		"gulp": "^3.9.0",
 		"gulp-sass": "^2.0.4",
