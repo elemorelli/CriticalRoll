@@ -1,15 +1,10 @@
-angular.module('CriticalRoll').service('RuletipsService', function ($ionicPopover) {
+angular.module('CriticalRoll').service('RuletipsService', function ($ionicPopup, $filter) {
 
-	var self = this;
+	this.openRuletip = function (ruletipType) {
 
-	self.openRuletip = function ($event, text, $scope) {
-
-		$scope.popoverText = text;
-		$ionicPopover.fromTemplateUrl('main/ruletips.html', {
-			scope: $scope
-		}).then(function (popover) {
-			self.popover = popover;
-			self.popover.show($event);
+		$ionicPopup.alert({
+			title: $filter('translate')(ruletipType + "-TITLE"),
+			template: $filter('translate')(ruletipType)
 		});
 	};
 

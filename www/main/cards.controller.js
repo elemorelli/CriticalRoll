@@ -12,7 +12,7 @@ angular.module('CriticalRoll').controller('CardsController', function ($scope, C
 		CardService.removeAll();
 	};
 
-	$scope.openRuletip = function ($event, text) {
-		RuletipsService.openRuletip($event, text, $scope);
+	$scope.openRuletip = function (ruletipType) {
+		RuletipsService.openRuletip(ruletipType);
 	};
 });
