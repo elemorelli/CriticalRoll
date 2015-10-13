@@ -1,6 +1,6 @@
 {
 	"HELP-CRITICAL-TITLE": "Critical hits",
-	"HELP-CRITICAL-TEXT-1": "Any attack made with a weapon or spell that needs an attack roll, has a chance to score a critical hit",
+	"HELP-CRITICAL-TEXT-1": "Any attack made with a weapon or spell that needs an attack roll, has a chance to score a critical hit.",
 	"HELP-CRITICAL-TEXT-2": "If the attack roll is within the critical threat range of the weapon and you confirm the critical, instead of multiply the damage, you can draw an effect for the appropriate weapon type and apply its effects.",
 	"HELP-CRITICAL-TEXT-3": "Weapons with a critical multiplier of x3 or x4 can draw two or three effects respectively and pick the better.",
 	"HELP-FUMBLE-TITLE": "Fumbles",
