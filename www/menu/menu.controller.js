@@ -20,10 +20,6 @@ angular.module('CriticalRoll').controller('MenuController', function ($scope, $c
 				return ionic.Platform.isAndroid() || ionic.Platform.isIOS() || ionic.Platform.isWindowsPhone();
 			};
 
-			$scope.showTutorial = function () {
-				console.log("ShowTutorial");
-			};
-
 		}
 )
 ;

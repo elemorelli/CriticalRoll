@@ -20,11 +20,12 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 				templateUrl: 'menu/license.html'
 			}
 		}
-	}).state('app.tutorial', {
-		url: '/tutorial',
+	}).state('app.help', {
+		url: '/help',
 		views: {
 			'menuContent': {
-				templateUrl: 'menu/tutorial.html'
+				templateUrl: 'menu/help.html',
+				controller: 'HelpController'
 			}
 		}
 	});

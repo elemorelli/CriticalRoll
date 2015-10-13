@@ -1,0 +1,76 @@
+<ion-view view-title="{{'HELP-TITLE' | translate}}">
+	<ion-content overflow-scroll="true" class="has-header help">
+
+		<div class="row critical-row">
+
+			<div class="col col-80 text-column">
+				<h3>{{'HELP-CRITICAL-TITLE' | translate}}</h3>
+
+				<p>{{'HELP-CRITICAL-TEXT-1' | translate}}</p>
+
+				<p>{{'HELP-CRITICAL-TEXT-2' | translate}}</p>
+
+				<p>{{'HELP-CRITICAL-TEXT-3' | translate}}</p>
+			</div>
+			<div class="col col-20  icon-column">
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-critical-slashing button-balanced"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-critical-piercing button-balanced"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-critical-bludgeoning button-balanced"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-critical-magic button-balanced"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row  fumble-row">
+			<div class="col col-20 icon-column">
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-fumble-melee button-assertive"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-fumble-ranged button-assertive"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-fumble-natural button-assertive"></span>
+				</div>
+				<div class="row">
+					<span class="icon item-image button card-badge criticalroll-icon-fumble-magic button-assertive"></span>
+				</div>
+			</div>
+			<div class="col col-80 text-column">
+				<h3>{{'HELP-FUMBLE-TITLE' | translate}}</h3>
+
+				<p>{{'HELP-FUMBLE-TEXT-1' | translate}}</p>
+
+				<p>{{'HELP-FUMBLE-TEXT-2' | translate}}</p>
+
+				<p>{{'HELP-FUMBLE-TEXT-3' | translate}}</p>
+			</div>
+		</div>
+
+
+		<div class="row feedback-row">
+
+			<div class="col col-67">
+				<p>{{'HELP-FEEDBACK-TEXT-1' | translate}}</p>
+
+				<p>{{'HELP-FEEDBACK-TEXT-2' | translate}}</p>
+
+				<p>{{'HELP-FEEDBACK-TEXT-3' | translate}}</p>
+			</div>
+			<div class="col col-33 bug-column">
+				<h4>{{'HELP-FEEDBACK-TITLE' | translate}}</h4>
+				<span class="icon item-image button card-badge criticalroll-icon-bug button-royal"
+							ng-click="sendFeedback()"></span>
+			</div>
+
+		</div>
+
+	</ion-content>
+</ion-view>  
