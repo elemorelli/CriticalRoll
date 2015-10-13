@@ -16,5 +16,5 @@ angular.module('CriticalRoll').directive('compileTemplate', function ($compile, 
 			//Recompile if the template changes
 			scope.$watch(getStringValue, compile);
 		}
-	}
+	};
 });
