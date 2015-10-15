@@ -27,7 +27,7 @@
 	"CARD-CRITICAL-SLASHING-13-TEXT": "Doble da\u00f1o y el objetivo pierde vuelo si usa alas.",
 	"CARD-CRITICAL-SLASHING-14-TITLE": "Oreja faltante",
 	"CARD-CRITICAL-SLASHING-14-TEXT": "Da\u00f1o normal y 1 de %ABILITY-CHA=Car% %ABILITY-DRAIN=consumidos%. Penalidad de -4 en chequeos para escuchar %UNTIL-HEALED=hasta ser curado%.",
-	"CARD-CRITICAL-SLASHING-15-TITLE": "Bien abierto",
+	"CARD-CRITICAL-SLASHING-15-TITLE": "Abierto de par en par",
 	"CARD-CRITICAL-SLASHING-15-TEXT": "Da\u00f1o normal y el objetivo provoca ataques de oportunidad de todos los oponentes que lo amenazan.",
 	"CARD-CRITICAL-SLASHING-16-TITLE": "Tenemos uno que sangra",
 	"CARD-CRITICAL-SLASHING-16-TEXT": "Da\u00f1o normal y 2d6 de %STATUS-BLEED=sangrado%.",
@@ -101,6 +101,6 @@
 	"CARD-CRITICAL-SLASHING-50-TEXT": "Doble da\u00f1o y da\u00f1o normal a la armadura del objetivo.",
 	"CARD-CRITICAL-SLASHING-51-TITLE": "Pivote",
 	"CARD-CRITICAL-SLASHING-51-TEXT": "Doble da\u00f1o y un ataque gratuito contra un enemigo adyacente con la misma bonificaci\u00f3n.",
-	"CARD-CRITICAL-SLASHING-52-TITLE": "Girar alrededor",
+	"CARD-CRITICAL-SLASHING-52-TITLE": "Darle la vuelta",
 	"CARD-CRITICAL-SLASHING-52-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
 }

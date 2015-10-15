@@ -1,6 +1,6 @@
 {
 	"CARD-CRITICAL-BLUDGEONING-1-TITLE": "Mano destrozada",
-	"CARD-CRITICAL-BLUDGEONING-1-TEXT": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-STR=Fue%. La mano queda inutil %UNTIL-HEALED=hasta ser curada%.",
+	"CARD-CRITICAL-BLUDGEONING-1-TEXT": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-STR=Fue%. La mano queda in\u00fatil %UNTIL-HEALED=hasta ser curada%.",
 	"CARD-CRITICAL-BLUDGEONING-2-TITLE": "Cascabel",
 	"CARD-CRITICAL-BLUDGEONING-2-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-CONFUSED=confuso% por 1d3 rondas (%SAVE-CRITICAL=Fortaleza niega%).",
 	"CARD-CRITICAL-BLUDGEONING-3-TITLE": "Ataque estruendoso",
@@ -21,7 +21,7 @@
 	"CARD-CRITICAL-BLUDGEONING-10-TEXT": "Doble da\u00f1o y 2d6 de da\u00f1o no letal.",
 	"CARD-CRITICAL-BLUDGEONING-11-TITLE": "Pierna rota",
 	"CARD-CRITICAL-BLUDGEONING-11-TEXT": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-DEX=Des%. Las velocidades del objetivo son reducidads a la mitad %UNTIL-HEALED=hasta ser curado%.",
-	"CARD-CRITICAL-BLUDGEONING-12-TITLE": "Girar alrededor",
+	"CARD-CRITICAL-BLUDGEONING-12-TITLE": "Darle la vuelta",
 	"CARD-CRITICAL-BLUDGEONING-12-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda.",
 	"CARD-CRITICAL-BLUDGEONING-13-TITLE": "\u00bfD\u00f3nde estoy?",
 	"CARD-CRITICAL-BLUDGEONING-13-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-STUNNED=aturdido% por 1 ronda.",
