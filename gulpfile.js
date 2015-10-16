@@ -7,6 +7,7 @@ var minifyCss = require('gulp-minify-css');
 var jsonminify = require('gulp-jsonminify');
 var minifyHTML = require('gulp-minify-html');
 var rename = require('gulp-rename');
+var preen = require('preen');
 var sh = require('shelljs');
 
 var templateCache = require('gulp-angular-templatecache');
@@ -22,7 +23,7 @@ var paths = {
 	fonts: ['./www/css/fonts/criticalroll.*']
 };
 
-gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'jsonminify']);
+gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'jsonminify', 'preen', 'fonts']);
 
 gulp.task('sass', function (done) {
 	gulp.src(paths.sass)
@@ -96,6 +97,10 @@ gulp.task('jsonminify', function () {
 	return gulp.src(paths.jsonminify)
 		.pipe(jsonminify())
 		.pipe(gulp.dest('./www/dist/dist_js/i18n/'));
+});
+
+gulp.task('preen', function (callback) {
+	preen.preen({}, callback);
 });
 
 gulp.task('fonts', function () {
