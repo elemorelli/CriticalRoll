@@ -66,7 +66,7 @@ gulp.task('git-check', function (done) {
 gulp.task('templatecache', function (done) {
 	gulp.src(paths.templatecache)
 		.pipe(templateCache({standalone: true}))
-		.pipe(gulp.dest('./www/js'))
+		.pipe(gulp.dest('./www/dist/dist_js/'))
 		.on('end', done);
 });
 
