@@ -4,7 +4,10 @@ var bower = require('bower');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
+var jsonminify = require('gulp-jsonminify');
+var minifyHTML = require('gulp-minify-html');
 var rename = require('gulp-rename');
+var preen = require('preen');
 var sh = require('shelljs');
 
 var templateCache = require('gulp-angular-templatecache');
@@ -16,10 +19,11 @@ var paths = {
 	templatecache: ['./www/main/**/*.html', './www/menu/**/*.html'],
 	ng_annotate: ['./www/app/**/*.js', './www/i18n/**/*.js', './www/main/**/*.js', './www/menu/**/*.js'],
 	useref: ['./www/*.html'],
+	jsonminify: ['./www/i18n/*/*.json'],
 	fonts: ['./www/css/fonts/criticalroll.*']
 };
 
-gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'fonts']);
+gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'jsonminify', 'preen', 'fonts']);
 
 gulp.task('sass', function (done) {
 	gulp.src(paths.sass)
@@ -38,6 +42,8 @@ gulp.task('watch', function () {
 	gulp.watch(paths.templatecache, ['templatecache']);
 	gulp.watch(paths.ng_annotate, ['ng_annotate']);
 	gulp.watch(paths.useref, ['useref']);
+	gulp.watch(paths.jsonminify, ['i18n']);
+	gulp.watch(paths.fonts, ['fonts']);
 });
 
 gulp.task('install', ['git-check'], function () {
@@ -62,8 +68,11 @@ gulp.task('git-check', function (done) {
 
 gulp.task('templatecache', function (done) {
 	gulp.src(paths.templatecache)
+		.pipe(minifyHTML({
+			quotes: true
+		}))
 		.pipe(templateCache({standalone: true}))
-		.pipe(gulp.dest('./www/js'))
+		.pipe(gulp.dest('./www/dist/dist_js/app/'))
 		.on('end', done);
 });
 
@@ -82,6 +91,16 @@ gulp.task('useref', function (done) {
 		.pipe(useref())
 		.pipe(gulp.dest('./www/dist'))
 		.on('end', done);
+});
+
+gulp.task('jsonminify', function () {
+	return gulp.src(paths.jsonminify)
+		.pipe(jsonminify())
+		.pipe(gulp.dest('./www/dist/dist_js/i18n/'));
+});
+
+gulp.task('preen', function (callback) {
+	preen.preen({}, callback);
 });
 
 gulp.task('fonts', function () {

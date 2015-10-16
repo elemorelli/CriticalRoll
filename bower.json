@@ -15,5 +15,12 @@
 		"angular": "1.4.3",
 		"angular-animate": "1.4.3",
 		"angular-sanitize": "1.4.3"
+	},
+	"preen": {
+		"ionic": [
+			"release/css/*.min.css",
+			"release/fonts/*",
+			"release/js/*.min.js"
+		]
 	}
 }

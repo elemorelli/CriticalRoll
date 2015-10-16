@@ -11,40 +11,43 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 
 }).config(['$translateProvider', function ($translateProvider) {
 
-	$translateProvider.useStaticFilesLoader(
-		{
+	var i18nPath = 'i18n/';
+	if (ionic.Platform.isWebView())
+		i18nPath = 'dist_js/i18n/';
+
+	$translateProvider.useStaticFilesLoader({
 			files: [{
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/app.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/ruletips.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/help.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/critical-bludgeoning.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/critical-magic.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/critical-piercing.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/critical-slashing.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/fumble-magic.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/fumble-melee.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/fumble-natural.json'
 			}, {
-				prefix: 'i18n/',
+				prefix: i18nPath,
 				suffix: '/fumble-ranged.json'
 			}]
 		}
