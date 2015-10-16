@@ -1,16 +1,17 @@
 {
-  "name": "CriticalRoll",
-  "app_id": "ade21b2e",
-  "gulpStartupTasks": [
-    "sass",
-    "templatecache",
-    "ng_annotate",
-    "useref",
-    "fonts",
-    "watch"
-  ],
-  "watchPatterns": [
-    "www/**/*",
-    "!www/lib/**/*"
-  ]
+	"name": "CriticalRoll",
+	"app_id": "ade21b2e",
+	"gulpStartupTasks": [
+		"sass",
+		"templatecache",
+		"ng_annotate",
+		"useref",
+		"fonts",
+		"i18n",
+		"watch"
+	],
+	"watchPatterns": [
+		"www/**/*",
+		"!www/lib/**/*"
+	]
 }
