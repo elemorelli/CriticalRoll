@@ -7,7 +7,7 @@
 		"ng_annotate",
 		"useref",
 		"fonts",
-		"i18n",
+		"jsonminify",
 		"watch"
 	],
 	"watchPatterns": [

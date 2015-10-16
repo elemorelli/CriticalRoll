@@ -4,6 +4,8 @@ var bower = require('bower');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
+var jsonminify = require('gulp-jsonminify');
+var minifyHTML = require('gulp-minify-html');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
 
@@ -16,11 +18,11 @@ var paths = {
 	templatecache: ['./www/main/**/*.html', './www/menu/**/*.html'],
 	ng_annotate: ['./www/app/**/*.js', './www/i18n/**/*.js', './www/main/**/*.js', './www/menu/**/*.js'],
 	useref: ['./www/*.html'],
-	fonts: ['./www/css/fonts/criticalroll.*'],
-	i18n: ['./www/i18n/*/*.json']
+	jsonminify: ['./www/i18n/*/*.json'],
+	fonts: ['./www/css/fonts/criticalroll.*']
 };
 
-gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'i18n']);
+gulp.task('default', ['sass', 'templatecache', 'ng_annotate', 'useref', 'jsonminify']);
 
 gulp.task('sass', function (done) {
 	gulp.src(paths.sass)
@@ -39,8 +41,8 @@ gulp.task('watch', function () {
 	gulp.watch(paths.templatecache, ['templatecache']);
 	gulp.watch(paths.ng_annotate, ['ng_annotate']);
 	gulp.watch(paths.useref, ['useref']);
+	gulp.watch(paths.jsonminify, ['i18n']);
 	gulp.watch(paths.fonts, ['fonts']);
-	gulp.watch(paths.i18n, ['i18n']);
 });
 
 gulp.task('install', ['git-check'], function () {
@@ -65,8 +67,11 @@ gulp.task('git-check', function (done) {
 
 gulp.task('templatecache', function (done) {
 	gulp.src(paths.templatecache)
+		.pipe(minifyHTML({
+			quotes: true
+		}))
 		.pipe(templateCache({standalone: true}))
-		.pipe(gulp.dest('./www/dist/dist_js/'))
+		.pipe(gulp.dest('./www/dist/dist_js/app/'))
 		.on('end', done);
 });
 
@@ -87,12 +92,13 @@ gulp.task('useref', function (done) {
 		.on('end', done);
 });
 
+gulp.task('jsonminify', function () {
+	return gulp.src(paths.jsonminify)
+		.pipe(jsonminify())
+		.pipe(gulp.dest('./www/dist/dist_js/i18n/'));
+});
+
 gulp.task('fonts', function () {
 	return gulp.src(paths.fonts)
 		.pipe(gulp.dest('./www/dist/dist_css/fonts/'));
-});
-
-gulp.task('i18n', function () {
-	return gulp.src(paths.i18n)
-		.pipe(gulp.dest('./www/dist/dist_js/i18n/'));
 });
