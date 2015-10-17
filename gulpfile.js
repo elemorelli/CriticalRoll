@@ -14,7 +14,7 @@ var ngAnnotate = require('gulp-ng-annotate');
 var useref = require('gulp-useref');
 
 var paths = {
-	sass: ['./scss/ionic.app.scss'],
+	sass: ['./scss/*.scss'],
 	templatecache: ['./www/main/**/*.html', './www/menu/**/*.html'],
 	ng_annotate: ['./www/app/**/*.js', './www/i18n/**/*.js', './www/main/**/*.js', './www/menu/**/*.js'],
 	useref: ['./www/*.html'],
@@ -37,11 +37,11 @@ gulp.task('sass', function (done) {
 });
 
 gulp.task('watch', function () {
-	gulp.watch(paths.sass, ['sass']);
+	gulp.watch(paths.sass, ['sass', 'useref']);
 	gulp.watch(paths.templatecache, ['templatecache']);
 	gulp.watch(paths.ng_annotate, ['ng_annotate']);
 	gulp.watch(paths.useref, ['useref']);
-	gulp.watch(paths.jsonminify, ['i18n']);
+	gulp.watch(paths.jsonminify, ['jsonminify']);
 	gulp.watch(paths.fonts, ['fonts']);
 });
 
