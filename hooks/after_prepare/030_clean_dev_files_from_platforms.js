@@ -25,6 +25,9 @@ var deleteFolderRecursive = function (removePath) {
 
 if (rootdir) {
 
+	// list of dev folders to delete from platform folder
+	var foldersToDelete = ['css', 'app', 'i18n', 'main', 'menu', 'templates', 'js', 'dist/dist_js/app'];
+
 	// go through each of the platform directories that have been prepared
 	var platforms = (process.env.CORDOVA_PLATFORMS ? process.env.CORDOVA_PLATFORMS.split(',') : []);
 
@@ -40,13 +43,15 @@ if (rootdir) {
 				wwwPath = path.join('platforms', platform, 'www');
 			}
 
-			var scssPath = path.join(wwwPath, 'lib', 'ionic', 'scss');
+			for (var i = 0; i < foldersToDelete.length; ++i) {
+				var folder = foldersToDelete[i];
+				var pathToDelete = path.join(wwwPath, folder);
 
-			if (fs.existsSync(scssPath)) {
-				process.stdout.write('removing scss folder: ' + scssPath + '\n');
-				deleteFolderRecursive(scssPath);
+				if (fs.existsSync(pathToDelete)) {
+					process.stdout.write('removing "' + folder + '" folder: ' + pathToDelete + '\n');
+					deleteFolderRecursive(pathToDelete);
+				}
 			}
-
 		} catch (e) {
 			process.stdout.write(e);
 		}
