@@ -10,13 +10,15 @@
 			<div class="card-animation" ng-repeat="card in drawnCards track by $index">
 				<div class="item list card stable-bg">
 
-					<span class="icon item-image button card-badge"
-								ng-class="['criticalroll-icon-' + card.primaryType  + '-' + card.secondaryType,
-								{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}]">
-					</span>
+					<div class="title-wrapper">
+						<span class="icon item-image button card-badge"
+									ng-class="['criticalroll-icon-' + card.primaryType + '-' + card.secondaryType,
+									{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}]">
+						</span>
 
-					<div class="card-title item item-text-wrap">
-						{{card.title | translate}}
+						<div class="card-title item item-text-wrap">
+							{{card.title | translate}}
+						</div>
 					</div>
 
 					<div class="card-text item item-body" content="card.text">
