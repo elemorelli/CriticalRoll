@@ -8,7 +8,7 @@
 	"CARD-FUMBLE-NATURAL-4-TITLE": "Ataque agotador",
 	"CARD-FUMBLE-NATURAL-4-TEXT": "Quedas %STATUS-FATIGUED=fatigado%.",
 	"CARD-FUMBLE-NATURAL-5-TITLE": "Molestias estomacales",
-	"CARD-FUMBLE-NATURAL-5-TEXT": "Quedas  %STATUS-SICKENED=indispuesto% por 1d4 rondas.",
+	"CARD-FUMBLE-NATURAL-5-TEXT": "Quedas %STATUS-SICKENED=indispuesto% por 1d4 rondas.",
 	"CARD-FUMBLE-NATURAL-6-TITLE": "Me mod\u00ed la lendua",
 	"CARD-FUMBLE-NATURAL-6-TEXT": "Sufres 1 de %STATUS-BLEED=sangrado%.",
 	"CARD-FUMBLE-NATURAL-7-TITLE": "M\u00fasculo rasgado",
