@@ -30,7 +30,7 @@
 	"CARD-CRITICAL-PIERCING-15-TITLE": "Herida en la mano",
 	"CARD-CRITICAL-PIERCING-15-TEXT": "Da\u00f1o normal y 1d2 de %ABILITY-DAMAGE=da\u00f1o% a %ABILITY-DEX=Des%. Penalidad de -4 en todas las tiradas usando esa mano %UNTIL-HEALED=hasta ser curado%.",
 	"CARD-CRITICAL-PIERCING-16-TITLE": "Perforaci\u00f3n",
-	"CARD-CRITICAL-PIERCING-16-TEXT": "Doble da\u00f1o y 1 de %STATUS-BLEED=sangrado%. El objetivo sufre 1 de sangrado adicional cada ronda  %UNTIL-HEALED=hasta ser curado%.",
+	"CARD-CRITICAL-PIERCING-16-TEXT": "Doble da\u00f1o y 1 de %STATUS-BLEED=sangrado%. El objetivo sufre 1 de sangrado adicional cada ronda %UNTIL-HEALED=hasta ser curado%.",
 	"CARD-CRITICAL-PIERCING-17-TITLE": "Golpe perfecto",
 	"CARD-CRITICAL-PIERCING-17-TEXT": "Triple da\u00f1o.",
 	"CARD-CRITICAL-PIERCING-18-TITLE": "Secci\u00f3n nerviosa",
