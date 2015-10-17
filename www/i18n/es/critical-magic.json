@@ -64,9 +64,9 @@
 	"CARD-CRITICAL-MAGIC-32-TITLE": "Selecci\u00f3n no-natural",
 	"CARD-CRITICAL-MAGIC-32-TEXT": "Doble da\u00f1o o da\u00f1o triple contra aberraciones y ajenos.",
 	"CARD-CRITICAL-MAGIC-33-TITLE": "Corrosivo",
-	"CARD-CRITICAL-MAGIC-33-TEXT": "Doble da\u00f1o. SI el hechizo es de \u00e1cido, el objetivo recibe 2d6 da\u00f1o de \u00e1cido por 1d4 rondas.",
+	"CARD-CRITICAL-MAGIC-33-TEXT": "Doble da\u00f1o. Si el hechizo es de \u00e1cido, el objetivo recibe 2d6 da\u00f1o de \u00e1cido por 1d4 rondas.",
 	"CARD-CRITICAL-MAGIC-34-TITLE": "Hueso gracioso",
-	"CARD-CRITICAL-MAGIC-34-TEXT": "Doble da\u00f1o y el objetivo pasa 1 ronda ri\u00e9ndose (Como el hechizo risa horrenda, %SAVE-CRITICAL=Voluntad niega %).",
+	"CARD-CRITICAL-MAGIC-34-TEXT": "Doble da\u00f1o y el objetivo pasa 1 ronda ri\u00e9ndose (Como el hechizo <em>Terribles carcajadas</em>, %SAVE-CRITICAL=Voluntad niega %).",
 	"CARD-CRITICAL-MAGIC-35-TITLE": "Desfasado",
 	"CARD-CRITICAL-MAGIC-35-TEXT": "Doble da\u00f1o y el objetivo se vuelve %STATUS-INCORPOREAL=incorp\u00f3reo% por 1d3 rondas (%SAVE-CRITICAL=Voluntad niega%).",
 	"CARD-CRITICAL-MAGIC-36-TITLE": "Robo de vida",
@@ -86,7 +86,7 @@
 	"CARD-CRITICAL-MAGIC-43-TITLE": "Hechizo salpicador",
 	"CARD-CRITICAL-MAGIC-43-TEXT": "Da\u00f1o normal y mitad de da\u00f1o a todos los objetivos adyacentes.",
 	"CARD-CRITICAL-MAGIC-44-TITLE": "Sobrecarga sensorial",
-	"CARD-CRITICAL-MAGIC-44-TEXT": "Doble da\u00f1o y el objetivo pierde \"olfato\" y \"Sentido ciego\" por 1 d\u00eda.",
+	"CARD-CRITICAL-MAGIC-44-TEXT": "Doble da\u00f1o y el objetivo pierde <em>Olfato</em> y <em>Vista ciega</em> por 1 d\u00eda.",
 	"CARD-CRITICAL-MAGIC-45-TITLE": "Aislado de magia",
 	"CARD-CRITICAL-MAGIC-45-TEXT": "Da\u00f1o normal y el objetivo no puede lanzar hechizos o usar habilidades m\u00e1gicas por 1d4 rondas.",
 	"CARD-CRITICAL-MAGIC-46-TITLE": "Aura de protecci\u00f3n",
@@ -102,5 +102,5 @@
 	"CARD-CRITICAL-MAGIC-51-TITLE": "Magia vamp\u00edrica",
 	"CARD-CRITICAL-MAGIC-51-TEXT": "Da\u00f1o normal. Te curas la misma cantidad de da\u00f1o.",
 	"CARD-CRITICAL-MAGIC-52-TITLE": "Rayo encogedor",
-	"CARD-CRITICAL-MAGIC-52-TEXT": "Da\u00f1o normal y el objetivo es reducido por 3 rondas (como Reducir persona, %SAVE-CRITICAL=Voluntad niega%)."
+	"CARD-CRITICAL-MAGIC-52-TEXT": "Da\u00f1o normal y el objetivo es reducido por 3 rondas (como <em>Reducir persona</em>, %SAVE-CRITICAL=Voluntad niega%)."
 }
