@@ -66,7 +66,7 @@
 	"CARD-CRITICAL-MAGIC-33-TITLE": "Corrosive",
 	"CARD-CRITICAL-MAGIC-33-TEXT": "Double damage. If acid spell, target takes 2d6 acid damage for 1d4 rounds.",
 	"CARD-CRITICAL-MAGIC-34-TITLE": "Funny bone",
-	"CARD-CRITICAL-MAGIC-34-TEXT": "Double damage and target spends 1 round laughing (as hideous laughter spell, %SAVE-CRITICAL=Will negates%).",
+	"CARD-CRITICAL-MAGIC-34-TEXT": "Double damage and target spends 1 round laughing (as <em>Hideous laughter</em> spell, %SAVE-CRITICAL=Will negates%).",
 	"CARD-CRITICAL-MAGIC-35-TITLE": "Phased",
 	"CARD-CRITICAL-MAGIC-35-TEXT": "Double damage and target is %STATUS-INCORPOREAL=incorporeal% for 1d3 rounds (%SAVE-CRITICAL=Will negates%).",
 	"CARD-CRITICAL-MAGIC-36-TITLE": "Life leech",
@@ -86,7 +86,7 @@
 	"CARD-CRITICAL-MAGIC-43-TITLE": "Splash spell",
 	"CARD-CRITICAL-MAGIC-43-TEXT": "Normal damage and half damage to all adjacent targets.",
 	"CARD-CRITICAL-MAGIC-44-TITLE": "Olfactory overload",
-	"CARD-CRITICAL-MAGIC-44-TEXT": "Double damage and target loses scent and blindsense for 1 day.",
+	"CARD-CRITICAL-MAGIC-44-TEXT": "Double damage and target loses <em>scent</em> and <em>blindsense</em> for 1 day.",
 	"CARD-CRITICAL-MAGIC-45-TITLE": "Cut off from magic",
 	"CARD-CRITICAL-MAGIC-45-TEXT": "Normal damage and target cannot cast spells or use spell-like abilities for 1d4 rounds.",
 	"CARD-CRITICAL-MAGIC-46-TITLE": "Aura of protection",
@@ -102,5 +102,5 @@
 	"CARD-CRITICAL-MAGIC-51-TITLE": "Vampiric magic",
 	"CARD-CRITICAL-MAGIC-51-TEXT": "Normal damage. You are healed the same amount.",
 	"CARD-CRITICAL-MAGIC-52-TITLE": "Shrink ray",
-	"CARD-CRITICAL-MAGIC-52-TEXT": "Normal damage and target is reduced for 3 rounds (as Reduce person, %SAVE-CRITICAL=Will negates%)."
+	"CARD-CRITICAL-MAGIC-52-TEXT": "Normal damage and target is reduced for 3 rounds (as <em>Reduce person</em>, %SAVE-CRITICAL=Will negates%)."
 }

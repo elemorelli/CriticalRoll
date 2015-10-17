@@ -97,6 +97,7 @@
 	"CARD-FUMBLE-NATURAL-48-TEXT": "If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds.",
 	"CARD-FUMBLE-NATURAL-49-TITLE": "Overthink it",
 	"CARD-FUMBLE-NATURAL-49-TEXT": "Your target's armor and natural armor bonuses are doubled against you for 3 rounds.",
+	"CARD-FUMBLE-NATURAL-50-TITLE": "Punctured foot",
 	"CARD-FUMBLE-NATURAL-50-TEXT": "You take 1d3 points of damage and your speed is halved %UNTIL-HEALED=until healed%.",
 	"CARD-FUMBLE-NATURAL-51-TITLE": "Bone bruise",
 	"CARD-FUMBLE-NATURAL-51-TEXT": "You take 1d2 point of %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%.",

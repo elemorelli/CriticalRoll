@@ -34,7 +34,7 @@
 	"CARD-CRITICAL-PIERCING-17-TITLE": "Perfect strike",
 	"CARD-CRITICAL-PIERCING-17-TEXT": "Triple Damage.",
 	"CARD-CRITICAL-PIERCING-18-TITLE": "Nerve cluster",
-	"CARD-CRITICAL-PIERCING-18-TEXT": "Normal damage and target is %STATUS-STUNNED=stunned% for 1d6 rounds (%SAVE-CRITICAL=Fort save each round to act%).",
+	"CARD-CRITICAL-PIERCING-18-TEXT": "Normal damage and target is %STATUS-STUNNED=stunned% for 1d6 rounds (%SAVE-CRITICAL=Fort save% each round to act).",
 	"CARD-CRITICAL-PIERCING-19-TITLE": "Penetrating wound",
 	"CARD-CRITICAL-PIERCING-19-TEXT": "Double damage and ignore DR.",
 	"CARD-CRITICAL-PIERCING-20-TITLE": "Kidney piercing",

@@ -34,7 +34,7 @@
 	"CARD-CRITICAL-PIERCING-17-TITLE": "Golpe perfecto",
 	"CARD-CRITICAL-PIERCING-17-TEXT": "Triple da\u00f1o.",
 	"CARD-CRITICAL-PIERCING-18-TITLE": "Secci\u00f3n nerviosa",
-	"CARD-CRITICAL-PIERCING-18-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-STUNNED=aturdido% por 1d6 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Fortaleza para actuar cada round%).",
+	"CARD-CRITICAL-PIERCING-18-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-STUNNED=aturdido% por 1d6 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Fortaleza% para actuar cada round).",
 	"CARD-CRITICAL-PIERCING-19-TITLE": "Herida penetrante",
 	"CARD-CRITICAL-PIERCING-19-TEXT": "Doble da\u00f1o e ignora reducci\u00f3n de da\u00f1o.",
 	"CARD-CRITICAL-PIERCING-20-TITLE": "Ri\u00f1\u00f3n perforado",
