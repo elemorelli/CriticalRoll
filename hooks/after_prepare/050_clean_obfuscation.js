@@ -40,11 +40,11 @@ if (rootdir) {
 				wwwPath = path.join('platforms', platform, 'www');
 			}
 
-			var scssPath = path.join(wwwPath, 'lib', 'ionic', 'scss');
+			var distPath = path.join(wwwPath, 'dist');
 
-			if (fs.existsSync(scssPath)) {
-				process.stdout.write('removing scss folder: ' + scssPath + '\n');
-				deleteFolderRecursive(scssPath);
+			if (fs.existsSync(distPath)) {
+				process.stdout.write('removing dist folder: ' + distPath + '\n');
+				deleteFolderRecursive(distPath);
 			}
 
 		} catch (e) {
