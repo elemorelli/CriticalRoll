@@ -82,7 +82,7 @@
 	"CARD-FUMBLE-RANGED-41-TITLE": "Torn tendon",
 	"CARD-FUMBLE-RANGED-41-TEXT": "You take 1 point of %ABILITY-DEX=Dex% %STATUS-BLEED=bleed%.",
 	"CARD-FUMBLE-RANGED-42-TITLE": "Broken",
-	"CARD-FUMBLE-RANGED-42-TEXT": "Your weapon is destroyed (%SAVE-FUMBLE=Ref negates%). Magic weapons use their own save bonus (DMG 214).",
+	"CARD-FUMBLE-RANGED-42-TEXT": "Your weapon is destroyed (%SAVE-FUMBLE=Ref negates%). Magic weapons use their own save bonus (Dungeon Master's Guide 214).",
 	"CARD-FUMBLE-RANGED-43-TITLE": "Everything you got",
 	"CARD-FUMBLE-RANGED-43-TEXT": "You are %STATUS-EXHAUSTED=exhausted% (%SAVE-FUMBLE=Fort negates%).",
 	"CARD-FUMBLE-RANGED-44-TITLE": "Snapped string",
