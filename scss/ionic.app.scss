@@ -35,7 +35,7 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 $bar-height: 52px;
 
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss";
+@import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss", "ruletips.scss";
 
 .center {
   text-align: center !important;

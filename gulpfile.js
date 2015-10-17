@@ -41,7 +41,7 @@ gulp.task('watch', function () {
 	gulp.watch(paths.templatecache, ['templatecache']);
 	gulp.watch(paths.ng_annotate, ['ng_annotate']);
 	gulp.watch(paths.useref, ['useref']);
-	gulp.watch(paths.jsonminify, ['i18n']);
+	gulp.watch(paths.jsonminify, ['jsonminify']);
 	gulp.watch(paths.fonts, ['fonts']);
 });
 
