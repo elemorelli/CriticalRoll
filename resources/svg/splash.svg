@@ -17,13 +17,13 @@
    enable-background="new 0 0 100 100"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-splash.svg"
+   sodipodi:docname="splash.svg"
    inkscape:export-filename="C:\Users\Ele\Workspace\CriticalRoll\resources\splash.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><metadata
      id="metadata9"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs7" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,7 +38,7 @@
      id="namedview5"
      showgrid="false"
      inkscape:zoom="0.1767767"
-     inkscape:cx="639.71758"
+     inkscape:cx="-58.903901"
      inkscape:cy="955.21481"
      inkscape:window-x="1912"
      inkscape:window-y="168"
@@ -97,7 +97,7 @@
      id="g4631"
      transform="translate(0,1632)" /><g
      id="g4716"
-     transform="matrix(2.8601969,0,0,2.8601969,377.50581,377.45799)"><path
+     transform="matrix(2.1876248,0,0,2.1876248,548.34011,548.30353)"><path
        inkscape:connector-curvature="0"
        id="path4610"
        d="m 119.8305,251.94771 c -14.9609,-28.68242 -27.071515,-52.27998 -26.912473,-52.43902 0.159042,-0.15904 14.931103,2.09828 32.826803,5.01627 17.8957,2.91799 43.97795,7.16694 57.96055,9.44211 13.9826,2.27517 25.35047,4.31155 25.26194,4.52529 -0.43657,1.05396 -61.21276,85.56585 -61.54725,85.58407 -0.21336,0.0116 -12.62866,-23.4463 -27.58957,-52.12872 z"
@@ -149,7 +149,7 @@
        style="fill:none;fill-opacity:0.78698222;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4241" /></g><g
      id="g4740"
-     transform="matrix(2.7979432,0,0,2.7979432,194.78956,227.58435)"><path
+     transform="matrix(2.14001,0,0,2.14001,408.58938,433.67251)"><path
        style="fill:#2ecc71;fill-opacity:1;stroke:#2ecc71;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 302.35104,383.47108 c 0.2999,-1.21485 53.41056,-110.67209 53.82018,-110.91951 0.28104,-0.16975 2.5701,2.44147 5.08682,5.80272 29.30452,39.13817 53.13237,71.37249 53.18187,71.9445 0.0536,0.61935 -110.5676,33.90909 -111.72767,33.62271 -0.24489,-0.0605 -0.40743,-0.26314 -0.3612,-0.45042 z"
        id="path4580"
