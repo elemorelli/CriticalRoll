@@ -1,8 +1,12 @@
 angular.module('CriticalRoll').controller('HelpController', function ($scope) {
 
-	$scope.sendFeedback = function () {
-		var feedbackURL = "https://gitreports.com/issue/gemorelli/CriticalRoll";
-		window.open(feedbackURL, '_system');
+	var linkURLs = {
+		"feedback": "https://gitreports.com/issue/gemorelli/CriticalRoll",
+		"pathfinderRPG": "http://paizo.com/pathfinderRPG/"
+	};
+
+	$scope.openLink = function (linkName) {
+		window.open(linkURLs[linkName], '_system');
 		return false;
 	};
 

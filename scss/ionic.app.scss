@@ -42,6 +42,11 @@ $bar-height: 52px;
 }
 
 .link, .ruletip-link {
+  color: blue;
+  border-bottom: 1px dotted;
+}
+
+.ruletip-link {
   border-bottom: 1px dotted;
 }
 
