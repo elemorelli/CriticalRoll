@@ -75,7 +75,7 @@
 	"CARD-CRITICAL-PIERCING-37-TEXT": "Doble da\u00f1o y el objetivo es desarmado (1 \u00edtem).",
 	"CARD-CRITICAL-PIERCING-38-TITLE": "De lado a lado",
 	"CARD-CRITICAL-PIERCING-38-TEXT": "Da\u00f1o normal y 1d6 de %STATUS-BLEED=sangrado% y 1 de %ABILITY-CON=Con% %ABILITY-DRAIN=consumidos% .",
-	"CARD-CRITICAL-PIERCING-39-TITLE": "Apertura sorpresiva",
+	"CARD-CRITICAL-PIERCING-39-TITLE": "Apertura sorpresa",
 	"CARD-CRITICAL-PIERCING-39-TEXT": "Doble da\u00f1o y un ataque gratuito contra el objetivo con una penalidad de -5.",
 	"CARD-CRITICAL-PIERCING-40-TITLE": "Revoltijo de \u00f3rganos",
 	"CARD-CRITICAL-PIERCING-40-TEXT": "Doble da\u00f1o y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% .",

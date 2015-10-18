@@ -45,7 +45,7 @@
 	"CARD-CRITICAL-SLASHING-22-TEXT": "Da\u00f1o normal y el objetivo pierde una mano y sufre 1d3 %ABILITY-CON=Con% y %ABILITY-STR=Fue% %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortitud niega%).",
 	"CARD-CRITICAL-SLASHING-23-TITLE": "Porrazo con el recazo",
 	"CARD-CRITICAL-SLASHING-23-TEXT": "Triple da\u00f1o, pero todo el da\u00f1o es no letal.",
-	"CARD-CRITICAL-SLASHING-24-TITLE": "Apertura sorpresiva",
+	"CARD-CRITICAL-SLASHING-24-TITLE": "Apertura sorpresa",
 	"CARD-CRITICAL-SLASHING-24-TEXT": "Doble da\u00f1o y un ataque gratuito contra el objetivo con una penalidad de -5.",
 	"CARD-CRITICAL-SLASHING-25-TITLE": "Golpe ancho",
 	"CARD-CRITICAL-SLASHING-25-TEXT": "Da\u00f1o normal y 1d8 de %STATUS-BLEED=sangrado%.",
