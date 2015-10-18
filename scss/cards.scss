@@ -6,10 +6,16 @@
   width: 90% !important;
 }
 
+.title-wrapper {
+  height: 56px !important;
+  display: flex;
+  align-items: center;
+}
+
 .card-title {
-  margin-left: 40px !important;
+  min-height: initial !important;
+  padding: 8px 56px 8px 56px !important;
   font-size: large !important;
-  padding-right: 56px !important;
 }
 
 .card-text {

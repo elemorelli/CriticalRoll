@@ -56,7 +56,7 @@
 	"CARD-CRITICAL-BLUDGEONING-28-TITLE": "Bone masher",
 	"CARD-CRITICAL-BLUDGEONING-28-TEXT": "Normal damage and either 1d3 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage% and halve speed (leg) or 1d3 %ABILITY-STR=Str% %ABILITY-DAMAGE=damage% (arm). Limb useless %UNTIL-HEALED=until healed%.",
 	"CARD-CRITICAL-BLUDGEONING-29-TITLE": "2 for 1",
-	"CARD-CRITICAL-BLUDGEONING-29-TEXT": "Double damage to target and normal damage to adjacent target.",
+	"CARD-CRITICAL-BLUDGEONING-29-TEXT": "Double damage to target and normal damage to one adjacent target.",
 	"CARD-CRITICAL-BLUDGEONING-30-TITLE": "Crushed intestines",
 	"CARD-CRITICAL-BLUDGEONING-30-TEXT": "Normal damage and 1d4 %ABILITY-CON=Con% %STATUS-BLEED=bleed% (DC 15 Fort negates, save each round).",
 	"CARD-CRITICAL-BLUDGEONING-31-TITLE": "Numbing blow",
