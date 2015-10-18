@@ -1,4 +1,8 @@
 {
+	"OBJECT-DAMAGE-TITLE": "Damaging an object",
+	"OBJECT-DAMAGE-TEXT": "Subtract the object hardness from the damage dealt. Only the excess reduces the object's hit points.<ul><li>Each +1 enchantment in the magic weapon, shield or armor affected, adds +2 to the hardness and +10 hit points</li><li>An object damaged more than half of its hit points in gains the Broken condition</li><li>A broken weapon suffers -2 to attack rolls and only can score critical hits with a natural 20 with a x2 modifier</li><li>A broken armor or shield, suffers a reduction of half ot its AC bonus and has the double of ACP</li><li>An object that is reduced to 0 hit points is destroyed and can only be repaired with Craft or certain spells like <em>Mending</em> or <em>Make whole</em></li><li>Magic items get a saving throw bonus of 2 + half of its caster level</li></ul>",
+	"NONLETHAL-DAMAGE-TITLE": "Nonlethal damage",
+	"NONLETHAL-DAMAGE-TEXT": "The character suffered damage that does not threaten its life. Do not deduct this damage from the current hit points, just track it separately.<ul><li>When the nonlethal damage is equal to the current hit points, the creature is staggered</li><li>When it exceeds, the creature its unconscious</li><li>Nonlethal damage heals at the rate of 1 hit point per hour per character level</li><li>When a spell or ability cures hit point damage, it also removes an equal amount of nonlethal damage</li></ul>",
 	"ABILITY-DAMAGE-TITLE": "Ability damage",
 	"ABILITY-DAMAGE-TEXT": "Damage to ability scores is usually healed at the rate of 1 per day to each damaged ability score or spells as <em>Lesser Restoration</em>.",
 	"ABILITY-DRAIN-TITLE": "Ability drain",
@@ -46,7 +50,7 @@
 	"STATUS-INCORPOREAL-TITLE": "Incorporeal",
 	"STATUS-INCORPOREAL-TEXT": "The character doesn't have a physical body.<ul><li>Gains immunity to nonmagical attack</li><li>Takes only 50% from magic weapons, spells, spell-like and supernatural effects</li><li>Takes full damage from other incorporeal creatures and force effects</li></ul>",
 	"STATUS-INVISIBLE-TITLE": "Invisible",
-	"STATUS-INVISIBLE-TEXT": "The character is visually undetectable, including to darkvision.<ul><li>Gains +2 on attack rolls against sighted opponents</li><li>Ignores Dex bonuses to AC</li><li>Ignores extra damage from being a ranger's favored enemy and from sneak attacks</li><li>Gains 50% miss chance from total concealment. Big and slow creatures may have a lower miss chance</li><li>Its presence can be noticed within 30 feet with a DC 20 Perception check</li><li>Its current square can be pinpointed with a DC 40 Perception check</li><li>Character can make a touch attack with his hands or a weapon into two adjacent 5-foot squares using a standard action to check if there’s an invisible creature</li></ul>See the ability details for more info and modifiers: http://paizo.com/pathfinderRPG/prd/coreRulebook/glossary.html#invisibility",
+	"STATUS-INVISIBLE-TEXT": "The character is visually undetectable, including to darkvision.<ul><li>Gains +2 on attack rolls against sighted opponents</li><li>Ignores Dex bonuses to AC</li><li>Ignores extra damage from being a ranger's favored enemy and from sneak attacks</li><li>Gains 50% miss chance from total concealment. Big and slow creatures may have a lower miss chance</li><li>Its presence can be noticed within 30 feet with a DC 20 Perception check</li><li>Its current square can be pinpointed with a DC 40 Perception check</li><li>Character can make a touch attack with his hands or a weapon into two adjacent 5-foot squares using a standard action to check if there’s an invisible creature</li></ul>See the ability details for more info and modifiers.",
 	"STATUS-NAUSEATED-TITLE": "Nauseated",
 	"STATUS-NAUSEATED-TEXT": "The character is experiencing stomach distress.<ul><li>Is unable to attack, cast spells, concentrate on spells, or do anything else requiring attention</li><li>Can only take a single move action per turn</li></ul>",
 	"STATUS-PRONE-TITLE": "Prone",
@@ -60,5 +64,9 @@
 	"STATUS-STUNNED-TITLE": "Stunned",
 	"STATUS-STUNNED-TEXT": "The character has mental numbness.<ul><li>Drops everything held</li><li>Can't take actions</li><li>Takes a –2 penalty to AC</li><li>Loses the Dex bonus to AC</li><li>Attackers receive +4 on attack rolls to perform combat maneuvers against a stunned opponent</li></ul>",
 	"STATUS-UNCONSCIOUS-TITLE": "Unconscious",
-	"STATUS-UNCONSCIOUS-TEXT": "The character is knocked out and helpless."
+	"STATUS-UNCONSCIOUS-TEXT": "The character is knocked out and helpless.",
+	"STATUS-NEGATIVE-LEVEL-TITLE": "Negative level",
+	"STATUS-NEGATIVE-LEVEL-TEXT": "The character was drained from its life and energy. For each negative level:<ul><li>Takes -1 on ability checks</li><li>Takes -1 on CMB and CMD</li><li>Takes -1 on skill checks</li><li>Takes -1 saving throws</li><li>Loses 5 total hit points</li><li>It's treated as one level lower for every variable that depends on level</li><li>Spellcasters do not lose any spell or slot</li><li>Creatures with temporary negative levels recieve a new sacing throw each day to end the effect at the same DC</li><li>Permanent negative levels can only be removed with <em>Restoration</em> and they remain after a dead creature is brought back to life</li></ul>",
+	"STATUS-PETRIFIED-TITLE": "Petrified",
+	"STATUS-PETRIFIED-TEXT": "The character was converted to stone.<ul><li>It is considered unconscious</li><li>If it's cracked or broken and it's returned to flesh without mending, it takes permanent hit point loss and/or debilitation</li></ul>"
 }

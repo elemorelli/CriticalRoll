@@ -34,7 +34,7 @@
 	"CARD-FUMBLE-MAGIC-17-TITLE": "Cursed",
 	"CARD-FUMBLE-MAGIC-17-TEXT": "You take a -4 penalty on attack rolls, saves, skill checks, and ability checks. This effect can only be cured with <em>Remove curse</em>.",
 	"CARD-FUMBLE-MAGIC-18-TITLE": "You made him faster",
-	"CARD-FUMBLE-MAGIC-18-TEXT": "The target is hasted for 1d4 rounds.",
+	"CARD-FUMBLE-MAGIC-18-TEXT": "The target is <em>Hasted</em> for 1d4 rounds.",
 	"CARD-FUMBLE-MAGIC-19-TITLE": "You made him tougher",
 	"CARD-FUMBLE-MAGIC-19-TEXT": "The target gains DR 5/-for 1d4 rounds.",
 	"CARD-FUMBLE-MAGIC-20-TITLE": "Vertigo",

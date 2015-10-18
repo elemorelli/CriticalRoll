@@ -26,7 +26,7 @@
 	"CARD-CRITICAL-PIERCING-13-TITLE": "Pulm\u00f3n perforado",
 	"CARD-CRITICAL-PIERCING-13-TEXT": "Doble da\u00f1o y el objetivo empieza a ahogarse 3 rondas m\u00e1s tarde. Salvaci\u00f3n de Fortaleza CD 20 cada ronda para terminar el efecto.",
 	"CARD-CRITICAL-PIERCING-14-TITLE": "Ventilado",
-	"CARD-CRITICAL-PIERCING-14-TEXT": "Doble da\u00f1o y 2d6 da\u00f1o no letal.",
+	"CARD-CRITICAL-PIERCING-14-TEXT": "Doble da\u00f1o y 2d6 %NONLETHAL-DAMAGE=da\u00f1o no letal%.",
 	"CARD-CRITICAL-PIERCING-15-TITLE": "Herida en la mano",
 	"CARD-CRITICAL-PIERCING-15-TEXT": "Da\u00f1o normal y 1d2 de %ABILITY-DAMAGE=da\u00f1o% a %ABILITY-DEX=Des%. Penalidad de -4 en todas las tiradas usando esa mano %UNTIL-HEALED=hasta ser curado%.",
 	"CARD-CRITICAL-PIERCING-16-TITLE": "Perforaci\u00f3n",
