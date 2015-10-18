@@ -5,9 +5,9 @@
 		"sass",
 		"templatecache",
 		"ng_annotate",
-		"useref",
 		"fonts",
 		"jsonminify",
+		"useref",
 		"watch"
 	],
 	"watchPatterns": [

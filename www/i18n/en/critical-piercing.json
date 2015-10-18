@@ -26,7 +26,7 @@
 	"CARD-CRITICAL-PIERCING-13-TITLE": "Punctured lung",
 	"CARD-CRITICAL-PIERCING-13-TEXT": "Double damage and target begins to drown 3 round later. DC 20 Fort save each round to end effect.",
 	"CARD-CRITICAL-PIERCING-14-TITLE": "Ventilated",
-	"CARD-CRITICAL-PIERCING-14-TEXT": "Double damage and 2d6 nonlethal damage.",
+	"CARD-CRITICAL-PIERCING-14-TEXT": "Double damage and 2d6 %NONLETHAL-DAMAGE=nonlethal damage%.",
 	"CARD-CRITICAL-PIERCING-15-TITLE": "Hand wound",
 	"CARD-CRITICAL-PIERCING-15-TEXT": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%. -4 penalty on all rolls using that hand %UNTIL-HEALED=until healed%.",
 	"CARD-CRITICAL-PIERCING-16-TITLE": "Pinhole",
