@@ -65,7 +65,7 @@
 	"CARD-CRITICAL-MAGIC-32-TEXT": "Doble da\u00f1o o da\u00f1o triple contra aberraciones y ajenos.",
 	"CARD-CRITICAL-MAGIC-33-TITLE": "Corrosivo",
 	"CARD-CRITICAL-MAGIC-33-TEXT": "Doble da\u00f1o. Si el hechizo es de \u00e1cido, el objetivo recibe 2d6 da\u00f1o de \u00e1cido por 1d4 rondas.",
-	"CARD-CRITICAL-MAGIC-34-TITLE": "Húmero",
+	"CARD-CRITICAL-MAGIC-34-TITLE": "H\u00famero",
 	"CARD-CRITICAL-MAGIC-34-TEXT": "Doble da\u00f1o y el objetivo pasa 1 ronda ri\u00e9ndose (Como el hechizo <em>Terribles carcajadas</em>, %SAVE-CRITICAL=Voluntad niega %).",
 	"CARD-CRITICAL-MAGIC-35-TITLE": "Desfasado",
 	"CARD-CRITICAL-MAGIC-35-TEXT": "Doble da\u00f1o y el objetivo se vuelve %STATUS-INCORPOREAL=incorp\u00f3reo% por 1d3 rondas (%SAVE-CRITICAL=Voluntad niega%).",

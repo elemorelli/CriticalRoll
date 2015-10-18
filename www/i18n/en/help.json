@@ -1,4 +1,8 @@
 {
+	"HELP-INTO-TITLE": "What is this?",
+	"HELP-INTO-TEXT-1": "CriticalRoll is an App to change criticals and fumbles in role playing games like Pathfinder and D&D 3.5, although it can be adapted to work with other systems.",
+	"HELP-INTO-TEXT-2": "These optional rules can improve the story's narrative adding unexpected effects to combat, but as it alters existing rules make sure you agree with your group before use them.",
+	"HELP-INTO-TEXT-3": "If you don't know what Pathfinder RPG is and you want to learn more about the game, check this link:",
 	"HELP-CRITICAL-TITLE": "Critical hits",
 	"HELP-CRITICAL-TEXT-1": "Any attack made with a weapon or spell that needs an attack roll, has a chance to score a critical hit.",
 	"HELP-CRITICAL-TEXT-2": "If the attack roll is within the critical threat range of the weapon and you confirm the critical, instead of multiply the damage, you can draw an effect for the appropriate weapon type and apply its effects.",

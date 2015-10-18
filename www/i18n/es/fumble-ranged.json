@@ -101,6 +101,6 @@
 	"CARD-FUMBLE-RANGED-50-TEXT": "El ataque te acierta a ti mismo y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica.",
 	"CARD-FUMBLE-RANGED-51-TITLE": "Espalda arqueada",
 	"CARD-FUMBLE-RANGED-51-TEXT": "Quedas %STATUS-FATIGUED=fatigado%.",
-	"CARD-FUMBLE-RANGED-52-TITLE": "Posición inc\u00f3moda",
+	"CARD-FUMBLE-RANGED-52-TITLE": "Posici\u00f3n inc\u00f3moda",
 	"CARD-FUMBLE-RANGED-52-TEXT": "Recibes -2 a tu CA por 1d4 rondas."
 }

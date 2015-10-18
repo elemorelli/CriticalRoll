@@ -1,6 +1,23 @@
 <ion-view view-title="{{'HELP-TITLE' | translate}}">
 	<ion-content overflow-scroll="true" class="has-header help">
 
+		<div class="row intro-row">
+
+			<div class="col">
+				<h3>{{'HELP-INTO-TITLE' | translate}}</h3>
+
+				<p>{{'HELP-INTO-TEXT-1' | translate}}</p>
+
+				<p>{{'HELP-INTO-TEXT-2' | translate}}</p>
+
+				<p>
+					{{'HELP-INTO-TEXT-3' | translate}}
+					<a class="link" ng-click="openLink('pathfinderRPG')">http://paizo.com/pathfinderRPG/</a>
+				</p>
+
+			</div>
+		</div>
+
 		<div class="row critical-row">
 
 			<div class="col col-80 text-column">
@@ -67,7 +84,7 @@
 			<div class="col col-33 bug-column">
 				<h4>{{'HELP-FEEDBACK-TITLE' | translate}}</h4>
 				<span class="icon item-image button card-badge criticalroll-icon-bug button-royal"
-							ng-click="sendFeedback()"></span>
+							ng-click="openLink('feedback')"></span>
 			</div>
 
 		</div>
