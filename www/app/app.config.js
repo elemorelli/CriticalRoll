@@ -3,13 +3,13 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 	$stateProvider.state('app', {
 		url: '/app',
 		abstract: true,
-		templateUrl: 'menu.html',
+		templateUrl: 'menu/menu.html',
 		controller: 'MenuController'
 	}).state('app.home', {
 		url: '/home',
 		views: {
 			'menuContent': {
-				templateUrl: 'main.html',
+				templateUrl: 'main/main.html',
 				controller: 'CardsController'
 			}
 		}
@@ -17,14 +17,14 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 		url: '/license',
 		views: {
 			'menuContent': {
-				templateUrl: 'license.html'
+				templateUrl: 'menu/license.html'
 			}
 		}
 	}).state('app.help', {
 		url: '/help',
 		views: {
 			'menuContent': {
-				templateUrl: 'help.html',
+				templateUrl: 'menu/help.html',
 				controller: 'HelpController'
 			}
 		}

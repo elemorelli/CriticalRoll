@@ -3,11 +3,6 @@
   "app_id": "ade21b2e",
   "gulpStartupTasks": [
     "sass",
-    "templatecache",
-    "ng_annotate",
-    "fonts",
-    "jsonminify",
-    "useref",
     "watch"
   ],
   "watchPatterns": [
