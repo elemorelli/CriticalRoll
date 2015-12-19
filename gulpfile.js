@@ -82,14 +82,10 @@ gulp.task('ng_annotate', function (done) {
 		.on('end', done);
 });
 
-gulp.task('useref', function (done) {
-	var assets = useref.assets();
-	gulp.src(paths.useref)
-		.pipe(assets)
-		.pipe(assets.restore())
-		.pipe(useref())
-		.pipe(gulp.dest('./www/dist'))
-		.on('end', done);
+gulp.task('useref', function () {
+	return gulp.src('./www/*.html')
+			.pipe(useref())
+			.pipe(gulp.dest('./www/dist'));
 });
 
 gulp.task('jsonminify', function () {
