@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.vanillaicecreamstudio.criticalroll" version="1.1.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="com.vanillaicecreamstudio.criticalroll" version="1.1.1" xmlns="http://www.w3.org/ns/widgets">
 	<name>CriticalRoll</name>
 	<description>A for Critical hits and Fumble effects in Tabletop RPGs as Pathfinder or D&amp;D</description>
 	<author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">Vanilla Icecream Studio</author>
