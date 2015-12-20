@@ -28,6 +28,14 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 				controller: 'HelpController'
 			}
 		}
+	}).state('app.ruletips', {
+		url: '/ruletips',
+		views: {
+			'menuContent': {
+				templateUrl: 'ruletips/ruletips.html',
+				controller: 'RuletipsController'
+			}
+		}
 	});
 
 	$urlRouterProvider.otherwise('/app/home');

@@ -1,0 +1,18 @@
+<ion-view view-title="{{'RULETIPS-TITLE' | translate}}">
+	<ion-content class="has-header" has-bouncing="true" overflow-scroll="false">
+
+		<ion-list id="ruletips-list">
+
+			<div ng-repeat="section in ruletips">
+				<div class="item item-divider">
+					{{section.title | translate}}
+				</div>
+				<ion-item ng-repeat="rule in section.rules" ng-click="openRuletip(rule)">
+					{{rule + '-TITLE' | translate}}
+				</ion-item>
+			</div>
+
+		</ion-list>
+
+	</ion-content>
+</ion-view>

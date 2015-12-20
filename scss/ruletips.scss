@@ -1,13 +1,27 @@
 .popup {
-  width: 80% !important;
+	width: 80% !important;
 }
 
 .popup ul {
-  list-style-type: disc;
-  padding-left: 20px;
+	list-style-type: disc;
+	padding-left: 20px;
 }
 
 .popup li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#ruletips-list .item {
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+#ruletips-list .item-divider {
+	background-color: #ddd;
+	line-height: 28px;
+	font-weight: bolder;
+	font-size: 18px;
 }
