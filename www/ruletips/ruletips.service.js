@@ -4,8 +4,8 @@ angular.module('CriticalRoll').service('RuletipsService', function ($ionicPopup,
 		{
 			"title": "RULETIP-SECTION-DAMAGE",
 			"rules": [
-				"OBJECT-DAMAGE",
 				"NONLETHAL-DAMAGE",
+				"OBJECT-DAMAGE",
 				"STATUS-NEGATIVE-LEVEL"
 			]
 		},
@@ -47,13 +47,13 @@ angular.module('CriticalRoll').service('RuletipsService', function ($ionicPopup,
 				"STATUS-INCORPOREAL",
 				"STATUS-INVISIBLE",
 				"STATUS-NAUSEATED",
+				"STATUS-PETRIFIED",
 				"STATUS-PRONE",
 				"STATUS-SHAKEN",
 				"STATUS-SICKENED",
 				"STATUS-STAGGERED",
 				"STATUS-STUNNED",
-				"STATUS-UNCONSCIOUS",
-				"STATUS-PETRIFIED"
+				"STATUS-UNCONSCIOUS"
 			]
 		}
 	];
