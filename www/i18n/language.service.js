@@ -1,10 +1,8 @@
-angular.module('CriticalRoll').service('LanguageService', function ($translate, SettingsService) {
-
-	$translate.use(SettingsService.get('language'));
+angular.module('CriticalRoll').service('LanguageService', function ($translate) {
 
 	this.setLanguage = function (lang) {
 		$translate.use(lang);
-		SettingsService.set('language', lang);
+		window.localStorage.language = lang;
 	};
 
 	this.getLanguage = function () {
@@ -14,8 +12,6 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate, 
 }).config(['$translateProvider', function ($translateProvider) {
 
 	var i18nPath = 'i18n/';
-	//if (ionic.Platform.isWebView())
-	//	i18nPath = 'dist_js/i18n/';
 
 	$translateProvider.useStaticFilesLoader({
 			files: [{
@@ -58,6 +54,6 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate, 
 		}
 	);
 
-	$translateProvider.preferredLanguage('en');
+	$translateProvider.preferredLanguage(window.localStorage.language || 'en');
 	$translateProvider.fallbackLanguage('en');
 }]);
