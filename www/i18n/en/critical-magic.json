@@ -22,7 +22,7 @@
 	"CARD-CRITICAL-MAGIC-11-TITLE": "Electrocuted",
 	"CARD-CRITICAL-MAGIC-11-TEXT": "Double damage. If electricity spell, target %STATUS-STUNNED=stunned% for 1d4 rounds.",
 	"CARD-CRITICAL-MAGIC-12-TITLE": "Hypnotic link",
-	"CARD-CRITICAL-MAGIC-12-TEXT": "Double damage and you may give the target 1 <em>Suggestion<em> (as the spell. %SAVE-CRITICAL=Will negates%).",
+	"CARD-CRITICAL-MAGIC-12-TEXT": "Double damage and you may give the target 1 <em>Suggestion</em> (as the spell. %SAVE-CRITICAL=Will negates%).",
 	"CARD-CRITICAL-MAGIC-13-TITLE": "Frozen",
 	"CARD-CRITICAL-MAGIC-13-TEXT": "Double damage. If cold spell, target takes 1d4 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%.",
 	"CARD-CRITICAL-MAGIC-14-TITLE": "Side effect",
