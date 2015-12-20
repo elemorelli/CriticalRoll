@@ -57,7 +57,7 @@
 	"CARD-FUMBLE-NATURAL-28-TEXT": "Sufres 1d4 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%.",
 	"CARD-FUMBLE-NATURAL-29-TITLE": "Sobreesfuerzo",
 	"CARD-FUMBLE-NATURAL-29-TEXT": "Quedas %STATUS-EXHAUSTED=exhausto% (%SAVE-FUMBLE=Fortaleza niega%).",
-	"CARD-FUMBLE-NATURAL-30-TITLE": "No aspires a ello",
+	"CARD-FUMBLE-NATURAL-30-TITLE": "Ni te molestes",
 	"CARD-FUMBLE-NATURAL-30-TEXT": "Sufres 1 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%.",
 	"CARD-FUMBLE-NATURAL-31-TITLE": "Tenemos un debilucho",
 	"CARD-FUMBLE-NATURAL-31-TEXT": "Caes %STATUS-UNCONSCIOUS=inconsciente% por 1d6 rondas (%SAVE-FUMBLE=Voluntad niega%).",
