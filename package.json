@@ -25,10 +25,19 @@
 		"android"
 	],
 	"cordovaPlugins": [
-		"org.apache.cordova.inappbrowser",
-		"https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
+		"cordova-plugin-inappbrowser",
+		{
+			"locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+			"id": "cordova-plugin-x-socialsharing"
+		},
+		"cordova-plugin-splashscreen"
 	],
 	"cordovaPlatforms": [
-		"android"
+		"android",
+		{
+			"platform": "android",
+			"version": "",
+			"locator": "android"
+		}
 	]
 }
