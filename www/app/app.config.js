@@ -9,7 +9,7 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 		url: '/home',
 		views: {
 			'menuContent': {
-				templateUrl: 'main/main.html',
+				templateUrl: 'app/main.html',
 				controller: 'CardsController'
 			}
 		}
@@ -25,7 +25,7 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 		views: {
 			'menuContent': {
 				templateUrl: 'menu/help.html',
-				controller: 'HelpController'
+				controller: 'MenuController'
 			}
 		}
 	}).state('app.ruletips', {

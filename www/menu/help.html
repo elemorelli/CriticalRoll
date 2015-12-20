@@ -1,5 +1,5 @@
 <ion-view view-title="{{'HELP-TITLE' | translate}}">
-	<ion-content overflow-scroll="true" class="has-header help">
+	<ion-content id="help" class="has-header" has-bouncing="true" overflow-scroll="false">
 
 		<div class="row intro-row">
 
@@ -31,16 +31,27 @@
 			</div>
 			<div class="col col-20 icon-column">
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-critical-slashing button-balanced"></span>
+					<span class="icon item-image button card-badge button-balanced">
+						<icon type="critical-slashing"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-critical-piercing button-balanced"></span>
+
+					<span class="icon item-image button card-badge button-balanced">
+						<icon type="critical-piercing"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-critical-bludgeoning button-balanced"></span>
+
+					<span class="icon item-image button card-badge button-balanced">
+						<icon type="critical-bludgeoning"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-critical-magic button-balanced"></span>
+
+					<span class="icon item-image button card-badge button-balanced">
+						<icon type="critical-magic"></icon>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -48,16 +59,24 @@
 		<div class="row fumble-row">
 			<div class="col col-20 icon-column">
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-fumble-melee button-assertive"></span>
+					<span class="icon item-image button card-badge button-assertive">
+						<icon type="fumble-melee"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-fumble-ranged button-assertive"></span>
+					<span class="icon item-image button card-badge button-assertive">
+						<icon type="fumble-ranged"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-fumble-natural button-assertive"></span>
+					<span class="icon item-image button card-badge button-assertive">
+						<icon type="fumble-natural"></icon>
+					</span>
 				</div>
 				<div class="row">
-					<span class="icon item-image button card-badge criticalroll-icon-fumble-magic button-assertive"></span>
+					<span class="icon item-image button card-badge button-assertive">
+						<icon type="fumble-magic"></icon>
+					</span>
 				</div>
 			</div>
 			<div class="col col-80 text-column">
@@ -69,24 +88,6 @@
 
 				<p>{{'HELP-FUMBLE-TEXT-3' | translate}}</p>
 			</div>
-		</div>
-
-
-		<div class="row feedback-row">
-
-			<div class="col col-67">
-				<p>{{'HELP-FEEDBACK-TEXT-1' | translate}}</p>
-
-				<p>{{'HELP-FEEDBACK-TEXT-2' | translate}}</p>
-
-				<p>{{'HELP-FEEDBACK-TEXT-3' | translate}}</p>
-			</div>
-			<div class="col col-33 bug-column">
-				<h4>{{'HELP-FEEDBACK-TITLE' | translate}}</h4>
-				<span class="icon item-image button card-badge criticalroll-icon-bug button-royal"
-							ng-click="openLink('feedback')"></span>
-			</div>
-
 		</div>
 
 	</ion-content>
