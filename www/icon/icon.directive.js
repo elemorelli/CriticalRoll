@@ -5,6 +5,6 @@ angular.module('CriticalRoll').directive('icon', function () {
 		scope: {
 			type:"@type"
 		},
-		templateUrl: 'icon/icon.html'
+		templateUrl: 'icon/icon.template.html'
 	};
 });
