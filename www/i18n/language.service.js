@@ -12,8 +12,8 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 }).config(['$translateProvider', function ($translateProvider) {
 
 	var i18nPath = 'i18n/';
-	if (ionic.Platform.isWebView())
-		i18nPath = 'dist_js/i18n/';
+	//if (ionic.Platform.isWebView())
+	//	i18nPath = 'dist_js/i18n/';
 
 	$translateProvider.useStaticFilesLoader({
 			files: [{
