@@ -1,19 +1,22 @@
 <ion-view view-title="CriticalRoll">
 
 	<ion-nav-buttons side="right">
-		<button class="button button-fab icon button-calm criticalroll-icon-trash" ng-click="removeAll()"></button>
+		<button id="trash" class="button button-fab button-calm" ng-click="removeAll()">
+			<icon type="trash"></icon>
+		</button>
 	</ion-nav-buttons>
 
 	<ion-content class="has-subfooter has-header" has-bouncing="true">
 		<ion-list can-swipe=true>
 
-			<div class="card-animation" ng-repeat="card in drawnCards track by $index">
+			<div id="card-list" class="card-animation" ng-repeat="card in drawnCards track by $index">
 				<div class="item list card stable-bg">
 
 					<div class="title-wrapper">
 						<span class="icon item-image button card-badge"
-									ng-class="['criticalroll-icon-' + card.primaryType + '-' + card.secondaryType,
-									{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}]">
+									ng-class="[{'button-balanced':card.primaryType=='critical','button-assertive':card.primaryType=='fumble'}]">
+
+							<icon type="{{card.primaryType + '-' + card.secondaryType}}"></icon>
 						</span>
 
 						<div class="card-title item item-text-wrap">
@@ -31,29 +34,45 @@
 		</ion-list>
 	</ion-content>
 
-	<div class="bar bar-subfooter bar-balanced">
+	<div id="critical-button-bar" class="bar bar-subfooter bar-balanced">
 		<div class="button-bar critical">
-			<a class="button button-raised ink-dark criticalroll-icon-critical-slashing"
-				 ng-click="drawCard('critical','slashing')"></a>
+			<a class="button button-raised ink-dark"
+				 ng-click="drawCard('critical','slashing')">
+				<icon type="critical-slashing"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-piercing"
-				 ng-click="drawCard('critical','piercing')"></a>
+				 ng-click="drawCard('critical','piercing')">
+				<icon type="critical-piercing"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-bludgeoning"
-				 ng-click="drawCard('critical','bludgeoning')"></a>
+				 ng-click="drawCard('critical','bludgeoning')">
+				<icon type="critical-bludgeoning"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-magic"
-				 ng-click="drawCard('critical','magic')"></a>
+				 ng-click="drawCard('critical','magic')">
+				<icon type="critical-magic"></icon>
+			</a>
 		</div>
 	</div>
 
-	<div class="bar bar-footer bar-assertive">
+	<div id="fumble-button-bar" class="bar bar-footer bar-assertive">
 		<div class="button-bar fumble">
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-melee"
-				 ng-click="drawCard('fumble','melee')"></a>
+				 ng-click="drawCard('fumble','melee')">
+				<icon type="fumble-melee"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-ranged"
-				 ng-click="drawCard('fumble','ranged')"></a>
+				 ng-click="drawCard('fumble','ranged')">
+				<icon type="fumble-ranged"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-natural"
-				 ng-click="drawCard('fumble','natural')"></a>
+				 ng-click="drawCard('fumble','natural')">
+				<icon type="fumble-natural"></icon>
+			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-magic"
-				 ng-click="drawCard('fumble','magic')"></a>
+				 ng-click="drawCard('fumble','magic')">
+				<icon type="fumble-magic"></icon>
+			</a>
 		</div>
 	</div>
 

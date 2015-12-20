@@ -1,13 +1,16 @@
 <ion-side-menus enable-menu-with-back-views="true">
 
 	<ion-side-menu-content>
+
 		<ion-nav-bar class="bar-stable">
+			<ion-nav-back-button>
+			</ion-nav-back-button>
 
 			<ion-nav-buttons side="left">
-				<button class="button button-icon button-clear criticalroll-icon-navicon dark" menu-toggle="left">
+				<button id="menu-button" class="button button-icon button-clear" menu-toggle="left">
+					<icon type="navicon"></icon>
 				</button>
 			</ion-nav-buttons>
-
 		</ion-nav-bar>
 
 		<ion-nav-view name="menuContent"></ion-nav-view>
@@ -16,18 +19,18 @@
 
 	<ion-side-menu width="80" side="left">
 		<ion-content>
-			<ul class="list">
-				<ion-item class="item-icon-left" href="#/app/main" menu-close>
-					<span class="icon criticalroll-icon-d20s"></span>
+			<ul id="menu" class="list">
+				<ion-item href="#/app/main" menu-close>
+					<icon type="d20s"></icon>
 				</ion-item>
-				<ion-item class="item-icon-left" href="#/app/help" menu-close>
-					<span class="icon criticalroll-icon-help"></span>
+				<ion-item href="#/app/help" menu-close>
+					<icon type="help"></icon>
 				</ion-item>
-				<ion-item class="item-icon-left" href="#/app/license" menu-close>
-					<span class="icon criticalroll-icon-license"></span>
+				<ion-item href="#/app/license" menu-close>
+					<icon type="license"></icon>
 				</ion-item>
-				<ion-item class="item-icon-left" href="#" ng-click="share()">
-					<span class="icon criticalroll-icon-share"></span>
+				<ion-item href="#" ng-click="share()">
+					<icon type="share"></icon>
 				</ion-item>
 				<div ng-controller="LanguageController">
 					<ion-item class="item-button">
@@ -45,7 +48,7 @@
 				</div>
 
 
-				<!--<ion-item class="item-icon-left" >-->
+				<!--<ion-item >-->
 				<!--<ion-radio ng-model="languageSelected" ng-value="'en'" ng-change="setLanguage('en')">Eng-->
 				<!--</ion-radio>-->
 				<!--<ion-radio ng-model="languageSelected" ng-value="'es'" ng-change="setLanguage('es')">Spa-->

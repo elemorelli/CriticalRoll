@@ -1,107 +1,36 @@
-@font-face {
-  font-family: 'criticalroll';
-  src: url('fonts/criticalroll.eot?n9ofgj');
-  src: url('fonts/criticalroll.eot?n9ofgj#iefix') format('embedded-opentype'),
-  url('fonts/criticalroll.ttf?n9ofgj') format('truetype'),
-  url('fonts/criticalroll.woff?n9ofgj') format('woff'),
-  url('fonts/criticalroll.svg?n9ofgj#criticalroll') format('svg');
-  font-weight: normal;
-  font-style: normal;
+.button-bar svg {
+	height: 48px;
+	width: 48px;
+	fill: white;
+	padding-top: 6px;
 }
 
-[class^="criticalroll-"], [class*=" criticalroll-"] {
-  font-family: 'criticalroll';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#card-list .icon svg {
+	height: 36px;
+	width: 36px;
+	fill: white;
+	padding-top: 6px;
 }
 
-.button:before {
-  font-family: 'criticalroll';
-  vertical-align: -50%;
+#trash svg {
+	height: 42px;
+	width: 42px;
+	fill: white;
+	padding-top: 6px;
 }
 
-@media screen and (max-width: 390px) {
-  .button:before {
-    font-size: x-large;
-  }
+#menu-button svg {
+	height: 42px;
+	width: 42px;
+	padding-top: 6px;
 }
 
-@media screen and (min-width: 391px) {
-  .card .item:before, .button:before {
-    font-size: xx-large;
-  }
+#menu .icon svg {
+	height: 64px;
+	width: 64px;
+	padding-left: 6px;
 }
 
-.criticalroll-icon-d20s:before {
-  content: "\e600";
+#menu .icon.icon-license svg {
+	padding-left: 12px;
 }
-
-.criticalroll-icon-d20:before {
-  content: "\e601";
-}
-
-.criticalroll-icon-critical-slashing:before {
-  content: "\e602";
-}
-
-.criticalroll-icon-critical-piercing:before {
-  content: "\e603";
-}
-
-.criticalroll-icon-critical-bludgeoning:before {
-  content: "\e604";
-}
-
-.criticalroll-icon-critical-magic:before {
-  content: "\e605";
-}
-
-.criticalroll-icon-fumble-melee:before {
-  content: "\e606";
-}
-
-.criticalroll-icon-fumble-ranged:before {
-  content: "\e607";
-}
-
-.criticalroll-icon-fumble-natural:before {
-  content: "\e608";
-}
-
-.criticalroll-icon-fumble-magic:before {
-  content: "\e609";
-}
-
-.criticalroll-icon-navicon:before {
-  color: #444;
-  content: "\e60a";
-}
-
-.criticalroll-icon-trash:before {
-  content: "\e60b";
-}
-
-.criticalroll-icon-help:before {
-  content: "\e60c";
-}
-
-.criticalroll-icon-license:before {
-  content: "\e60d";
-}
-
-.criticalroll-icon-share:before {
-  content: "\e60e";
-}
-
-.criticalroll-icon-bug:before {
-  content: "\e60f";
-}
-

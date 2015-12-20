@@ -37,34 +37,32 @@ $bar-height: 52px;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss", "ruletips.scss";
 
-.center {
-  text-align: center !important;
-}
-
 .link {
-  color: blue;
-  border-bottom: 1px dotted;
+	color: blue;
+	border-bottom: 1px dotted;
 }
 
 .ruletip-link {
-  border-bottom: 1px dotted;
+	color: black;
+	border-bottom: 1px dotted;
 }
 
-.bar .button-bar .button {
-  height: inherit !important;
-  max-width: inherit !important;
-  min-height: $bar-height !important;
+#critical-button-bar .button, #fumble-button-bar .button {
+	height: inherit;
+	max-width: inherit;
+	min-height: $bar-height;
+	padding: 0;
 }
 
-.bar .button.button-clear {
-  color: inherit !important;
+#menu-button {
+	color: inherit;
 }
 
 .license-text p {
-  margin: 10px;
-  line-height: 200%;
+	margin: 10px;
+	line-height: 200%;
 }
 
 em {
-  font-style: italic;
+	font-style: italic;
 }

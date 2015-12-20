@@ -1,39 +1,31 @@
-.item-complex {
-  height: 48px !important;
-  margin-top: 16px !important;
-  margin-bottom: 4px !important;
+#menu .item-complex {
+	height: 64px;
+	min-height: initial;
+	margin: 16px 0;
 }
 
-.item-complex a {
-  height: 48px !important;
+#menu .item-complex a {
+	padding: 0;
+	position: initial;
 }
 
-.item-content span {
-  font-size: 48px !important;
+#menu .item-content .icon {
+	left: 0;
 }
 
-.criticalroll-icon-navicon {
-  min-height: 52px !important;
+#menu .item-radio {
+	border: 0;
 }
 
-.item-radio {
-  border: 0 !important;
+#menu .item-radio div {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 40px;
 }
 
-.item-radio div {
-  padding-top: 7px !important;
-  padding-bottom: 7px !important;
-  padding-right: 40px !important;
+#menu .button-toggle {
+	padding: 0;
 }
 
-.button-toggle {
-  padding: 0 !important;
-}
-
-.item-button {
-  padding-bottom: 4px;
-}
-
-.item-complex {
-  margin-top: 24px !important;
+#menu .item-button {
 }
