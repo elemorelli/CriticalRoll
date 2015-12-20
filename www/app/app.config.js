@@ -36,6 +36,14 @@ angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvid
 				controller: 'RuletipsController'
 			}
 		}
+	}).state('app.settings', {
+		url: '/settings',
+		views: {
+			'menuContent': {
+				templateUrl: 'settings/settings.template.html',
+				controller: 'SettingsController'
+			}
+		}
 	});
 
 	$urlRouterProvider.otherwise('/app/home');

@@ -1,0 +1,59 @@
+<ion-view view-title="{{'SETTINGS-TITLE' | translate}}">
+	<ion-content id="settings" class="has-header" has-bouncing="true" overflow-scroll="false">
+
+		<ion-item class="item-toggle">
+			<h2>{{'SETTINGS-REPEAT-CARDS' | translate}}</h2>
+			<label class="toggle toggle-positive">
+				<input type="checkbox">
+				<div class="track">
+					<div class="handle"></div>
+				</div>
+			</label>
+		</ion-item>
+
+		<ion-item ng-controller="LanguageController">
+			<div class="row row-center">
+				<div class="col col-67">
+					<h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
+				</div>
+				<div class="col col-33">
+					<button class="button button-toggle" ng-click="language.set('en')"
+									ng-class="{active: language.selected=='en'}">
+						{{'ENGLISH' | translate}}
+					</button>
+					<br>
+					<button class="button button-toggle" ng-click="language.set('es')"
+									ng-class="{active: language.selected=='es'}">
+						{{'SPANISH' | translate}}
+					</button>
+					<br>
+					<button class="button button-toggle" disabled="disabled">
+						{{'PORTUGUESE' | translate}}
+					</button>
+				</div>
+			</div>
+		</ion-item>
+
+		<ion-item>
+			<div class="row row-center">
+				<div class="col col-67">
+					<h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
+				</div>
+				<div class="col col-33">
+					<button class="button button-toggle active">
+						{{'PATHFINDER' | translate}}
+					</button>
+					<br>
+					<button class="button button-toggle" disabled="disabled">
+						{{'D&DNEXT' | translate}}
+					</button>
+					<br>
+					<button class="button button-toggle" disabled="disabled">
+						{{'D&D3.5' | translate}}
+					</button>
+				</div>
+			</div>
+		</ion-item>
+
+	</ion-content>
+</ion-view>

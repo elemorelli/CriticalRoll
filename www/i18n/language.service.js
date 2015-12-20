@@ -27,6 +27,9 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 				suffix: '/help.json'
 			}, {
 				prefix: i18nPath,
+				suffix: '/settings.json'
+			}, {
+				prefix: i18nPath,
 				suffix: '/critical-bludgeoning.json'
 			}, {
 				prefix: i18nPath,
