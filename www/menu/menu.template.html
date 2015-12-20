@@ -1,16 +1,8 @@
-<ion-side-menus enable-menu-with-back-views="true">
+<ion-side-menus enable-menu-with-back-views="false">
 
 	<ion-side-menu-content>
 
 		<ion-nav-bar class="bar-stable">
-			<ion-nav-back-button>
-			</ion-nav-back-button>
-
-			<ion-nav-buttons side="left">
-				<button id="menu-button" class="button button-icon button-clear" menu-toggle="left">
-					<icon type="navicon"></icon>
-				</button>
-			</ion-nav-buttons>
 		</ion-nav-bar>
 
 		<ion-nav-view name="menuContent"></ion-nav-view>
@@ -20,22 +12,22 @@
 	<ion-side-menu width="80" side="left">
 		<ion-content>
 			<ul id="menu" class="list">
-				<ion-item href="#/app/main" menu-close>
+				<ion-item href="#/app/main" ng-click="toggleMenu()">
 					<icon type="d20s"></icon>
 				</ion-item>
-				<ion-item href="#/app/help" menu-close>
+				<ion-item href="#/app/help" ng-click="toggleMenu()">
 					<icon type="help"></icon>
 				</ion-item>
-				<ion-item href="#/app/ruletips" menu-close>
+				<ion-item href="#/app/ruletips" ng-click="toggleMenu()">
 					<icon type="reference"></icon>
 				</ion-item>
-				<ion-item href="#/app/settings" menu-close>
+				<ion-item href="#/app/settings" ng-click="toggleMenu()">
 					<icon type="settings"></icon>
 				</ion-item>
 				<ion-item href="#" ng-click="openLink('feedback')">
 					<icon type="bug"></icon>
 				</ion-item>
-				<ion-item href="#/app/license" menu-close>
+				<ion-item href="#/app/license" ng-click="toggleMenu()">
 					<icon type="license"></icon>
 				</ion-item>
 				<ion-item href="#" ng-click="share()">
