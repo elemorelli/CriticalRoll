@@ -1,4 +1,5 @@
 {
+	"SETTINGS-REPEAT-CARDS": "Repetir efectos",
 	"SETTINGS-LANGUAGE": "Idioma",
 	"ENGLISH": "Ingl\u00e9s",
 	"SPANISH": "Espa\u00f1ol",
@@ -6,6 +7,5 @@
 	"SETTINGS-SYSTEM":"Sistema del juego",
 	"PATHFINDER":"Pathfinder",
 	"D&DNEXT":"D&D Next",
-	"D&D3.5":"D&D 3.5",
-	"SETTINGS-REPEAT-CARDS": "Repetir efectos"
+	"D&D3.5":"D&D 3.5"
 }

@@ -17,3 +17,36 @@
 	min-height: 36px;
 	line-height: 36px;
 }
+
+#settings .help-wanted {
+	font-size: smaller;
+	color: #52b3d9;
+	text-decoration: none;
+	position: absolute;
+	right: 36%;
+	top: 96px;
+	padding: 5px;
+	border: 2px solid #52b3d9;
+	background: #fff;
+	border-radius: 10px;
+}
+
+#settings .help-wanted:before {
+	content: "";
+	position: absolute;
+	top: 7px;
+	right: -19px;
+	border-width: 8px 0 8px 18px;
+	border-color: transparent #52b3d9;
+	border-style: solid;
+}
+
+#settings .help-wanted:after {
+	content: "";
+	position: absolute;
+	top: 9px;
+	right: -14px;
+	border-width: 6px 0 6px 14px;
+	border-color: transparent #fff;
+	border-style: solid;
+}
