@@ -1,8 +1,7 @@
-angular.module('CriticalRoll').controller('SettingsController', function ($scope, $translate, RuletipsService) {
+angular.module('CriticalRoll').controller('SettingsController', function ($scope, SettingsService) {
 
-		$scope.ruletips = RuletipsService.ruletips;
+		$scope.settings = SettingsService.settings;
 
-		$scope.openRuletip = RuletipsService.openRuletip;
-
+		$scope.settingsChanged = SettingsService.settingsChanged;
 	}
 );

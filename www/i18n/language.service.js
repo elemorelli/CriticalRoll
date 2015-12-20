@@ -1,8 +1,10 @@
-angular.module('CriticalRoll').service('LanguageService', function ($translate) {
+angular.module('CriticalRoll').service('LanguageService', function ($translate, SettingsService) {
+
+	$translate.use(SettingsService.get('language'));
 
 	this.setLanguage = function (lang) {
 		$translate.use(lang);
-		window.localStorage.language = lang;
+		SettingsService.set('language', lang);
 	};
 
 	this.getLanguage = function () {
@@ -56,6 +58,6 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 		}
 	);
 
-	$translateProvider.preferredLanguage(window.localStorage.language || 'en');
+	$translateProvider.preferredLanguage('en');
 	$translateProvider.fallbackLanguage('en');
 }]);

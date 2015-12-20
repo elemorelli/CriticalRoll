@@ -2,17 +2,17 @@ angular.module('CriticalRoll').controller('CardsController', function ($scope, C
 
 	$scope.drawnCards = CardService.drawnCards;
 
+	$scope.hasCardsToDraw = CardService.hasCardsToDraw;
+
 	$scope.drawCard = function (primaryType, secondaryType) {
 		ionicMaterialInk.displayEffect();
 		CardService.drawCard(primaryType, secondaryType);
 	};
 
-	$scope.removeAll = function() {
+	$scope.removeAll = function () {
 		ionicMaterialInk.displayEffect();
 		CardService.removeAll();
 	};
 
-	$scope.openRuletip = function (ruletipType) {
-		RuletipsService.openRuletip(ruletipType);
-	};
+	$scope.openRuletip = RuletipsService.openRuletip;
 });

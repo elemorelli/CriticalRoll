@@ -12,7 +12,7 @@ angular.module('CriticalRoll').controller('MenuController', function ($scope, $c
 			} else {
 				$ionicSideMenuDelegate.toggleLeft(true);
 			}
-		}
+		};
 
 		$scope.share = function () {
 			//if (ionic.Platform.isWindowsPhone()) {

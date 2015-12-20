@@ -42,19 +42,23 @@
 	<div id="critical-button-bar" class="bar bar-subfooter bar-balanced">
 		<div class="button-bar critical">
 			<a class="button button-raised ink-dark"
-				 ng-click="drawCard('critical','slashing')">
+				 ng-click="drawCard('critical','slashing')"
+				 ng-disabled="!hasCardsToDraw('critical','slashing')">
 				<icon type="critical-slashing"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-piercing"
-				 ng-click="drawCard('critical','piercing')">
+				 ng-click="drawCard('critical','piercing')"
+				 ng-disabled="!hasCardsToDraw('critical','piercing')">
 				<icon type="critical-piercing"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-bludgeoning"
-				 ng-click="drawCard('critical','bludgeoning')">
+				 ng-click="drawCard('critical','bludgeoning')"
+				 ng-disabled="!hasCardsToDraw('critical','bludgeoning')">
 				<icon type="critical-bludgeoning"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-critical-magic"
-				 ng-click="drawCard('critical','magic')">
+				 ng-click="drawCard('critical','magic')"
+				 ng-disabled="!hasCardsToDraw('critical','magic')">
 				<icon type="critical-magic"></icon>
 			</a>
 		</div>
@@ -63,19 +67,23 @@
 	<div id="fumble-button-bar" class="bar bar-footer bar-assertive">
 		<div class="button-bar fumble">
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-melee"
-				 ng-click="drawCard('fumble','melee')">
+				 ng-click="drawCard('fumble','melee')"
+				 ng-disabled="!hasCardsToDraw('fumble','melee')">
 				<icon type="fumble-melee"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-ranged"
-				 ng-click="drawCard('fumble','ranged')">
+				 ng-click="drawCard('fumble','ranged')"
+				 ng-disabled="!hasCardsToDraw('fumble','ranged')">
 				<icon type="fumble-ranged"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-natural"
-				 ng-click="drawCard('fumble','natural')">
+				 ng-click="drawCard('fumble','natural')"
+				 ng-disabled="!hasCardsToDraw('fumble','natural')">
 				<icon type="fumble-natural"></icon>
 			</a>
 			<a class="button button-raised ink-dark criticalroll-icon-fumble-magic"
-				 ng-click="drawCard('fumble','magic')">
+				 ng-click="drawCard('fumble','magic')"
+				 ng-disabled="!hasCardsToDraw('fumble','magic')">
 				<icon type="fumble-magic"></icon>
 			</a>
 		</div>
