@@ -18,35 +18,51 @@
 	line-height: 36px;
 }
 
-#settings .help-wanted {
+#settings .tag {
 	font-size: x-small;
-	color: #52b3d9;
 	text-decoration: none;
 	position: absolute;
-	right: 33%;
+	right: 35%;
 	top: 100px;
 	padding: 3px;
-	border: 2px solid #52b3d9;
 	background: #fff;
+	border: 2px solid;
 	border-radius: 10px;
 }
 
-#settings .help-wanted:before {
+#settings .tag:before {
 	content: "";
 	position: absolute;
 	top: 6px;
 	right: -16px;
 	border-width: 6px 0 6px 15px;
-	border-color: transparent #52b3d9;
 	border-style: solid;
 }
 
-#settings .help-wanted:after {
+#settings .tag:after {
 	content: "";
 	position: absolute;
 	top: 8px;
 	right: -12px;
 	border-width: 4px 0 4px 12px;
-	border-color: transparent #fff;
 	border-style: solid;
+	border-color: transparent #fff;
+}
+
+#settings .help-wanted {
+	color: $assertive;
+	border-color: $assertive;
+}
+
+#settings .help-wanted:before {
+	border-color: transparent $assertive;
+}
+
+#settings .coming-soon {
+	color: $royal;
+	border-color: $royal;
+}
+
+#settings .coming-soon:before {
+	border-color: transparent $royal;
 }

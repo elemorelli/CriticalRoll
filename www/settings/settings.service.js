@@ -1,6 +1,7 @@
-angular.module('CriticalRoll').service('SettingsService', function () {
+angular.module('CriticalRoll').service('SettingsService', function (LanguageService) {
 
 		this.settings = {
+			system: 'pfrpg',
 			language: 'en'
 		};
 
@@ -15,6 +16,7 @@ angular.module('CriticalRoll').service('SettingsService', function () {
 
 		this.settingsChanged = function () {
 			window.localStorage.settings = JSON.stringify(this.settings);
+			LanguageService.loadLanguage(this.settings.system, this.settings.language);
 		};
 
 		this.init = function () {

@@ -1,12 +1,7 @@
 angular.module('CriticalRoll').service('LanguageService', function ($translate) {
 
-	this.setLanguage = function (lang) {
-		$translate.use(lang);
-		window.localStorage.language = lang;
-	};
-
-	this.getLanguage = function () {
-		return $translate.use();
+	this.loadLanguage = function (system, language) {
+		$translate.use(system + '-' + language);
 	};
 
 }).config(['$translateProvider', function ($translateProvider) {
@@ -54,6 +49,14 @@ angular.module('CriticalRoll').service('LanguageService', function ($translate) 
 		}
 	);
 
-	$translateProvider.preferredLanguage(window.localStorage.language || 'en');
-	$translateProvider.fallbackLanguage('en');
+	var settings = JSON.parse(window.localStorage.settings ? window.localStorage.settings : "{}");
+
+	if (!settings.system)
+		settings.system = 'pfrpg';
+
+	if (!settings.language)
+		settings.language = 'en';
+
+	$translateProvider.preferredLanguage(settings.system + '-' + settings.language);
+	$translateProvider.fallbackLanguage('pfrpg-en');
 }]);

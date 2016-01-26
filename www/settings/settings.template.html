@@ -8,26 +8,26 @@
 
 	<ion-content id="settings" class="has-header" has-bouncing="true" overflow-scroll="false">
 
-		<ion-item ng-controller="LanguageController">
+		<ion-item>
 			<div class="row row-center">
 				<div class="col col-67">
 					<h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
 				</div>
 				<div class="col col-33">
-					<button class="button button-toggle" ng-click="language.set('en')"
-									ng-class="{active: language.selected=='en'}">
+					<button class="button button-toggle" ng-click="set('language', 'en')"
+									ng-class="{active: get('language')=='en'}">
 						{{'ENGLISH' | translate}}
 					</button>
 					<br>
-					<button class="button button-toggle" ng-click="language.set('es')"
-									ng-class="{active: language.selected=='es'}">
+					<button class="button button-toggle" ng-click="set('language','es')"
+									ng-class="{active: get('language')=='es'}">
 						{{'SPANISH' | translate}}
 					</button>
 					<br>
 					<button class="button button-toggle" disabled="disabled">
 						{{'PORTUGUESE' | translate}}
 					</button>
-					<a class="help-wanted" href="#" ng-click="openLink('feedback')">{{'HELP-WANTED' | translate}}</a>
+					<a class="tag help-wanted" href="#" ng-click="openLink('feedback')">{{'HELP-WANTED' | translate}}</a>
 				</div>
 			</div>
 		</ion-item>
@@ -38,17 +38,20 @@
 					<h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
 				</div>
 				<div class="col col-33">
-					<button class="button button-toggle active">
+					<button class="button button-toggle" ng-click="set('system', 'pfrpg')"
+									ng-class="{active: get('system')=='pfrpg'}">
 						{{'PATHFINDER' | translate}}
+					</button>
+					<br>
+					<button class="button button-toggle" ng-click="set('system', 'dnd3')"
+									ng-class="{active: get('system')=='dnd3'}">
+						{{'D&D3.5' | translate}}
 					</button>
 					<br>
 					<button class="button button-toggle" disabled="disabled">
 						{{'D&DNEXT' | translate}}
 					</button>
-					<br>
-					<button class="button button-toggle" disabled="disabled">
-						{{'D&D3.5' | translate}}
-					</button>
+					<a class="tag coming-soon" href="#">{{'COMING-SOON' | translate}}</a>
 				</div>
 			</div>
 		</ion-item>
