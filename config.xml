@@ -2,7 +2,7 @@
 <widget id="com.vanillaicecreamstudio.criticalroll" version="1.1.1" xmlns="http://www.w3.org/ns/widgets">
 	<name>CriticalRoll</name>
 	<description>An app for Critical hits and Fumble effects in Tabletop RPGs as Pathfinder and D&amp;D</description>
-	<author email="gemorelli@gmail.com" href="http://vanillaicecreamstudio.com/">Vanilla Icecream Studio</author>
+	<author email="vanillaicecreamstudio@gmail.com" href="http://vanillaicecreamstudio.com/">Vanilla Icecream Studio</author>
 	<content src="index.html"/>
 	<access origin="*"/>
 	<preference name="webviewbounce" value="false"/>
