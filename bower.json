@@ -2,15 +2,15 @@
 	"name": "CriticalRoll",
 	"private": "true",
 	"dependencies": {
-		"ionic": "~1.2.1",
+		"ionic": "~1.2.4",
 		"ionic-material": "~0.4.2",
-		"angular-translate": "~2.8.1",
-		"ngCordova": "~0.1.23-alpha",
-		"angular-translate-loader-static-files": "~2.8.1",
+		"angular-translate": "~2.9.0",
+		"ngCordova": "~0.1.24-alpha",
+		"angular-translate-loader-static-files": "~2.9.0",
 		"robotodraft": "~1.1.0"
 	},
 	"devDependencies": {},
 	"resolutions": {
-		"ionic": "~1.2.1"
+		"ionic": "~1.2.4"
 	}
 }
