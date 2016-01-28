@@ -70,7 +70,7 @@
 	"CARD-CRITICAL-PIERCING-35-TITLE": "Spun around",
 	"CARD-CRITICAL-PIERCING-35-TEXT": "Normal damage and target is %STATUS-FLAT-FOOTED=flat-footed% for 1 round.",
 	"CARD-CRITICAL-PIERCING-36-TITLE": "Eye patch for you",
-	"CARD-CRITICAL-PIERCING-36-TEXT": "Triple damage and 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=drain%. -4 to Perception and ranged attacks %UNTIL-HEALED=until healed%.",
+	"CARD-CRITICAL-PIERCING-36-TEXT": "Triple damage and 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=drain%. -4 to Spot and ranged attacks %UNTIL-HEALED=until healed%.",
 	"CARD-CRITICAL-PIERCING-37-TITLE": "Forearm piercing",
 	"CARD-CRITICAL-PIERCING-37-TEXT": "Double damage and target is disarmed (1 item).",
 	"CARD-CRITICAL-PIERCING-38-TITLE": "Clean through",

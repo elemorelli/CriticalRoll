@@ -70,7 +70,7 @@
 	"CARD-CRITICAL-PIERCING-35-TITLE": "Darle la vuelta",
 	"CARD-CRITICAL-PIERCING-35-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda.",
 	"CARD-CRITICAL-PIERCING-36-TITLE": "Un parche para ti",
-	"CARD-CRITICAL-PIERCING-36-TEXT": "Triple da\u00f1o y 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=consumidos%. -4 Percepci\u00f3n y a ataques de rango %UNTIL-HEALED=hasta ser curado%.",
+	"CARD-CRITICAL-PIERCING-36-TEXT": "Triple da\u00f1o y 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=consumidos%. -4 Avistar y a ataques de rango %UNTIL-HEALED=hasta ser curado%.",
 	"CARD-CRITICAL-PIERCING-37-TITLE": "Perforaci\u00f3n del antebrazo",
 	"CARD-CRITICAL-PIERCING-37-TEXT": "Doble da\u00f1o y el objetivo es desarmado (1 \u00edtem).",
 	"CARD-CRITICAL-PIERCING-38-TITLE": "De lado a lado",
