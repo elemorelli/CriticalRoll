@@ -3,7 +3,7 @@ angular.module('CriticalRoll').directive('icon', function () {
 		restrict: 'E',
 		replace: true,
 		scope: {
-			type:"@type"
+			type: "@type"
 		},
 		templateUrl: 'icon/icon.template.html'
 	};

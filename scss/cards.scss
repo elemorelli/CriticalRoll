@@ -1,55 +1,55 @@
 .card {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-bottom: 20px !important;
-  background-color: #E0E0E0 !important;
-  width: 90% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 20px !important;
+	background-color: #E0E0E0 !important;
+	width: 90% !important;
 }
 
 .title-wrapper {
-  height: 56px !important;
-  display: flex;
-  align-items: center;
+	height: 56px !important;
+	display: flex;
+	align-items: center;
 }
 
 .card-title {
-  min-height: initial !important;
-  padding: 8px 56px 8px 56px !important;
-  font-size: large !important;
+	min-height: initial !important;
+	padding: 8px 56px 8px 56px !important;
+	font-size: large !important;
 }
 
 .card-text {
-  line-height: 1.5;
-  font-size: medium !important;
+	line-height: 1.5;
+	font-size: medium !important;
 }
 
 span.card-badge {
-  height: 44px !important;
-  width: 44px !important;
-  min-height: 44px !important;
-  min-width: 44px !important;
-  position: absolute;
-  border-radius: 50%;
-  padding: 0 !important;
-  margin: 5px;
+	height: 44px !important;
+	width: 44px !important;
+	min-height: 44px !important;
+	min-width: 44px !important;
+	position: absolute;
+	border-radius: 50%;
+	padding: 0 !important;
+	margin: 5px;
 }
 
 .card-animation.ng-enter,
 .card-animation.ng-leave {
-  -webkit-transition: 200ms ease-out opacity;
-  -moz-transition: 200ms ease-out opacity;
-  -ms-transition: 200ms ease-out opacity;
-  -o-transition: 200ms ease-out opacity;
-  transition: 200ms ease-out opacity;
-  opacity: 0;
+	-webkit-transition: 200ms ease-out opacity;
+	-moz-transition: 200ms ease-out opacity;
+	-ms-transition: 200ms ease-out opacity;
+	-o-transition: 200ms ease-out opacity;
+	transition: 200ms ease-out opacity;
+	opacity: 0;
 }
 
 .card-animation.ng-enter.ng-enter-active,
 .card-animation.ng-leave {
-  opacity: 1;
+	opacity: 1;
 }
 
 .card-animation.ng-enter,
 .card-animation.ng-leave-active {
-  opacity: 0;
+	opacity: 0;
 }
