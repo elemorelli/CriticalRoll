@@ -1,4 +1,6 @@
-angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvider) {
+angular.module('CriticalRoll').config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+
+	$ionicConfigProvider.scrolling.jsScrolling(true);
 
 	$stateProvider.state('app', {
 		url: '/app',
