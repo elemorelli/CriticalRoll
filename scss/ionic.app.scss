@@ -22,7 +22,7 @@ $bar-height: 52px;
 @import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss", "ruletips.scss", "settings.scss", "buttons.scss";
 
 .link {
-	color: blue;
+	color: $calm;
 	border-bottom: 1px dotted;
 }
 
