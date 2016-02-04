@@ -34,6 +34,14 @@ span.card-badge {
 	margin: 5px;
 }
 
+.critical.card-badge {
+	background-color: $balanced
+}
+
+.fumble.card-badge {
+	background-color: $assertive;
+}
+
 .card-animation.ng-enter,
 .card-animation.ng-leave {
 	-webkit-transition: 200ms ease-out opacity;

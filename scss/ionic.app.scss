@@ -19,7 +19,7 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
 $bar-height: 52px;
 
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss", "ruletips.scss", "settings.scss";
+@import "www/lib/ionic/scss/ionic", "cards.scss", "icons.scss", "menu.scss", "help.scss", "ruletips.scss", "settings.scss", "buttons.scss";
 
 .link {
 	color: blue;
@@ -29,17 +29,6 @@ $bar-height: 52px;
 .ruletip-link {
 	color: black;
 	border-bottom: 1px dotted;
-}
-
-#critical-button-bar .button, #fumble-button-bar .button {
-	height: inherit;
-	max-width: inherit;
-	min-height: $bar-height;
-	padding: 0;
-}
-
-#menu-button {
-	color: inherit;
 }
 
 .license-text p {
