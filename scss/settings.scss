@@ -1,31 +1,33 @@
-#settings .title {
-	background-color: #ddd;
-}
-
-#settings .row {
-	padding: 0;
-}
-
 #settings h2 {
-	line-height: initial;
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
 }
 
-#settings button {
-	text-transform: initial;
-	width: 100%;
-	padding: 0;
-	min-height: 36px;
-	line-height: 36px;
+#settings label {
+	line-height: 6px;
+}
+
+#settings .disabled {
+	text-decoration: line-through;
+	color: #bbb;
+}
+
+#settings input:checked + .radio-content .radio-icon {
+	padding-top: 6px;
+}
+
+#settings input:checked + .radio-content .item-content {
+	font-weight: bold;
+	background: #eee;
+	border-radius: 4px;
 }
 
 #settings .tag {
 	font-size: x-small;
-	text-decoration: none;
 	position: absolute;
-	right: 35%;
 	top: 100px;
 	padding: 3px;
-	background: #fff;
 	border: 2px solid;
 	border-radius: 10px;
 }
@@ -34,8 +36,8 @@
 	content: "";
 	position: absolute;
 	top: 6px;
-	right: -16px;
-	border-width: 6px 0 6px 15px;
+	left: -16px;
+	border-width: 6px 15px 6px 0;
 	border-style: solid;
 }
 
@@ -43,13 +45,14 @@
 	content: "";
 	position: absolute;
 	top: 8px;
-	right: -12px;
-	border-width: 4px 0 4px 12px;
+	left: -12px;
+	border-width: 4px 12px 4px 0;
 	border-style: solid;
 	border-color: transparent #fff;
 }
 
 #settings .help-wanted {
+	left: 31%;
 	color: $assertive;
 	border-color: $assertive;
 }
@@ -59,10 +62,11 @@
 }
 
 #settings .coming-soon {
-	color: $royal;
-	border-color: $royal;
+	left: 25%;
+	color: $calm;
+	border-color: $calm;
 }
 
 #settings .coming-soon:before {
-	border-color: transparent $royal;
+	border-color: transparent $calm;
 }
