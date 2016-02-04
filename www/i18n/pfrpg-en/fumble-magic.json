@@ -10,7 +10,7 @@
 	"CARD-FUMBLE-MAGIC-5-TITLE": "Hit by the ugly forest",
 	"CARD-FUMBLE-MAGIC-5-TEXT": "You take 1 point of %ABILITY-CHA=Cha% %STATUS-BLEED=bleed%.",
 	"CARD-FUMBLE-MAGIC-6-TITLE": "The magic is gone",
-	"CARD-FUMBLE-MAGIC-6-TEXT": "You take a -4 penalty to attack rolls until you scare a critical hit.",
+	"CARD-FUMBLE-MAGIC-6-TEXT": "You take a -4 penalty to attack rolls until you score a critical hit.",
 	"CARD-FUMBLE-MAGIC-7-TITLE": "Can you hear me now?",
 	"CARD-FUMBLE-MAGIC-7-TEXT": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Heal check).",
 	"CARD-FUMBLE-MAGIC-8-TITLE": "Error!",
