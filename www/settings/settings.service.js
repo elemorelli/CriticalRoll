@@ -5,15 +5,6 @@ angular.module('CriticalRoll').service('SettingsService', function (LanguageServ
 			language: 'en'
 		};
 
-		this.get = function (name) {
-			return this.settings[name];
-		};
-
-		this.set = function (name, value) {
-			this.settings[name] = value;
-			this.settingsChanged();
-		};
-
 		this.settingsChanged = function () {
 			window.localStorage.settings = JSON.stringify(this.settings);
 			LanguageService.loadLanguage(this.settings.system, this.settings.language);

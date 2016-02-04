@@ -11,13 +11,13 @@
 		<ion-item>
 			<h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
 			<ion-list>
-				<ion-radio name="system" ng-model="settings.system" ng-change="set('system', 'pfrpg')" ng-value="'pfrpg'">
+				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'pfrpg'">
 					{{'PATHFINDER' | translate}}
 				</ion-radio>
-				<ion-radio name="system" ng-model="settings.system" ng-change="set('system', 'dnd3')" ng-value="'dnd3'">
+				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd3'">
 					{{'DnD3.5' | translate}}
 				</ion-radio>
-				<ion-radio name="system" ng-model="settings.system" ng-change="set('system', 'dnd5')" ng-value="'dnd5'"
+				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd5'"
 									 class="disabled" ng-disabled="true">
 					{{'DnD5' | translate}}
 				</ion-radio>
@@ -28,13 +28,13 @@
 		<ion-item>
 			<h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
 			<ion-list>
-				<ion-radio name="language" ng-model="settings.language" ng-change="set('language', 'en')" ng-value="'en'">
+				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'en'">
 					{{'ENGLISH' | translate}}
 				</ion-radio>
-				<ion-radio name="language" ng-model="settings.language" ng-change="set('language', 'es')" ng-value="'es'">
+				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'es'">
 					{{'SPANISH' | translate}}
 				</ion-radio>
-				<ion-radio name="language" ng-model="settings.language" ng-change="set('language', 'pt')" ng-value="'pt'"
+				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'pt'"
 									 class="disabled" ng-disabled="true">
 					{{'PORTUGUESE' | translate}}
 				</ion-radio>

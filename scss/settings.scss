@@ -1,5 +1,4 @@
 #settings h2 {
-	text-align: center;
 	padding-bottom: 10px;
 	font-weight: bold;
 }
@@ -19,7 +18,6 @@
 
 #settings input:checked + .radio-content .item-content {
 	font-weight: bold;
-	background: #eee;
 	border-radius: 4px;
 }
 
