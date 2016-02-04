@@ -18,7 +18,7 @@
    xml:space="preserve"
    inkscape:version="0.91 r13725"
    sodipodi:docname="playstore-feature.svg"
-   inkscape:export-filename="C:\Users\Ele\Workspace\CriticalRoll\resources\android\playstore-feature_1024x500.png"
+   inkscape:export-filename="D:\Workspace\CriticalRoll\resources\android\playstore\playstore-feature_1024x500.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><metadata
      id="metadata9"><rdf:RDF><cc:Work
@@ -45,7 +45,7 @@
      id="namedview5"
      showgrid="false"
      inkscape:zoom="0.4395578"
-     inkscape:cx="530.10623"
+     inkscape:cx="-150.12285"
      inkscape:cy="98.328593"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -192,18 +192,18 @@
        id="path4241-1-1" /></g><text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:100%;font-family:Signika;-inkscape-font-specification:Signika;text-align:end;letter-spacing:25px;word-spacing:0px;text-anchor:end;fill:#bdc3c7;fill-opacity:1;stroke:#000000;stroke-width:5.9000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     x="882.90436"
-     y="224.98"
+     x="891.90234"
+     y="230.3125"
      id="text3089"
      sodipodi:linespacing="100%"><tspan
        sodipodi:role="line"
-       x="907.90436"
-       y="224.98"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:100%;font-family:Signika;-inkscape-font-specification:Signika;text-align:end;letter-spacing:25px;text-anchor:end"
+       x="911.90234"
+       y="230.3125"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:180px;line-height:100%;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa Bold';text-align:end;letter-spacing:20px;text-anchor:end"
        id="tspan4169">Critical</tspan><tspan
        sodipodi:role="line"
-       x="907.90436"
-       y="404.98001"
+       x="911.90234"
+       y="410.3125"
        id="tspan3093"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:100%;font-family:Signika;-inkscape-font-specification:Signika;text-align:end;letter-spacing:25px;text-anchor:end">Roll</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:180px;line-height:100%;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa Bold';text-align:end;letter-spacing:20px;text-anchor:end">Roll</tspan></text>
 </svg>
