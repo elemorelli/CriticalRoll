@@ -5,6 +5,10 @@
 	"SETTINGS-TITLE": "Settings",
 	"SHARE-MESSAGE": "CriticalRoll: An App to improve Critical and Fumbles effects in Pathfinder and D&D",
 	"SHARE-SUBJECT": "CriticalRoll",
-	"HELP-WANTED": "Help wanted!",
-	"COMING-SOON": "Coming soon!"
+	"HELP-NEEDED": "Help needed!",
+	"COMING-SOON": "Coming soon!",
+	"MAIL-BUG-SUBJECT": "[BUG] A bug in CriticalRoll",
+	"MAIL-BUG-BODY": "Hi! I've found a bug in CriticalRoll and it is:\n",
+	"MAIL-PORTUGUESE-SUBJECT": "[TRANSLATION] Help with the portuguese translation",
+	"MAIL-PORTUGUESE-BODY": "Hi! I know enough portuguese and I can help you translate the App."
 }

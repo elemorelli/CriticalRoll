@@ -21,7 +21,10 @@
 									 class="disabled" ng-disabled="true">
 					{{'DnD5' | translate}}
 				</ion-radio>
-				<a class="tag coming-soon">{{'COMING-SOON' | translate}}</a>
+				<a class="tag coming-soon">
+					{{'COMING-SOON' | translate}}
+					<i class="icon ion-beer"></i>
+				</a>
 			</ion-list>
 		</ion-item>
 
@@ -38,7 +41,10 @@
 									 class="disabled" ng-disabled="true">
 					{{'PORTUGUESE' | translate}}
 				</ion-radio>
-				<a class="tag help-wanted">{{'HELP-WANTED' | translate}}</a>
+				<a class="tag help-wanted" ng-click="helpWithPortuguese()">
+					{{'HELP-NEEDED' | translate}}
+					<i class="icon ion-email"></i>
+				</a>
 			</ion-list>
 		</ion-item>
 

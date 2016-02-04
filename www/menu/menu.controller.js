@@ -1,8 +1,7 @@
-angular.module('CriticalRoll').controller('MenuController', function ($scope, $cordovaSocialSharing, $translate, $ionicSideMenuDelegate) {
+angular.module('CriticalRoll').controller('MenuController', function ($scope, $cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
 
 		var linkURLs = {
 			"share": "https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll",
-			"feedback": "https://gitreports.com/issue/gemorelli/CriticalRoll",
 			"pathfinderRPG": "http://paizo.com/pathfinderRPG/"
 		};
 
@@ -34,8 +33,8 @@ angular.module('CriticalRoll').controller('MenuController', function ($scope, $c
 			return false;
 		};
 
-		$scope.isMobile = function () {
-			return ionic.Platform.isAndroid() || ionic.Platform.isIOS() || ionic.Platform.isWindowsPhone();
+		$scope.reportBug = function () {
+			emailService.compose("BUG");
 		};
 	}
 );
