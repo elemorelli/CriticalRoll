@@ -1,47 +1,47 @@
 {
-	"name": "criticalroll",
-	"version": "1.0.0",
-	"description": "CriticalRoll",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/gemorelli/CriticalRoll"
-	},
-	"url": "https://github.com/gemorelli/CriticalRoll/issues",
-	"email": "vanillaicecreamstudio@gmail.com",
-	"license": "Apache-2.0",
-	"dependencies": {},
-	"devDependencies": {
-		"bower": "^1.7.2",
-		"gulp": "^3.9.0",
-		"gulp-concat": "^2.2.0",
-		"gulp-minify-css": "^1.2.2",
-		"gulp-rename": "^1.2.0",
-		"gulp-sass": "^2.0.4",
-		"gulp-util": "^3.0.7",
-		"shelljs": "^0.6.0"
-	},
-	"platforms": [
-		"wp8",
-		"android"
-	],
-	"cordovaPlugins": [
-		"cordova-plugin-inappbrowser",
-		{
-			"locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-			"id": "cordova-plugin-x-socialsharing"
-		},
-		"cordova-plugin-splashscreen",
-		{
-			"locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
-			"id": "de.appplant.cordova.plugin.email-composer"
-		}
-	],
-	"cordovaPlatforms": [
-		"android",
-		{
-			"platform": "android",
-			"version": "",
-			"locator": "android"
-		}
-	]
+  "name": "criticalroll",
+  "version": "1.0.0",
+  "description": "CriticalRoll",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemorelli/CriticalRoll"
+  },
+  "url": "https://github.com/gemorelli/CriticalRoll/issues",
+  "email": "vanillaicecreamstudio@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.7",
+    "shelljs": "^0.6.0"
+  },
+  "platforms": [
+    "wp8",
+    "android"
+  ],
+  "cordovaPlugins": [
+    "cordova-plugin-inappbrowser",
+    {
+      "locator": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+      "id": "cordova-plugin-x-socialsharing"
+    },
+    "cordova-plugin-splashscreen",
+    {
+      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
+      "id": "de.appplant.cordova.plugin.email-composer"
+    }
+  ],
+  "cordovaPlatforms": [
+    "android",
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ]
 }

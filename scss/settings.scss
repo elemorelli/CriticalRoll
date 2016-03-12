@@ -1,81 +1,81 @@
 #settings h2 {
-	padding-bottom: 10px;
-	font-weight: bold;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 #settings label {
-	line-height: 6px;
+  line-height: 6px;
 }
 
 #settings .disabled {
-	text-decoration: line-through;
-	color: #bbb;
+  text-decoration: line-through;
+  color: #bbb;
 }
 
 #settings input:checked + .radio-content .radio-icon {
-	padding-top: 6px;
+  padding-top: 6px;
 }
 
 #settings input:checked + .radio-content .item-content {
-	font-weight: bold;
-	border-radius: 4px;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
 #settings .tag {
-	font-size: small;
-	position: absolute;
-	top: 100px;
-	padding: 3px 3px 3px 10px;
-	border: 2px solid;
-	border-radius: 10px;
-	z-index: 10;
+  font-size: small;
+  position: absolute;
+  top: 100px;
+  padding: 3px 3px 3px 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  z-index: 10;
 }
 
 #settings .tag .icon {
-	font-size: medium;
-	margin-left: 5px;
-	margin-right: 5px;
+  font-size: medium;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #settings .tag .icon:before {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 #settings .tag:before {
-	content: "";
-	position: absolute;
-	top: 7px;
-	left: -16px;
-	border-width: 6px 15px 6px 0;
-	border-style: solid;
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -16px;
+  border-width: 6px 15px 6px 0;
+  border-style: solid;
 }
 
 #settings .tag:after {
-	content: "";
-	position: absolute;
-	top: 9px;
-	left: -12px;
-	border-width: 4px 12px 4px 0;
-	border-style: solid;
-	border-color: transparent #fff;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -12px;
+  border-width: 4px 12px 4px 0;
+  border-style: solid;
+  border-color: transparent #fff;
 }
 
 #settings .help-wanted {
-	left: 31%;
-	color: $assertive;
-	border-color: $assertive;
+  left: 31%;
+  color: $assertive;
+  border-color: $assertive;
 }
 
 #settings .help-wanted:before {
-	border-color: transparent $assertive;
+  border-color: transparent $assertive;
 }
 
 #settings .coming-soon {
-	left: 25%;
-	color: $calm;
-	border-color: $calm;
+  left: 25%;
+  color: $calm;
+  border-color: $calm;
 }
 
 #settings .coming-soon:before {
-	border-color: transparent $calm;
+  border-color: transparent $calm;
 }

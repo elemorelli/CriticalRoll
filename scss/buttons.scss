@@ -1,23 +1,23 @@
 
 #critical-button-bar .button {
-	background-color: $balanced;
+  background-color: $balanced;
 }
 
 #fumble-button-bar .button {
-	background-color: $assertive;
+  background-color: $assertive;
 }
 
 #critical-button-bar .button, #fumble-button-bar .button {
-	height: inherit;
-	max-width: inherit;
-	min-height: $bar-height;
-	padding: 0;
+  height: inherit;
+  max-width: inherit;
+  min-height: $bar-height;
+  padding: 0;
 }
 
 #menu-button {
-	color: inherit;
+  color: inherit;
 }
 
 #critical-button-bar .button, #fumble-button-bar .button {
-	border-radius: 0;
+  border-radius: 0;
 }

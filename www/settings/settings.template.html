@@ -1,52 +1,52 @@
 <ion-view view-title="{{'SETTINGS-TITLE' | translate}}">
 
-	<ion-nav-buttons side="left">
-		<a id="home" href="#/app/main" class="button button-icon button-clear">
-			<icon type="d20s"></icon>
-		</a>
-	</ion-nav-buttons>
+    <ion-nav-buttons side="left">
+        <a id="home" href="#/app/main" class="button button-icon button-clear">
+            <icon type="d20s"></icon>
+        </a>
+    </ion-nav-buttons>
 
-	<ion-content id="settings" class="has-header" has-bouncing="true">
+    <ion-content id="settings" class="has-header" has-bouncing="true">
 
-		<ion-item>
-			<h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
-			<ion-list>
-				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'pfrpg'">
-					{{'PATHFINDER' | translate}}
-				</ion-radio>
-				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd3'">
-					{{'DnD3.5' | translate}}
-				</ion-radio>
-				<ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd5'"
-									 class="disabled" ng-disabled="true">
-					{{'DnD5' | translate}}
-				</ion-radio>
-				<a class="tag coming-soon">
-					{{'COMING-SOON' | translate}}
-					<i class="icon ion-beer"></i>
-				</a>
-			</ion-list>
-		</ion-item>
+        <ion-item>
+            <h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
+            <ion-list>
+                <ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'pfrpg'">
+                    {{'PATHFINDER' | translate}}
+                </ion-radio>
+                <ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd3'">
+                    {{'DnD3.5' | translate}}
+                </ion-radio>
+                <ion-radio name="system" ng-model="settings.system" ng-change="settingsChanged()" ng-value="'dnd5'"
+                           class="disabled" ng-disabled="true">
+                    {{'DnD5' | translate}}
+                </ion-radio>
+                <a class="tag coming-soon">
+                    {{'COMING-SOON' | translate}}
+                    <i class="icon ion-beer"></i>
+                </a>
+            </ion-list>
+        </ion-item>
 
-		<ion-item>
-			<h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
-			<ion-list>
-				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'en'">
-					{{'ENGLISH' | translate}}
-				</ion-radio>
-				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'es'">
-					{{'SPANISH' | translate}}
-				</ion-radio>
-				<ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'pt'"
-									 class="disabled" ng-disabled="true">
-					{{'PORTUGUESE' | translate}}
-				</ion-radio>
-				<a class="tag help-wanted" ng-click="helpWithPortuguese()">
-					{{'HELP-NEEDED' | translate}}
-					<i class="icon ion-email"></i>
-				</a>
-			</ion-list>
-		</ion-item>
+        <ion-item>
+            <h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
+            <ion-list>
+                <ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'en'">
+                    {{'ENGLISH' | translate}}
+                </ion-radio>
+                <ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'es'">
+                    {{'SPANISH' | translate}}
+                </ion-radio>
+                <ion-radio name="language" ng-model="settings.language" ng-change="settingsChanged()" ng-value="'pt'"
+                           class="disabled" ng-disabled="true">
+                    {{'PORTUGUESE' | translate}}
+                </ion-radio>
+                <a class="tag help-wanted" ng-click="helpWithPortuguese()">
+                    {{'HELP-NEEDED' | translate}}
+                    <i class="icon ion-email"></i>
+                </a>
+            </ion-list>
+        </ion-item>
 
-	</ion-content>
+    </ion-content>
 </ion-view>
