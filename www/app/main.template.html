@@ -15,7 +15,8 @@
     <ion-content class="has-subfooter has-header" has-bouncing="true">
         <ion-list can-swipe=true>
 
-            <div id="card-list" class="card-animation" ng-repeat="card in cards.drawnCards track by $index">
+            <div id="card-list" class="card-animation" ng-repeat="card in cards.drawnCards track by $index"
+                 ng-controller="RuletipsController as ruletips">
                 <div class="item list card stable-bg">
 
                     <div class="title-wrapper">
