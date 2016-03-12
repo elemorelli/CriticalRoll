@@ -13,8 +13,10 @@
 
         vm.refreshSettings = SettingsService.refreshSettings;
 
-        vm.helpWithPortuguese = function () {
+        vm.helpWithPortuguese = helpWithPortuguese;
+
+        function helpWithPortuguese() {
             emailService.compose("PORTUGUESE");
-        };
+        }
     }
 })();

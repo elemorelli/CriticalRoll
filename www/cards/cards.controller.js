@@ -13,17 +13,22 @@
 
         vm.hasCardsToDraw = CardService.hasCardsToDraw;
 
-        vm.drawCard = function (primaryType, secondaryType) {
-            ionicMaterialInk.displayEffect();
-            CardService.drawCard(primaryType, secondaryType);
-        };
+        vm.drawCard = drawCard;
 
-        vm.removeAll = function () {
-            ionicMaterialInk.displayEffect();
-            CardService.removeAll();
-        };
+        vm.removeAll = removeAll;
 
         vm.openRuletip = RuletipsService.openRuletip;
+
+        function drawCard(primaryType, secondaryType) {
+            ionicMaterialInk.displayEffect();
+            CardService.drawCard(primaryType, secondaryType);
+        }
+
+        function removeAll() {
+            ionicMaterialInk.displayEffect();
+            CardService.removeAll();
+        }
+
     }
 
 })();

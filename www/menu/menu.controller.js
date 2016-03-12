@@ -14,15 +14,23 @@
             "pathfinderRPG": "http://paizo.com/pathfinderRPG/"
         };
 
-        vm.toggleMenu = function () {
+        vm.toggleMenu = toggleMenu;
+
+        vm.share = share;
+
+        vm.openLink = openLink;
+
+        vm.reportBug = reportBug;
+
+        function toggleMenu() {
             if ($ionicSideMenuDelegate.isOpenLeft()) {
                 $ionicSideMenuDelegate.toggleLeft(false);
             } else {
                 $ionicSideMenuDelegate.toggleLeft(true);
             }
-        };
+        }
 
-        vm.share = function () {
+        function share() {
             //if (ionic.Platform.isWindowsPhone()) {
             // linkURL = "WP URL";
             //} else if (ionic.Platform.isIOS()) {
@@ -35,16 +43,16 @@
                 null,
                 linkURLs.share
             );
-        };
+        }
 
-        vm.openLink = function (linkName) {
+        function openLink(linkName) {
             window.open(linkURLs[linkName], '_system');
             return false;
-        };
+        }
 
-        vm.reportBug = function () {
+        function reportBug() {
             emailService.compose("BUG");
-        };
+        }
     }
 
 })();
