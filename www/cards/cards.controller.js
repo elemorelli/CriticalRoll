@@ -5,23 +5,25 @@
         .module('CriticalRoll')
         .controller('CardsController', CardsController);
 
-    function CardsController($scope, CardService, RuletipsService, ionicMaterialInk) {
+    function CardsController(CardService, RuletipsService, ionicMaterialInk) {
 
-        $scope.drawnCards = CardService.drawnCards;
+        var vm = this;
 
-        $scope.hasCardsToDraw = CardService.hasCardsToDraw;
+        vm.drawnCards = CardService.drawnCards;
 
-        $scope.drawCard = function (primaryType, secondaryType) {
+        vm.hasCardsToDraw = CardService.hasCardsToDraw;
+
+        vm.drawCard = function (primaryType, secondaryType) {
             ionicMaterialInk.displayEffect();
             CardService.drawCard(primaryType, secondaryType);
         };
 
-        $scope.removeAll = function () {
+        vm.removeAll = function () {
             ionicMaterialInk.displayEffect();
             CardService.removeAll();
         };
 
-        $scope.openRuletip = RuletipsService.openRuletip;
+        vm.openRuletip = RuletipsService.openRuletip;
     }
 
 })();

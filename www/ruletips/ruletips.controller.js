@@ -5,11 +5,13 @@
         .module('CriticalRoll')
         .controller('RuletipsController', RuletipsController);
 
-    function RuletipsController($scope, $translate, RuletipsService) {
+    function RuletipsController(RuletipsService) {
 
-        $scope.ruletips = RuletipsService.ruletips;
+        var vm = this;
 
-        $scope.openRuletip = RuletipsService.openRuletip;
+        vm.ruletips = RuletipsService.ruletips;
+
+        vm.openRuletip = RuletipsService.openRuletip;
 
     }
 

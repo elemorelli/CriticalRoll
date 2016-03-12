@@ -5,14 +5,16 @@
         .module('CriticalRoll')
         .controller('MenuController', MenuController);
 
-    function MenuController($scope, $cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
+    function MenuController($cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
+
+        var vm = this;
 
         var linkURLs = {
             "share": "https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll",
             "pathfinderRPG": "http://paizo.com/pathfinderRPG/"
         };
 
-        $scope.toggleMenu = function () {
+        vm.toggleMenu = function () {
             if ($ionicSideMenuDelegate.isOpenLeft()) {
                 $ionicSideMenuDelegate.toggleLeft(false);
             } else {
@@ -20,7 +22,7 @@
             }
         };
 
-        $scope.share = function () {
+        vm.share = function () {
             //if (ionic.Platform.isWindowsPhone()) {
             // linkURL = "WP URL";
             //} else if (ionic.Platform.isIOS()) {
@@ -35,12 +37,12 @@
             );
         };
 
-        $scope.openLink = function (linkName) {
+        vm.openLink = function (linkName) {
             window.open(linkURLs[linkName], '_system');
             return false;
         };
 
-        $scope.reportBug = function () {
+        vm.reportBug = function () {
             emailService.compose("BUG");
         };
     }

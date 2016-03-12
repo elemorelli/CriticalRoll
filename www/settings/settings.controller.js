@@ -5,13 +5,15 @@
         .module('CriticalRoll')
         .controller('SettingsController', SettingsController);
 
-    function SettingsController($scope, SettingsService, emailService) {
+    function SettingsController(SettingsService, emailService) {
 
-        $scope.settings = SettingsService.settings;
+        var vm = this;
 
-        $scope.settingsChanged = SettingsService.settingsChanged;
+        vm.settings = SettingsService.settings;
 
-        $scope.helpWithPortuguese = function () {
+        vm.settingsChanged = SettingsService.settingsChanged;
+
+        vm.helpWithPortuguese = function () {
             emailService.compose("PORTUGUESE");
         };
     }
