@@ -1,8 +1,16 @@
-angular.module('CriticalRoll').controller('RuletipsController', function ($scope, $translate, RuletipsService) {
+(function () {
+    'use strict';
+
+    angular
+        .module('CriticalRoll')
+        .controller('RuletipsController', RuletipsController);
+
+    function RuletipsController($scope, $translate, RuletipsService) {
 
         $scope.ruletips = RuletipsService.ruletips;
 
         $scope.openRuletip = RuletipsService.openRuletip;
 
     }
-);
+
+})();

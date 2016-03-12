@@ -1,62 +1,73 @@
-angular.module('CriticalRoll').service('LanguageService', function ($translate) {
+(function () {
+    'use strict';
 
-    this.loadLanguage = function (system, language) {
-        $translate.use(system + '-' + language);
-    };
+    angular
+        .module('CriticalRoll')
+        .service('LanguageService', LanguageService)
+        .config(['$translateProvider', translateProvider]);
 
-}).config(['$translateProvider', function ($translateProvider) {
+    function LanguageService($translate) {
 
-    var i18nPath = 'i18n/';
+        this.loadLanguage = function (system, language) {
+            $translate.use(system + '-' + language);
+        };
+    }
 
-    $translateProvider.useStaticFilesLoader({
-            files: [{
-                prefix: i18nPath,
-                suffix: '/app.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/ruletips.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/help.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/settings.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/critical-bludgeoning.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/critical-magic.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/critical-piercing.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/critical-slashing.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/fumble-magic.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/fumble-melee.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/fumble-natural.json'
-            }, {
-                prefix: i18nPath,
-                suffix: '/fumble-ranged.json'
-            }]
-        }
-    );
+    function translateProvider($translateProvider) {
 
-    var settings = JSON.parse(window.localStorage.settings ? window.localStorage.settings : "{}");
+        var i18nPath = 'i18n/';
 
-    if (!settings.system)
-        settings.system = 'pfrpg';
+        $translateProvider.useStaticFilesLoader({
+                files: [{
+                    prefix: i18nPath,
+                    suffix: '/app.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/ruletips.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/help.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/settings.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/critical-bludgeoning.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/critical-magic.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/critical-piercing.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/critical-slashing.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/fumble-magic.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/fumble-melee.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/fumble-natural.json'
+                }, {
+                    prefix: i18nPath,
+                    suffix: '/fumble-ranged.json'
+                }]
+            }
+        );
 
-    if (!settings.language)
-        settings.language = 'en';
+        var settings = JSON.parse(window.localStorage.settings ? window.localStorage.settings : "{}");
 
-    $translateProvider.preferredLanguage(settings.system + '-' + settings.language);
-    $translateProvider.fallbackLanguage('pfrpg-en');
-}]);
+        if (!settings.system)
+            settings.system = 'pfrpg';
+
+        if (!settings.language)
+            settings.language = 'en';
+
+        $translateProvider.preferredLanguage(settings.system + '-' + settings.language);
+        $translateProvider.fallbackLanguage('pfrpg-en');
+    }
+
+})();

@@ -1,4 +1,11 @@
-angular.module('CriticalRoll').service('SettingsService', function (LanguageService) {
+(function () {
+    'use strict';
+
+    angular
+        .module('CriticalRoll')
+        .service('SettingsService', SettingsService);
+
+    function SettingsService(LanguageService) {
 
         this.settings = {
             system: 'pfrpg',
@@ -18,4 +25,5 @@ angular.module('CriticalRoll').service('SettingsService', function (LanguageServ
         this.init();
 
     }
-);
+
+})();

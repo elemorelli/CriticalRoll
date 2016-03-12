@@ -1,4 +1,11 @@
-angular.module('CriticalRoll').controller('MenuController', function ($scope, $cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
+(function () {
+    'use strict';
+
+    angular
+        .module('CriticalRoll')
+        .controller('MenuController', MenuController);
+
+    function MenuController($scope, $cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
 
         var linkURLs = {
             "share": "https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll",
@@ -37,4 +44,5 @@ angular.module('CriticalRoll').controller('MenuController', function ($scope, $c
             emailService.compose("BUG");
         };
     }
-);
+
+})();

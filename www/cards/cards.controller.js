@@ -1,18 +1,27 @@
-angular.module('CriticalRoll').controller('CardsController', function ($scope, CardService, RuletipsService, ionicMaterialInk) {
+(function () {
+    'use strict';
 
-    $scope.drawnCards = CardService.drawnCards;
+    angular
+        .module('CriticalRoll')
+        .controller('CardsController', CardsController);
 
-    $scope.hasCardsToDraw = CardService.hasCardsToDraw;
+    function CardsController($scope, CardService, RuletipsService, ionicMaterialInk) {
 
-    $scope.drawCard = function (primaryType, secondaryType) {
-        ionicMaterialInk.displayEffect();
-        CardService.drawCard(primaryType, secondaryType);
-    };
+        $scope.drawnCards = CardService.drawnCards;
 
-    $scope.removeAll = function () {
-        ionicMaterialInk.displayEffect();
-        CardService.removeAll();
-    };
+        $scope.hasCardsToDraw = CardService.hasCardsToDraw;
 
-    $scope.openRuletip = RuletipsService.openRuletip;
-});
+        $scope.drawCard = function (primaryType, secondaryType) {
+            ionicMaterialInk.displayEffect();
+            CardService.drawCard(primaryType, secondaryType);
+        };
+
+        $scope.removeAll = function () {
+            ionicMaterialInk.displayEffect();
+            CardService.removeAll();
+        };
+
+        $scope.openRuletip = RuletipsService.openRuletip;
+    }
+
+})();

@@ -1,4 +1,11 @@
-angular.module('CriticalRoll').controller('SettingsController', function ($scope, SettingsService, emailService) {
+(function () {
+    'use strict';
+
+    angular
+        .module('CriticalRoll')
+        .controller('SettingsController', SettingsController);
+
+    function SettingsController($scope, SettingsService, emailService) {
 
         $scope.settings = SettingsService.settings;
 
@@ -8,4 +15,4 @@ angular.module('CriticalRoll').controller('SettingsController', function ($scope
             emailService.compose("PORTUGUESE");
         };
     }
-);
+})();
