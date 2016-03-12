@@ -9,9 +9,9 @@
 
         var vm = this;
 
-        vm.settings = SettingsService.settings;
+        vm.values = SettingsService.values;
 
-        vm.settingsChanged = SettingsService.settingsChanged;
+        vm.refreshSettings = SettingsService.refreshSettings;
 
         vm.helpWithPortuguese = function () {
             emailService.compose("PORTUGUESE");

@@ -10,11 +10,11 @@
 
         <ion-list id="ruletips-list">
 
-            <div ng-repeat="section in ruletips">
+            <div ng-repeat="section in ruletips.ruletips">
                 <div class="item item-divider">
                     {{section.title | translate}}
                 </div>
-                <ion-item ng-repeat="rule in section.rules" ng-click="openRuletip(rule)">
+                <ion-item ng-repeat="rule in section.rules" ng-click="ruletips.openRuletip(rule)">
                     {{rule + '-TITLE' | translate}}
                 </ion-item>
             </div>

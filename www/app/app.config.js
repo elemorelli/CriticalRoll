@@ -13,13 +13,15 @@
             url: '/app',
             abstract: true,
             templateUrl: 'menu/menu.template.html',
-            controller: 'MenuController'
+            controller: 'MenuController',
+            controllerAs: 'menu'
         }).state('app.home', {
             url: '/home',
             views: {
                 'menuContent': {
                     templateUrl: 'app/main.template.html',
-                    controller: 'CardsController'
+                    controller: 'CardsController',
+                    controllerAs: 'cards'
                 }
             }
         }).state('app.license', {
@@ -34,7 +36,8 @@
             views: {
                 'menuContent': {
                     templateUrl: 'menu/help.template.html',
-                    controller: 'MenuController'
+                    controller: 'MenuController',
+                    controllerAs: 'menu'
                 }
             }
         }).state('app.ruletips', {
@@ -42,7 +45,8 @@
             views: {
                 'menuContent': {
                     templateUrl: 'ruletips/ruletips.template.html',
-                    controller: 'RuletipsController'
+                    controller: 'RuletipsController',
+                    controllerAs: 'ruletips'
                 }
             }
         }).state('app.settings', {
@@ -50,7 +54,8 @@
             views: {
                 'menuContent': {
                     templateUrl: 'settings/settings.template.html',
-                    controller: 'SettingsController'
+                    controller: 'SettingsController',
+                    controllerAs: 'settings'
                 }
             }
         });
