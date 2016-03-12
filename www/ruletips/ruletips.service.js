@@ -58,7 +58,7 @@
                     "STATUS-INVISIBLE",
                     "STATUS-NAUSEATED",
                     "STATUS-PANICKED",
-                    "STATUS-PARALIZED",
+                    "STATUS-PARALYZED",
                     "STATUS-PETRIFIED",
                     "STATUS-PRONE",
                     "STATUS-SHAKEN",
