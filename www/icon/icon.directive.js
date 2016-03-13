@@ -6,7 +6,8 @@
         .directive('crIcon', crIcon);
 
     function crIcon() {
-        return {
+
+        var directive = {
             restrict: 'E',
             replace: true,
             scope: {
@@ -14,6 +15,8 @@
             },
             templateUrl: 'icon/icon.template.html'
         };
+
+        return directive;
     }
 
 })();
