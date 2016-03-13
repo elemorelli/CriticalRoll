@@ -3,9 +3,9 @@
 
     angular
         .module('CriticalRoll')
-        .directive('icon', icon);
+        .directive('crIcon', crIcon);
 
-    function icon() {
+    function crIcon() {
         return {
             restrict: 'E',
             replace: true,
