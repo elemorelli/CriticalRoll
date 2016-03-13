@@ -74,7 +74,7 @@
   "CARD-CRITICAL-PIERCING-37-TITLE": "Forearm piercing",
   "CARD-CRITICAL-PIERCING-37-TEXT": "Double damage and target is disarmed (1 item).",
   "CARD-CRITICAL-PIERCING-38-TITLE": "Clean through",
-  "CARD-CRITICAL-PIERCING-38-TEXT": "Normal damage and 1d6 %STATUS-BLEED=bleed% and 1 %ABILITY-CON=Con% %ABILITY-DRAIN=drain% .",
+  "CARD-CRITICAL-PIERCING-38-TEXT": "Normal damage and 1d6 %STATUS-BLEED=bleed% and 1 %ABILITY-CON=Con% %ABILITY-DRAIN=drain%.",
   "CARD-CRITICAL-PIERCING-39-TITLE": "Surprise opening",
   "CARD-CRITICAL-PIERCING-39-TEXT": "Double damage and one free attack against the target with a -5 penalty.",
   "CARD-CRITICAL-PIERCING-40-TITLE": "Organ scramble",
