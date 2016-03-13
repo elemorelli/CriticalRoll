@@ -82,7 +82,7 @@
   "CARD-FUMBLE-RANGED-41-TITLE": "Tend\u00f3n desgarrado",
   "CARD-FUMBLE-RANGED-41-TEXT": "Sufres 1 de %STATUS-BLEED=sangrado% de %ABILITY-DEX=Des%.",
   "CARD-FUMBLE-RANGED-42-TITLE": "Roto",
-  "CARD-FUMBLE-RANGED-42-TEXT": "Tu arma es destruida (%SAVE-FUMBLE=Reflejos niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas usan su propia tirada de salvaci\u00f3n% (Dungeon Master's Guide 214).",
+  "CARD-FUMBLE-RANGED-42-TEXT": "Tu arma es destruida (%SAVE-FUMBLE=Reflejos niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas usan su propia tirada de salvaci\u00f3n% (Core Rulebook 538).",
   "CARD-FUMBLE-RANGED-43-TITLE": "Todo lo que ten\u00edas",
   "CARD-FUMBLE-RANGED-43-TEXT": "Quedas %STATUS-EXHAUSTED=exhausto% (%SAVE-FUMBLE=Fortaleza niega%).",
   "CARD-FUMBLE-RANGED-44-TITLE": "Cuerdas rotas",

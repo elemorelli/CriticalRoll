@@ -20,7 +20,7 @@
   "CARD-FUMBLE-MELEE-10-TITLE": "Arrojar",
   "CARD-FUMBLE-MELEE-10-TEXT": "Sueltas tu arma y aterriza 1d6 casillas en una direcci\u00f3n aleatoria.",
   "CARD-FUMBLE-MELEE-11-TITLE": "Hoja rota",
-  "CARD-FUMBLE-MELEE-11-TEXT": "Tu arma es destruida (%SAVE-FUMBLE=Reflejos niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas usan su propia tirada de salvaci\u00f3n% (Dungeon Master's Guide 214).",
+  "CARD-FUMBLE-MELEE-11-TEXT": "Tu arma es destruida (%SAVE-FUMBLE=Reflejos niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas usan su propia tirada de salvaci\u00f3n% (Core Rulebook 459).",
   "CARD-FUMBLE-MELEE-12-TITLE": "Hoja mellada",
   "CARD-FUMBLE-MELEE-12-TEXT": "Tu arma sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%, ignorando dureza.",
   "CARD-FUMBLE-MELEE-13-TITLE": "\u00a1Parada! \u00a1Esquiva! \u00a1Giro! \u00a1Estocada!",

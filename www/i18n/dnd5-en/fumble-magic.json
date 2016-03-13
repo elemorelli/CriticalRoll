@@ -1,6 +1,6 @@
 {
   "CARD-FUMBLE-MAGIC-1-TITLE": "Wild magic",
-  "CARD-FUMBLE-MAGIC-1-TEXT": "Roll twice on the <em>Rod of Wonder</em> table (Dungeon Master's Guide 237).",
+  "CARD-FUMBLE-MAGIC-1-TEXT": "Roll twice on the <em>Rod of Wonder</em> table (See Pathfinder's Core Rulebook 538).",
   "CARD-FUMBLE-MAGIC-2-TITLE": "Magic fatigue",
   "CARD-FUMBLE-MAGIC-2-TEXT": "You cannot cast any spells for 1 round.",
   "CARD-FUMBLE-MAGIC-3-TITLE": "You made him stronger",
@@ -86,7 +86,7 @@
   "CARD-FUMBLE-MAGIC-43-TITLE": "Spell shield",
   "CARD-FUMBLE-MAGIC-43-TEXT": "The target gains SR equal to 11 + your caster level for 1d6 rounds.",
   "CARD-FUMBLE-MAGIC-44-TITLE": "Side effect",
-  "CARD-FUMBLE-MAGIC-44-TEXT": "One of your magic items permanently gains a random drawback (Dungeon Master's Guide 273).",
+  "CARD-FUMBLE-MAGIC-44-TEXT": "One of your magic items permanently gains a random drawback (See Pathfinder's Core Rulebook 538).",
   "CARD-FUMBLE-MAGIC-45-TITLE": "This is hard",
   "CARD-FUMBLE-MAGIC-45-TEXT": "You take 1 point of %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%.",
   "CARD-FUMBLE-MAGIC-46-TITLE": "Magical smackdown",

@@ -1,6 +1,6 @@
 {
   "CARD-FUMBLE-MAGIC-1-TITLE": "Magia salvaje",
-  "CARD-FUMBLE-MAGIC-1-TEXT": "Tira dos veces en la tabla del <em>Cetro de Maravillas</em> (Rod of Wonders - Dungeon Master's Guide 237).",
+  "CARD-FUMBLE-MAGIC-1-TEXT": "Tira dos veces en la tabla del <em>Cetro de Maravillas</em> (Rod of Wonders - Core Rulebook 489).",
   "CARD-FUMBLE-MAGIC-2-TITLE": "Fatiga m\u00e1gica",
   "CARD-FUMBLE-MAGIC-2-TEXT": "No puedes lanzar hechizos por 1 ronda.",
   "CARD-FUMBLE-MAGIC-3-TITLE": "\u00a1Lo hiciste m\u00e1s fuerte!",
@@ -86,7 +86,7 @@
   "CARD-FUMBLE-MAGIC-43-TITLE": "Escudo contra hechizos",
   "CARD-FUMBLE-MAGIC-43-TEXT": "El objetivo gana un Resistencia a los Conjuros igual a 11 + tu nivel de lanzador por 1d6 rondas.",
   "CARD-FUMBLE-MAGIC-44-TITLE": "Efecto colateral",
-  "CARD-FUMBLE-MAGIC-44-TEXT": "Un item m\u00e1gico tuyo gana permanente una desventaja aleatoria permanente (Dungeon Master's Guide 273).",
+  "CARD-FUMBLE-MAGIC-44-TEXT": "Un item m\u00e1gico tuyo gana permanente una desventaja aleatoria permanente (Core Rulebook 538).",
   "CARD-FUMBLE-MAGIC-45-TITLE": "Esto es duro",
   "CARD-FUMBLE-MAGIC-45-TEXT": "Sufres 1 punto de %ABILITY-DAMAGE=da\u00f1o% a tu %ABILITY-CON=Con%.",
   "CARD-FUMBLE-MAGIC-46-TITLE": "Bofetada m\u00e1gica",
