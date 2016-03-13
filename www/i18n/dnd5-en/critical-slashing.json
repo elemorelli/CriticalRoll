@@ -52,7 +52,7 @@
   "CARD-CRITICAL-SLASHING-26-TITLE": "Disembowel",
   "CARD-CRITICAL-SLASHING-26-TEXT": "Double damage and 1d4 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction% and 1d6 %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-SLASHING-27-TITLE": "Sapping slash",
-  "CARD-CRITICAL-SLASHING-27-TEXT": "Double damage and target is %STATUS-EXHAUSTED=exhausted%.",
+  "CARD-CRITICAL-SLASHING-27-TEXT": "Double damage and target is %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "CARD-CRITICAL-SLASHING-28-TITLE": "Rupture abdominal cavity",
   "CARD-CRITICAL-SLASHING-28-TEXT": "Double damage and 1 %ABILITY-CON=Con% %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-SLASHING-29-TITLE": "Muscle wound",

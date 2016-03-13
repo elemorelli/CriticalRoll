@@ -84,7 +84,7 @@
   "CARD-FUMBLE-RANGED-42-TITLE": "Broken",
   "CARD-FUMBLE-RANGED-42-TEXT": "Your weapon is destroyed (%SAVE-FUMBLE=Dex saving throw negates%). %OBJECT-DAMAGE=Magic weapons use their own save bonus% (See Pathfinder's Core Rulebook 538).",
   "CARD-FUMBLE-RANGED-43-TITLE": "Everything you got",
-  "CARD-FUMBLE-RANGED-43-TEXT": "You are %STATUS-EXHAUSTED=exhausted% (%SAVE-FUMBLE=Con saving throw negates%).",
+  "CARD-FUMBLE-RANGED-43-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 2 stages% (%SAVE-FUMBLE=Con saving throw negates%).",
   "CARD-FUMBLE-RANGED-44-TITLE": "Snapped string",
   "CARD-FUMBLE-RANGED-44-TEXT": "If attack was made with a bow or crossbow, the string breaks and requires 1d3 round to fix.",
   "CARD-FUMBLE-RANGED-45-TITLE": "Wrong weapon",
@@ -100,7 +100,7 @@
   "CARD-FUMBLE-RANGED-50-TITLE": "You'll shoot your eye out",
   "CARD-FUMBLE-RANGED-50-TEXT": "The attack hits you and is a critical threat. You must roll to confirm the critical hit.",
   "CARD-FUMBLE-RANGED-51-TITLE": "Arching back",
-  "CARD-FUMBLE-RANGED-51-TEXT": "You are %STATUS-EXHAUSTED=exhausted%.",
+  "CARD-FUMBLE-RANGED-51-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "CARD-FUMBLE-RANGED-52-TITLE": "Awkward attack",
   "CARD-FUMBLE-RANGED-52-TEXT": "You take -2 penalty to AC for 1d4 rounds."
 }
