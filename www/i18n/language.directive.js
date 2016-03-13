@@ -3,9 +3,9 @@
 
     angular
         .module('CriticalRoll')
-        .directive('compileTemplate', compileTemplate);
+        .directive('crCompileTemplate', crCompileTemplate);
 
-    function compileTemplate($compile, $parse) {
+    function crCompileTemplate($compile, $parse) {
         return {
             restrict: 'A',
             link: function (scope, element, attr) {
