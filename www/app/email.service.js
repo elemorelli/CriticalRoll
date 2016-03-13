@@ -7,7 +7,9 @@
 
     function emailService($cordovaEmailComposer, $filter) {
 
-        this.compose = function (key) {
+        this.compose = compose;
+
+        function compose(key) {
             var email = {
                 to: 'vanillaicecreamstudio@gmail.com',
                 subject: $filter('translate')('MAIL-' + key + '-SUBJECT'),
@@ -20,7 +22,7 @@
             } else {
                 window.open("mailto:" + email.to + '?subject=' + email.subject + '&body=' + email.body);
             }
-        };
+        }
     }
 
 })();

@@ -7,23 +7,26 @@
 
     function SettingsService(LanguageService) {
 
+        var self = this;
+
         this.values = {
             system: 'pfrpg',
             language: 'en'
         };
 
-        this.refreshSettings = function () {
-            window.localStorage.settings = JSON.stringify(this.values);
-            LanguageService.loadLanguage(this.values.system, this.values.language);
-        };
+        this.refreshSettings = refreshSettings;
 
-        this.init = function () {
+        function init() {
             if (window.localStorage.settings)
-                this.values = JSON.parse(window.localStorage.settings);
-        };
+                self.values = JSON.parse(window.localStorage.settings);
+        }
 
-        this.init();
+        init();
 
+        function refreshSettings() {
+            window.localStorage.settings = JSON.stringify(self.values);
+            LanguageService.loadLanguage(self.values.system, self.values.language);
+        }
     }
 
 })();

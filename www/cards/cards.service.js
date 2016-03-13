@@ -8,11 +8,20 @@
     function CardsService($ionicScrollDelegate) {
 
         var self = this;
+
         this.drawnCards = [];
+
         this.cardsToDraw = {};
+
         this.cardQuantity = 52;
 
-        this.init = function () {
+        this.drawCard = drawCard;
+
+        this.hasCardsToDraw = hasCardsToDraw;
+
+        this.removeAll = removeAll;
+
+        function init() {
             self.drawnCards.length = 0;
 
             self.cardsToDraw = {
@@ -26,11 +35,11 @@
                     }
                 }
             }
-        };
+        }
 
-        this.init();
+        init();
 
-        this.drawCard = function (primaryType, secondaryType) {
+        function drawCard(primaryType, secondaryType) {
 
             var cardList = self.cardsToDraw[primaryType][secondaryType];
 
@@ -50,16 +59,16 @@
             cardList.splice(cardIndex, 1);
             self.drawnCards.push(cardDrawn);
             $ionicScrollDelegate.scrollBottom(true);
-        };
+        }
 
-        this.hasCardsToDraw = function (primaryType, secondaryType) {
+        function hasCardsToDraw(primaryType, secondaryType) {
             return self.cardsToDraw[primaryType][secondaryType].length > 0;
-        };
+        }
 
-        this.removeAll = function () {
-            this.init();
+        function removeAll() {
+            init();
             $ionicScrollDelegate.scrollTop(true);
-        };
+        }
     }
 
 })();

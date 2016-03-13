@@ -8,9 +8,11 @@
 
     function LanguageService($translate) {
 
-        this.loadLanguage = function (system, language) {
+        this.loadLanguage = loadLanguage;
+
+        function loadLanguage(system, language) {
             $translate.use(system + '-' + language);
-        };
+        }
     }
 
     function translateProvider($translateProvider) {
