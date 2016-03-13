@@ -1,32 +1,32 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module('CriticalRoll')
-        .service('SettingsService', SettingsService);
+  angular
+    .module('CriticalRoll')
+    .service('SettingsService', SettingsService);
 
-    function SettingsService(LanguageService) {
+  function SettingsService(LanguageService) {
 
-        var self = this;
+    var self = this;
 
-        this.values = {
-            system: 'pfrpg',
-            language: 'en'
-        };
+    this.values = {
+      system: 'pfrpg',
+      language: 'en'
+    };
 
-        this.refreshSettings = refreshSettings;
+    this.refreshSettings = refreshSettings;
 
-        function init() {
-            if (window.localStorage.settings)
-                self.values = JSON.parse(window.localStorage.settings);
-        }
-
-        init();
-
-        function refreshSettings() {
-            window.localStorage.settings = JSON.stringify(self.values);
-            LanguageService.loadLanguage(self.values.system, self.values.language);
-        }
+    function init() {
+      if (window.localStorage.settings)
+        self.values = JSON.parse(window.localStorage.settings);
     }
+
+    init();
+
+    function refreshSettings() {
+      window.localStorage.settings = JSON.stringify(self.values);
+      LanguageService.loadLanguage(self.values.system, self.values.language);
+    }
+  }
 
 })();

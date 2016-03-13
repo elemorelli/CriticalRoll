@@ -1,18 +1,18 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module('CriticalRoll')
-        .controller('RuletipsController', RuletipsController);
+  angular
+    .module('CriticalRoll')
+    .controller('RuletipsController', RuletipsController);
 
-    function RuletipsController(RuletipsService) {
+  function RuletipsController(RuletipsService) {
 
-        var vm = this;
+    var vm = this;
 
-        vm.ruletips = RuletipsService.ruletips;
+    vm.ruletips = RuletipsService.ruletips;
 
-        vm.openRuletip = RuletipsService.openRuletip;
+    vm.openRuletip = RuletipsService.openRuletip;
 
-    }
+  }
 
 })();

@@ -1,22 +1,22 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module('CriticalRoll')
-        .directive('crIcon', crIcon);
+  angular
+    .module('CriticalRoll')
+    .directive('crIcon', crIcon);
 
-    function crIcon() {
+  function crIcon() {
 
-        var directive = {
-            restrict: 'E',
-            replace: true,
-            scope: {
-                type: "@type"
-            },
-            templateUrl: 'icon/icon.template.html'
-        };
+    var directive = {
+      restrict: 'E',
+      replace: true,
+      scope: {
+        type: "@type"
+      },
+      templateUrl: 'icon/icon.template.html'
+    };
 
-        return directive;
-    }
+    return directive;
+  }
 
 })();

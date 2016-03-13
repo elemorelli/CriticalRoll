@@ -1,25 +1,25 @@
 <ion-view view-title="{{'RULETIPS-TITLE' | translate}}">
 
-    <ion-nav-buttons side="left">
-        <a id="home" href="#/app/main" class="button button-icon button-clear">
-            <cr-icon type="d20s"></cr-icon>
-        </a>
-    </ion-nav-buttons>
+  <ion-nav-buttons side="left">
+    <a id="home" href="#/app/main" class="button button-icon button-clear">
+      <cr-icon type="d20s"></cr-icon>
+    </a>
+  </ion-nav-buttons>
 
-    <ion-content class="has-header" has-bouncing="true">
+  <ion-content class="has-header" has-bouncing="true">
 
-        <ion-list id="ruletips-list">
+    <ion-list id="ruletips-list">
 
-            <div ng-repeat="section in ruletips.ruletips">
-                <div class="item item-divider">
-                    {{section.title | translate}}
-                </div>
-                <ion-item ng-repeat="rule in section.rules" ng-click="ruletips.openRuletip(rule)">
-                    {{rule + '-TITLE' | translate}}
-                </ion-item>
-            </div>
+      <div ng-repeat="section in ruletips.ruletips">
+        <div class="item item-divider">
+          {{section.title | translate}}
+        </div>
+        <ion-item ng-repeat="rule in section.rules" ng-click="ruletips.openRuletip(rule)">
+          {{rule + '-TITLE' | translate}}
+        </ion-item>
+      </div>
 
-        </ion-list>
+    </ion-list>
 
-    </ion-content>
+  </ion-content>
 </ion-view>

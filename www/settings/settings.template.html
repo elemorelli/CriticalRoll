@@ -1,52 +1,52 @@
 <ion-view view-title="{{'SETTINGS-TITLE' | translate}}">
 
-    <ion-nav-buttons side="left">
-        <a id="home" href="#/app/main" class="button button-icon button-clear">
-            <cr-icon type="d20s"></cr-icon>
+  <ion-nav-buttons side="left">
+    <a id="home" href="#/app/main" class="button button-icon button-clear">
+      <cr-icon type="d20s"></cr-icon>
+    </a>
+  </ion-nav-buttons>
+
+  <ion-content id="settings" class="has-header" has-bouncing="true">
+
+    <ion-item>
+      <h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
+      <ion-list>
+        <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
+                   ng-value="'pfrpg'">
+          {{'PATHFINDER' | translate}}
+        </ion-radio>
+        <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
+                   ng-value="'dnd3'">
+          {{'DnD3.5' | translate}}
+        </ion-radio>
+        <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
+                   ng-value="'dnd5'">
+          {{'DnD5' | translate}}
+        </ion-radio>
+      </ion-list>
+    </ion-item>
+
+    <ion-item>
+      <h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
+      <ion-list>
+        <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
+                   ng-value="'en'">
+          {{'ENGLISH' | translate}}
+        </ion-radio>
+        <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
+                   ng-value="'es'">
+          {{'SPANISH' | translate}}
+        </ion-radio>
+        <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
+                   ng-value="'pt'" class="disabled" ng-disabled="true">
+          {{'PORTUGUESE' | translate}}
+        </ion-radio>
+        <a class="tag help-wanted" ng-click="settings.helpWithPortuguese()">
+          {{'HELP-NEEDED' | translate}}
+          <i class="icon ion-email"></i>
         </a>
-    </ion-nav-buttons>
+      </ion-list>
+    </ion-item>
 
-    <ion-content id="settings" class="has-header" has-bouncing="true">
-
-        <ion-item>
-            <h2>{{'SETTINGS-SYSTEM' | translate}}</h2>
-            <ion-list>
-                <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
-                           ng-value="'pfrpg'">
-                    {{'PATHFINDER' | translate}}
-                </ion-radio>
-                <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
-                           ng-value="'dnd3'">
-                    {{'DnD3.5' | translate}}
-                </ion-radio>
-                <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
-                           ng-value="'dnd5'">
-                    {{'DnD5' | translate}}
-                </ion-radio>
-            </ion-list>
-        </ion-item>
-
-        <ion-item>
-            <h2>{{'SETTINGS-LANGUAGE' | translate}}</h2>
-            <ion-list>
-                <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
-                           ng-value="'en'">
-                    {{'ENGLISH' | translate}}
-                </ion-radio>
-                <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
-                           ng-value="'es'">
-                    {{'SPANISH' | translate}}
-                </ion-radio>
-                <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
-                           ng-value="'pt'" class="disabled" ng-disabled="true">
-                    {{'PORTUGUESE' | translate}}
-                </ion-radio>
-                <a class="tag help-wanted" ng-click="settings.helpWithPortuguese()">
-                    {{'HELP-NEEDED' | translate}}
-                    <i class="icon ion-email"></i>
-                </a>
-            </ion-list>
-        </ion-item>
-
-    </ion-content>
+  </ion-content>
 </ion-view>

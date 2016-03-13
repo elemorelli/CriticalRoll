@@ -1,22 +1,22 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module('CriticalRoll')
-        .controller('SettingsController', SettingsController);
+  angular
+    .module('CriticalRoll')
+    .controller('SettingsController', SettingsController);
 
-    function SettingsController(SettingsService, emailService) {
+  function SettingsController(SettingsService, emailService) {
 
-        var vm = this;
+    var vm = this;
 
-        vm.values = SettingsService.values;
+    vm.values = SettingsService.values;
 
-        vm.refreshSettings = SettingsService.refreshSettings;
+    vm.refreshSettings = SettingsService.refreshSettings;
 
-        vm.helpWithPortuguese = helpWithPortuguese;
+    vm.helpWithPortuguese = helpWithPortuguese;
 
-        function helpWithPortuguese() {
-            emailService.compose("PORTUGUESE");
-        }
+    function helpWithPortuguese() {
+      emailService.compose("PORTUGUESE");
     }
+  }
 })();

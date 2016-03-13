@@ -1,7 +1,6 @@
 (function () {
   'use strict';
 
-
   angular
     .module('CriticalRoll')
     .service('RuletipsService', RuletipsService);

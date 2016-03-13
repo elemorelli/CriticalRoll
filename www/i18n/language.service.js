@@ -1,17 +1,17 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    angular
-        .module('CriticalRoll')
-        .service('LanguageService', LanguageService);
+  angular
+    .module('CriticalRoll')
+    .service('LanguageService', LanguageService);
 
-    function LanguageService($translate) {
+  function LanguageService($translate) {
 
-        this.loadLanguage = loadLanguage;
+    this.loadLanguage = loadLanguage;
 
-        function loadLanguage(system, language) {
-            $translate.use(system + '-' + language);
-        }
+    function loadLanguage(system, language) {
+      $translate.use(system + '-' + language);
     }
+  }
 
 })();
