@@ -13,20 +13,21 @@
       <ion-list>
         <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
                    ng-value="'pfrpg'">
-          {{'PATHFINDER' | translate}}
+          <span>{{'PATHFINDER' | translate}}</span>
         </ion-radio>
         <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
                    ng-value="'dnd3'">
-          {{'DnD3.5' | translate}}
+          <span>{{'DnD3.5' | translate}}</span>
         </ion-radio>
         <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
                    ng-value="'dnd5'">
-          {{'DnD5' | translate}}
+          <span>{{'DnD5' | translate}}</span>
+          <a class="tag coming-soon" ng-if="settings.values.language == 'es'">
+            <span>{{'COMING-SOON' | translate}}</span>
+            <i class="icon ion-heart-broken"></i>
+          </a>
         </ion-radio>
-        <a class="tag coming-soon" ng-if="settings.values.language == 'es'">
-          {{'COMING-SOON' | translate}}
-          <i class="icon ion-heart-broken"></i>
-        </a>
+
       </ion-list>
     </ion-item>
 
@@ -42,13 +43,14 @@
           {{'SPANISH' | translate}}
         </ion-radio>
         <ion-radio name="language" ng-model="settings.values.language" ng-change="settings.refreshSettings()"
-                   ng-value="'pt'" class="disabled" ng-disabled="true">
-          {{'PORTUGUESE' | translate}}
+                   ng-value="'pt'" ng-disabled="true">
+          <span class="disabled">{{'OTHER-LANGUAGES' | translate}}</span>
+          <a class="tag help-wanted">
+            {{'HELP-NEEDED' | translate}}
+            <i class="icon ion-email"></i>
+          </a>
         </ion-radio>
-        <a class="tag help-wanted" ng-click="settings.helpWithPortuguese()">
-          {{'HELP-NEEDED' | translate}}
-          <i class="icon ion-email"></i>
-        </a>
+
       </ion-list>
     </ion-item>
 

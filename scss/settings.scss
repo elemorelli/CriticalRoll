@@ -4,7 +4,7 @@
 }
 
 #settings label {
-  line-height: 6px;
+  height: 54px;
 }
 
 #settings .disabled {
@@ -22,17 +22,14 @@
 }
 
 #settings .tag {
-  font-size: small;
-  position: absolute;
-  top: 100px;
+  position: relative;
+  left: 16px;
   padding: 3px 3px 3px 10px;
   border: 2px solid;
   border-radius: 10px;
-  z-index: 10;
 }
 
 #settings .tag .icon {
-  font-size: medium;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -44,7 +41,7 @@
 #settings .tag:before {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 6px;
   left: -16px;
   border-width: 6px 15px 6px 0;
   border-style: solid;
@@ -53,7 +50,7 @@
 #settings .tag:after {
   content: "";
   position: absolute;
-  top: 9px;
+  top: 8px;
   left: -12px;
   border-width: 4px 12px 4px 0;
   border-style: solid;
@@ -61,7 +58,6 @@
 }
 
 #settings .help-wanted {
-  left: 31%;
   color: $assertive;
   border-color: $assertive;
 }
@@ -71,7 +67,6 @@
 }
 
 #settings .coming-soon {
-  left: 40%;
   color: $calm;
   border-color: $calm;
 }

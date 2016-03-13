@@ -8,7 +8,5 @@
   "HELP-NEEDED": "Necesitamos ayuda!",
   "COMING-SOON": "Incompleto!",
   "MAIL-BUG-SUBJECT": "[BUG] Error en CriticalRoll",
-  "MAIL-BUG-BODY": "Hola! Encontr\u00e9 un error en CriticalRoll y es el siguiente:\n",
-  "MAIL-PORTUGUESE-SUBJECT": "[TRANSLATION] Ayudar para traducir al portugu\u00e9s",
-  "MAIL-PORTUGUESE-BODY": "Hola! Conozco suficiente portugu\u00e9s y puedo ayudarlos a traducir la aplicaci\u00f3n."
+  "MAIL-BUG-BODY": "Hola! Encontr\u00e9 un error en CriticalRoll y es el siguiente:\n"
 }

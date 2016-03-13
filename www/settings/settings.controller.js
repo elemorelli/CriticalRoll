@@ -5,7 +5,7 @@
     .module('CriticalRoll')
     .controller('SettingsController', SettingsController);
 
-  function SettingsController(SettingsService, emailService) {
+  function SettingsController(SettingsService) {
 
     var vm = this;
 
@@ -13,10 +13,5 @@
 
     vm.refreshSettings = SettingsService.refreshSettings;
 
-    vm.helpWithPortuguese = helpWithPortuguese;
-
-    function helpWithPortuguese() {
-      emailService.compose("PORTUGUESE");
-    }
   }
 })();
