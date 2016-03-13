@@ -1,14 +1,14 @@
 {
-  "HELP-TITLE": "Help",
-  "LICENSE-TITLE": "License: Legal chatter",
-  "RULETIPS-TITLE": "Glossary",
-  "SETTINGS-TITLE": "Settings",
-  "SHARE-MESSAGE": "CriticalRoll: An App to improve Critical and Fumbles effects in Pathfinder and D&D",
-  "SHARE-SUBJECT": "CriticalRoll",
-  "HELP-NEEDED": "Help needed!",
-  "COMING-SOON": "Coming soon!",
-  "MAIL-BUG-SUBJECT": "[BUG] A bug in CriticalRoll",
-  "MAIL-BUG-BODY": "Hi! I've found a bug in CriticalRoll and it is:\n",
-  "MAIL-PORTUGUESE-SUBJECT": "[TRANSLATION] Help with the portuguese translation",
-  "MAIL-PORTUGUESE-BODY": "Hi! I know enough portuguese and I can help you translate the App."
+  "HELP-TITLE": "Ayuda",
+  "LICENSE-TITLE": "Licencia: Parloteo legal",
+  "RULETIPS-TITLE": "Glosario",
+  "SETTINGS-TITLE": "Ajustes",
+  "SHARE-MESSAGE": "CriticalRoll: Una App para Cr\u00edticos y Pifias en Pathfinder, D&D 3.5 y D&D 5th",
+  "SHARE-SUBJECT": "[PFRPG][D&D] CriticalRoll",
+  "HELP-NEEDED": "Necesitamos ayuda!",
+  "COMING-SOON": "S\u00f3lo en ingl\u00e9s",
+  "MAIL-BUG-SUBJECT": "[BUG] Error en CriticalRoll",
+  "MAIL-BUG-BODY": "Hola! Encontr\u00e9 un error en CriticalRoll y es el siguiente:\n",
+  "MAIL-PORTUGUESE-SUBJECT": "[TRANSLATION] Ayudar para traducir al portugu\u00e9s",
+  "MAIL-PORTUGUESE-BODY": "Hola! Conozco suficiente portugu\u00e9s y puedo ayudarlos a traducir la aplicaci\u00f3n."
 }
