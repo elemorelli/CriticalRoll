@@ -52,7 +52,7 @@
   "CARD-CRITICAL-SLASHING-26-TITLE": "Disembowel",
   "CARD-CRITICAL-SLASHING-26-TEXT": "Double damage and 1d4 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage% and 1d6 %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-SLASHING-27-TITLE": "Sapping slash",
-  "CARD-CRITICAL-SLASHING-27-TEXT": "Double damage and target is %STATUS-FATIGUED=fatigued%.",
+  "CARD-CRITICAL-SLASHING-27-TEXT": "Double damage and target is %STATUS-EXHAUSTED=exhausted%.",
   "CARD-CRITICAL-SLASHING-28-TITLE": "Rupture abdominal cavity",
   "CARD-CRITICAL-SLASHING-28-TEXT": "Double damage and 1 %ABILITY-CON=Con% %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-SLASHING-29-TITLE": "Muscle wound",
@@ -72,7 +72,7 @@
   "CARD-CRITICAL-SLASHING-36-TITLE": "Lip cut",
   "CARD-CRITICAL-SLASHING-36-TEXT": "Double damage and 1 %STATUS-BLEED=bleed%. Target gains 20% spell failure chance for verbal spells %UNTIL-HEALED=until healed%.",
   "CARD-CRITICAL-SLASHING-37-TITLE": "Gory",
-  "CARD-CRITICAL-SLASHING-37-TEXT": "Normal damage and target is %STATUS-SICKENED=sickened% for 1d6 rounds.",
+  "CARD-CRITICAL-SLASHING-37-TEXT": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds.",
   "CARD-CRITICAL-SLASHING-38-TITLE": "Across the eyes",
   "CARD-CRITICAL-SLASHING-38-TEXT": "Normal damage and target permanently %STATUS-BLINDED=blinded% (%SAVE-CRITICAL=Ref negates%).",
   "CARD-CRITICAL-SLASHING-39-TITLE": "Ugly wound",
@@ -102,5 +102,5 @@
   "CARD-CRITICAL-SLASHING-51-TITLE": "Swing through",
   "CARD-CRITICAL-SLASHING-51-TEXT": "Double damage and one free attack against an adjacent foe at the same bonus.",
   "CARD-CRITICAL-SLASHING-52-TITLE": "Spun around",
-  "CARD-CRITICAL-SLASHING-52-TEXT": "Normal damage and target is %STATUS-FLAT-FOOTED=flat-footed% for 1 round."
+  "CARD-CRITICAL-SLASHING-52-TEXT": "Normal damage and target is %STATUS-RESTRAINED=restrained% for 1 round."
 }
