@@ -2,7 +2,7 @@
 
   <ion-nav-buttons side="left">
     <a id="home" href="#/app/main" class="button button-icon button-clear">
-      <cr-icon type="d20s"></cr-icon>
+      <cr-icon type="settings"></cr-icon>
     </a>
   </ion-nav-buttons>
 
@@ -23,6 +23,10 @@
                    ng-value="'dnd5'">
           {{'DnD5' | translate}}
         </ion-radio>
+        <a class="tag coming-soon" ng-if="settings.values.language == 'es'">
+          {{'COMING-SOON' | translate}}
+          <i class="icon ion-heart-broken"></i>
+        </a>
       </ion-list>
     </ion-item>
 
