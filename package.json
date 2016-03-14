@@ -31,10 +31,6 @@
       "id": "cordova-plugin-x-socialsharing"
     },
     "cordova-plugin-splashscreen",
-    {
-      "locator": "https://github.com/katzer/cordova-plugin-email-composer.git",
-      "id": "de.appplant.cordova.plugin.email-composer"
-    }
   ],
   "cordovaPlatforms": [
     "android",

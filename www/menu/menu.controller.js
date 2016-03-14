@@ -5,13 +5,15 @@
     .module('CriticalRoll')
     .controller('MenuController', MenuController);
 
-  function MenuController($cordovaSocialSharing, $translate, $ionicSideMenuDelegate, emailService) {
+  function MenuController($cordovaSocialSharing, $translate, $ionicSideMenuDelegate) {
 
     var vm = this;
 
     var linkURLs = {
       "share": "https://play.google.com/store/apps/details?id=com.vanillaicecreamstudio.criticalroll",
-      "pathfinderRPG": "http://paizo.com/pathfinderRPG/"
+      "pathfinderRPG": "http://paizo.com/pathfinderRPG/",
+      "dnd5": "http://dnd.wizards.com/",
+      "dnd3": "http://www.d20srd.org/"
     };
 
     vm.toggleMenu = toggleMenu;
@@ -19,8 +21,6 @@
     vm.share = share;
 
     vm.openLink = openLink;
-
-    vm.reportBug = reportBug;
 
     function toggleMenu() {
       if ($ionicSideMenuDelegate.isOpenLeft()) {
@@ -50,9 +50,6 @@
       return false;
     }
 
-    function reportBug() {
-      emailService.compose("BUG");
-    }
   }
 
 })();

@@ -2,18 +2,34 @@
   margin-top: 10px;
 }
 
-#help .icon-column {
-  height: 45vh;
+#help > .row {
+  margin-bottom: 32px;
 }
 
-#help .icon-column .row {
-  height: 25%;
+#help h3 {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#help .bug-column {
+#help p {
+  line-height: 2;
+  text-align: justify;
+}
+
+#help li {
+  padding-left: 20px;
+  line-height: 24px;
+}
+
+#help .badges {
   text-align: center;
 }
 
-#help .bug-column .icon {
+#help .card-badge {
   position: relative;
+  margin: 0;
+}
+
+#help .feedback {
+  line-height: 44px;
 }
