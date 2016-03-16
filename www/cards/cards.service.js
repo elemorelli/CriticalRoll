@@ -45,7 +45,7 @@
 
             var cardIndex = Math.floor(Math.random() * cardList.length);
 
-            var cardNameTemplate = 'CARD-' + primaryType.toUpperCase()
+            var cardNameTemplate = primaryType.toUpperCase()
                 + '-' + secondaryType.toUpperCase()
                 + '-' + (cardList[cardIndex] + 1);
 
