@@ -68,7 +68,7 @@
   "CARD-FUMBLE-MELEE-34-TITLE": "Who was that",
   "CARD-FUMBLE-MELEE-34-TEXT": "You are %STATUS-DAZED=dazed% for 1d3 rounds.",
   "CARD-FUMBLE-MELEE-35-TITLE": "You meant to do that",
-  "CARD-FUMBLE-MELEE-35-TEXT": "Move 10 feet in a random direction and provoke attacks of opportunity as normal.",
+  "CARD-FUMBLE-MELEE-35-TEXT": "Move 10 feet in a random direction provoking attacks of opportunity as normal.",
   "CARD-FUMBLE-MELEE-36-TITLE": "Eat dirt",
   "CARD-FUMBLE-MELEE-36-TEXT": "You fall %STATUS-PRONE=prone% and are %STATUS-BLINDED=blinded% for 1d3 rounds (%SAVE-FUMBLE=Fort negates%).",
   "CARD-FUMBLE-MELEE-37-TITLE": "Second thoughts",

@@ -68,7 +68,7 @@
   "CARD-FUMBLE-MELEE-34-TITLE": "\u00bfQui\u00e9n fue?",
   "CARD-FUMBLE-MELEE-34-TEXT": "Quedas %STATUS-DAZED=atontado% por 1d3 rondas.",
   "CARD-FUMBLE-MELEE-35-TITLE": "\u00bfQue pretend\u00edas con eso?",
-  "CARD-FUMBLE-MELEE-35-TEXT": "Mueves 10 pies en una direcci\u00f3n aleatoria y provocas ataques de oportunidad.",
+  "CARD-FUMBLE-MELEE-35-TEXT": "Mueves 10 pies en una direcci\u00f3n aleatoria provocando ataques de oportunidad.",
   "CARD-FUMBLE-MELEE-36-TITLE": "Come tierra",
   "CARD-FUMBLE-MELEE-36-TEXT": "Eres %STATUS-PRONE=tumbado% y quedas %STATUS-BLINDED=cegado% por 1d3 rondas (%SAVE-FUMBLE=Fortaleza niega%).",
   "CARD-FUMBLE-MELEE-37-TITLE": "Dudas",

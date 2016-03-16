@@ -36,7 +36,7 @@
   "CARD-FUMBLE-MAGIC-18-TITLE": "You made him faster",
   "CARD-FUMBLE-MAGIC-18-TEXT": "The target is <em>Hasted</em> for 1d4 rounds.",
   "CARD-FUMBLE-MAGIC-19-TITLE": "You made him tougher",
-  "CARD-FUMBLE-MAGIC-19-TEXT": "The target gains DR 5/-for 1d4 rounds.",
+  "CARD-FUMBLE-MAGIC-19-TEXT": "The target gains DR 5/- for 1d4 rounds.",
   "CARD-FUMBLE-MAGIC-20-TITLE": "Vertigo",
   "CARD-FUMBLE-MAGIC-20-TEXT": "You are %STATUS-SICKENED=sickened% for 1d4 rounds.",
   "CARD-FUMBLE-MAGIC-21-TITLE": "Apprentice move",

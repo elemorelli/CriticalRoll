@@ -12,7 +12,7 @@
   "CARD-CRITICAL-BLUDGEONING-6-TITLE": "Split open",
   "CARD-CRITICAL-BLUDGEONING-6-TEXT": "Double damage and 1d4 %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-BLUDGEONING-7-TITLE": "Feeble parry",
-  "CARD-CRITICAL-BLUDGEONING-7-TEXT": "Double damage and target is disarmed (1 item).",
+  "CARD-CRITICAL-BLUDGEONING-7-TEXT": "Double damage and target has 1 item disarmed.",
   "CARD-CRITICAL-BLUDGEONING-8-TITLE": "Surprise opening",
   "CARD-CRITICAL-BLUDGEONING-8-TEXT": "Double damage and one free attack against the target with a -5 penalty.",
   "CARD-CRITICAL-BLUDGEONING-9-TITLE": "Back breaker",

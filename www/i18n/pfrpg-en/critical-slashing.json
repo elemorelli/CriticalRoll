@@ -60,7 +60,7 @@
   "CARD-CRITICAL-SLASHING-30-TITLE": "Fingertipped",
   "CARD-CRITICAL-SLASHING-30-TEXT": "Normal damage and 1 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%. Target cannot use one hand %UNTIL-HEALED=until healed%.",
   "CARD-CRITICAL-SLASHING-31-TITLE": "Bad parry",
-  "CARD-CRITICAL-SLASHING-31-TEXT": "Double damage and target is disarmed (1 item).",
+  "CARD-CRITICAL-SLASHING-31-TEXT": "Double damage and target has 1 item disarmed.",
   "CARD-CRITICAL-SLASHING-32-TITLE": "Nerve slice",
   "CARD-CRITICAL-SLASHING-32-TEXT": "Double damage and target can take only one move or standard action next round.",
   "CARD-CRITICAL-SLASHING-33-TITLE": "Weapon strike",
