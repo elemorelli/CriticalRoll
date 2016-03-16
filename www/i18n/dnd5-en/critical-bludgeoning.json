@@ -8,11 +8,11 @@
   "CARD-CRITICAL-BLUDGEONING-4-TITLE": "Lights out",
   "CARD-CRITICAL-BLUDGEONING-4-TEXT": "Normal damage and target is %STATUS-BLINDED=blinded% for 1d3 rounds.",
   "CARD-CRITICAL-BLUDGEONING-5-TITLE": "Crushed trachea",
-  "CARD-CRITICAL-BLUDGEONING-5-TEXT": "Normal damage and target cannot breathe or speak. DC 20 Heal check ends the condition.",
+  "CARD-CRITICAL-BLUDGEONING-5-TEXT": "Normal damage and target cannot breathe or speak. DC 20 Medicine check ends the condition.",
   "CARD-CRITICAL-BLUDGEONING-6-TITLE": "Split open",
   "CARD-CRITICAL-BLUDGEONING-6-TEXT": "Double damage and 1d4 %STATUS-BLEED=bleed%.",
   "CARD-CRITICAL-BLUDGEONING-7-TITLE": "Feeble parry",
-  "CARD-CRITICAL-BLUDGEONING-7-TEXT": "Double damage and target is disarmed (1 item).",
+  "CARD-CRITICAL-BLUDGEONING-7-TEXT": "Double damage and target has 1 item disarmed.",
   "CARD-CRITICAL-BLUDGEONING-8-TITLE": "Surprise opening",
   "CARD-CRITICAL-BLUDGEONING-8-TEXT": "Double damage and one free attack against the target with a -5 penalty.",
   "CARD-CRITICAL-BLUDGEONING-9-TITLE": "Back breaker",
@@ -30,7 +30,7 @@
   "CARD-CRITICAL-BLUDGEONING-15-TITLE": "Crunch",
   "CARD-CRITICAL-BLUDGEONING-15-TEXT": "Double damage and target is %STATUS-POISONED=poisoned% for 1 round (%SAVE-CRITICAL=Con saving throw negates%).",
   "CARD-CRITICAL-BLUDGEONING-16-TITLE": "Armor dent",
-  "CARD-CRITICAL-BLUDGEONING-16-TEXT": "Double damage and 2d6 %OBJECT-DAMAGE=damage to metal armor% (ignore hardness).",
+  "CARD-CRITICAL-BLUDGEONING-16-TEXT": "Double damage and 2d6 %OBJECT-DAMAGE=damage to metal armor%.",
   "CARD-CRITICAL-BLUDGEONING-17-TITLE": "Breathless",
   "CARD-CRITICAL-BLUDGEONING-17-TEXT": "Normal damage and target is %STATUS-EXHAUSTED=exhausted by 2 stages% for 1d4 rounds.",
   "CARD-CRITICAL-BLUDGEONING-18-TITLE": "Mace to da' face",
@@ -88,7 +88,7 @@
   "CARD-CRITICAL-BLUDGEONING-44-TITLE": "Low blow",
   "CARD-CRITICAL-BLUDGEONING-44-TEXT": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds.",
   "CARD-CRITICAL-BLUDGEONING-45-TITLE": "Brained",
-  "CARD-CRITICAL-BLUDGEONING-45-TEXT": "Double damage and target can take only one move or standard action next round.",
+  "CARD-CRITICAL-BLUDGEONING-45-TEXT": "Double damage and target can take only one action next round.",
   "CARD-CRITICAL-BLUDGEONING-46-TITLE": "Shield smack",
   "CARD-CRITICAL-BLUDGEONING-46-TEXT": "Double damage and target's shield is disarmed.",
   "CARD-CRITICAL-BLUDGEONING-47-TITLE": "I see stars",
@@ -102,5 +102,5 @@
   "CARD-CRITICAL-BLUDGEONING-51-TITLE": "Crushed toe",
   "CARD-CRITICAL-BLUDGEONING-51-TEXT": "Normal damage and 1d4 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%. Target's land speed is halved %UNTIL-HEALED=until healed%.",
   "CARD-CRITICAL-BLUDGEONING-52-TITLE": "Off balance",
-  "CARD-CRITICAL-BLUDGEONING-52-TEXT": "Normal damage and target provokes attacks of opportunity from all threatening opponents."
+  "CARD-CRITICAL-BLUDGEONING-52-TEXT": "Normal damage and target provokes opportunity attacks from all threatening opponents."
 }
