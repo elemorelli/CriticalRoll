@@ -91,7 +91,7 @@
   "FUMBLE-MELEE-45-TEXT": "You take a -1 penalty on attack rolls until you score a critical hit.",
   "FUMBLE-MELEE-46-TITLE": "Surrounded by foes",
   "FUMBLE-MELEE-46-TEXT": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit.",
-  "FUMBLE-MELEE-47-TITLE": "On the receiving rnd",
+  "FUMBLE-MELEE-47-TITLE": "On the receiving end",
   "FUMBLE-MELEE-47-TEXT": "The attack deals damage to you instead of the target.",
   "FUMBLE-MELEE-48-TITLE": "Bohemian earspoon",
   "FUMBLE-MELEE-48-TEXT": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Heal Check).",

@@ -56,7 +56,7 @@
   "FUMBLE-MAGIC-28-TITLE": "Distance rift",
   "FUMBLE-MAGIC-28-TEXT": "You are teleported the nearest square adjacent to the target.",
   "FUMBLE-MAGIC-29-TITLE": "Mind drain",
-  "FUMBLE-MAGIC-29-TEXT": "You take 1d4 points of damage to %ABILITY-INT=Int%, %ABILITY-WIS=Wis%, or %ABILITY-CHA=Cha% (determined randomly).",
+  "FUMBLE-MAGIC-29-TEXT": "You take 1d4 points of %ABILITY-DAMAGE=damage% to %ABILITY-INT=Int%, %ABILITY-WIS=Wis%, or %ABILITY-CHA=Cha% (determined randomly).",
   "FUMBLE-MAGIC-30-TITLE": "Cold snap",
   "FUMBLE-MAGIC-30-TEXT": "You take 2d6 points of cold damage.",
   "FUMBLE-MAGIC-31-TITLE": "Caster's block",

@@ -37,7 +37,7 @@
   "CRITICAL-MAGIC-19-TITLE": "Pretty colors",
   "CRITICAL-MAGIC-19-TEXT": "Double damage and target is %STATUS-BLINDED=blinded% for 1d4 rounds.",
   "CRITICAL-MAGIC-20-TITLE": "Nerve damage",
-  "CRITICAL-MAGIC-20-TEXT": "Normal damage and target is <em>Slow</em> as the slow spell for 1d6 rounds.",
+  "CRITICAL-MAGIC-20-TEXT": "Normal damage and target is affected by the <em>Slow</em> spell for 1d6 rounds.",
   "CRITICAL-MAGIC-21-TITLE": "Arcane blast",
   "CRITICAL-MAGIC-21-TEXT": "Double damage and 2d6 random energy damage (%SAVE-CRITICAL=Dex saving throw halves%).",
   "CRITICAL-MAGIC-22-TITLE": "Planar rift",

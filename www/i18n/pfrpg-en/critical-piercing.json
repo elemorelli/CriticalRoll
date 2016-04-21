@@ -1,6 +1,6 @@
 {
   "CRITICAL-PIERCING-1-TITLE": "Leg wound",
-  "CRITICAL-PIERCING-1-TEXT": "Double damage and target's land speed is halved for 1d4 rounds.",
+  "CRITICAL-PIERCING-1-TEXT": "Double damage and target's land speed is halved and can't swim for 1d4 rounds.",
   "CRITICAL-PIERCING-2-TITLE": "Grazing hit",
   "CRITICAL-PIERCING-2-TEXT": "Normal damage and target is %STATUS-STUNNED=stunned% for 1 round.",
   "CRITICAL-PIERCING-3-TITLE": "Knockback",
@@ -95,7 +95,7 @@
   "CRITICAL-PIERCING-47-TEXT": "Double damage and target cannot move (DC 20 Str check negates).",
   "CRITICAL-PIERCING-48-TITLE": "Guarded strike",
   "CRITICAL-PIERCING-48-TEXT": "Double damage and +4 to your AC for 1 round.",
-  "CRITICAL-PIERCING-49-TITLE": "Right in the rar",
+  "CRITICAL-PIERCING-49-TITLE": "Right in the ear",
   "CRITICAL-PIERCING-49-TEXT": "Normal damage and 1 %ABILITY-INT=Int% %ABILITY-DAMAGE=damage% and 1 %STATUS-BLEED=bleed%.",
   "CRITICAL-PIERCING-50-TITLE": "Chipped bone",
   "CRITICAL-PIERCING-50-TEXT": "Double damage and 1 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%.",

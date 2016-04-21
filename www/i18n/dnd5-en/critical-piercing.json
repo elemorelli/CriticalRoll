@@ -95,7 +95,7 @@
   "CRITICAL-PIERCING-47-TEXT": "Double damage and target cannot move (DC 15 Str check negates).",
   "CRITICAL-PIERCING-48-TITLE": "Guarded strike",
   "CRITICAL-PIERCING-48-TEXT": "Double damage and +2 to your AC for 1 round.",
-  "CRITICAL-PIERCING-49-TITLE": "Right in the rar",
+  "CRITICAL-PIERCING-49-TITLE": "Right in the ear",
   "CRITICAL-PIERCING-49-TEXT": "Normal damage, the target has disadvantage on %ABILITY-INT=Intelligence% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage.",
   "CRITICAL-PIERCING-50-TITLE": "Chipped bone",
   "CRITICAL-PIERCING-50-TEXT": "Double damage and 1 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%.",
