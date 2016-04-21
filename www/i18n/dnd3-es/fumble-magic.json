@@ -1,6 +1,6 @@
 {
   "FUMBLE-MAGIC-1-TITLE": "Magia salvaje",
-  "FUMBLE-MAGIC-1-TEXT": "Tira dos veces en la tabla del <em>Cetro de Maravillas</em> (Rod of Wonders - Dungeon Master's Guide 237).",
+  "FUMBLE-MAGIC-1-TEXT": "Tira dos veces en la tabla del %DESCRIPTION-ROD-OF-WONDER=Cetro de las maravillas%.",
   "FUMBLE-MAGIC-2-TITLE": "Fatiga m\u00e1gica",
   "FUMBLE-MAGIC-2-TEXT": "No puedes lanzar hechizos por 1 ronda.",
   "FUMBLE-MAGIC-3-TITLE": "\u00a1Lo hiciste m\u00e1s fuerte!",

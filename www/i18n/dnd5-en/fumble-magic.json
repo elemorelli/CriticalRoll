@@ -1,6 +1,6 @@
 {
   "FUMBLE-MAGIC-1-TITLE": "Wild magic",
-  "FUMBLE-MAGIC-1-TEXT": "Roll twice on the <em>Rod of Wonder</em> table.",
+  "FUMBLE-MAGIC-1-TEXT": "Roll twice on the %DESCRIPTION-ROD-OF-WONDER=Rod of Wonder% table.",
   "FUMBLE-MAGIC-2-TITLE": "Magic fatigue",
   "FUMBLE-MAGIC-2-TEXT": "You cannot cast any spells for 1 round.",
   "FUMBLE-MAGIC-3-TITLE": "You made him stronger",
