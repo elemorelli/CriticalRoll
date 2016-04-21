@@ -78,7 +78,7 @@
   "FUMBLE-RANGED-39-TITLE": "My spleeny bits!",
   "FUMBLE-RANGED-39-TEXT": "You have disadvantage on %ABILITY-CON=Constitution% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-RANGED-40-TITLE": "Notched fingers",
-  "FUMBLE-RANGED-40-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%",
+  "FUMBLE-RANGED-40-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-RANGED-41-TITLE": "Torn tendon",
   "FUMBLE-RANGED-41-TEXT": "You have disadvantage on ranged attacks, %ABILITY-DEX=Dexterity% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-RANGED-42-TITLE": "Broken",

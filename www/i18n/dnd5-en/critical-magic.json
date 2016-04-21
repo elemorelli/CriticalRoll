@@ -13,7 +13,7 @@
   "CRITICAL-MAGIC-7-TITLE": "Dispelling aura",
   "CRITICAL-MAGIC-7-TEXT": "Normal damage and dispel magic on the target.",
   "CRITICAL-MAGIC-8-TITLE": "Concussive spell",
-  "CRITICAL-MAGIC-8-TEXT": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%",
+  "CRITICAL-MAGIC-8-TEXT": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "CRITICAL-MAGIC-9-TITLE": "Knockback",
   "CRITICAL-MAGIC-9-TEXT": "Double damage and target is pushed 1d6x5 feets directly away.",
   "CRITICAL-MAGIC-10-TITLE": "I love you, man",

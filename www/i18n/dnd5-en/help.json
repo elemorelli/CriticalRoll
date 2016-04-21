@@ -15,7 +15,7 @@
   "HELP-FUMBLE-TEXT-1": "In addition to lose the attack, apply a fumble effects according to the kind of attack, not the weapon used.",
   "HELP-FUMBLE-TEXT-2": "Regardless of the weapon multiplier, you can only suffer one fumble effect.",
   "HELP-FUMBLE-TEXT-CONFIRMATION": "Confirm a fumble",
-  "HELP-FUMBLE-TEXT-CONFIRMATION-TEXT": "As the effects can be devastating to the characters, you can use this rules to reduce the chance of a fumble. This is, after rolling a natural 1 make another roll attack. If the roll is higher than the target's AC, you don't suffer any effect. If the roll is lower than the target's AC, you suffer the fumble",
+  "HELP-FUMBLE-TEXT-CONFIRMATION-TEXT": "As the effects can be devastating to the characters, you can use this rules to reduce the chance of a fumble. This is, after rolling a natural 1 make another roll attack. If the roll is higher than the target's AC, you don't suffer any effect. If the roll is lower than the target's AC, you suffer the fumble.",
   "HELP-FEEDBACK-TITLE": "We want to know about you",
   "HELP-FEEDBACK-TEXT-1": "Found a bug that we should fix?",
   "HELP-FEEDBACK-TEXT-2": "Got any cool suggestion for future releases?",

@@ -34,7 +34,7 @@
   "FUMBLE-NATURAL-17-TITLE": "Wide open",
   "FUMBLE-NATURAL-17-TEXT": "You are %STATUS-RESTRAINED=restrained% for 1 round.",
   "FUMBLE-NATURAL-18-TITLE": "Bleeding fist",
-  "FUMBLE-NATURAL-18-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%,",
+  "FUMBLE-NATURAL-18-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-NATURAL-19-TITLE": "Twisted",
   "FUMBLE-NATURAL-19-TEXT": "You become %STATUS-RESTRAINED=restrained% in your gear until you spend an action to free yourself.",
   "FUMBLE-NATURAL-20-TITLE": "Stop hitting yourself",
