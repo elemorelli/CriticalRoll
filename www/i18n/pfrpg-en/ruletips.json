@@ -1,8 +1,9 @@
 {
   "RULETIP-SECTION-DAMAGE": "Special damage type",
-  "RULETIP-SECTION-ABILITY": "Ability",
+  "RULETIP-SECTION-ABILITY": "Abilities",
   "RULETIP-SECTION-SAVES": "Saving throws",
   "RULETIP-SECTION-STATUS": "Special conditions",
+  "RULETIP-SECTION-EXTRA": "Extra ruletips",
   "OBJECT-DAMAGE-TITLE": "Damaging an object",
   "OBJECT-DAMAGE-TEXT": "Subtract the object hardness from the damage dealt. Only the excess reduces the object's hit points.<ul><li>Each +1 enchantment in the magic weapon, shield or armor affected, adds +2 to the hardness and +10 hit points</li><li>An object damaged more than half of its hit points in gains the Broken condition</li><li>A broken weapon suffers -2 to attack rolls and only can score critical hits with a natural 20 with a x2 modifier</li><li>A broken armor or shield, suffers a reduction of half ot its AC bonus and has the double of ACP</li><li>An object that is reduced to 0 hit points is destroyed and can only be repaired with Craft or certain spells like <em>Mending</em> or <em>Make whole</em></li><li>Magic items get a saving throw bonus of 2 + half of its caster level</li></ul>",
   "NONLETHAL-DAMAGE-TITLE": "Nonlethal damage",

@@ -3,6 +3,7 @@
   "RULETIP-SECTION-ABILITY": "Caracter\u00edsticas",
   "RULETIP-SECTION-SAVES": "Salvaciones",
   "RULETIP-SECTION-STATUS": "Condiciones",
+  "RULETIP-SECTION-EXTRA": "Extras",
   "OBJECT-DAMAGE-TITLE": "Da\u00f1o en objetos",
   "OBJECT-DAMAGE-TEXT": "Substrae la dureza del material del objeto del da\u00f1o hecho. S\u00f3lo el excedente reduce los puntos de golpe del objeto.<ul><li>Cada +1 de encantamiento en el arma, escudo o armadura m\u00e1gica afectada, agrega +2 a la dureza y +10 puntos de golpe</li><li>Un objeto que sufri\u00f3 m\u00e1s da\u00f1o que la mitad de sus puntos de golpe gana la condici\u00f3n de Roto</li><li>Un arma rota sufre -2 en los ataques y s\u00f3lo puede tener cr\u00edticos de x2 con un 20 natural</li><li>Una armadura o escudo roto sufren una reducci\u00f3n de la mitad de su bonificaci\u00f3n de CA y tienen el doble de ACP</li><li>Un objeto cuyos puntos de golpe son reducidos a 0, es destruido y s\u00f3lo puede ser reparado con Fabricar o con ciertos hechizos como <em>Remendar</em> o <em>Reparar</em></li><li>Items m\u00e1gicos tienen un bonificador de salvaciones igual a 2 + la mitad de su nivel de lanzador</li></ul>",
   "NONLETHAL-DAMAGE-TITLE": "Da\u00f1o no letal",

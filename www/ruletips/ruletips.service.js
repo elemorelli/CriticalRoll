@@ -33,8 +33,7 @@
           },
           {
             "title": "RULETIP-SECTION-ABILITY",
-            "rules": ["ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS",
-              "ABILITY-CHA"]
+            "rules": ["ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS", "ABILITY-CHA"]
           },
           {
             "title": "RULETIP-SECTION-STATUS",
@@ -42,13 +41,17 @@
               "STATUS-FRIGHTENED", "STATUS-INCAPACITATED", "STATUS-INCORPOREAL", "STATUS-INVISIBLE",
               "STATUS-LIFE-DRAIN", "STATUS-PETRIFIED", "STATUS-POISONED", "STATUS-PRONE", "STATUS-RESTRAINED",
               "STATUS-STUNNED", "STATUS-UNCONSCIOUS"]
+          },
+          {
+            "title": "RULETIP-SECTION-EXTRA",
+            "rules": ["DESCRIPTION-ITEM-DRAWBACKS", "DESCRIPTION-ROD-OF-WONDER"]
           }
         ];
       } else {
         return [
           {
             "title": "RULETIP-SECTION-DAMAGE",
-            "rules": ["ABILITY-DAMAGE", "NONLETHAL-DAMAGE", "OBJECT-DAMAGE", "STATUS-NEGATIVE-LEVEL"]
+            "rules": ["ABILITY-DAMAGE", "ABILITY-DRAIN", "NONLETHAL-DAMAGE", "OBJECT-DAMAGE", "STATUS-NEGATIVE-LEVEL"]
           },
           {
             "title": "RULETIP-SECTION-SAVES",
@@ -56,8 +59,7 @@
           },
           {
             "title": "RULETIP-SECTION-ABILITY",
-            "rules": ["ABILITY-DRAIN", "ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS",
-              "ABILITY-CHA"]
+            "rules": ["ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS", "ABILITY-CHA"]
           },
           {
             "title": "RULETIP-SECTION-STATUS",
@@ -67,6 +69,10 @@
               "STATUS-NAUSEATED", "STATUS-PANICKED", "STATUS-PARALYZED", "STATUS-PETRIFIED", "STATUS-PRONE",
               "STATUS-SHAKEN", "STATUS-SICKENED", "STATUS-STABLE", "STATUS-STAGGERED", "STATUS-STUNNED",
               "STATUS-UNCONSCIOUS"]
+          },
+          {
+            "title": "RULETIP-SECTION-EXTRA",
+            "rules": ["DESCRIPTION-ITEM-DRAWBACKS", "DESCRIPTION-ROD-OF-WONDER"]
           }
         ];
       }

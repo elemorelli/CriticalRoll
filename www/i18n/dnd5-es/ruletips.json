@@ -1,8 +1,9 @@
 {
   "RULETIP-SECTION-DAMAGE": "Special damage type",
-  "RULETIP-SECTION-ABILITY": "Ability",
+  "RULETIP-SECTION-ABILITY": "Abilities",
   "RULETIP-SECTION-SAVES": "Saving throws",
   "RULETIP-SECTION-STATUS": "Special conditions",
+  "RULETIP-SECTION-EXTRA": "Extra ruletips",
   "OBJECT-DAMAGE-TITLE": "Damaging an object",
   "OBJECT-DAMAGE-TEXT": "Objects are immune to poison and psychic damage, but otherwise they can be affected by physical and magical attacks much like creatures can.<ul><li>The GM determines an object's Armor Class and hit points, and might decide that certain objects have resistance or immunity to certain kinds of attacks (It's hard to cut a rope with a club, for example)</li><li>Objects always fail Strength and Dexterity saving throws, and they are immune to effects that require other saves</li><li>When an object drops to 0 hit points, it breaks</li></ul>",
   "NONLETHAL-DAMAGE-TITLE": "Nonlethal damage",
