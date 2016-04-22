@@ -10,7 +10,7 @@
   "FUMBLE-NATURAL-5-TITLE": "Upset tummy",
   "FUMBLE-NATURAL-5-TEXT": "You are %STATUS-POISONED=poisoned% for 1d4 rounds.",
   "FUMBLE-NATURAL-6-TITLE": "I bit my tug",
-  "FUMBLE-NATURAL-6-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage.",
+  "FUMBLE-NATURAL-6-TEXT": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-NATURAL-7-TITLE": "Muscle tear",
   "FUMBLE-NATURAL-7-TEXT": "You take 1d4 points of %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%.",
   "FUMBLE-NATURAL-8-TITLE": "Stinging failure",
