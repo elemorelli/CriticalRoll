@@ -25,7 +25,7 @@
         return [
           {
             "title": "RULETIP-SECTION-DAMAGE",
-            "rules": ["OBJECT-DAMAGE", "NONLETHAL-DAMAGE"]
+            "rules": ["ABILITY-REDUCTION", "OBJECT-DAMAGE"]
           },
           {
             "title": "RULETIP-SECTION-SAVES",
@@ -33,22 +33,22 @@
           },
           {
             "title": "RULETIP-SECTION-ABILITY",
-            "rules": ["ABILITY-REDUCTION", "ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS",
+            "rules": ["ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS",
               "ABILITY-CHA"]
           },
           {
             "title": "RULETIP-SECTION-STATUS",
-            "rules": ["STATUS-BLEED", "STATUS-BLINDED", "STATUS-CHARMED", "STATUS-CONFUSED", "STATUS-DEAFENED",
-              "STATUS-DYING", "STATUS-EXHAUSTED", "STATUS-FRIGHTENED", "STATUS-INCAPACITATED", "STATUS-INCORPOREAL",
-              "STATUS-INVISIBLE", "STATUS-NEGATIVE-LEVEL", "STATUS-PARALYZED", "STATUS-PETRIFIED", "STATUS-POISONED",
-              "STATUS-PRONE", "STATUS-RESTRAINED", "STATUS-STABLE", "STATUS-STUNNED", "STATUS-UNCONSCIOUS"]
+            "rules": ["STATUS-BLINDED", "STATUS-CHARMED", "STATUS-CONFUSED", "STATUS-DEAFENED", "STATUS-EXHAUSTED",
+              "STATUS-FRIGHTENED", "STATUS-INCAPACITATED", "STATUS-INCORPOREAL", "STATUS-INVISIBLE",
+              "STATUS-LIFE-DRAIN", "STATUS-PETRIFIED", "STATUS-POISONED", "STATUS-PRONE", "STATUS-RESTRAINED",
+              "STATUS-STUNNED", "STATUS-UNCONSCIOUS"]
           }
         ];
       } else {
         return [
           {
             "title": "RULETIP-SECTION-DAMAGE",
-            "rules": ["NONLETHAL-DAMAGE", "OBJECT-DAMAGE", "STATUS-NEGATIVE-LEVEL"]
+            "rules": ["ABILITY-DAMAGE", "NONLETHAL-DAMAGE", "OBJECT-DAMAGE", "STATUS-NEGATIVE-LEVEL"]
           },
           {
             "title": "RULETIP-SECTION-SAVES",
@@ -56,8 +56,8 @@
           },
           {
             "title": "RULETIP-SECTION-ABILITY",
-            "rules": ["ABILITY-DAMAGE", "ABILITY-DRAIN", "ABILITY-STR", "ABILITY-DEX", "ABILITY-CON",
-              "ABILITY-INT", "ABILITY-WIS", "ABILITY-CHA"]
+            "rules": ["ABILITY-DRAIN", "ABILITY-STR", "ABILITY-DEX", "ABILITY-CON", "ABILITY-INT", "ABILITY-WIS",
+              "ABILITY-CHA"]
           },
           {
             "title": "RULETIP-SECTION-STATUS",
