@@ -86,7 +86,7 @@
   "FUMBLE-MAGIC-43-TITLE": "Spell shield",
   "FUMBLE-MAGIC-43-TEXT": "The target gains advantage on saving throws against your spells for 1d6 rounds.",
   "FUMBLE-MAGIC-44-TITLE": "Side effect",
-  "FUMBLE-MAGIC-44-TEXT": "One of your magic items permanently gains a random drawback (See Pathfinder's Core Rulebook 538).",
+  "FUMBLE-MAGIC-44-TEXT": "One of your magic items permanently gains a %DESCRIPTION-ITEM-DRAWBACKS=random drawback%.",
   "FUMBLE-MAGIC-45-TITLE": "This is hard",
   "FUMBLE-MAGIC-45-TEXT": "You have disadvantage on %ABILITY-CON=Constitution% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "FUMBLE-MAGIC-46-TITLE": "Magical smackdown",
