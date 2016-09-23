@@ -10,6 +10,7 @@
   "CRITICAL-MAGIC-5-TITLE": "Excruciating",
   "CRITICAL-MAGIC-5-TEXT": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds.",
   "CRITICAL-MAGIC-6-TITLE": "Terrifying display",
+  "CRITICAL-MAGIC-6-TEXT": "Normal damage and target %STATUS-FRIGHTENED=frightened% for 1d4 rounds (%SAVE-CRITICAL=Wis saving throw negates%).",
   "CRITICAL-MAGIC-7-TITLE": "Dispelling aura",
   "CRITICAL-MAGIC-7-TEXT": "Normal damage and dispel magic on the target.",
   "CRITICAL-MAGIC-8-TITLE": "Concussive spell",
