@@ -44,7 +44,7 @@
   "CRITICAL-MAGIC-22-TITLE": "Brecha planar",
   "CRITICAL-MAGIC-22-TEXT": "Da\u00f1o normal y el objetivo es enviado a un plano aleatorio (%SAVE-CRITICAL=Voluntad niega%).",
   "CRITICAL-MAGIC-23-TITLE": "Quemadura de ojos",
-  "CRITICAL-MAGIC-23-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-BLINDED=cegado% for 1d4 rounds (%SAVE-CRITICAL=Fortaleza niega%).",
+  "CRITICAL-MAGIC-23-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-BLINDED=cegado% por 1d4 rondas (%SAVE-CRITICAL=Fortaleza niega%).",
   "CRITICAL-MAGIC-24-TITLE": "Golpe intenso",
   "CRITICAL-MAGIC-24-TEXT": "Doble da\u00f1o e ignora resistencia de energ\u00eda (No as\u00ed inmunidad).",
   "CRITICAL-MAGIC-25-TITLE": "Transposici\u00f3n",

@@ -58,7 +58,7 @@
   "FUMBLE-RANGED-29-TITLE": "En el blanco",
   "FUMBLE-RANGED-29-TEXT": "Tu tiro rebota y te acierta cerca del ojo. Quedas %STATUS-BLINDED=cegado% por 1 ronda.",
   "FUMBLE-RANGED-30-TITLE": "Mala alineaci\u00f3n",
-  "FUMBLE-RANGED-30-TEXT": "Sufres una penalizaci\u00f3n de -4 en las tiradas de ataque con con esta arma hasta ser reparada (Artesan\u00eda CD 20).",
+  "FUMBLE-RANGED-30-TEXT": "Sufres una penalizaci\u00f3n de -4 en las tiradas de ataque con esta arma hasta ser reparada (Artesan\u00eda CD 20).",
   "FUMBLE-RANGED-31-TITLE": "Rajada",
   "FUMBLE-RANGED-31-TEXT": "Tu arma sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%, ignorando dureza.",
   "FUMBLE-RANGED-32-TITLE": "\u00a1Ups!",

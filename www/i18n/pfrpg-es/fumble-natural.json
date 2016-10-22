@@ -92,7 +92,7 @@
   "FUMBLE-NATURAL-46-TITLE": "Pellejo de u\u00f1a",
   "FUMBLE-NATURAL-46-TEXT": "Si el ataque es de garra, golpetazo o un impacto sin arma, no puedes usar ese ataque por 1d6 rondas.",
   "FUMBLE-NATURAL-47-TITLE": "Colisi\u00f3n brutal",
-  "FUMBLE-NATURAL-47-TEXT": "Tu ataque acierta, pero quedas %STATUS-STUNNED=aturdido% por 2 rondas (%SAVE-FUMBLE=Salvacion de Fortaleza% para reducirlo a 1 ronda).",
+  "FUMBLE-NATURAL-47-TEXT": "Tu ataque acierta, pero quedas %STATUS-STUNNED=aturdido% por 2 rondas (%SAVE-FUMBLE=Salvación de Fortaleza% para reducirlo a 1 ronda).",
   "FUMBLE-NATURAL-48-TITLE": "Nervio apretado",
   "FUMBLE-NATURAL-48-TEXT": "Si tienes alcance mayor a 5 pies, es reducido a 5 pies por 3 rondas.",
   "FUMBLE-NATURAL-49-TITLE": "Pensarlo demasiado",

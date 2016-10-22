@@ -54,7 +54,7 @@
   "CRITICAL-BLUDGEONING-27-TITLE": "\u00a1Y qu\u00e9date abajo!",
   "CRITICAL-BLUDGEONING-27-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-PRONE=tumbado% y %STATUS-STUNNED=aturdido% por 1 ronda (%SAVE-CRITICAL=Fortaleza niega% estar aturdido).",
   "CRITICAL-BLUDGEONING-28-TITLE": "Trituradora de huesos",
-  "CRITICAL-BLUDGEONING-28-TEXT": "Da\u00f1o normal y elije: (Pierna) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-DEX=Des% y velocidad a la mitad o (Brazo) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-STR=Str%. Miembros inutilizados Limb %UNTIL-HEALED=hasta ser curado%.",
+  "CRITICAL-BLUDGEONING-28-TEXT": "Da\u00f1o normal y elije: (Pierna) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-DEX=Des% y velocidad a la mitad o (Brazo) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-STR=Str%. Miembros inutilizados %UNTIL-HEALED=hasta ser curado%.",
   "CRITICAL-BLUDGEONING-29-TITLE": "2 por 1",
   "CRITICAL-BLUDGEONING-29-TEXT": "Doble da\u00f1o al objetivo y da\u00f1o normal a un objetivo adyacente.",
   "CRITICAL-BLUDGEONING-30-TITLE": "Intestinos destrozados",
