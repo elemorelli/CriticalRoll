@@ -94,7 +94,7 @@
   "CRITICAL-MAGIC-47-TITLE": "Vulnerabilidad",
   "CRITICAL-MAGIC-47-TEXT": "Doble da\u00f1o y si el hechizo hizo da\u00f1o elemental el objetivo es ahora vulnerable a ese elemento por 3 rondas.",
   "CRITICAL-MAGIC-48-TITLE": "Hechizo rugiente",
-  "CRITICAL-MAGIC-48-TEXT": "Doble da\u00f1o y el objetivo queda %STATUS-DEAFENED=ensorcecido% por 1d4 rondas.",
+  "CRITICAL-MAGIC-48-TEXT": "Doble da\u00f1o y el objetivo queda %STATUS-DEAFENED=ensordecido.% por 1d4 rondas.",
   "CRITICAL-MAGIC-49-TITLE": "Hechizo retornante",
   "CRITICAL-MAGIC-49-TEXT": "Doble da\u00f1o y el hechizo no se gasta.",
   "CRITICAL-MAGIC-50-TITLE": "Descarga de poder",

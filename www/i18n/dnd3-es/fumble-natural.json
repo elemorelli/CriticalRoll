@@ -70,7 +70,7 @@
   "FUMBLE-NATURAL-35-TITLE": "Botones y agujas",
   "FUMBLE-NATURAL-35-TEXT": "Quedas %STATUS-SICKENED=indispuesto% por 1d6 rondas.",
   "FUMBLE-NATURAL-36-TITLE": "Gran rugido",
-  "FUMBLE-NATURAL-36-TEXT": "Quedas %STATUS-DEAFENED=ensorcecido% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
+  "FUMBLE-NATURAL-36-TEXT": "Quedas %STATUS-DEAFENED=ensordecido.% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
   "FUMBLE-NATURAL-37-TITLE": "Cabeza encuentra pared",
   "FUMBLE-NATURAL-37-TEXT": "Quedas %STATUS-DAZED=atontado% por 1d3 rondas.",
   "FUMBLE-NATURAL-38-TITLE": "Pifia feroz",

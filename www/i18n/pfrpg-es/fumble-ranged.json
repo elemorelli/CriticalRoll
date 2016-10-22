@@ -16,7 +16,7 @@
   "FUMBLE-RANGED-8-TITLE": "Doble falla",
   "FUMBLE-RANGED-8-TEXT": "Gastas el doble de municiones en este ataque.",
   "FUMBLE-RANGED-9-TITLE": "Cerca de la oreja",
-  "FUMBLE-RANGED-9-TEXT": "Quedas %STATUS-DEAFENED=ensorcecido% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
+  "FUMBLE-RANGED-9-TEXT": "Quedas %STATUS-DEAFENED=ensordecido.% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
   "FUMBLE-RANGED-10-TITLE": "Inseguro",
   "FUMBLE-RANGED-10-TEXT": "Sufres una penalizaci\u00f3n de -1 en ataques por 1d4 rondas o hasta que confirmes un golpe cr\u00edtico.",
   "FUMBLE-RANGED-11-TITLE": "En la l\u00ednea de fuego",

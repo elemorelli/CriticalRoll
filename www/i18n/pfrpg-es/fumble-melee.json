@@ -94,7 +94,7 @@
   "FUMBLE-MELEE-47-TITLE": "En el extremo receptor",
   "FUMBLE-MELEE-47-TEXT": "El ataque te hace da\u00f1o a ti en vez de al objetivo.",
   "FUMBLE-MELEE-48-TITLE": "Hisopo bohemio",
-  "FUMBLE-MELEE-48-TEXT": "Quedas %STATUS-DEAFENED=ensorcecido% hasta %UNTIL-HEALED=hasta ser curado%.",
+  "FUMBLE-MELEE-48-TEXT": "Quedas %STATUS-DEAFENED=ensordecido.% hasta %UNTIL-HEALED=hasta ser curado%.",
   "FUMBLE-MELEE-49-TITLE": "Es mejor dar",
   "FUMBLE-MELEE-49-TEXT": "El ataque te hace da\u00f1o a ti. Usa la fuerza del objetivo.",
   "FUMBLE-MELEE-50-TITLE": "Cortante",

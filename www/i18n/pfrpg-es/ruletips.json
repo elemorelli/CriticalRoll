@@ -40,7 +40,7 @@
   "STATUS-DAZED-TEXT": "El personaje no toma ninguna acci\u00f3n.",
   "STATUS-DAZZLED-TITLE": "Deslumbrado (Dazzled)",
   "STATUS-DAZZLED-TEXT": "El personaje no puede ver bien.<ul><li>Sufre -1 en tiradas de ataque</li><li>Sufre -1 en chequeos de Percepci\u00f3n basados en la visi\u00f3n</li></ul>",
-  "STATUS-DEAFENED-TITLE": "Ensorcecido (Deafened)",
+  "STATUS-DEAFENED-TITLE": "ensordecido. (Deafened)",
   "STATUS-DEAFENED-TEXT": "El personaje no puede oir.<ul><li>Sufre -4 en chequeos de iniciativa</li><li>Falla chequeos de Percepci\u00f3n basados en sonido autom\u00e1ticamente</li><li>Sufre una penalizaci\u00f3n de -4 en chequeos de Percepci\u00f3n opuestos</li><li>Gana 20% de probabilidad de fallar hechizos con componentes verbales</li></ul>Personajes que permanecen ensordecidos por largo tiempo pueden acostumbrarse a estas desventajas y superar algunas de ellas.",
   "STATUS-DYING-TITLE": "Moribundo (Dying)",
   "STATUS-DYING-TEXT": "El personaje está inconsciente y cerca de la muerte.<ul><li>Tiene puntos de gole negativos y no está estable</li><li>No puede tomar acciones por estar inconsciente</li><li>En su turno, debe hacer un chequeo de Constitución DC 10 para estar estable, con una penalización igual a sus puntos de golpe negativos</li><li>Un 20 natural en este chequeo es un éxito automático</li><li>Si el personaje lo falla, pierde 1 punto de golpe</li></ul>Si un personaje moribundo tiene tantos puntos de golpe negativos como su puntaje de constitución, muere.",

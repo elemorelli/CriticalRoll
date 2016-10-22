@@ -40,7 +40,7 @@
   "STATUS-DAZED-TEXT": "El personaje no toma ninguna acci\u00f3n.",
   "STATUS-DAZZLED-TITLE": "Deslumbrado (Dazzled)",
   "STATUS-DAZZLED-TEXT": "El personaje no puede ver bien.<ul><li>Sufre -1 en tiradas de ataque</li><li>Sufre -1 en chequeos de Buscar y Avistar</li></ul>",
-  "STATUS-DEAFENED-TITLE": "Ensorcecido (Deafened)",
+  "STATUS-DEAFENED-TITLE": "ensordecido. (Deafened)",
   "STATUS-DEAFENED-TEXT": "El personaje no puede oir.<ul><li>Sufre -4 en chequeos de iniciativa</li><li>Falla chequeos de Escuchar</li><li>Gana 20% de probabilidad de fallar hechizos con componentes verbales</li></ul>Personajes que permanecen ensordecidos por largo tiempo pueden acostumbrarse a estas desventajas y superar algunas de ellas.",
   "STATUS-DYING-TITLE": "Moribundo (Dying)",
   "STATUS-DYING-TEXT": "El personaje está inconsciente y cerca de la muerte.<ul><li>Tiene entre -1 y -9 puntos de golpe</li><li>No puede tomar acciones por estar inconsciente</li><li>Al final de cada ronda (empezando por la cual sus puntos de golpe bajaron de 0), el personaje lanza un d% para ver si se estabiliza</li><li>Tiene 10% de chance de quedar estbale</li><li>Si no lo logra, pierde 1 punto de golpe</li></ul>Si un personaje moribundo alcanza -10 puntos de golpe, muere.",
