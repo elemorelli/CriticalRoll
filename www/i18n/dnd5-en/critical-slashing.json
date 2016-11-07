@@ -78,7 +78,7 @@
   "CRITICAL-SLASHING-39-TITLE": "Ugly wound",
   "CRITICAL-SLASHING-39-TEXT": "Normal damage and 1d3 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% and 1 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-CRITICAL=Con saving throw negates% Cha reduction).",
   "CRITICAL-SLASHING-40-TITLE": "Knockback",
-  "CRITICAL-SLASHING-40-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feets directly away.",
+  "CRITICAL-SLASHING-40-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away.",
   "CRITICAL-SLASHING-41-TITLE": "Pain and simple",
   "CRITICAL-SLASHING-41-TEXT": "Double damage and 1d6 extra damage.",
   "CRITICAL-SLASHING-42-TITLE": "Cut straps",

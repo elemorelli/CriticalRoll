@@ -84,7 +84,7 @@
   "CRITICAL-BLUDGEONING-42-TITLE": "Broken ribs",
   "CRITICAL-BLUDGEONING-42-TEXT": "Double damage and target cannot heal naturally for 1d4 days.",
   "CRITICAL-BLUDGEONING-43-TITLE": "Knockback",
-  "CRITICAL-BLUDGEONING-43-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feets directly away.",
+  "CRITICAL-BLUDGEONING-43-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away.",
   "CRITICAL-BLUDGEONING-44-TITLE": "Low blow",
   "CRITICAL-BLUDGEONING-44-TEXT": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds.",
   "CRITICAL-BLUDGEONING-45-TITLE": "Brained",

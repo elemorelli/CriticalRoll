@@ -4,7 +4,7 @@
   "CRITICAL-PIERCING-2-TITLE": "Grazing hit",
   "CRITICAL-PIERCING-2-TEXT": "Normal damage and target is %STATUS-STUNNED=stunned% for 1 round.",
   "CRITICAL-PIERCING-3-TITLE": "Knockback",
-  "CRITICAL-PIERCING-3-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feets directly away.",
+  "CRITICAL-PIERCING-3-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away.",
   "CRITICAL-PIERCING-4-TITLE": "Vulnerable spot",
   "CRITICAL-PIERCING-4-TEXT": "Normal damage and target takes 1d4 %ABILITY-DAMAGE=ability damage% of your choice.",
   "CRITICAL-PIERCING-5-TITLE": "Bleeder",
