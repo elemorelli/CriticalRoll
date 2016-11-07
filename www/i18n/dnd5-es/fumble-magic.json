@@ -86,7 +86,7 @@
   "FUMBLE-MAGIC-43-TITLE": "Escudo contra hechizos",
   "FUMBLE-MAGIC-43-TEXT": "El objetivo gana un Resistencia a los Conjuros igual a 11 + tu nivel de lanzador por 1d6 rondas.",
   "FUMBLE-MAGIC-44-TITLE": "Efecto colateral",
-  "FUMBLE-MAGIC-44-TEXT": "Un \u00edtem m\u00e1gico tuyo gana un %DESCRIPTION-\u00edtem-DRAWBACKS=inconveniente aleatorio% permanentemente.",
+  "FUMBLE-MAGIC-44-TEXT": "Un \u00edtem m\u00e1gico tuyo gana un %DESCRIPTION-ITEM-DRAWBACKS=inconveniente aleatorio% permanentemente.",
   "FUMBLE-MAGIC-45-TITLE": "Esto es duro",
   "FUMBLE-MAGIC-45-TEXT": "Sufres 1 punto de %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%.",
   "FUMBLE-MAGIC-46-TITLE": "Bofetada m\u00e1gica",
