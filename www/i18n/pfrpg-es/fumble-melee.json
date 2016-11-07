@@ -25,7 +25,7 @@
   "FUMBLE-MELEE-12-TEXT": "Tu arma sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%, ignorando dureza.",
   "FUMBLE-MELEE-13-TITLE": "\u00a1Parada! \u00a1Esquiva! \u00a1Giro! \u00a1Estocada!",
   "FUMBLE-MELEE-13-TEXT": "Quedas %STATUS-DAZED=atontado% por una ronda.",
-  "FUMBLE-MELEE-14-TITLE": "Entrégalo",
+  "FUMBLE-MELEE-14-TITLE": "Entr\u00e9galo",
   "FUMBLE-MELEE-14-TEXT": "El objetivo cobra posesi\u00f3n de tu arma (%SAVE-FUMBLE=Reflejos niega%).",
   "FUMBLE-MELEE-15-TITLE": "Choque de escudo",
   "FUMBLE-MELEE-15-TEXT": "El ataque hace %OBJECT-DAMAGE=da\u00f1o a tu escudo%.",

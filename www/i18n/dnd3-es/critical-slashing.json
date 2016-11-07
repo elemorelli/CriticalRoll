@@ -1,6 +1,6 @@
 {
   "CRITICAL-SLASHING-1-TITLE": "Iniciales talladas",
-  "CRITICAL-SLASHING-1-TEXT": "Da\u00f1o normal y el objetivo sufre de humillaci\u00f3n y s\u00f3lo puede atacarte (%SAVE-CRITICAL=Voluntad niega%).",
+  "CRITICAL-SLASHING-1-TEXT": "Da\u00f1o normal y el objetivo sufre tal humillaci\u00f3n que s\u00f3lo puede atacarte a ti (%SAVE-CRITICAL=Voluntad niega%).",
   "CRITICAL-SLASHING-2-TITLE": "Dedos faltantes",
   "CRITICAL-SLASHING-2-TEXT": "Da\u00f1o normal y el objetivo pierde 1d3 dedos y 1 %ABILITY-CON=Con% y %ABILITY-STR=Fue% son %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortaleza niega%).",
   "CRITICAL-SLASHING-3-TITLE": "Cortar y tajar",
@@ -59,7 +59,7 @@
   "CRITICAL-SLASHING-29-TEXT": "Doble da\u00f1o y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue%.",
   "CRITICAL-SLASHING-30-TITLE": "Dedo torcido",
   "CRITICAL-SLASHING-30-TEXT": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%. El objetivo no puede usar una mano %UNTIL-HEALED=hasta ser curado%.",
-  "CRITICAL-SLASHING-31-TITLE": "Mal desvío",
+  "CRITICAL-SLASHING-31-TITLE": "Mal desv\u00edo",
   "CRITICAL-SLASHING-31-TEXT": "Doble da\u00f1o y el objetivo es desarmado de 1 1 \u00edtem.",
   "CRITICAL-SLASHING-32-TITLE": "Nervio tajado",
   "CRITICAL-SLASHING-32-TEXT": "Doble da\u00f1o y el objetivo s\u00f3lo puede tomar una acci\u00f3n de movimiento o est\u00e1ndar la pr\u00f3ximo ronda.",
