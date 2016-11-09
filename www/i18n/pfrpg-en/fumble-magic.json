@@ -22,7 +22,7 @@
   "FUMBLE-MAGIC-11-TITLE": "Nothing to fear",
   "FUMBLE-MAGIC-11-TEXT": "You are %STATUS-SHAKEN=shaken% for 2d4 rounds.",
   "FUMBLE-MAGIC-12-TITLE": "Bleeding eyes",
-  "FUMBLE-MAGIC-12-TEXT": "You take 1d6 points of %STATUS-BLEED=bleed%.",
+  "FUMBLE-MAGIC-12-TEXT": "You are %STATUS-BLINDED=blinded% for 1d4 rounds and take 1d6 points of %STATUS-BLEED=bleed%.",
   "FUMBLE-MAGIC-13-TITLE": "Acidic backlash",
   "FUMBLE-MAGIC-13-TEXT": "You take 2d6 points of acid damage.",
   "FUMBLE-MAGIC-14-TITLE": "Backblast",

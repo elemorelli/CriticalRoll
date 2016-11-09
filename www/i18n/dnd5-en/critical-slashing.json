@@ -32,7 +32,7 @@
   "CRITICAL-SLASHING-16-TITLE": "We've got a bleeder",
   "CRITICAL-SLASHING-16-TEXT": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%.",
   "CRITICAL-SLASHING-17-TITLE": "Throat slash",
-  "CRITICAL-SLASHING-17-TEXT": "Normal damage and the target loses 1d6 hit points as %STATUS-LIFE-DRAIN=life drain%, like a <em>Specter</em> attack. Target cannot talk or breathe normally %UNTIL-HEALED=until healed%.",
+  "CRITICAL-SLASHING-17-TEXT": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%. Target cannot talk or breathe normally %UNTIL-HEALED=until healed%.",
   "CRITICAL-SLASHING-18-TITLE": "Parrying strike",
   "CRITICAL-SLASHING-18-TEXT": "Double damage and +4 to your AC for 1 round.",
   "CRITICAL-SLASHING-19-TITLE": "Lean into the blow",

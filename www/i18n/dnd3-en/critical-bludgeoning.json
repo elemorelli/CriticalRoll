@@ -66,7 +66,7 @@
   "CRITICAL-BLUDGEONING-33-TITLE": "Staggering blow",
   "CRITICAL-BLUDGEONING-33-TEXT": "Normal damage and double %NONLETHAL-DAMAGE=nonlethal damage%.",
   "CRITICAL-BLUDGEONING-34-TITLE": "My teef!",
-  "CRITICAL-BLUDGEONING-34-TEXT": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%. Target loses bite, gains 20% spell failure chance for verbal spells.",
+  "CRITICAL-BLUDGEONING-34-TEXT": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%. Target loses bite attacks , gains 20% spell failure chance for verbal spells.",
   "CRITICAL-BLUDGEONING-35-TITLE": "Earth rumble",
   "CRITICAL-BLUDGEONING-35-TEXT": "Normal damage and a free trip attempt versus target and all adjacent enemies.",
   "CRITICAL-BLUDGEONING-36-TITLE": "Pimp slap",

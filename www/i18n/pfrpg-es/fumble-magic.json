@@ -22,7 +22,7 @@
   "FUMBLE-MAGIC-11-TITLE": "Nada que temer",
   "FUMBLE-MAGIC-11-TEXT": "Quedas %STATUS-SHAKEN=estremecido% por 2d4 rondas.",
   "FUMBLE-MAGIC-12-TITLE": "Ojos sangrantes",
-  "FUMBLE-MAGIC-12-TEXT": "Recibes 1d6 de da\u00f1o de %STATUS-BLEED=sangrado%.",
+  "FUMBLE-MAGIC-12-TEXT": "Eres %STATUS-BLINDED=cegado% por 1d4 rondas y recibes 1d6 de da\u00f1o de %STATUS-BLEED=sangrado%.",
   "FUMBLE-MAGIC-13-TITLE": "Reacci\u00f3n \u00e1cida",
   "FUMBLE-MAGIC-13-TEXT": "Sufres 2d6 de puntos de da\u00f1o de \u00e1cido.",
   "FUMBLE-MAGIC-14-TITLE": "Contraexplosi\u00f3n",

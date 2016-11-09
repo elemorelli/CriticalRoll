@@ -6,7 +6,7 @@
   "CRITICAL-PIERCING-3-TITLE": "Knockback",
   "CRITICAL-PIERCING-3-TEXT": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away.",
   "CRITICAL-PIERCING-4-TITLE": "Vulnerable spot",
-  "CRITICAL-PIERCING-4-TEXT": "Normal damage and target takes 1d4 %ABILITY-DAMAGE=ability damage% of your choice.",
+  "CRITICAL-PIERCING-4-TEXT": "Normal damage and target takes 1d4 %ABILITY-REDUCTION=ability reduction% of your choice.",
   "CRITICAL-PIERCING-5-TITLE": "Bleeder",
   "CRITICAL-PIERCING-5-TEXT": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%.",
   "CRITICAL-PIERCING-6-TITLE": "Heart shot",
