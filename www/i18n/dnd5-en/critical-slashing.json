@@ -40,7 +40,7 @@
   "CRITICAL-SLASHING-20-TITLE": "Flay",
   "CRITICAL-SLASHING-20-TEXT": "Normal damage plus 1d6 %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%.",
   "CRITICAL-SLASHING-21-TITLE": "Paper cut",
-  "CRITICAL-SLASHING-21-TEXT": "Normal damage and -4 penalty on attack rolls and ability checks for 1d4 rounds.",
+  "CRITICAL-SLASHING-21-TEXT": "Normal damage and the target has disadvantage on attack rolls and ability checks for 1d4 rounds.",
   "CRITICAL-SLASHING-22-TITLE": "Severed hand",
   "CRITICAL-SLASHING-22-TEXT": "Normal damage and target loses hand and takes 1d3 %ABILITY-CON=Con% and %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-CRITICAL=Dex saving throw negates%).",
   "CRITICAL-SLASHING-23-TITLE": "Flat blade thwack",

@@ -56,7 +56,7 @@
   "FUMBLE-MELEE-28-TITLE": "Pointy end goes there",
   "FUMBLE-MELEE-28-TEXT": "You take 1 point of %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%.",
   "FUMBLE-MELEE-29-TITLE": "Broken haft",
-  "FUMBLE-MELEE-29-TEXT": "Your weapon loses reach. You have a -4 penalty on attack rolls with it until repaired (Requires Craft for 20% of the item value).",
+  "FUMBLE-MELEE-29-TEXT": "Your weapon loses reach. You have disadvantage on attack rolls with it until repaired (Requires Craft for 20% of the item value).",
   "FUMBLE-MELEE-30-TITLE": "Fog of war",
   "FUMBLE-MELEE-30-TEXT": "You don't threat adjacent enemies for 1d6 rounds.",
   "FUMBLE-MELEE-31-TITLE": "Go for the eyes",
