@@ -74,7 +74,7 @@
   "FUMBLE-MAGIC-37-TITLE": "Vac\u00edo m\u00e1gico",
   "FUMBLE-MAGIC-37-TEXT": "1d3 efectos m\u00e1gicos activos en ti son disipados (determinados aleatoriamente).",
   "FUMBLE-MAGIC-38-TITLE": "Despegue",
-  "FUMBLE-MAGIC-38-TEXT": "Eres arrojado 1d6x10 pies al aire (O en una direcci\u00f3n aleatoria si est\u00e1s volando) (%SAVE-FUMBLE=Salvaci\u00f3n de Int niega%).",
+  "FUMBLE-MAGIC-38-TEXT": "Eres arrojado 1d6 \u00D7 10 pies al aire (O en una direcci\u00f3n aleatoria si est\u00e1s volando) (%SAVE-FUMBLE=Salvaci\u00f3n de Int niega%).",
   "FUMBLE-MAGIC-39-TITLE": "Es brillante",
   "FUMBLE-MAGIC-39-TEXT": "Quedas %STATUS-BLINDED=cegado% por 1 ronda.",
   "FUMBLE-MAGIC-40-TITLE": "\u00a1Ahora te veo!",

@@ -74,7 +74,7 @@
   "FUMBLE-MAGIC-37-TITLE": "Magical vacuum",
   "FUMBLE-MAGIC-37-TEXT": "1d3 spell effects active on you are dispelled (determined randomly).",
   "FUMBLE-MAGIC-38-TITLE": "Blastoff",
-  "FUMBLE-MAGIC-38-TEXT": "You are thrown 1d6x10 feet into the air (or in a random direction if flying) (%SAVE-FUMBLE=Will negates%).",
+  "FUMBLE-MAGIC-38-TEXT": "You are thrown 1d6 \u00D7 10 feet into the air (or in a random direction if flying) (%SAVE-FUMBLE=Will negates%).",
   "FUMBLE-MAGIC-39-TITLE": "It's sparkly",
   "FUMBLE-MAGIC-39-TEXT": "You are %STATUS-BLINDED=blinded% for 1 round.",
   "FUMBLE-MAGIC-40-TITLE": "Now I see you!",
