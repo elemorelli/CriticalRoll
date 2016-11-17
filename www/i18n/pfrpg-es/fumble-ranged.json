@@ -53,7 +53,7 @@
   "FUMBLE-RANGED-26-TEXT": "Si el ataque fue hecho con un arma arrojadiza, el arma viaja 5 veces su rango de incremento en una direcci\u00f3n aleatoria.",
   "FUMBLE-RANGED-27-TITLE": "Visi\u00f3n estrecha",
   "FUMBLE-RANGED-27-TEXT": "Por las siguientes 3 rondas, tienes una bonificaci\u00f3n de +1 en las tiradas de ataque, pero quedas %STATUS-FLAT-FOOTED=desprevenido%.",
-  "FUMBLE-RANGED-28-TITLE": "Todos los pulgares"
+  "FUMBLE-RANGED-28-TITLE": "Todos los pulgares",
   "FUMBLE-RANGED-28-TEXT": "Pierdes tu bonificaci\u00f3n de %ABILITY-DEX=Des% por 3 rondas.",
   "FUMBLE-RANGED-29-TITLE": "En el blanco",
   "FUMBLE-RANGED-29-TEXT": "Tu tiro rebota y te acierta cerca del ojo. Quedas %STATUS-BLINDED=cegado% por 1 ronda.",
