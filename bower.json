@@ -1,5 +1,5 @@
 {
-  "name": "CriticalRoll",
+  "name": "critical-roll",
   "private": "true",
   "dependencies": {
     "ionic": "~1.3.0",
