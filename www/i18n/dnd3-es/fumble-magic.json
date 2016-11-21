@@ -12,7 +12,7 @@
   "FUMBLE-MAGIC-6-TITLE": "Se acab\u00f3 la magia",
   "FUMBLE-MAGIC-6-TEXT": "Recibes una penalizaci\u00f3n de -4 a los ataques hasta que amenaces con un cr\u00edtico.",
   "FUMBLE-MAGIC-7-TITLE": "\u00bfMe escuchas?",
-  "FUMBLE-MAGIC-7-TEXT": "Quedas %STATUS-DEAFENED=ensordecido.% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
+  "FUMBLE-MAGIC-7-TEXT": "Quedas %STATUS-DEAFENED=ensordecido% %UNTIL-HEALED=hasta ser curado% (Curar CD 15).",
   "FUMBLE-MAGIC-8-TITLE": "\u00a1Error!",
   "FUMBLE-MAGIC-8-TEXT": "El ataque te hace da\u00f1o a ti en vez de al objetivo.",
   "FUMBLE-MAGIC-9-TITLE": "\u00bfPor qu\u00e9 a m\u00ed?",
