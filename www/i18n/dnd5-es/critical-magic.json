@@ -52,7 +52,7 @@
   "CRITICAL-MAGIC-26-TITLE": "Estallido de luz",
   "CRITICAL-MAGIC-26-TEXT": "Doble da\u00f1o y el objetivo es %STATUS-BLINDED=cegado% por 1 ronda.",
   "CRITICAL-MAGIC-27-TITLE": "Conducto",
-  "CRITICAL-MAGIC-27-TEXT": "Doble da\u00f1o y el objetivo tiene desventaja en salvaciones contra tus hechizos por 1d6 rondas.",
+  "CRITICAL-MAGIC-27-TEXT": "Doble da\u00f1o y el objetivo tiene %DISADVANTAGE=desventaja% en salvaciones contra tus hechizos por 1d6 rondas.",
   "CRITICAL-MAGIC-28-TITLE": "Magia persistente",
   "CRITICAL-MAGIC-28-TEXT": "Da\u00f1o normal esta ronda y sufre mitad del da\u00f1o por 1d4 rondas.",
   "CRITICAL-MAGIC-29-TITLE": "Reacci\u00f3n al\u00e9rgica",

@@ -52,7 +52,7 @@
   "CRITICAL-MAGIC-26-TITLE": "Light blast",
   "CRITICAL-MAGIC-26-TEXT": "Double damage and target is %STATUS-BLINDED=blinded% for 1 round.",
   "CRITICAL-MAGIC-27-TITLE": "Conduit",
-  "CRITICAL-MAGIC-27-TEXT": "Double damage and target has disadvantage on saves vs. your spells for 1d6 rounds.",
+  "CRITICAL-MAGIC-27-TEXT": "Double damage and target has %DISADVANTAGE=disadvantage% on saves vs. your spells for 1d6 rounds.",
   "CRITICAL-MAGIC-28-TITLE": "Lingering magic",
   "CRITICAL-MAGIC-28-TEXT": "Normal damage this round and half damage each round for 1d4 rounds.",
   "CRITICAL-MAGIC-29-TITLE": "Allergic reaction",
