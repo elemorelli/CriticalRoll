@@ -16,7 +16,7 @@
   "CRITICAL-MAGIC-8-TITLE": "Hechizo contundente",
   "CRITICAL-MAGIC-8-TEXT": "Da\u00f1o doble y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%.",
   "CRITICAL-MAGIC-9-TITLE": "Derribo",
-  "CRITICAL-MAGIC-9-TEXT": "Doble da\u00f1o y el objetivo es empujado 1d6 1d6 \u00D7 5 pies hacia atr\u00e1s.",
+  "CRITICAL-MAGIC-9-TEXT": "Doble da\u00f1o y el objetivo es empujado 1d6 \u00D7 5 pies hacia atr\u00e1s.",
   "CRITICAL-MAGIC-10-TITLE": "Te quiero, hermano",
   "CRITICAL-MAGIC-10-TEXT": "Da\u00f1o normal y el objetivo queda %STATUS-CHARMED=encantado% por 3 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Car niega%).",
   "CRITICAL-MAGIC-11-TITLE": "Electrocutado",
