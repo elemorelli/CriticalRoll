@@ -23,15 +23,6 @@
                    ng-value="'dnd5'">
           <span>{{'DnD5' | translate}}</span>
         </ion-radio>
-        <ion-radio name="system" ng-model="settings.values.system" ng-change="settings.refreshSettings()"
-                   ng-value="'custom'" ng-disabled="true">
-          <span class="disabled">{{'NEW-SYSTEM' | translate}}</span>
-          <a class="tag coming-soon">
-            {{'SOON' | translate}}
-            <i class="icon ion-clock"></i>
-          </a>
-        </ion-radio>
-
       </ion-list>
     </ion-item>
 
