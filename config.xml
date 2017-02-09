@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.vanillaicecreamstudio.criticalroll" version="1.4.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="com.vanillaicecreamstudio.criticalroll" version="1.4.0" android-versionCode="104000" xmlns="http://www.w3.org/ns/widgets">
   <name>CriticalRoll</name>
   <description>An app for Critical hits and Fumble effects in Tabletop RPGs as Pathfinder and D&amp;D</description>
   <author email="vanillaicecreamstudio@gmail.com" href="http://vanillaicecreamstudio.com/">Vanilla Icecream Studio
@@ -12,7 +12,7 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="windows-target-version" value="8.1"/>
   <preference name="android-minSdkVersion" value="16"/>
-  <preference name="android-targetSdkVersion" value="23"/>
+  <preference name="android-targetSdkVersion" value="25"/>
   <preference name="windows-publisher-id" value="PUBID"/>
   <preference name="windows-publisher-display-name" value="DISPLAYNAME"/>
   <preference name="SplashScreen" value="screen"/>
